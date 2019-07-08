@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{80A2A19B-AFF8-4398-92A3-DAAC1642B598}|Default">
+  <MonoDevelop.Ide.ItemProperties.safetyLab.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" />
+  <MonoDevelop.Ide.ItemProperties.safetyLab.UITests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="safetyLab/MainPage.xaml.cs">
+    <Files>
+      <File FileName="safetyLab/MainPage.xaml" Line="1" Column="1" />
+      <File FileName="safetyLab/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="safetyLab.iOS/AppDelegate.cs" Line="1" Column="1" />
+      <File FileName="safetyLab/AssemblyInfo.cs" Line="3" Column="8" />
+      <File FileName="safetyLab/App.xaml" Line="1" Column="1" />
+      <File FileName="safetyLab/App.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="safetyLab" expanded="True">
+            <Node name="safetyLab" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True">
+                <Node name="MainPage.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.safetyLab.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.2A124F68-BB2C-4E68-BC0E-FB121595DA50" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
