@@ -12,7 +12,8 @@ namespace safetyLab
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Login();
+            MainPage.BackgroundColor = Color.CadetBlue;
         }
 
         protected override void OnStart()

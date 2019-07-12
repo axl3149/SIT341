@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="safetyLab.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                Text="Safety Lab"
+                VerticalOptions="StartAndExpand"
+                HorizontalOptions="Center"
+                TextColor="White"
+                FontSize="Large"
+            />
+            <Label 
+                Text="User Name"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                TextColor="Black"
+            />
+            <Entry
+                BackgroundColor="White"/>
+            <Label 
+                Text="Password"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                TextColor="Black"
+            />
+            <Entry
+                IsPassword="True"
+                BackgroundColor="White"/>
+
+            <Button
+                Text="Login"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Clicked="AcceptLogin"
+            />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

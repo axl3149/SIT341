@@ -46,7 +46,7 @@ namespace safetyLab
             c.Symbol = "spill";
             await db.InsertAsync(c);
             var table = db.Table<Chemical>();
-        }
+        }  
 
         private async void TestButton(object sender, EventArgs e)
         {

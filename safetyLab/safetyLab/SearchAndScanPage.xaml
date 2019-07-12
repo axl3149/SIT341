@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="safetyLab.SearchAndScan">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button
+                Text="Search"
+                BorderColor="Black"
+                BackgroundColor="White"
+                TextColor="Black"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="Search"
+             />
+            <Button
+                Text="Scan"
+                BorderColor="Black"
+                BackgroundColor="White"
+                TextColor="Black"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                Clicked="Scan"
+             />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
