@@ -9,19 +9,12 @@ using Xamarin.Forms.Xaml;
 
 namespace safetyLab
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class ResultsPage : ContentPage
-	{
-		public ResultsPage ()
-		{
-			InitializeComponent ();
-		}
-
-        void Back(object sender, EventArgs e)
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class ResultsPage : TabbedPage
+    {
+        public ResultsPage ()
         {
-            App.Current.MainPage = new SearchPage();
-            App.Current.MainPage.BackgroundColor = Color.LightBlue;
+            InitializeComponent();
         }
-
     }
 }

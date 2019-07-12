@@ -4,21 +4,12 @@
              x:Class="safetyLab.SearchPage">
     <ContentPage.Content>
         <StackLayout>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
                 
-                <Button
-                    Grid.Column="0"
-                    Text="Back"
-                    Clicked="Back"/>
-                <Button
-                    Grid.Column="1"
-                    Text="Home"
-                    Clicked="Home"/>
-            </Grid>
+            <Button
+                Grid.Column="0"
+                Text="Back"
+                Clicked="Back"/>
+              
 
             <Label 
                 Text="Chemical Name"
