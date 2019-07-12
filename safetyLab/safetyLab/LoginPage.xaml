@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="safetyLab.Login">
+             x:Class="safetyLab.LoginPage">
     <ContentPage.Content>
         <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+            </Grid>
             <Label
                 Text="Safety Lab"
                 VerticalOptions="StartAndExpand"
@@ -12,20 +18,26 @@
                 FontSize="Large"
             />
             <Label 
+                Grid.Column="0"
                 Text="User Name"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 TextColor="Black"
             />
             <Entry
+                Grid.Column="1"
+                Placeholder="Enter User..."
                 BackgroundColor="White"/>
             <Label 
+                Grid.Column="0"
                 Text="Password"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 TextColor="Black"
             />
             <Entry
+                Grid.Column="1"
+                Placeholder="Enter Password..."
                 IsPassword="True"
                 BackgroundColor="White"/>
 
@@ -34,6 +46,16 @@
                 VerticalOptions="End"
                 HorizontalOptions="Center"
                 Clicked="AcceptLogin"
+            />
+
+            <Image
+                Source="DeakinLogo.jpg"/>
+
+            <Button
+                Text="Makers"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Clicked="GotoPublishers"
             />
         </StackLayout>
     </ContentPage.Content>

@@ -10,22 +10,18 @@ using Xamarin.Forms.Xaml;
 namespace safetyLab
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class SearchAndScanPage : ContentPage
+	public partial class ResultsPage : ContentPage
 	{
-		public SearchAndScanPage ()
+		public ResultsPage ()
 		{
 			InitializeComponent ();
 		}
 
-        public void Search(object sender, EventArgs e)
+        void Back(object sender, EventArgs e)
         {
             App.Current.MainPage = new SearchPage();
             App.Current.MainPage.BackgroundColor = Color.LightBlue;
         }
 
-        public void Scan(object sender, EventArgs e) //QR Function
-        {
-
-        }
-	}
+    }
 }

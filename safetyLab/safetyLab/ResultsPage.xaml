@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="safetyLab.ResultsPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Button
+                    Text="Back"
+                    Clicked="Back"/>
+
+                <Label
+                    Text="Chemical Name:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Chemical Formula:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Chemical Name"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Volume:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Company Name:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Dangerous Goods:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="SubRisk"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Packing Group Number:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="UN Number:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="CAS Number:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Date Recieved"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Owner"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Location"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/><Label
+                    Text="Chemical Name:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Chemical Formula:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Chemical Name"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Volume:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Company Name:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Dangerous Goods:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="SubRisk"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Packing Group Number:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="UN Number:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="CAS Number:"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Date Recieved"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Owner"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+                <Label
+                    Text="Location"
+                    HorizontalTextAlignment="Start"
+                    VerticalOptions="Center"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

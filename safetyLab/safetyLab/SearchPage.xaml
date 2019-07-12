@@ -4,12 +4,49 @@
              x:Class="safetyLab.SearchPage">
     <ContentPage.Content>
         <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                
+                <Button
+                    Grid.Column="0"
+                    Text="Back"
+                    Clicked="Back"/>
+                <Button
+                    Grid.Column="1"
+                    Text="Home"
+                    Clicked="Home"/>
+            </Grid>
+
+            <Label 
+                Text="Chemical Name"
+                TextColor="Black"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+            <Entry
+                VerticalOptions="Center"
+            />
+            <Label 
+                Text="ID Search"
+                TextColor="Black"
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+            />
+            <Entry
+                VerticalOptions="Center"
+            />
+            
             <Button
-                Text="Back"
-                TranslationX="5"
-                TranslationY="5"
-                Clicked="Back"
-             />
+                Text="Search"
+                TextColor="Black"
+                BackgroundColor="White"
+                VerticalOptions="End"
+                HorizontalOptions="Center"
+                Clicked="Search"
+            />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -19,7 +19,15 @@ namespace safetyLab
 
         void AcceptLogin(object sender, EventArgs e)
         {
+            //Shit way to change pages. Look into Pop/Push functions.
             App.Current.MainPage = new SearchAndScanPage();
+            App.Current.MainPage.BackgroundColor = Color.LightBlue;
         }
-	}
+
+        void GotoPublishers(object sender, EventArgs e)
+        {
+            App.Current.MainPage = new PublishersPage();
+            App.Current.MainPage.BackgroundColor = Color.LightBlue;
+        }
+    }
 }
