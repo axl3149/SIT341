@@ -16,11 +16,5 @@ namespace safetyLab
 		{
 			InitializeComponent ();
 		}
-
-        public void Back(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new LoginPage();
-            App.Current.MainPage.BackgroundColor = Color.LightBlue;
-        }
 	}
 }

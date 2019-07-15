@@ -11,9 +11,7 @@ namespace safetyLab
         public App()
         {
             InitializeComponent();
-
-            MainPage = new LoginPage();
-            MainPage.BackgroundColor = Color.LightBlue;
+            MainPage = new NavigationPage(new LoginPage());
         }
 
         protected override void OnStart()
@@ -23,12 +21,12 @@ namespace safetyLab
 
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
+
         }
 
         protected override void OnResume()
         {
-            // Handle when your app resumes
+
         }
     }
 }

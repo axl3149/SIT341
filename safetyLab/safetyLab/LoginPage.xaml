@@ -14,7 +14,7 @@
                 Text="Safety Lab"
                 VerticalOptions="StartAndExpand"
                 HorizontalOptions="Center"
-                TextColor="White"
+                TextColor="Black"
                 FontSize="Large"
             />
             <Label 
@@ -43,6 +43,9 @@
 
             <Button
                 Text="Login"
+                BorderColor="Black"
+                BorderWidth="2"
+                BackgroundColor="White"
                 VerticalOptions="End"
                 HorizontalOptions="Center"
                 Clicked="AcceptLogin"
@@ -53,6 +56,9 @@
 
             <Button
                 Text="Makers"
+                BorderColor="Black"
+                BorderWidth="2"
+                BackgroundColor="White"
                 VerticalOptions="End"
                 HorizontalOptions="Center"
                 Clicked="GotoPublishers"

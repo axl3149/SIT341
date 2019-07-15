@@ -4,12 +4,7 @@
              x:Class="safetyLab.SearchPage">
     <ContentPage.Content>
         <StackLayout>
-                
-            <Button
-                Grid.Column="0"
-                Text="Back"
-                Clicked="Back"/>
-              
+
 
             <Label 
                 Text="Chemical Name"
@@ -19,6 +14,7 @@
             />
             <Entry
                 VerticalOptions="Center"
+                Placeholder="Enter Chemical Name..."
             />
             <Label 
                 Text="ID Search"
@@ -28,11 +24,14 @@
             />
             <Entry
                 VerticalOptions="Center"
+                Placeholder="Enter ID..."
             />
             
             <Button
                 Text="Search"
                 TextColor="Black"
+                BorderColor="Black"
+                BorderWidth="2"
                 BackgroundColor="White"
                 VerticalOptions="End"
                 HorizontalOptions="Center"

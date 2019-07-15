@@ -4,16 +4,11 @@
              x:Class="safetyLab.PublishersPage">
     <ContentPage.Content>
         <StackLayout>
-            <Button
-                Text="Back"
-                VerticalOptions="Center"
-                Clicked="Back"/>
-            
             <Label 
                 Text="Safety Lab"
                 VerticalOptions="StartAndExpand"
                 HorizontalOptions="Center"
-                TextColor="White"
+                TextColor="Black"
                 FontSize="Large"/>
 
             <Label

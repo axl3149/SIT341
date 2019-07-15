@@ -2,11 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="safetyLab.SearchAndScanPage">
+
+   
     <ContentPage.Content>
+
         <StackLayout>
             <Button
                 Text="Search"
                 BorderColor="Black"
+                BorderWidth="2"
                 BackgroundColor="White"
                 TextColor="Black"
                 HorizontalOptions="Center"
@@ -16,6 +20,7 @@
             <Button
                 Text="Scan"
                 BorderColor="Black"
+                BorderWidth="2" 
                 BackgroundColor="White"
                 TextColor="Black"
                 HorizontalOptions="Center"
@@ -23,5 +28,5 @@
                 Clicked="Scan"
              />
         </StackLayout>
-    </ContentPage.Content>
+   </ContentPage.Content>
 </ContentPage>

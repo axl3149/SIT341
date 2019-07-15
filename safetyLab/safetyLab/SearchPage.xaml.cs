@@ -15,24 +15,11 @@ namespace safetyLab
 		public SearchPage ()
 		{
 			InitializeComponent ();
-		}
-
-        public void Back(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new SearchAndScanPage();
-            App.Current.MainPage.BackgroundColor = Color.LightBlue;
         }
 
         public void Search(object sender, EventArgs e)
         {
-            App.Current.MainPage = new ResultsPage();
-            App.Current.MainPage.BackgroundColor = Color.LightBlue;
-        }
-
-        public void Home(object sender, EventArgs e)
-        {
-            App.Current.MainPage = new SearchPage();
-            App.Current.MainPage.BackgroundColor = Color.LightBlue;
+            Navigation.PushAsync(new ResultsPage());
         }
     }
 }

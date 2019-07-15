@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using ZXing.Net.Mobile.Forms;
 
 namespace safetyLab
 {
@@ -17,15 +18,14 @@ namespace safetyLab
 			InitializeComponent ();
 		}
 
-        public void Search(object sender, EventArgs e)
+        async void Search(object sender, EventArgs e)
         {
-            App.Current.MainPage = new SearchPage();
-            App.Current.MainPage.BackgroundColor = Color.LightBlue;
+            await Navigation.PushAsync(new SearchPage());
         }
 
-        public void Scan(object sender, EventArgs e) //QR Function
+        async void Scan(object sender, EventArgs e) //QR Function
         {
-
+            await Navigation.PushAsync(new ZXingScannerPage());
         }
 	}
 }

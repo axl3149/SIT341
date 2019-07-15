@@ -17,17 +17,14 @@ namespace safetyLab
 			InitializeComponent ();
 		}
 
-        void AcceptLogin(object sender, EventArgs e)
+        async void AcceptLogin(object sender, EventArgs e)
         {
-            //Shit way to change pages. Look into Pop/Push functions.
-            App.Current.MainPage = new SearchAndScanPage();
-            App.Current.MainPage.BackgroundColor = Color.LightBlue;
+            await Navigation.PushAsync(new SearchAndScanPage());
         }
 
-        void GotoPublishers(object sender, EventArgs e)
+        async void GotoPublishers(object sender, EventArgs e)
         {
-            App.Current.MainPage = new PublishersPage();
-            App.Current.MainPage.BackgroundColor = Color.LightBlue;
+            await Navigation.PushAsync(new PublishersPage());
         }
     }
 }
