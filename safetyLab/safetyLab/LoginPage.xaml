@@ -4,12 +4,6 @@
              x:Class="safetyLab.LoginPage">
     <ContentPage.Content>
         <StackLayout>
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-            </Grid>
             <Label
                 Text="Safety Lab"
                 VerticalOptions="StartAndExpand"
@@ -17,29 +11,48 @@
                 TextColor="Black"
                 FontSize="Large"
             />
-            <Label 
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+ 
+                <Label 
                 Grid.Column="0"
+                Grid.Row="0"
                 Text="User Name"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 TextColor="Black"
             />
-            <Entry
+                <Entry
                 Grid.Column="1"
-                Placeholder="Enter User..."
+                Grid.Row="0"
+                    FontSize="Small"
                 BackgroundColor="White"/>
-            <Label 
+                
+                <Label 
                 Grid.Column="0"
+                Grid.Row="1"
                 Text="Password"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
                 TextColor="Black"
             />
-            <Entry
+                <Entry
+                FontSize="Small"
                 Grid.Column="1"
-                Placeholder="Enter Password..."
+                Grid.Row="1"
                 IsPassword="True"
                 BackgroundColor="White"/>
+
+            </Grid>
 
             <Button
                 Text="Login"
@@ -51,8 +64,6 @@
                 Clicked="AcceptLogin"
             />
 
-            <Image
-                Source="DeakinLogo.jpg"/>
 
             <Button
                 Text="Makers"
@@ -63,6 +74,12 @@
                 HorizontalOptions="Center"
                 Clicked="GotoPublishers"
             />
+
+            <Image
+                Source="https://irec.org.au/wp-content/uploads/Deakin-UNi-logo.jpg"
+                Aspect="AspectFit"
+                HorizontalOptions="Center"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

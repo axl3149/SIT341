@@ -15,6 +15,7 @@ namespace safetyLab
 		public LoginPage ()
 		{
 			InitializeComponent ();
+            NavigationPage.SetHasNavigationBar(this, false);
 		}
 
         async void AcceptLogin(object sender, EventArgs e)

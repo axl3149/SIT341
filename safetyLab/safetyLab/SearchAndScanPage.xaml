@@ -3,18 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="safetyLab.SearchAndScanPage">
 
-   
-    <ContentPage.Content>
 
-        <StackLayout>
+    <ContentPage.Content>
+        <ContentView HorizontalOptions="Center" VerticalOptions="Center">
+            <StackLayout>
             <Button
                 Text="Search"
                 BorderColor="Black"
                 BorderWidth="2"
                 BackgroundColor="White"
                 TextColor="Black"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
                 Clicked="Search"
              />
             <Button
@@ -23,10 +21,9 @@
                 BorderWidth="2" 
                 BackgroundColor="White"
                 TextColor="Black"
-                HorizontalOptions="Center"
-                VerticalOptions="Center"
                 Clicked="Scan"
              />
         </StackLayout>
-   </ContentPage.Content>
+        </ContentView>
+    </ContentPage.Content>
 </ContentPage>

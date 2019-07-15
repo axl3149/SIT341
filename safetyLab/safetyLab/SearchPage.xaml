@@ -5,28 +5,46 @@
     <ContentPage.Content>
         <StackLayout>
 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-            <Label 
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label 
                 Text="Chemical Name"
+                    Grid.Row="0"
+                    Grid.Column="0"
                 TextColor="Black"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
             />
-            <Entry
+                <Entry
+                    Grid.Row="0"
+                    Grid.Column="1"
                 VerticalOptions="Center"
-                Placeholder="Enter Chemical Name..."
             />
-            <Label 
+                <Label 
                 Text="ID Search"
+                    Grid.Column="0"
+                    Grid.Row="1"
                 TextColor="Black"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
             />
-            <Entry
+                <Entry
+                    Grid.Column="1"
+                    Grid.Row="1"
                 VerticalOptions="Center"
-                Placeholder="Enter ID..."
             />
-            
+
+            </Grid>
+
             <Button
                 Text="Search"
                 TextColor="Black"
