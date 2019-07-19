@@ -2,8 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="safetyLab.LoginPage">
+   
+    <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+             <OnPlatform.iOS>
+                0,80,0,0
+            </OnPlatform.iOS>
+            <OnPlatform.Android>
+                0,0,0,0
+                </OnPlatform.Android>
+            </OnPlatform>
+     </ContentPage.Padding>
+    
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout BackgroundColor="White">
             <Label
                 Text="Safety Lab"
                 VerticalOptions="StartAndExpand"
@@ -11,7 +23,7 @@
                 TextColor="Black"
                 FontSize="Large"
             />
-
+            
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"></ColumnDefinition>
@@ -20,21 +32,16 @@
 
                 <Grid.RowDefinitions>
                     <RowDefinition Height="*"/>
-                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="2*"/>
                 </Grid.RowDefinitions>
  
-                <Label 
-                Grid.Column="0"
-                Grid.Row="0"
-                Text="User Name"
-                VerticalOptions="Center"
-                HorizontalOptions="Center"
-                TextColor="Black"
-            />
+                
                 <Entry
-                Grid.Column="1"
+                Grid.Column="0"
+                Placeholder="Username or E-mail"
+                TabIndex="Gray"
                 Grid.Row="0"
-                    FontSize="Small"
+                FontSize="Small"
                 BackgroundColor="White"/>
                 
                 <Label 
