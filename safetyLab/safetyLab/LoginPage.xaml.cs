@@ -12,10 +12,18 @@ namespace safetyLab
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class LoginPage : ContentPage
 	{
-		public LoginPage ()
-		{
-			InitializeComponent ();
+        public LoginPage()
+        {
+            InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+
+            //WebView test. Maybe could use search engine results for Chemical names?
+            WebView web = new WebView
+            {
+                Source = "https://www.chemsupply.com.au/documents/SO0116_AU.pdf"
+            };
+        
+            Content = web;
 		}
 
         async void AcceptLogin(object sender, EventArgs e)
