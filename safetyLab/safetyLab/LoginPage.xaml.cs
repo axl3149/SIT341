@@ -11,11 +11,13 @@ namespace safetyLab
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class LoginPage : ContentPage
-	{
+    { 
         public LoginPage()
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
+
+            Database.ConnectAndSetup();
 
             //WebView test. Maybe could use search engine results for Chemical names?
             /*WebView web = new WebView

@@ -13,50 +13,79 @@ namespace safetyLab
     [Table("Chemical")]
     public class Chemical
     {
-        [PrimaryKey, AutoIncrement, Column("_id")]
-        public int num { get; set; }
-        [MaxLength(8)]
-        public string Symbol { get; set; }
+        public string name { get; set; }
+        public string formula { get; set; }
+        public int volume { get; set; }
+        public string hazardStatement { get; set; }
+        public string precautionStatement { get; set; }
+        public string majorSpill { get; set; }
+        public string minorSpill { get; set; } 
+        public string schedule { get; set; }
+        public string peroxide { get; set; } 
+        public string waste { get; set; }
     }
 
-    // Learn more about making custom code visible in the Xamarin.Forms previewer
-    // by visiting https://aka.ms/xamarinforms-previewer
-    [DesignTimeVisible(false)]
-    public partial class MainPage : ContentPage
+    public partial class Database
     {
-        public MainPage()
-        {
-            InitializeComponent();
-        }
+        public static SQLiteAsyncConnection db;
+        public static string dbPath;
 
-        public SQLiteAsyncConnection db;
-        string dbPath;
-
-        public async void ConnectAndQuery()
+        public static async void ConnectAndSetup()
         {
-            dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "ormdemo.db3");
+            dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "test.db3");
             db = new SQLiteAsyncConnection(dbPath);
 
+            await db.DropTableAsync<Chemical>();
+
             await db.CreateTableAsync<Chemical>();
-            Chemical c = new Chemical();
-            c.num = 4;
-            c.Symbol = "gas";
+
+            Chemical c = new Chemical
+            {
+                name = "acid", //Keep lowercase for now, messes with SQL queries
+                formula = "formula",
+                volume = 400,
+                hazardStatement = "Chemical is dangerous",
+                precautionStatement = "Wear goggles",
+                majorSpill = "Clean up",
+                minorSpill = " dont worry about it",
+                schedule = "01/19/1997",
+                peroxide = "what's peroxide",
+                waste = "Waste"
+            };
+
             await db.InsertAsync(c);
-            c.num = 69;
-            c.Symbol = "spill";
+
+            c.name = "water";
+
             await db.InsertAsync(c);
-            var table = db.Table<Chemical>();
         }  
 
-        private async void TestButton(object sender, EventArgs e)
+        public static async void QueryResults()
         {
-            ConnectAndQuery();
-            Button button = sender as Button;
+            GC.Collect(); //Maybe to clean up queries from previous pages
+    
             Chemical[] list = await db.Table<Chemical>().ToArrayAsync();
-            List<Chemical> qlist = await db.QueryAsync<Chemical>("select * from chemical");
-            for(int i = 0; i < qlist.Count; i++)
+            List<Chemical> qlist = await db.QueryAsync<Chemical>("select * from chemical where name=?", SearchResultsPage.selectedResult.ToLower());
+
+            for(int i = 0; i < 1; i++)
             {
-                button.Text = qlist[i].Symbol;
+                ResultsPage.generalStack.Children.Clear();
+                ResultsPage.generalStack.Children.Add(new Label { Text="Name: " + qlist[i].name } );
+                ResultsPage.generalStack.Children.Add(new Label { Text="Formula: " + qlist[i].formula } );
+                ResultsPage.generalStack.Children.Add(new Label { Text="Volume: " + qlist[i].volume.ToString() } );
+
+                ResultsPage.hazardsStack.Children.Clear();
+                ResultsPage.hazardsStack.Children.Add(new Label { Text="Hazard Statement: " + qlist[i].hazardStatement } );
+                ResultsPage.hazardsStack.Children.Add(new Label { Text="Precaution Statement: " + qlist[i].precautionStatement } );
+
+                ResultsPage.emergencyStack.Children.Clear();
+                ResultsPage.emergencyStack.Children.Add(new Label { Text="Major Spill: " + qlist[i].majorSpill } );
+                ResultsPage.emergencyStack.Children.Add(new Label { Text="Minor Spill: " + qlist[i].minorSpill } );
+
+                ResultsPage.infoStack.Children.Clear();
+                ResultsPage.infoStack.Children.Add(new Label { Text="Schedule: " + qlist[i].schedule } );
+                ResultsPage.infoStack.Children.Add(new Label { Text="Schedule: " + qlist[i].peroxide } );
+                ResultsPage.infoStack.Children.Add(new Label { Text="Waste Disposal: " + qlist[i].waste } );
             }
         }
     }

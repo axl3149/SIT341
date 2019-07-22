@@ -12,12 +12,12 @@ namespace safetyLab
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class SearchPage : ContentPage
 	{
-        public string[] chemicalNames = {"acid", "waterlake", "acidity", "watery"};
+        public string[] chemicalNames = {"acid", "water"};
         bool textFound = false;
 
         StackLayout stack;
-        Entry chemicalName = new Entry();
-        Entry chemicalID = new Entry();
+        public static Entry chemicalName = new Entry();
+        public static Entry chemicalID = new Entry();
 
 		public SearchPage ()
 		{

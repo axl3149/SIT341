@@ -14,6 +14,8 @@ namespace safetyLab
 	{
         public static List<Button> results = new List<Button>();
 
+        public static string selectedResult;
+
 		public SearchResultsPage ()
 		{
 			InitializeComponent ();
@@ -35,6 +37,8 @@ namespace safetyLab
 
         public void SearchResult(object sender, EventArgs e)
         {
+            Button button = sender as Button;
+            selectedResult = button.Text;
             Navigation.PushAsync(new ResultsPage());
         }
     }
