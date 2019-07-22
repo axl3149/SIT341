@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout>
 
-            <Grid>
+            <!--><Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
@@ -55,6 +55,7 @@
                 HorizontalOptions="Center"
                 Clicked="Search"
             />
+            -->
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

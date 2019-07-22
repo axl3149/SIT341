@@ -18,12 +18,12 @@ namespace safetyLab
             NavigationPage.SetHasNavigationBar(this, false);
 
             //WebView test. Maybe could use search engine results for Chemical names?
-            WebView web = new WebView
+            /*WebView web = new WebView
             {
-                Source = "https://www.chemsupply.com.au/documents/SO0116_AU.pdf"
+                Source = "https://sync.deakin.edu.au"
             };
         
-            Content = web;
+            Content = web;*/
 		}
 
         async void AcceptLogin(object sender, EventArgs e)
