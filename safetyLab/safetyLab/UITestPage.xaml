@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="safetyLab.UITestPage">
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Name="Scan" Text="Scan" Clicked="Scan" Priority="0"></ToolbarItem>
+        <ToolbarItem Name="Search" Text="Search" Clicked="Search" Priority="1"></ToolbarItem>
+    </ContentPage.ToolbarItems>-->
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Scan" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Clicked="Scan"/>
+            <SearchBar HorizontalOptions="End" VerticalOptions="Center" SearchButtonPressed="Search"/>
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

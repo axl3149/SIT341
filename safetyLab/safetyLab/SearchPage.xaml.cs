@@ -43,23 +43,27 @@ namespace safetyLab
         {
             SearchResultsPage.results.Clear();
 
-            for (int i = 0; i < chemicalNames.Length; i++)
+            if (chemicalName != null)
             {
-                if(chemicalNames[i].Contains(chemicalName.Text))
+                for (int i = 0; i < chemicalNames.Length; i++)
                 {
-                    Button result = new Button();
-                    result.BackgroundColor = Color.White;
-                    result.Text = chemicalNames[i];
+                    if (chemicalNames[i].Contains(chemicalName.Text))
+                    {
+                        Button result = new Button();
+                        result.BackgroundColor = Color.White;
+                        result.Text = chemicalNames[i];
 
-                    SearchResultsPage.results.Add(result);
+                        SearchResultsPage.results.Add(result);
 
-                    textFound = true;
+                        textFound = true;
+                    }
                 }
             }
 
             if(textFound)
             {
                 Navigation.PushAsync(new SearchResultsPage());
+                textFound = false;
                 return;
             }
             

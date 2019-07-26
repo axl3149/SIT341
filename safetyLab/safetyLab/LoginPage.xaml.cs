@@ -22,7 +22,7 @@ namespace safetyLab
             //WebView test. Maybe could use search engine results for Chemical names?
             /*WebView web = new WebView
             {
-                Source = "https://sync.deakin.edu.au"
+                Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=5305"
             };
         
             Content = web;*/
