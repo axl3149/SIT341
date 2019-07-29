@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Threading;
+    
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ZXing.Net.Mobile.Forms;
@@ -14,6 +15,7 @@ namespace safetyLab
     public partial class UITestPage : ContentPage
     {
         WebView webView;
+        public static ZXingScannerPage Scanner = new ZXingScannerPage();
 
         string chemicalName = null;
         public string[] chemicalNames = { "acid", "water" };
@@ -27,11 +29,40 @@ namespace safetyLab
         {
             InitializeComponent();
             webView = new WebView();
+            webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/";
+            Content = webView;
         }
 
-        public void Scan(object sender, EventArgs e)
+        /*public void ScannerFocus()
         {
-            Navigation.PushAsync(new ZXingScannerPage());
+            while (Scanner.Result == null)
+            {
+                System.Threading.Thread.Sleep(2000);
+                Scanner.AutoFocus();
+            }
+        }*/
+
+        public async void Scan(object sender, EventArgs e)
+        {
+            Scanner = new ZXingScannerPage();
+            await Navigation.PushAsync(Scanner);
+
+            //Thread focusThread = new Thread(ScannerFocus);
+            //focusThread.Start();
+
+            Scanner.OnScanResult += (result) =>
+            {
+
+                Scanner.IsScanning = false;
+
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    //webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=" + Scanner.Result.Text;
+                    webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/";
+                    await Navigation.PopAsync();
+                    await DisplayAlert("Chemical ID: ", result.Text, "OK");
+                });
+            };
         }
 
         public void Search(object sender, EventArgs e)
@@ -57,7 +88,7 @@ namespace safetyLab
                         Button result = new Button();
                         result.BackgroundColor = Color.White;
                         result.Text = chemicalNames[i];
-                        result.Clicked += (send, args) => Result(send, args); //Performance problems?
+                        //result.Clicked += (send, args) => Result(send, args); //Performance problems?
 
                         results.Add(result);
 
@@ -75,12 +106,6 @@ namespace safetyLab
             {
                 DisplayAlert("Search Results", "No chemical results found.", "Try again");
             }
-        }
-
-        public void Result(object sender, EventArgs e)
-        {
-            webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=5305";
-            Content = webView;
         }
     }
 }

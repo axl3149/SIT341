@@ -25,7 +25,20 @@ namespace safetyLab
 
         async void Scan(object sender, EventArgs e) //QR Function
         {
-            await Navigation.PushAsync(new ZXingScannerPage());
+            var Scanner = new ZXingScannerPage();
+
+            Scanner.OnScanResult += (result) =>
+            {
+                Scanner.IsScanning = false;
+
+                Device.BeginInvokeOnMainThread(async () =>
+                {
+                    await Navigation.PopAsync();
+                    await DisplayAlert("Scanned Barcode", result.Text, "OK");
+                });
+            };
+
+            await Navigation.PushAsync(Scanner);
         }
 	}
 }
