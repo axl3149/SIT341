@@ -24,6 +24,7 @@ namespace safetyLab
         List<Button> results = new List<Button>();
 
         ContentPage SearchContent;
+        public static StackLayout stack = new StackLayout();
 
         public UITestPage()
         {
@@ -51,14 +52,16 @@ namespace safetyLab
             //focusThread.Start();
 
             Scanner.OnScanResult += (result) =>
-            {
-
+            { 
                 Scanner.IsScanning = false;
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
                     //webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=" + Scanner.Result.Text;
-                    webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/";
+                    webView.Source = "https://www.pokemon.com/us/";
+
+                    stack.Children.Clear();
+
                     await Navigation.PopAsync();
                     await DisplayAlert("Chemical ID: ", result.Text, "OK");
                 });
@@ -75,7 +78,7 @@ namespace safetyLab
 
             SearchContent = new ContentPage();
 
-            StackLayout stack = new StackLayout();
+            stack.Children.Clear();
 
             textFound = false;
 
@@ -113,9 +116,9 @@ namespace safetyLab
             textFound = false;
         }
 
-        public void Result(object sender, EventArgs e)
+        async void Result(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new ResultsPage());
         }
     }
 }

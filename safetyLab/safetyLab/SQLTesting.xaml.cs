@@ -30,14 +30,14 @@ namespace safetyLab
         public static SQLiteAsyncConnection db;
         public static string dbPath;
 
-        public static async void ConnectAndSetup()
+        public static void ConnectAndSetup()
         {
             dbPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), "test.db3");
             db = new SQLiteAsyncConnection(dbPath);
 
-            await db.DropTableAsync<Chemical>();
+            db.DropTableAsync<Chemical>();
 
-            await db.CreateTableAsync<Chemical>();
+            db.CreateTableAsync<Chemical>();
 
             Chemical c = new Chemical
             {
@@ -53,21 +53,15 @@ namespace safetyLab
                 waste = "Waste"
             };
 
-            await db.InsertAsync(c);
-
-            c.name = "water";
-
-            await db.InsertAsync(c);
+            db.InsertAsync(c);
         }  
 
-        public static async void QueryResults()
-        {
-            GC.Collect(); //Maybe to clean up queries from previous pages
-    
+        public static async Task QueryResults()
+        {    
             Chemical[] list = await db.Table<Chemical>().ToArrayAsync();
             List<Chemical> qlist = await db.QueryAsync<Chemical>("select * from chemical where name=?", SearchResultsPage.selectedResult.ToLower());
 
-            for(int i = 0; i < 1; i++)
+            for(int i = 0; i < 1; i++) 
             {
                 ResultsPage.generalStack.Children.Clear();
                 ResultsPage.generalStack.Children.Add(new Label { Text="Name: " + qlist[i].name } );

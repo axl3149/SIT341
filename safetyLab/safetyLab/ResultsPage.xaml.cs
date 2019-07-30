@@ -38,7 +38,7 @@ namespace safetyLab
             ContentPage info = new ContentPage();
             info.Title = "Info";
 
-
+            Database.ConnectAndSetup();
             Database.QueryResults();
 
             generalScroll.Content = generalStack;
