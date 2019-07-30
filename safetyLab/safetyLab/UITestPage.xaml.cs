@@ -85,7 +85,7 @@ namespace safetyLab
 
                 for (int i = 0; i < chemicalNames.Length; i++)
                 {
-                    if (chemicalNames[i].Contains((chemicalName)))
+                    if (chemicalNames[i].Contains(chemicalName.ToLower()))
                     {
                         Button result = new Button();
                         result.BackgroundColor = Color.White;
