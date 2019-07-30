@@ -18,7 +18,7 @@ namespace safetyLab
         public static ZXingScannerPage Scanner = new ZXingScannerPage();
 
         string chemicalName = null;
-        public string[] chemicalNames = { "acid", "water" };
+        public string[] chemicalNames = { "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol" };
         bool textFound = false;
 
         List<Button> results = new List<Button>();
@@ -81,6 +81,8 @@ namespace safetyLab
 
             if (chemicalName != null)
             {
+                int resultsIndex = 0;
+
                 for (int i = 0; i < chemicalNames.Length; i++)
                 {
                     if (chemicalNames[i].Contains((chemicalName)))
@@ -88,11 +90,12 @@ namespace safetyLab
                         Button result = new Button();
                         result.BackgroundColor = Color.White;
                         result.Text = chemicalNames[i];
-                        //result.Clicked += (send, args) => Result(send, args); //Performance problems?
+                        result.Clicked += (send, args) => Result(send, args); //Performance problems?
 
                         results.Add(result);
 
-                        stack.Children.Add(results[i]);
+                        stack.Children.Add(results[resultsIndex]);
+                        resultsIndex++;
 
                         textFound = true;
                     }
@@ -106,6 +109,13 @@ namespace safetyLab
             {
                 DisplayAlert("Search Results", "No chemical results found.", "Try again");
             }
+
+            textFound = false;
+        }
+
+        public void Result(object sender, EventArgs e)
+        {
+
         }
     }
 }
