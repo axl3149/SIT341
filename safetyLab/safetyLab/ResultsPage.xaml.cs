@@ -56,5 +56,30 @@ namespace safetyLab
             Children.Add(emergency);
             Children.Add(info);
         }
+
+        public void AddToFavourites(object sender, EventArgs e)
+        {
+            Button favourite = new Button();
+            favourite.Text = UITestPage.chosenChemical;
+
+            if(UITestPage.favourites.Count == 0)
+            {
+                UITestPage.favourites.Add(favourite);
+                DisplayAlert("", "Added " + UITestPage.chosenChemical + " to Favourites", "OK");
+                return;
+            }
+
+            for(int i = 0; i < UITestPage.favourites.Count; i++)
+            {
+                if(UITestPage.favourites[i].Text != UITestPage.chosenChemical)
+                {
+                    UITestPage.favourites.Add(favourite);
+                    DisplayAlert("", "Added " + UITestPage.chosenChemical + " to Favourites", "OK");
+                    return;
+                }   
+            }
+
+            DisplayAlert("Error", UITestPage.chosenChemical + " Already in favourites", "OK");
+        }
     }
 }

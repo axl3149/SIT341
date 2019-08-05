@@ -23,6 +23,9 @@ namespace safetyLab
 
         List<Button> results = new List<Button>();
 
+        public static List<Button> favourites = new List<Button>();
+        public static string chosenChemical;
+
         ContentPage SearchContent;
         public static StackLayout stack = new StackLayout();
 
@@ -80,6 +83,14 @@ namespace safetyLab
 
             stack.Children.Clear();
 
+            Label title = new Label
+            {
+                Text = "SEARCH RESULTS",
+                HorizontalOptions = LayoutOptions.Center
+            };
+
+            stack.Children.Add(title);
+
             textFound = false;
 
             if (chemicalName != null)
@@ -118,7 +129,30 @@ namespace safetyLab
 
         async void Result(object sender, EventArgs e)
         {
+            Button b = (Button)sender;
+            chosenChemical = b.Text;
             await Navigation.PushAsync(new ResultsPage());
+        }
+
+        public void ShowFavourites(object sender, EventArgs e)
+        {
+            stack.Children.Clear();
+
+            Label title = new Label();
+            title.Text = "FAVOURITES";
+            title.HorizontalOptions = LayoutOptions.Center;
+
+            stack.Children.Add(title);
+            
+            for(int i = 0; i < favourites.Count; i++)
+            {
+                Button favourite = new Button();
+                favourite.BackgroundColor = Color.White;
+                favourite.Text = favourites[i].Text;
+                favourite.Clicked += (send, args) => Result(send, args);
+
+                stack.Children.Add(favourite);
+            }
         }
     }
 }

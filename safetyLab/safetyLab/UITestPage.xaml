@@ -10,7 +10,7 @@
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
             <Button Text="Scan" HorizontalOptions="Start" VerticalOptions="CenterAndExpand" Clicked="Scan"/>
-            <SearchBar HorizontalOptions="End" VerticalOptions="Center" SearchButtonPressed="Search"/>
+            <SearchBar HorizontalOptions="End" VerticalOptions="Center" SearchButtonPressed="Search" Placeholder="Enter ID or Name"/>
         </StackLayout>
     </NavigationPage.TitleView>
     
@@ -19,4 +19,9 @@
             
         </StackLayout>
     </ContentPage.Content>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Favourites" Clicked="ShowFavourites">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
 </ContentPage>
