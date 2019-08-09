@@ -5,7 +5,7 @@
 
     <NavigationPage.TitleView>
         <StackLayout>
-            <Button Text="Add To Favourites" Clicked="AddToFavourites"></Button>
+            <Button Text="Add/Remove Favourite" Clicked="AddToFavourites"></Button>
         </StackLayout>
     </NavigationPage.TitleView>
   <!--Pages can be added as references or inline>

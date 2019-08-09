@@ -69,17 +69,36 @@ namespace safetyLab
                 return;
             }
 
+            bool foundChemical = false;
+            int foundIndex = 0;
+
             for(int i = 0; i < UITestPage.favourites.Count; i++)
             {
                 if(UITestPage.favourites[i].Text != UITestPage.chosenChemical)
                 {
-                    UITestPage.favourites.Add(favourite);
-                    DisplayAlert("", "Added " + UITestPage.chosenChemical + " to Favourites", "OK");
-                    return;
+                    foundChemical = true;
+                    foundIndex = i;
                 }   
+                else if(UITestPage.favourites[i].Text == UITestPage.chosenChemical)
+                {
+                    foundChemical = false;
+                    foundIndex = i;
+                    break;
+                }
             }
 
-            DisplayAlert("Error", UITestPage.chosenChemical + " Already in favourites", "OK");
+            if(foundChemical)
+            {
+                UITestPage.favourites.Add(favourite);
+                DisplayAlert("Added", "Added " + UITestPage.chosenChemical + " to Favourites", "OK");
+            }
+            else if(foundChemical == false)
+            {
+                UITestPage.favourites.RemoveAt(foundIndex);
+                DisplayAlert("Remove", UITestPage.chosenChemical + " Removed from favourites", "OK");
+            }
+
+            UITestPage.stack.Children.Clear();
         }
     }
 }
