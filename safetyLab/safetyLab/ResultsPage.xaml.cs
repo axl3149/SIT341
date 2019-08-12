@@ -59,8 +59,7 @@ namespace safetyLab
 
         public void AddToFavourites(object sender, EventArgs e)
         {
-            Button favourite = new Button();
-            favourite.Text = UITestPage.chosenChemical;
+            string favourite = UITestPage.chosenChemical;
 
             if(UITestPage.favourites.Count == 0)
             {
@@ -74,12 +73,12 @@ namespace safetyLab
 
             for(int i = 0; i < UITestPage.favourites.Count; i++)
             {
-                if(UITestPage.favourites[i].Text != UITestPage.chosenChemical)
+                if(UITestPage.favourites[i] != UITestPage.chosenChemical)
                 {
                     foundChemical = true;
                     foundIndex = i;
                 }   
-                else if(UITestPage.favourites[i].Text == UITestPage.chosenChemical)
+                else if(UITestPage.favourites[i] == UITestPage.chosenChemical)
                 {
                     foundChemical = false;
                     foundIndex = i;

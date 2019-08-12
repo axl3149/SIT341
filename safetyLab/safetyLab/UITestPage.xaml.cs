@@ -18,12 +18,22 @@ namespace safetyLab
         public static ZXingScannerPage Scanner = new ZXingScannerPage();
 
         string chemicalName = null;
-        public string[] chemicalNames = { "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol" };
+        public static string[] chemicalNames = {
+            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
+            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
+            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol"
+        };
+
         bool textFound = false;
+
+        public static ListView mainList = new ListView
+        {
+            ItemsSource = chemicalNames,
+        };
 
         List<Button> results = new List<Button>();
 
-        public static List<Button> favourites = new List<Button>();
+        public static List<string> favourites = new List<string>();
         public static string chosenChemical;
 
         ContentPage SearchContent;
@@ -34,7 +44,15 @@ namespace safetyLab
             InitializeComponent();
             webView = new WebView();
             webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/";
-            Content = webView;
+            //Content = webView;
+
+          
+            mainList.ItemTapped += async (sender, e) =>
+            {
+                chosenChemical = e.Item.ToString();
+                await Navigation.PushAsync(new ResultsPage());
+            };
+            Content = mainList;
         }
 
         /*public void ScannerFocus()
@@ -93,6 +111,8 @@ namespace safetyLab
 
             textFound = false;
 
+            List<string> foundNames = new List<string>();
+
             if (chemicalName != null)
             {
                 int resultsIndex = 0;
@@ -101,21 +121,30 @@ namespace safetyLab
                 {
                     if (chemicalNames[i].Contains(chemicalName.ToLower()))
                     {
-                        Button result = new Button();
+                        //For old button layout
+                        /*Button result = new Button();
                         result.BackgroundColor = Color.White;
                         result.Text = chemicalNames[i];
                         result.Clicked += (send, args) => Result(send, args); //Performance problems?
 
                         results.Add(result);
+                        
+                        stack.Children.Add(results[resultsIndex]);*/
 
-                        stack.Children.Add(results[resultsIndex]);
+                        //For new listview layout
+
+                        foundNames.Add(chemicalNames[i]);
+
                         resultsIndex++;
 
                         textFound = true;
                     }
                 }
 
-                SearchContent.Content = stack;
+                mainList.ItemsSource = foundNames;
+
+                //SearchContent.Content = stack;
+                SearchContent.Content = mainList;
                 Content = SearchContent.Content;
             }
 
@@ -146,12 +175,15 @@ namespace safetyLab
             
             for(int i = 0; i < favourites.Count; i++)
             {
-                Button favourite = new Button();
+                /*Button favourite = new Button();
                 favourite.BackgroundColor = Color.White;
                 favourite.Text = favourites[i].Text;
                 favourite.Clicked += (send, args) => Result(send, args);
 
-                stack.Children.Add(favourite);
+                stack.Children.Add(favourite);*/
+
+                mainList.ItemsSource = favourites;
+                Content = mainList;
             }
         }
     }
