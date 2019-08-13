@@ -14,10 +14,10 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage : ContentPage
     {
-        WebView webView;
         public static ZXingScannerPage Scanner = new ZXingScannerPage();
 
         string chemicalName = null;
+
         public static string[] chemicalNames = {
             "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
             "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
@@ -31,30 +31,23 @@ namespace safetyLab
             ItemsSource = chemicalNames,
         };
 
-        List<Button> results = new List<Button>();
-
         public static List<string> favourites = new List<string>();
         public static string chosenChemical;
-
-        ContentPage SearchContent;
-        public static StackLayout stack = new StackLayout();
 
         public StartPage()
         {
             InitializeComponent();
-            webView = new WebView();
-            webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/";
-            //Content = webView;
-
           
             mainList.ItemTapped += async (sender, e) =>
             {
                 chosenChemical = e.Item.ToString();
                 await Navigation.PushAsync(new ResultsPage());
             };
+
             Content = mainList;
         }
-
+        
+        //For QR camera scanning focus
         /*public void ScannerFocus()
         {
             while (Scanner.Result == null)
@@ -78,10 +71,8 @@ namespace safetyLab
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
+                    //Jason's idea of displaying information via this link
                     //webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=" + Scanner.Result.Text;
-                    webView.Source = "https://www.pokemon.com/us/";
-
-                    stack.Children.Clear();
 
                     await Navigation.PopAsync();
                     await DisplayAlert("Chemical ID: ", result.Text, "OK");
@@ -95,57 +86,23 @@ namespace safetyLab
 
             chemicalName = searchBar.Text;
 
-            results.Clear();
-
-            SearchContent = new ContentPage();
-
-            stack.Children.Clear();
-
-            Label title = new Label
-            {
-                Text = "SEARCH RESULTS",
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            stack.Children.Add(title);
-
             textFound = false;
 
             List<string> foundNames = new List<string>();
 
             if (chemicalName != null)
             {
-                int resultsIndex = 0;
-
                 for (int i = 0; i < chemicalNames.Length; i++)
                 {
                     if (chemicalNames[i].Contains(chemicalName.ToLower()))
                     {
-                        //For old button layout
-                        /*Button result = new Button();
-                        result.BackgroundColor = Color.White;
-                        result.Text = chemicalNames[i];
-                        result.Clicked += (send, args) => Result(send, args); //Performance problems?
-
-                        results.Add(result);
-                        
-                        stack.Children.Add(results[resultsIndex]);*/
-
-                        //For new listview layout
-
                         foundNames.Add(chemicalNames[i]);
-
-                        resultsIndex++;
-
                         textFound = true;
                     }
                 }
 
                 mainList.ItemsSource = foundNames;
-
-                //SearchContent.Content = stack;
-                SearchContent.Content = mainList;
-                Content = SearchContent.Content;
+                Content = mainList;
             }
 
             if (textFound == false)
@@ -164,27 +121,15 @@ namespace safetyLab
         }
 
         public void ShowFavourites(object sender, EventArgs e)
-        {
-            stack.Children.Clear();
-
-            Label title = new Label();
-            title.Text = "FAVOURITES";
-            title.HorizontalOptions = LayoutOptions.Center;
-
-            stack.Children.Add(title);
-            
-            for(int i = 0; i < favourites.Count; i++)
+        {            
+            if(favourites.Count == 0)
             {
-                /*Button favourite = new Button();
-                favourite.BackgroundColor = Color.White;
-                favourite.Text = favourites[i].Text;
-                favourite.Clicked += (send, args) => Result(send, args);
-
-                stack.Children.Add(favourite);*/
-
-                mainList.ItemsSource = favourites;
-                Content = mainList;
+                DisplayAlert("Favourites", "No favourites found", "OK");
+                return;
             }
+
+            mainList.ItemsSource = favourites;
+            Content = mainList;
         }
     }
 }

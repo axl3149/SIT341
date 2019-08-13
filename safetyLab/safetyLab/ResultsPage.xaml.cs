@@ -25,7 +25,7 @@ namespace safetyLab
         public ResultsPage ()
         {
             InitializeComponent();
-
+            
             ContentPage general = new ContentPage();
             general.Title = "General";
 
@@ -38,8 +38,8 @@ namespace safetyLab
             ContentPage info = new ContentPage();
             info.Title = "Info";
 
-            Database.ConnectAndSetup();
-            Database.QueryResults();
+            //Database.ConnectAndSetup();
+            //Database.QueryResults();
 
             generalScroll.Content = generalStack;
             hazardsScroll.Content = hazardsStack;
@@ -97,7 +97,7 @@ namespace safetyLab
                 DisplayAlert("Remove", StartPage.chosenChemical + " Removed from favourites", "OK");
             }
 
-            StartPage.stack.Children.Clear();
+            StartPage.mainList.ItemsSource = StartPage.favourites;
         }
     }
 }
