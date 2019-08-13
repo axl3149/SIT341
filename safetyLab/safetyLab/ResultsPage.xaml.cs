@@ -59,26 +59,26 @@ namespace safetyLab
 
         public void AddToFavourites(object sender, EventArgs e)
         {
-            string favourite = UITestPage.chosenChemical;
+            string favourite = StartPage.chosenChemical;
 
-            if(UITestPage.favourites.Count == 0)
+            if(StartPage.favourites.Count == 0)
             {
-                UITestPage.favourites.Add(favourite);
-                DisplayAlert("", "Added " + UITestPage.chosenChemical + " to Favourites", "OK");
+                StartPage.favourites.Add(favourite);
+                DisplayAlert("", "Added " + StartPage.chosenChemical + " to Favourites", "OK");
                 return;
             }
 
             bool foundChemical = false;
             int foundIndex = 0;
 
-            for(int i = 0; i < UITestPage.favourites.Count; i++)
+            for(int i = 0; i < StartPage.favourites.Count; i++)
             {
-                if(UITestPage.favourites[i] != UITestPage.chosenChemical)
+                if(StartPage.favourites[i] != StartPage.chosenChemical)
                 {
                     foundChemical = true;
                     foundIndex = i;
                 }   
-                else if(UITestPage.favourites[i] == UITestPage.chosenChemical)
+                else if(StartPage.favourites[i] == StartPage.chosenChemical)
                 {
                     foundChemical = false;
                     foundIndex = i;
@@ -88,16 +88,16 @@ namespace safetyLab
 
             if(foundChemical)
             {
-                UITestPage.favourites.Add(favourite);
-                DisplayAlert("Added", "Added " + UITestPage.chosenChemical + " to Favourites", "OK");
+                StartPage.favourites.Add(favourite);
+                DisplayAlert("Added", "Added " + StartPage.chosenChemical + " to Favourites", "OK");
             }
             else if(foundChemical == false)
             {
-                UITestPage.favourites.RemoveAt(foundIndex);
-                DisplayAlert("Remove", UITestPage.chosenChemical + " Removed from favourites", "OK");
+                StartPage.favourites.RemoveAt(foundIndex);
+                DisplayAlert("Remove", StartPage.chosenChemical + " Removed from favourites", "OK");
             }
 
-            UITestPage.stack.Children.Clear();
+            StartPage.stack.Children.Clear();
         }
     }
 }

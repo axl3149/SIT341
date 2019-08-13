@@ -12,7 +12,7 @@ using ZXing.Net.Mobile.Forms;
 namespace safetyLab
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class UITestPage : ContentPage
+    public partial class StartPage : ContentPage
     {
         WebView webView;
         public static ZXingScannerPage Scanner = new ZXingScannerPage();
@@ -39,7 +39,7 @@ namespace safetyLab
         ContentPage SearchContent;
         public static StackLayout stack = new StackLayout();
 
-        public UITestPage()
+        public StartPage()
         {
             InitializeComponent();
             webView = new WebView();

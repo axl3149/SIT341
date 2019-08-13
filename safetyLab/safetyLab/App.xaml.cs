@@ -11,7 +11,7 @@ namespace safetyLab
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new UITestPage());
+            MainPage = new NavigationPage(new StartPage());
         }
 
         protected override void OnStart()

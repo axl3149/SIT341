@@ -58,7 +58,7 @@ namespace safetyLab
 
         public static async Task QueryResults()
         {    
-            Chemical[] list = await db.Table<Chemical>().ToArrayAsync();
+            /*Chemical[] list = await db.Table<Chemical>().ToArrayAsync();
             List<Chemical> qlist = await db.QueryAsync<Chemical>("select * from chemical where name=?", SearchResultsPage.selectedResult.ToLower());
 
             for(int i = 0; i < 1; i++) 
@@ -80,7 +80,7 @@ namespace safetyLab
                 ResultsPage.infoStack.Children.Add(new Label { Text="Schedule: " + qlist[i].schedule } );
                 ResultsPage.infoStack.Children.Add(new Label { Text="Schedule: " + qlist[i].peroxide } );
                 ResultsPage.infoStack.Children.Add(new Label { Text="Waste Disposal: " + qlist[i].waste } );
-            }
+            }*/
         }
     }
 }
