@@ -20,24 +20,25 @@ namespace safetyLab
 
         public static string[] chemicalNames = {
             "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
-            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
-            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol"
         };
+
+        //If we ever need multiple elements per list element, use Cell subclasses
+        //public TextCell[] textCells = new TextCell[chemicalNames.Length];
 
         bool textFound = false;
 
-        public static ListView mainList = new ListView
-        {
-            ItemsSource = chemicalNames,
-        };
+        public static ListView mainList = new ListView();
 
         public static List<string> favourites = new List<string>();
+
         public static string chosenChemical;
 
         public StartPage()
         {
             InitializeComponent();
-          
+
+            mainList.ItemsSource = chemicalNames;
+
             mainList.ItemTapped += async (sender, e) =>
             {
                 chosenChemical = e.Item.ToString();
@@ -48,14 +49,14 @@ namespace safetyLab
         }
         
         //For QR camera scanning focus
-        /*public void ScannerFocus()
+        public void ScannerFocus()
         {
             while (Scanner.Result == null)
             {
                 System.Threading.Thread.Sleep(2000);
                 Scanner.AutoFocus();
             }
-        }*/
+        }
 
         public async void Scan(object sender, EventArgs e)
         {

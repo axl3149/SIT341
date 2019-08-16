@@ -22,6 +22,7 @@ namespace safetyLab
         public static StackLayout emergencyStack = new StackLayout();
         public static StackLayout infoStack = new StackLayout();
 
+
         public ResultsPage ()
         {
             InitializeComponent();
@@ -97,7 +98,8 @@ namespace safetyLab
                 DisplayAlert("Remove", StartPage.chosenChemical + " Removed from favourites", "OK");
             }
 
-            StartPage.mainList.ItemsSource = StartPage.favourites;
+            //Something wrong with making ItemSource == favourites
+            StartPage.mainList.ItemsSource = null;
         }
     }
 }
