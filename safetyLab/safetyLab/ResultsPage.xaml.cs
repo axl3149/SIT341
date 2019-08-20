@@ -44,15 +44,30 @@ namespace safetyLab
             //Database.ConnectAndSetup();
             //Database.QueryResults();
 
-            generalScroll.Content = generalStack;
+            StartPage.webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=13902";
+
+            WebView tempWeb = new WebView();
+            tempWeb.Source = "https://www.pokemon.com/au";
+
+            generalScroll.Content = StartPage.webView;
             hazardsScroll.Content = hazardsStack;
             emergencyScroll.Content = emergencyStack;
             infoScroll.Content = infoStack;
 
-            general.Content = generalScroll;
+            /*general.Content = StartPage.webView;
             hazards.Content = hazardsScroll;
             emergency.Content = emergencyScroll;
-            info.Content = infoScroll;
+            info.Content = infoScroll;*/
+
+            general.Content = StartPage.webView;
+            emergency.Content = tempWeb;
+            tempWeb = new WebView();
+            tempWeb.Source = "https://www.google.com.au";
+            hazards.Content = tempWeb;
+            tempWeb = new WebView();
+            tempWeb.Source = "https://www.deakin.edu.au";
+            info.Content = tempWeb;
+
 
             Children.Add(general);
             Children.Add(hazards);

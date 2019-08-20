@@ -33,6 +33,8 @@ namespace safetyLab
 
         public static List<string> favourites = new List<string>();
 
+        public static WebView webView = new WebView();
+
         public static string chosenChemical;
 
         public StartPage()
@@ -55,6 +57,8 @@ namespace safetyLab
                 await Navigation.PushAsync(new ResultsPage());
             };
 
+            //webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=13902";
+            //Content = webView;
             Content = mainList;
         }
         
@@ -84,6 +88,8 @@ namespace safetyLab
                 {
                     //Jason's idea of displaying information via this link
                     //webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=" + Scanner.Result.Text;
+                    webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=13902";
+                    Content = webView;
 
                     await Navigation.PopAsync();
                     await DisplayAlert("Chemical ID: ", result.Text, "OK");
