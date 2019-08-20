@@ -18,12 +18,14 @@ namespace safetyLab
 
         string chemicalName = null;
 
+        Label header = new Label();
+
         public static string[] chemicalNames = {
             "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
         };
 
         //If we ever need multiple elements per list element, use Cell subclasses
-        //public TextCell[] textCells = new TextCell[chemicalNames.Length];
+        public TextCell[] textCells = new TextCell[chemicalNames.Length];
 
         bool textFound = false;
 
@@ -37,7 +39,15 @@ namespace safetyLab
         {
             InitializeComponent();
 
+            header.Text = "Search";
+            header.TextColor = Color.GhostWhite;
+            header.FontSize = 32;
+            header.HorizontalOptions = LayoutOptions.CenterAndExpand;
+
+            mainList.Header = header;
             mainList.ItemsSource = chemicalNames;
+            mainList.SeparatorColor = Color.GhostWhite;
+            mainList.HorizontalOptions = LayoutOptions.Center;
 
             mainList.ItemTapped += async (sender, e) =>
             {
@@ -111,6 +121,9 @@ namespace safetyLab
                 DisplayAlert("Search Results", "No chemical results found.", "Try again");
             }
 
+            header.Text = "Search";
+            mainList.Header = header;
+
             textFound = false;
         }
 
@@ -129,6 +142,8 @@ namespace safetyLab
                 return;
             }
 
+            header.Text = "Favourites";
+            mainList.Header = header;
             mainList.ItemsSource = favourites;
             Content = mainList;
         }

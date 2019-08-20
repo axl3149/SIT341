@@ -26,7 +26,9 @@ namespace safetyLab
         public ResultsPage ()
         {
             InitializeComponent();
-            
+
+            this.BarBackgroundColor = Color.DimGray;
+
             ContentPage general = new ContentPage();
             general.Title = "General";
 

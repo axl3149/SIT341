@@ -11,7 +11,9 @@ namespace safetyLab
         public App()
         {
             InitializeComponent();
-            MainPage = new NavigationPage(new StartPage());
+            var nav = new NavigationPage(new StartPage());
+            nav.BarBackgroundColor = Color.DimGray;
+            MainPage = nav;
         }
 
         protected override void OnStart()
