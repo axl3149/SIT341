@@ -44,7 +44,7 @@ namespace safetyLab
             //Database.ConnectAndSetup();
             //Database.QueryResults();
 
-            StartPage.webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=13902";
+            /*StartPage.webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=13902";
 
             WebView tempWeb = new WebView();
             tempWeb.Source = "https://www.pokemon.com/au";
@@ -54,10 +54,10 @@ namespace safetyLab
             emergencyScroll.Content = emergencyStack;
             infoScroll.Content = infoStack;
 
-            /*general.Content = StartPage.webView;
+            general.Content = StartPage.webView;
             hazards.Content = hazardsScroll;
             emergency.Content = emergencyScroll;
-            info.Content = infoScroll;*/
+            info.Content = infoScroll;
 
             general.Content = StartPage.webView;
             emergency.Content = tempWeb;
@@ -72,7 +72,7 @@ namespace safetyLab
             Children.Add(general);
             Children.Add(hazards);
             Children.Add(emergency);
-            Children.Add(info);
+            Children.Add(info);*/
         }
 
         public void AddToFavourites(object sender, EventArgs e)

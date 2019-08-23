@@ -42,13 +42,13 @@ namespace safetyLab
             InitializeComponent();
 
             header.Text = "Search";
-            header.TextColor = Color.GhostWhite;
+            header.TextColor = Color.Black;
             header.FontSize = 32;
             header.HorizontalOptions = LayoutOptions.CenterAndExpand;
 
             mainList.Header = header;
             mainList.ItemsSource = chemicalNames;
-            mainList.SeparatorColor = Color.GhostWhite;
+            mainList.SeparatorColor = Color.Black;
             mainList.HorizontalOptions = LayoutOptions.Center;
 
             mainList.ItemTapped += async (sender, e) =>

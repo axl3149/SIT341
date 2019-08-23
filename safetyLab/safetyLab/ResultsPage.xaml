@@ -8,21 +8,28 @@
             <Button Text="Add/Remove Favourite" Clicked="AddToFavourites"></Button>
         </StackLayout>
     </NavigationPage.TitleView>
-  <!--Pages can be added as references or inline>
     
+    
+    <!-- just use as testing layout for xaml. can be commented out-->
     <ContentPage Title="General">
         <ScrollView>
             <StackLayout>
                 <Label
-                    Text="Chemical Name:"
+                    Text="Chemical Name: Sodcidcoulme Pedoxide"
+                    TextColor="Black"
+                    FontSize="Large"
                     VerticalOptions="Center"
                     HorizontalTextAlignment="Start"/>
                 <Label
-                    Text="Chemical Formula:"
+                    Text="Chemical Formula: Chemical formula is made up of various intersecting interspecting molecular arrangements."
+                    TextColor="Black"
+                    FontSize="Large"
                     VerticalOptions="Center"
                     HorizontalTextAlignment="Start"/>
                 <Label
-                    Text="Volume:"
+                    Text="Volume: 1000mg"
+                    TextColor="Black"
+                    FontSize="Large"
                     VerticalOptions="Center"
                     HorizontalTextAlignment="Start"/>
             </StackLayout>
@@ -33,15 +40,34 @@
         <ScrollView>
             <StackLayout>
                 <Label
-                Text="Hazard Statements:"
+                Text="Hazard Statement:"
                 VerticalOptions="Center"
+                TextColor="Black"
+                FontSize="Large"
                 HorizontalTextAlignment="Start"/>
                 <Label
+                Text="Ensure that chemical does not come into contact with skin."
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                TextColor="Black"
+                FontSize="Medium" 
+                HorizontalTextAlignment="Start"/>
+                <Label
+                TextColor="Black"
+                FontSize="Large"
                 Text="Precuation Statements:"
                 VerticalOptions="Center"
                 HorizontalTextAlignment="Start"/>
                 <Label
-                Text="SDS:"
+                TextColor="Black"
+                FontSize="Medium"
+                Text="If chemical comes into contact with eyes, rinse for 5 minutes with cold water."
+                VerticalOptions="Center"
+                HorizontalOptions="Center"/>
+                <Label
+                TextColor="Black"
+                FontSize="Large"
+                Text="SDS: Link to SDS file"
                 VerticalOptions="Center"
                 HorizontalTextAlignment="Start"/>
             </StackLayout>
@@ -52,17 +78,41 @@
         <ScrollView>
             <StackLayout>
                 <Label
-                    Text="Major Spill:"
+                    TextColor="Black"
+                    FontSize="Large"
+                    Text="Major Spill"
                     VerticalOptions="Center"
-                    HorizontalTextAlignment="Start"/>
+                    HorizontalOptions="Center"/>
                 <Label
-                    Text="Minor Spill:"
-                    VerticalOptions="Center"
-                    HorizontalTextAlignment="Start"/>
+                    TextColor="Black"
+                    FontSize="Medium"
+                    Text="If major spill occurs, ensure room is evacuated and proper ventilation."
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"/>
                 <Label
-                    Text="Ingestion:"
+                    TextColor="Black"
+                    FontSize="Large"    
+                    Text="Minor Spill"
                     VerticalOptions="Center"
-                    HorizontalTextAlignment="Start"/>
+                    HorizontalOptions="Center"/>
+                <Label
+                    TextColor="Black"
+                    FontSize="Medium"
+                    Text="For any minor spill, place chemical inside fume hood."
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"/>
+                <Label
+                    TextColor="Black"
+                    FontSize="Large"
+                    Text="Ingestion"
+                    VerticalOptions="Center"
+                    HorizontalOptions="Center"/>
+                <Label
+                    TextColor="Black"
+                    FontSize="Medium"
+                    Text="Please do not eat chemicals. Christ."
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"/>
             </StackLayout>
         </ScrollView>
     </ContentPage>
@@ -70,19 +120,31 @@
     <ContentPage Title="Info">
         <ScrollView>
             <StackLayout>
-                <Label
-                    Text="Schedule:"
-                    VerticalOptions="Center"
-                    HorizontalTextAlignment="Start"/>
-                <Label
-                    Text="Peroxide:"
-                    VerticalOptions="Center"
-                    HorizontalTextAlignment="Start"/>
-                <Label
-                    Text="Waste Disposal:"
-                    VerticalOptions="Center"
-                    HorizontalTextAlignment="Start"/>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Peroxide: " FontAttributes="Bold" TextColor="Black" FontSize="Medium"></Span>
+                            <Span Text="What's peroxide" FontAttributes="Italic" TextColor="Black" FontSize="Medium"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Safety Concern: " FontAttributes="Bold" TextColor="Black" FontSize="Medium"></Span>
+                            <Span Text="for more information, please refer to below document pdf." FontAttributes="Italic" TextColor="Black" FontSize="Medium"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+                <Label LineBreakMode="WordWrap">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="Waste Disposal: " FontAttributes="Bold" TextColor="Black" FontSize="Medium"></Span>
+                            <Span Text="Ensure that chem is disposed of accordingly." FontAttributes="Italic" TextColor="Black" FontSize="Medium"></Span>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
             </StackLayout>
         </ScrollView>
-    </ContentPage>-->
+    </ContentPage>
 </TabbedPage>
