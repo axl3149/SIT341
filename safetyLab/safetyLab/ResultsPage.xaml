@@ -10,7 +10,7 @@
     </NavigationPage.TitleView>
     
     
-    <!-- just use as testing layout for xaml. can be commented out-->
+    <!-- just use as testing layout for xaml. can be commented out
     <ContentPage Title="General">
         <ScrollView>
             <StackLayout>
@@ -147,4 +147,5 @@
             </StackLayout>
         </ScrollView>
     </ContentPage>
+    -->
 </TabbedPage>

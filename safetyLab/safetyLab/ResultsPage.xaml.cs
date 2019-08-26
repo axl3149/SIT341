@@ -12,22 +12,11 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResultsPage : TabbedPage
     {
-        public static ScrollView generalScroll = new ScrollView();
-        public static ScrollView hazardsScroll = new ScrollView();
-        public static ScrollView emergencyScroll = new ScrollView();
-        public static ScrollView infoScroll = new ScrollView();
-
-        public static StackLayout generalStack = new StackLayout();
-        public static StackLayout hazardsStack = new StackLayout();
-        public static StackLayout emergencyStack = new StackLayout();
-        public static StackLayout infoStack = new StackLayout();
-
-
         public ResultsPage ()
         {
             InitializeComponent();
 
-            this.BarBackgroundColor = Color.DimGray;
+            this.BarBackgroundColor = Color.LightGray;
 
             ContentPage general = new ContentPage();
             general.Title = "General";
@@ -44,35 +33,19 @@ namespace safetyLab
             //Database.ConnectAndSetup();
             //Database.QueryResults();
 
-            /*StartPage.webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=13902";
-
-            WebView tempWeb = new WebView();
-            tempWeb.Source = "https://www.pokemon.com/au";
-
-            generalScroll.Content = StartPage.webView;
-            hazardsScroll.Content = hazardsStack;
-            emergencyScroll.Content = emergencyStack;
-            infoScroll.Content = infoStack;
-
-            general.Content = StartPage.webView;
-            hazards.Content = hazardsScroll;
-            emergency.Content = emergencyScroll;
-            info.Content = infoScroll;
-
-            general.Content = StartPage.webView;
-            emergency.Content = tempWeb;
-            tempWeb = new WebView();
-            tempWeb.Source = "https://www.google.com.au";
-            hazards.Content = tempWeb;
-            tempWeb = new WebView();
-            tempWeb.Source = "https://www.deakin.edu.au";
-            info.Content = tempWeb;
-
+            WebView webSource = new WebView();
+            HtmlWebViewSource html = new HtmlWebViewSource();
+            html.Html = @"<html><body>
+                <h1>Xamarin.Forms</h1>
+                <p>Welcome to WebView.</p>
+                </body></html>";
+            webSource.Source = html;
+            general.Content = webSource;
 
             Children.Add(general);
             Children.Add(hazards);
             Children.Add(emergency);
-            Children.Add(info);*/
+            Children.Add(info);
         }
 
         public void AddToFavourites(object sender, EventArgs e)
