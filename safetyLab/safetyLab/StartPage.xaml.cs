@@ -20,6 +20,7 @@ namespace safetyLab
 
         Label header = new Label();
 
+        //Temp chemical names. Need to next link up to TRACIE SQL calls for 'Search'
         public static string[] chemicalNames = {
             "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
         };

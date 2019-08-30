@@ -10,42 +10,20 @@ using Xamarin.Forms.Xaml;
 namespace safetyLab
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ResultsPage : TabbedPage
+    public partial class ResultsPage : ContentPage
     {
         public ResultsPage ()
         {
             InitializeComponent();
 
-            this.BarBackgroundColor = Color.LightGray;
-
-            ContentPage general = new ContentPage();
-            general.Title = "General";
-
-            ContentPage hazards = new ContentPage();
-            hazards.Title = "Hazards";
-
-            ContentPage emergency = new ContentPage();
-            emergency.Title = "Emergency";
-
-            ContentPage info = new ContentPage();
-            info.Title = "Info";
-
             //Database.ConnectAndSetup();
             //Database.QueryResults();
 
             WebView webSource = new WebView();
-            HtmlWebViewSource html = new HtmlWebViewSource();
-            html.Html = @"<html><body>
-                <h1>Xamarin.Forms</h1>
-                <p>Welcome to WebView.</p>
-                </body></html>";
-            webSource.Source = html;
-            general.Content = webSource;
 
-            Children.Add(general);
-            Children.Add(hazards);
-            Children.Add(emergency);
-            Children.Add(info);
+            //Temp HTML file hosting. Can't find an easier way to load it locally without hassle.
+            webSource.Source = "https://42e4c541-7495-4b49-9384-aef5eb0db4f0.htmlpasta.com/";
+            Content = webSource;
         }
 
         public void AddToFavourites(object sender, EventArgs e)
