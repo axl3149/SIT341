@@ -4,12 +4,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 body {font-family: Arial;}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 15px;
+}
+table th {
+  background-color: #7C8D8D;
+  color: white;
+}
+
 
 /* Style the tab */
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #619999;
+  
 }
 
 /* Style the buttons inside the tab */
@@ -22,16 +33,19 @@ body {font-family: Arial;}
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 17px;
+  width: 20%;
 }
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #EAEEEE;
+  
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-  background-color: #ccc;
+  background-color: #8CA5A5;
+ 
 }
 
 /* Style the tab content */
@@ -40,7 +54,33 @@ body {font-family: Arial;}
   padding: 6px 12px;
   border: 1px solid #ccc;
   border-top: none;
+  background-color: #EAEEEE;
 }
+.tab .icon {
+  display: none;
+}
+  @media screen and (max-width: 600px) {
+  .tab a:not(:first-child) {display: none;}
+  .tab a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tab.responsive {position: relative;}
+  .tab.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .tab.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -49,28 +89,116 @@ body {font-family: Arial;}
   <img src="images/headerWeb.jpg" alt="background" style="width:100%">
 </div>
 
-<div class="tab">
-  <button class="tablinks" onclick="openTab(event, 'Tab01')">Tab01</button>
-  <button class="tablinks" onclick="openTab(event, 'Tab02')">Tab03</button>
-  <button class="tablinks" onclick="openTab(event, 'Tab03')">Tab03</button>
+<div class="tab" id="Tab" >
+  <button class="tablinks" onclick="openTab(event, 'General')">General</button>
+  <button class="tablinks" onclick="openTab(event, 'Hazard')">Hazard</button>
+  <button class="tablinks" onclick="openTab(event, 'Emergancy')">Emergancy</button>
+  <button class="tablinks" onclick="openTab(event, 'Storage')">Storage</button>
+  <button class="tablinks" onclick="openTab(event, 'Wastedisposal')">Waste disposal</button>
 </div>
 
-<div id="Tab01" class="tabcontent">
-  <h3>Tab01</h3>
-  <p>Tab01.</p>
+<div id="General" class="tabcontent">
+  <h3>General Information </h3>
+  <h4> Chemical Name:<b>Sodium hydroxide pellets</b></h4>
+  <h5>QR code: 80001</h5>
+  <div style="overflow-x:auto;">
+  <table style="width:100%">
+    <tr>
+      <th>SDS date</th>
+      <th>Dangerous Goods Class</th> 
+      <th>DG sub risk</th>
+      <th>Packaging group number</th>
+      <th>UN number</th> 
+      <th>CAS number</th>
+    </tr>
+    <tr>
+      <td>14-Sep-2017</td>                                                                                             
+      <td>8</td> 
+      <td>N/A</td>
+      <td>11</td>                                                                                               
+      <td>1823</td> 
+      <td>1310-73-2</td>
+    </tr>
+    
+  </table>
+  
+</div>
 </div>
 
-<div id="Tab02" class="tabcontent">
-  <h3>Tab02</h3>
-  <p>Tab02</p> 
+<div id="Hazard" class="tabcontent">
+  <h3>Hazard statements</h3>
+  <div style="overflow-x:auto;">
+  <table style="width:100%">
+    <tr>
+      <th>Signal word</th>
+      <th>Preventative control measures</th> 
+      
+    </tr>
+    <tr>
+                                                                                        
+      <td style="color:red"><b>DANGER</b></td> 
+      <td>H290: Keep away from metal surfaces 
+        <br>H314: Wear safety glasses and if wearing gloves choose nitrile or vinyl.  
+        <br>Wash hands after handling.</td>
+      
+    </tr>
+    
+  </table>
+</div>
 </div>
 
-<div id="Tab03" class="tabcontent">
-  <h3>Tab01</h3>
-  <p>Tab01.</p>
+<div id="Emergancy" class="tabcontent">
+<h4><b>Emergency procedure </b></h4>
+<div style="overflow-x:auto;">
+    <table style="width:100%">
+      <tr>
+        <th>Large spill</th>
+        <th>Small spill</th> 
+        <th>Ingestion</th>
+        <th>Inhalation</th> 
+        <th>Eye contact</th>
+        <th>Skin contact</th> 
+        
+      </tr>
+      <tr>
+                   
+          <td>N/A</td>
+        <td><b>Act quickly to avoid the solid hydroxide pellets acquiring moisture. 
+          <br>Collect pellets into a container and wash surface where spill occurred 
+          <br>with mild acidic solution such as vinegar (diluted acetic acid)</b></td> 
+           <td>Do not induce vomiting. 
+          <br>Rinse mouth with water and get immediate medical assistance. </td>
+          <td>Take person to fresh air. Get medical assistance if concerned</td>
+          <td>:Flush with copious water 15 minutes.  Get medical assistance</td>
+          <td>Wash with soap and copious water. Get medical assistance if concerned.</td>
+        
+      </tr>
+      
+    </table>
+  </div>
+<br><br><br>
+<p>For Emagancy assistance, dial </p><a href="tel:000">number here</a>
 </div>
 
+<div id="Storage" class="tabcontent">
+    <h4><b>Storage  </b></h4>
+    
+    </div>
+
+  <div id="Wastedisposal" class="tabcontent">
+        <h4><b>Waste disposal </b></h4>
+       
+        </div>
+   
 <script>
+  function myFunction() {
+  var x = document.getElementById("Tab");
+  if (x.className === "tab") {
+    x.className += " responsive";
+  } else {
+    x.className = "tab";
+  }
+}
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");

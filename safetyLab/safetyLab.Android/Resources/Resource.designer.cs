@@ -6364,7 +6364,7 @@ namespace safetyLab.Droid
 			public const int ic_vol_type_tv_light = 2130837775;
 			
 			// aapt resource value: 0x7f020110
-			public const int logo = 2130837776;
+			public const int icon = 2130837776;
 			
 			// aapt resource value: 0x7f020111
 			public const int mr_button_connected_dark = 2130837777;
