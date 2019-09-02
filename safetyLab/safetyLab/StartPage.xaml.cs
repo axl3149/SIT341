@@ -134,6 +134,37 @@ namespace safetyLab
             textFound = false;
         }
 
+        public void AutoSearch(object sender, EventArgs e)
+        {
+            SearchBar searchBar = (SearchBar)sender;
+
+            chemicalName = searchBar.Text;
+
+            textFound = false;
+
+            List<string> foundNames = new List<string>();
+
+            if (chemicalName != null)
+            {
+                for (int i = 0; i < chemicalNames.Length; i++)
+                {
+                    if (chemicalNames[i].Contains(chemicalName.ToLower()))
+                    {
+                        foundNames.Add(chemicalNames[i]);
+                        textFound = true;
+                    }
+                }
+
+                mainList.ItemsSource = foundNames;
+                Content = mainList;
+            }
+
+            header.Text = "Search";
+            mainList.Header = header;
+
+            textFound = false;
+        }
+
         async void Result(object sender, EventArgs e)
         {
             Button b = (Button)sender;
