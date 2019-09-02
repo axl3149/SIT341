@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,7 +23,7 @@ namespace safetyLab
             WebView webSource = new WebView();
 
             //Temp HTML file hosting. Can't find an easier way to load it locally without hassle.
-            webSource.Source = "https://42e4c541-7495-4b49-9384-aef5eb0db4f0.htmlpasta.com/";
+            webSource.Source = "https://8d6424fb-10be-4109-a853-2b2145095789.htmlpasta.com/";
             Content = webSource;
         }
 
@@ -30,7 +31,7 @@ namespace safetyLab
         {
             string favourite = StartPage.chosenChemical;
 
-            if(StartPage.favourites.Count == 0)
+            if (StartPage.favourites.Count == 0)
             {
                 StartPage.favourites.Add(favourite);
                 DisplayAlert("", "Added " + StartPage.chosenChemical + " to Favourites", "OK");
