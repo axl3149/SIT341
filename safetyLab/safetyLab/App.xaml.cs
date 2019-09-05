@@ -11,8 +11,8 @@ namespace safetyLab
         public App()
         {
             InitializeComponent();
-            var nav = new NavigationPage(new StartPage());
-            nav.BarBackgroundColor = Color.DimGray;
+            var nav = new NavigationPage(new StartPage() { BarBackgroundColor = Color.SeaGreen } );
+            nav.BarBackgroundColor = Color.SeaGreen;
             MainPage = nav;
         }
 
