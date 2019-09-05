@@ -12,9 +12,14 @@ using ZXing.Net.Mobile.Forms;
 namespace safetyLab
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class StartPage : ContentPage
+    public partial class StartPage : TabbedPage
     {
+
         public static ZXingScannerPage Scanner = new ZXingScannerPage();
+
+        public static ContentPage resultsContent = new ContentPage();
+        public static ContentPage favouritesContent = new ContentPage();
+
 
         string chemicalName = null;
 
@@ -25,14 +30,13 @@ namespace safetyLab
             "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
         };
 
-        //If we ever need multiple elements per list element, use Cell subclasses
-        public TextCell[] textCells = new TextCell[chemicalNames.Length];
 
         bool textFound = false;
 
         public static ListView mainList = new ListView();
+        public static ListView favouritesList = new ListView();
 
-        public static List<string> favourites = new List<string>();
+        public static List<string> favourites = new List<string> { "hello" };
 
         public static WebView webView = new WebView();
 
@@ -41,13 +45,8 @@ namespace safetyLab
         public StartPage()
         {
             InitializeComponent();
+            Children.Clear();
 
-            header.Text = "Search";
-            header.TextColor = Color.Black;
-            header.FontSize = 32;
-            header.HorizontalOptions = LayoutOptions.CenterAndExpand;
-
-            mainList.Header = header;
             mainList.ItemsSource = chemicalNames;
             mainList.SeparatorColor = Color.Black;
             mainList.HorizontalOptions = LayoutOptions.Center;
@@ -58,11 +57,26 @@ namespace safetyLab
                 await Navigation.PushAsync(new ResultsPage());
             };
 
-            //webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=13902";
-            //Content = webView;
-            Content = mainList;
+
+            favouritesList.ItemTapped += async (sender, e) =>
+            {
+                chosenChemical = e.Item.ToString();
+                await Navigation.PushAsync(new ResultsPage());
+            };
+
+            resultsContent.Content = mainList;
+            resultsContent.Title = "Search";
+            Children.Add(resultsContent);
+
+            favouritesList.ItemsSource = favourites;
+            favouritesList.SeparatorColor = Color.Black;
+            favouritesList.HorizontalOptions = LayoutOptions.Center;
+
+            favouritesContent.Title = "Favourites";
+            favouritesContent.Content = favouritesList;
+            Children.Add(favouritesContent);
         }
-        
+
         //For QR camera scanning focus
         public void ScannerFocus()
         {
@@ -90,7 +104,7 @@ namespace safetyLab
                     //Jason's idea of displaying information via this link
                     //webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=" + Scanner.Result.Text;
                     webView.Source = "https://vhost2.intranet-sites.deakin.edu.au/scripts/RiskAssessment.php?ID=13902";
-                    Content = webView;
+                    //Content = webView;
 
                     await Navigation.PopAsync();
                     await DisplayAlert("Chemical ID: ", result.Text, "OK");
@@ -120,7 +134,6 @@ namespace safetyLab
                 }
 
                 mainList.ItemsSource = foundNames;
-                Content = mainList;
             }
 
             if (textFound == false)
@@ -128,10 +141,10 @@ namespace safetyLab
                 DisplayAlert("Search Results", "No chemical results found.", "Try again");
             }
 
-            header.Text = "Search";
-            mainList.Header = header;
 
             textFound = false;
+
+            this.CurrentPage = resultsContent;
         }
 
         public void AutoSearch(object sender, EventArgs e)
@@ -156,13 +169,11 @@ namespace safetyLab
                 }
 
                 mainList.ItemsSource = foundNames;
-                Content = mainList;
             }
 
-            header.Text = "Search";
-            mainList.Header = header;
-
             textFound = false;
+
+            this.CurrentPage = resultsContent;
         }
 
         async void Result(object sender, EventArgs e)
@@ -180,10 +191,7 @@ namespace safetyLab
                 return;
             }
 
-            header.Text = "Favourites";
-            mainList.Header = header;
             mainList.ItemsSource = favourites;
-            Content = mainList;
         }
     }
 }

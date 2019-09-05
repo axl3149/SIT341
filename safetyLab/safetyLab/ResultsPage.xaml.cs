@@ -31,13 +31,6 @@ namespace safetyLab
         {
             string favourite = StartPage.chosenChemical;
 
-            if (StartPage.favourites.Count == 0)
-            {
-                StartPage.favourites.Add(favourite);
-                DisplayAlert("", "Added " + StartPage.chosenChemical + " to Favourites", "OK");
-                return;
-            }
-
             bool foundChemical = false;
             int foundIndex = 0;
 
@@ -45,30 +38,31 @@ namespace safetyLab
             {
                 if(StartPage.favourites[i] != StartPage.chosenChemical)
                 {
-                    foundChemical = true;
+                    foundChemical = false;
                     foundIndex = i;
                 }   
                 else if(StartPage.favourites[i] == StartPage.chosenChemical)
                 {
-                    foundChemical = false;
+                    foundChemical = true;
                     foundIndex = i;
                     break;
                 }
             }
 
-            if(foundChemical)
+            if(foundChemical == false)
             {
                 StartPage.favourites.Add(favourite);
                 DisplayAlert("Added", "Added " + StartPage.chosenChemical + " to Favourites", "OK");
             }
-            else if(foundChemical == false)
+            else if(foundChemical == true)
             {
                 StartPage.favourites.RemoveAt(foundIndex);
                 DisplayAlert("Remove", StartPage.chosenChemical + " Removed from favourites", "OK");
             }
 
-            //Something wrong with making ItemSource == favourites
-            StartPage.mainList.ItemsSource = null;
+            //Something wrong with making ItemSource == favourites? Something about == null refreshing the list
+            StartPage.favouritesList.ItemsSource = null;
+            StartPage.favouritesList.ItemsSource = StartPage.favourites;
         }
     }
 }
