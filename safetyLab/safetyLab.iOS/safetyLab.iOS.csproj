@@ -149,5 +149,9 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\icon.png" />
+    <BundleResource Include="Resources\search_icon.png" />
+    <BundleResource Include="Resources\recents_icon.png" />
+    <BundleResource Include="Resources\qr_icon.png" />
+    <BundleResource Include="Resources\favourites_icon.png" />
   </ItemGroup>
 </Project>
