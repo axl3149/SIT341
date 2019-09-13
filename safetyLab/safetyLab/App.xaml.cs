@@ -12,6 +12,7 @@ namespace safetyLab
         {
             InitializeComponent();
             NavigationPage nav = new NavigationPage(new StartPage());
+            nav.BarBackgroundColor = Color.FromRgb(66, 175, 178);
             MainPage = nav;
         }
 
