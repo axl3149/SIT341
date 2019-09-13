@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
-body {font-family: Arial;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* styles for tables */
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -23,7 +29,6 @@ tr:nth-child(even) {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #619999;
- 
   
 }
 
@@ -38,6 +43,10 @@ tr:nth-child(even) {
   transition: 0.3s;
   font-size: 17px;
   width: 25%;
+ 
+  
+
+  
 }
 
 /* Change background color of buttons on hover */
@@ -59,13 +68,14 @@ tr:nth-child(even) {
   border: 1px solid #ccc;
   border-top: none;
   background-color: #EAEEEE;
+  
 }
 .tab .icon {
   display: none;
 }
   @media screen and (max-width: 600px) {
-  .tab a:not(:first-child) {display: none;}
-  .tab a.icon {
+  .tab button:not(:first-child) {display: none;}
+  .tab button.icon {
     float: right;
     display: block;
   }
@@ -78,7 +88,7 @@ tr:nth-child(even) {
     right: 0;
     top: 0;
   }
-  .tab.responsive a {
+  .tab.responsive button {
     float: none;
     display: block;
     text-align: left;
@@ -98,6 +108,9 @@ tr:nth-child(even) {
   <button class="tablinks" onclick="openTab(event, 'Hazard')">Hazard</button>
   <button class="tablinks" onclick="openTab(event, 'Emergancy')">Emergancy</button>
   <button class="tablinks" onclick="openTab(event, 'Additional')">Additional Information</button>
+  <button href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </button>
   
 </div>
 
@@ -296,6 +309,7 @@ tr:nth-child(even) {
     x.className = "tab";
   }
 }
+
 function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
@@ -308,7 +322,7 @@ function openTab(evt, tabName) {
   }
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
-}
+} 
 </script>
    
 </body>
