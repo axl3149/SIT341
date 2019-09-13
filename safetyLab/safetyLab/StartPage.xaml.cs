@@ -44,6 +44,8 @@ namespace safetyLab
 
         public StartPage()
         {
+            this.BarBackgroundColor = Color.FromRgb(66, 175, 178);
+
             InitializeComponent();
             Children.Clear();
             
@@ -79,11 +81,6 @@ namespace safetyLab
             favouritesList.SeparatorColor = Color.Black;
             favouritesList.HorizontalOptions = LayoutOptions.Center;
 
-            SetupScanner();
-            ScannerPage.Title = "Scan";
-            ScannerPage.IconImageSource = "qr_icon.png";
-            Children.Add(ScannerPage);
-
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
             favouritesContent.IconImageSource = "favourites_icon.png";
@@ -105,9 +102,10 @@ namespace safetyLab
             }
         }
 
-        public void SetupScanner()
+        public async void Scan(object sender, EventArgs e)
         {
             ScannerPage = new ZXingScannerPage();
+            await Navigation.PushAsync(ScannerPage);
 
             //Thread focusThread = new Thread(ScannerFocus);
             //focusThread.Start();
@@ -116,11 +114,10 @@ namespace safetyLab
             {
                 ScannerPage.IsScanning = false;
 
-                //DisplayAlert("Chemical ID: ", result.Text, "OK");
-
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await Navigation.PushAsync(new ResultsPage());
+                    await Navigation.PopAsync();
+                    await DisplayAlert("Chemical ID: ", result.Text, "OK");
                 });
             };
         }

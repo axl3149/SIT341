@@ -10,6 +10,7 @@
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
+            <Button Text="Scan" HorizontalOptions="Start" VerticalOptions="Center" Clicked="Scan"> </Button>
             <SearchBar HorizontalOptions="End" VerticalOptions="Center" SearchButtonPressed="Search" TextChanged="AutoSearch" Placeholder="Enter ID or Name"/>
         </StackLayout>
     </NavigationPage.TitleView>

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using ZXing.Net.Mobile.Forms;
 
 namespace safetyLab
 {
@@ -26,6 +27,12 @@ namespace safetyLab
             webSource.Source = "https://6e2c04ea-6a9f-4656-90eb-e53e79f77218.htmlpasta.com/";
             Content = webSource;
         }
+
+        /*protected override bool OnBackButtonPressed()
+        {
+            StartPage.ScannerPage = new ZXingScannerPage();
+            return base.OnBackButtonPressed();
+        }*/
 
         public void AddToFavourites(object sender, EventArgs e)
         {
