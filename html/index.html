@@ -29,8 +29,8 @@ tr:nth-child(even) {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #619999;
-  
-  
+  position: fixed;
+  width: 100%;
 }
 
 /* Style the buttons inside the tab */
@@ -44,10 +44,6 @@ tr:nth-child(even) {
   transition: 0.3s;
   font-size: 15px;
   width: 25%;
- 
-  
-
-  
 }
 
 /* Change background color of buttons on hover */
@@ -59,7 +55,7 @@ tr:nth-child(even) {
 /* Create an active/current tablink class */
 .tab button.active {
   background-color: #8CA5A5;
- 
+  
 }
 
 /* Style the tab content */
@@ -101,7 +97,7 @@ tr:nth-child(even) {
 <body>
 
 <div>
-  <img src="images/headerWeb.jpg" alt="background" style="width:100%">
+  <!--<img src="images/headerWeb.jpg" alt="background" style="width:100%">-->
 </div>
 
 <div class="tab" id="Tab" style="overflow-x:auto;">
@@ -126,12 +122,12 @@ tr:nth-child(even) {
     
     
     <tr>
-      <td>Chemical name:</td>                                                                                             
+      <td><b>Chemical name:</b></td>                                                                                             
       <td>Hydrochloric acid</td>
     </tr>
     <tr>
                                                                                              
-      <td>Dangerous goods class</td> 
+      <td><b>Dangerous goods class</b></td> 
       <td>8</td>
       
      

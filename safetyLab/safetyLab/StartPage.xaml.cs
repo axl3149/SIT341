@@ -20,6 +20,7 @@ namespace safetyLab
         public static ContentPage resultsContent = new ContentPage();
         public static ContentPage favouritesContent = new ContentPage();
         public static ContentPage recentsContent = new ContentPage();
+        public static TabbedPage mapTabbed = new TabbedPage();
 
         string chemicalName = null;
 
@@ -72,11 +73,13 @@ namespace safetyLab
                 await Navigation.PushAsync(new ResultsPage());
             };
 
+            //SEARCH RESULTS
             resultsContent.Content = mainList;
             resultsContent.Title = "Search";
             resultsContent.IconImageSource = "search_icon.png";
             Children.Add(resultsContent);
 
+            //FAVOURITES
             favouritesList.ItemsSource = favourites;
             favouritesList.SeparatorColor = Color.Black;
             favouritesList.HorizontalOptions = LayoutOptions.Center;
@@ -86,10 +89,36 @@ namespace safetyLab
             favouritesContent.IconImageSource = "favourites_icon.png";
             Children.Add(favouritesContent);
 
+            //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
             recentsContent.IconImageSource = "recents_icon.png";
             Children.Add(recentsContent);
+
+            //MAPS
+            mapTabbed.Title = "Maps";
+            mapTabbed.BarBackgroundColor = Color.FromRgb(66, 175, 178);
+            mapTabbed.IconImageSource = "map_icon.png";
+
+            StackLayout mapStackBurwood = new StackLayout();
+            Image burwoodMap = new Image { Source = "deakin_burwood.jpg" };
+            mapStackBurwood.Children.Add(burwoodMap);
+
+            ContentPage mapContentBurwood = new ContentPage { Title = "Burwood" };
+            mapContentBurwood.Content = mapStackBurwood;
+
+            mapTabbed.Children.Add(mapContentBurwood);
+
+            StackLayout mapStackGeelong = new StackLayout();
+            Image geelongMap = new Image { Source = "deakin_geelong.jpg" };
+            mapStackGeelong.Children.Add(geelongMap);
+
+            ContentPage mapContentGeelong = new ContentPage { Title = "Geelong" };
+            mapContentGeelong.Content = mapStackGeelong;
+
+            mapTabbed.Children.Add(mapContentGeelong);
+
+            Children.Add(mapTabbed);
         }
 
         //For QR camera scanning focus
