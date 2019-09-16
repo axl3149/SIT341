@@ -102,20 +102,21 @@ namespace safetyLab
 
             StackLayout mapStackBurwood = new StackLayout();
             Image burwoodMap = new Image { Source = "deakin_burwood.jpg" };
-            Label security = new Label { Text = "Deakin Security: 1800 062 579", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
-            security.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { SecurityClicked(); }), NumberOfTapsRequired = 1 });
+            Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            security.Clicked += (sender, e) => SecurityClicked();
             mapStackBurwood.Children.Add(security); 
 
-            Label emergency = new Label { Text = "Emergency Service: 000 or 112 (Mobile)", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
-            emergency.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { EmergencyClicked(); }), NumberOfTapsRequired = 1 });
+            Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            emergency.Clicked += (sender, e) => EmergencyClicked();
             mapStackBurwood.Children.Add(emergency);
 
-            Label medical = new Label { Text = "Medical Services: Building B, Level 2: 9244 6300", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
-            medical.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { MedicalClicked(); }), NumberOfTapsRequired = 1 });
+            Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            medical.Clicked += (sender, e) => MedicalClicked();
             mapStackBurwood.Children.Add(medical);
 
-            Label hospital = new Label { Text = "Box Hill Hospital: 9895 3333", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
-            hospital.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { HospitalClicked(); }), NumberOfTapsRequired = 1 });
+            Button hospital = new Button { Text = "Box Hill Hospital", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            //hospital.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { HospitalClicked(); }), NumberOfTapsRequired = 1 });
+            hospital.Clicked += (sender, e) => HospitalClicked();
             mapStackBurwood.Children.Add(hospital);
 
             mapStackBurwood.Children.Add(burwoodMap);
@@ -294,7 +295,7 @@ namespace safetyLab
             bool res = await DisplayAlert("Call", "Call Burwood medical services?", "Yes", "No");
             if (res)
             {
-                Device.OpenUri(new Uri("tel:1800 062 579"));
+                Device.OpenUri(new Uri("tel:9244 6300"));
             }
         }
 
@@ -303,7 +304,7 @@ namespace safetyLab
             bool res = await DisplayAlert("Call", "Call Box Hill hospital?", "Yes", "No");
             if (res)
             {
-                Device.OpenUri(new Uri("tel:1800 062 579"));
+                Device.OpenUri(new Uri("tel:9895 3333"));
             }
         }
     }
