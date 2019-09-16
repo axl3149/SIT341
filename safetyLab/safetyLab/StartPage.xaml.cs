@@ -102,10 +102,29 @@ namespace safetyLab
 
             StackLayout mapStackBurwood = new StackLayout();
             Image burwoodMap = new Image { Source = "deakin_burwood.jpg" };
+            Label security = new Label { Text = "Deakin Security: 1800 062 579", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            security.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { SecurityClicked(); }), NumberOfTapsRequired = 1 });
+            mapStackBurwood.Children.Add(security); 
+
+            Label emergency = new Label { Text = "Emergency Service: 000 or 112 (Mobile)", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            emergency.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { EmergencyClicked(); }), NumberOfTapsRequired = 1 });
+            mapStackBurwood.Children.Add(emergency);
+
+            Label medical = new Label { Text = "Medical Services: Building B, Level 2: 9244 6300", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            medical.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { MedicalClicked(); }), NumberOfTapsRequired = 1 });
+            mapStackBurwood.Children.Add(medical);
+
+            Label hospital = new Label { Text = "Box Hill Hospital: 9895 3333", HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            hospital.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { HospitalClicked(); }), NumberOfTapsRequired = 1 });
+            mapStackBurwood.Children.Add(hospital);
+
             mapStackBurwood.Children.Add(burwoodMap);
+            
+            ScrollView mapScroll = new ScrollView();
+            mapScroll.Content = mapStackBurwood;
 
             ContentPage mapContentBurwood = new ContentPage { Title = "Burwood" };
-            mapContentBurwood.Content = mapStackBurwood;
+            mapContentBurwood.Content = mapScroll;
 
             mapTabbed.Children.Add(mapContentBurwood);
 
@@ -250,6 +269,42 @@ namespace safetyLab
 
             recentsList.ItemsSource = null;
             recentsList.ItemsSource = recents;
+        }
+
+        async void SecurityClicked()
+        {
+            bool res = await DisplayAlert("Call", "Call Burwood Deakin security?", "Yes", "No");
+            if (res)
+            {
+                Device.OpenUri(new Uri("tel:1800 062 579"));
+            }
+        }
+
+        async void EmergencyClicked()
+        {
+            bool res = await DisplayAlert("Call", "Call emergency services?", "Yes", "No");
+            if (res)
+            {
+                Device.OpenUri(new Uri("tel:000"));
+            }
+        }
+
+        async void MedicalClicked()
+        {
+            bool res = await DisplayAlert("Call", "Call Burwood medical services?", "Yes", "No");
+            if (res)
+            {
+                Device.OpenUri(new Uri("tel:1800 062 579"));
+            }
+        }
+
+        async void HospitalClicked()
+        {
+            bool res = await DisplayAlert("Call", "Call Box Hill hospital?", "Yes", "No");
+            if (res)
+            {
+                Device.OpenUri(new Uri("tel:1800 062 579"));
+            }
         }
     }
 }
