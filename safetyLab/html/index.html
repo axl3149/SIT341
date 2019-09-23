@@ -69,7 +69,7 @@ tr:nth-child(even) {
 
 </style>
 </head>
-<body>
+<body onload="document.getElementById('defaultOpen').click();">
 <!--
 <div>
   <img src="images/headerWeb.jpg" alt="background" style="width:100%">
@@ -78,7 +78,7 @@ tr:nth-child(even) {
 
 <div class="tab" id="Tab">
 
-  <button class="tablinks" onclick="openTab(event, 'General')">General</button>
+  <button id="defaultOpen" class="tablinks active" onclick="openTab(event, 'General')">General</button>
   <button class="tablinks" onclick="openTab(event, 'Hazard')">Hazard</button>
   <button class="tablinks" onclick="openTab(event, 'Emergancy')">Emergancy</button>
   <button class="tablinks" onclick="openTab(event, 'Additional')">More Info</button>
@@ -290,6 +290,7 @@ tr:nth-child(even) {
   document.getElementById(cityName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click();
 
 
 </script>

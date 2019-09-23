@@ -71,20 +71,18 @@ tr:nth-child(even) {
 
 </style>
 </head>
-<body>
+<body onload="document.getElementById('defaultOpen').click();">
 
 <div>
   <!--<img src="images/headerWeb.jpg" alt="background" style="width:100%">-->
 </div>
 
 <div class="tab" id="Tab" style="overflow-x:auto;">
-  <button class="tablinks" onclick="openTab(event, 'General')">General</button>
+  <button id="defaultOpen" class="tablinks active" onclick="openTab(event, 'General')">General</button>
   <button class="tablinks" onclick="openTab(event, 'Hazard')">Hazard</button>
   <button class="tablinks" onclick="openTab(event, 'Emergancy')">Emergancy</button>
   <button class="tablinks" onclick="openTab(event, 'Additional')">More Info</button>
-  <button href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </button>
+  
   
 </div>
 
@@ -306,6 +304,7 @@ function openTab(evt, tabName) {
   document.getElementById(tabName).style.display = "block";
   evt.currentTarget.className += " active";
 } 
+document.getElementById("defaultOpen").click();
 </script>
    
 </body>
