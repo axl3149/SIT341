@@ -79,6 +79,7 @@ namespace safetyLab
             resultsContent.Content = mainList;
             resultsContent.Title = "Search";
             resultsContent.IconImageSource = "search_icon.png";
+            resultsContent.BackgroundImageSource = ImageSource.FromFile("search_background.png");
             Children.Add(resultsContent);
 
             //FAVOURITES
@@ -88,12 +89,14 @@ namespace safetyLab
 
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
+            favouritesContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             favouritesContent.IconImageSource = "favourites_icon.png";
             Children.Add(favouritesContent);
 
             //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
+            recentsContent.BackgroundImageSource = ImageSource.FromFile("recents_icon.png");
             recentsContent.IconImageSource = "recents_icon.png";
             Children.Add(recentsContent);
 
