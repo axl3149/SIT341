@@ -52,7 +52,6 @@ namespace safetyLab
             InitializeComponent();
             Children.Clear();
 
-
             mainList.ItemsSource = chemicalNames;
             mainList.SeparatorColor = Color.Black;
             mainList.HorizontalOptions = LayoutOptions.Center;
@@ -105,19 +104,19 @@ namespace safetyLab
 
             StackLayout mapStackBurwood = new StackLayout();
             Image burwoodMap = new Image { Source = "deakin_burwood.jpg" };
-            Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.CenterAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
             security.Clicked += (sender, e) => SecurityClicked();
             mapStackBurwood.Children.Add(security); 
 
-            Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.CenterAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
             emergency.Clicked += (sender, e) => EmergencyClicked();
             mapStackBurwood.Children.Add(emergency);
 
-            Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.CenterAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
             medical.Clicked += (sender, e) => MedicalClicked();
             mapStackBurwood.Children.Add(medical);
 
-            Button hospital = new Button { Text = "Box Hill Hospital", HorizontalOptions = LayoutOptions.CenterAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button hospital = new Button { Text = "Box Hill Hospital", HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
             //hospital.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { HospitalClicked(); }), NumberOfTapsRequired = 1 });
             hospital.Clicked += (sender, e) => HospitalClicked();
             mapStackBurwood.Children.Add(hospital);
