@@ -24,7 +24,7 @@ namespace safetyLab
             WebView webSource = new WebView();
 
             //Temp HTML file hosting. Can't find an easier way to load it locally without hassle.
-            webSource.Source = "https://e6c5c8f5-ce12-4600-bc84-17fb5a606fd5.htmlpasta.com";
+            webSource.Source = "https://9840e03a-9b45-4987-ba6f-9de3b5ece9eb.htmlpasta.com";
             Content = webSource;
         }
 

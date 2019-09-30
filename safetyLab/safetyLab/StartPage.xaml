@@ -10,8 +10,18 @@
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
-            <Button Text="Scan" HorizontalOptions="Start" VerticalOptions="Center" Clicked="Scan"> </Button>
-            <SearchBar HorizontalOptions="End" VerticalOptions="Center" SearchButtonPressed="Search" TextChanged="AutoSearch" Placeholder="Search Chemical Name..."/>
+            <Button Text="Scan" 
+                    FontSize="20"
+                    HorizontalOptions="Start" 
+                    VerticalOptions="Center" 
+                    Clicked="Scan"> </Button>
+            <SearchBar 
+            HorizontalOptions="End" 
+            WidthRequest="290"
+            VerticalOptions="Center" 
+            SearchButtonPressed="Search" 
+            TextChanged="AutoSearch" 
+            Placeholder="Search Chemical"/>
         </StackLayout>
     </NavigationPage.TitleView>
     

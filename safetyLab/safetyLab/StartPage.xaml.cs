@@ -78,7 +78,8 @@ namespace safetyLab
             //SEARCH RESULTS
             resultsContent.Content = mainList;
             resultsContent.Title = "Search";
-            resultsContent.IconImageSource = "search_icon.png";
+            
+            //resultsContent.IconImageSource = "search_icon.png";
             //resultsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             Children.Add(resultsContent);
 
@@ -90,20 +91,20 @@ namespace safetyLab
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
             //favouritesContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
-            favouritesContent.IconImageSource = "favourites_icon.png";
+            //favouritesContent.IconImageSource = "favourites_icon.png";
             Children.Add(favouritesContent);
 
             //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
             //recentsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
-            recentsContent.IconImageSource = "recents_icon.png";
+           // recentsContent.IconImageSource = "recents_icon.png";
             Children.Add(recentsContent);
 
             //MAPS
             mapTabbed.Title = "Maps";
             mapTabbed.BarBackgroundColor = Color.FromRgb(66, 175, 178);
-            mapTabbed.IconImageSource = "map_icon.png";
+           // mapTabbed.IconImageSource = "map_icon.png";
 
             StackLayout mapStackBurwood = new StackLayout();
             Image burwoodMap = new Image { Source = "deakin_burwood.jpg" };

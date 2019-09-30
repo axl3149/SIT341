@@ -5,7 +5,9 @@
 
     <NavigationPage.TitleView>
         <StackLayout>
-            <Button Text="Add/Remove Favourite" Clicked="AddToFavourites"></Button>
+            <Button Text="Add/Remove Favourite" 
+                    FontSize="20"
+                    Clicked="AddToFavourites"></Button>
         </StackLayout>
     </NavigationPage.TitleView>
     
