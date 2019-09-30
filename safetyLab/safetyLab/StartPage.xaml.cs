@@ -79,7 +79,7 @@ namespace safetyLab
             resultsContent.Content = mainList;
             resultsContent.Title = "Search";
             resultsContent.IconImageSource = "search_icon.png";
-            resultsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
+            //resultsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             Children.Add(resultsContent);
 
             //FAVOURITES
@@ -89,14 +89,14 @@ namespace safetyLab
 
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
-            favouritesContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
+            //favouritesContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             favouritesContent.IconImageSource = "favourites_icon.png";
             Children.Add(favouritesContent);
 
             //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
-            recentsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
+            //recentsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             recentsContent.IconImageSource = "recents_icon.png";
             Children.Add(recentsContent);
 
@@ -107,19 +107,26 @@ namespace safetyLab
 
             StackLayout mapStackBurwood = new StackLayout();
             Image burwoodMap = new Image { Source = "deakin_burwood.jpg" };
-            Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178)
+            };
             security.Clicked += (sender, e) => SecurityClicked();
             mapStackBurwood.Children.Add(security); 
 
-            Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.FillAndExpand,
+                VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24,
+                BackgroundColor = Color.FromRgb(66, 175, 178)
+            };
             emergency.Clicked += (sender, e) => EmergencyClicked();
             mapStackBurwood.Children.Add(emergency);
 
-            Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.FillAndExpand,
+                BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
             medical.Clicked += (sender, e) => MedicalClicked();
             mapStackBurwood.Children.Add(medical);
 
-            Button hospital = new Button { Text = "Box Hill Hospital", HorizontalOptions = LayoutOptions.FillAndExpand, VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button hospital = new Button { Text = "Box Hill Hospital", HorizontalOptions = LayoutOptions.FillAndExpand,
+                BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
             //hospital.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { HospitalClicked(); }), NumberOfTapsRequired = 1 });
             hospital.Clicked += (sender, e) => HospitalClicked();
             mapStackBurwood.Children.Add(hospital);
