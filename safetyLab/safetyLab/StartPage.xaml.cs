@@ -16,7 +16,6 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage : TabbedPage
     {
-   
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
 
         public static ContentPage resultsContent = new ContentPage();
@@ -28,11 +27,14 @@ namespace safetyLab
 
         Label header = new Label();
 
-        //Temp chemical names. Need to next link up to TRACIE SQL calls for 'Search'
-        public static string[] chemicalNames = {
-            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
-            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
-            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol",
+        const int numChemicals = 8;
+        public int[] chemicalIDs =
+        {
+            0, 1, 2, 3, 4, 5, 6, 7
+        };
+        public string[] chemicalNames =
+        {
+            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol"
         };
 
 
@@ -206,25 +208,28 @@ namespace safetyLab
         {
             SearchBar searchBar = (SearchBar)sender;
 
-            chemicalName = searchBar.Text;
+            int id = System.Convert.ToInt32(searchBar.Text);
 
             textFound = false;
 
             List<string> foundNames = new List<string>();
 
-            if (chemicalName != null)
+            for (int i = 0; i < chemicalNames.Length; i++)
             {
-                for (int i = 0; i < chemicalNames.Length; i++)
+                if (i == id)
                 {
-                    if (chemicalNames[i].Contains(chemicalName.ToLower()))
-                    {
-                        foundNames.Add(chemicalNames[i]);
-                        textFound = true;
-                    }
+                    foundNames.Add(chemicalNames[i]);
+                    textFound = true;
                 }
-
-                mainList.ItemsSource = foundNames;
             }
+
+            mainList.ItemsSource = foundNames;
+
+            if (textFound == false)
+            {
+                DisplayAlert("Search Results", "No chemical results found.", "Try again");
+            }
+
 
             textFound = false;
 
