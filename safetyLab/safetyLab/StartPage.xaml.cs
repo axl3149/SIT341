@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Copyright by Piumi 2019
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +22,7 @@ namespace safetyLab
         public static ContentPage resultsContent = new ContentPage();
         public static ContentPage favouritesContent = new ContentPage();
         public static ContentPage recentsContent = new ContentPage();
-        public static TabbedPage mapTabbed = new TabbedPage();
+        public static ContentPage contactContent = new ContentPage();
 
         string chemicalName = null;
 
@@ -79,7 +81,7 @@ namespace safetyLab
             resultsContent.Content = mainList;
             resultsContent.Title = "Search";
             
-            //resultsContent.IconImageSource = "search_icon.png";
+            resultsContent.IconImageSource = "search_icon.png";
             //resultsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             Children.Add(resultsContent);
 
@@ -91,67 +93,48 @@ namespace safetyLab
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
             //favouritesContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
-            //favouritesContent.IconImageSource = "favourites_icon.png";
+            favouritesContent.IconImageSource = "favourites_icon.png";
             Children.Add(favouritesContent);
 
             //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
             //recentsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
-           // recentsContent.IconImageSource = "recents_icon.png";
+            recentsContent.IconImageSource = "recents_icon.png";
             Children.Add(recentsContent);
 
-            //MAPS
-            mapTabbed.Title = "Maps";
-            mapTabbed.BarBackgroundColor = Color.FromRgb(66, 175, 178);
-           // mapTabbed.IconImageSource = "map_icon.png";
+            //CONTACTS
+            contactContent.Title = "Contacts";
+            contactContent.IconImageSource = "phone_icon.png";
 
-            StackLayout mapStackBurwood = new StackLayout();
-            Image burwoodMap = new Image { Source = "deakin_burwood.jpg" };
+            StackLayout contactStack = new StackLayout();
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178)
             };
             security.Clicked += (sender, e) => SecurityClicked();
-            mapStackBurwood.Children.Add(security); 
+            contactStack.Children.Add(security);
 
             Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24,
                 BackgroundColor = Color.FromRgb(66, 175, 178)
             };
             emergency.Clicked += (sender, e) => EmergencyClicked();
-            mapStackBurwood.Children.Add(emergency);
+            contactStack.Children.Add(emergency);
 
             Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.FillAndExpand,
                 BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
             medical.Clicked += (sender, e) => MedicalClicked();
-            mapStackBurwood.Children.Add(medical);
+            contactStack.Children.Add(medical);
 
             Button hospital = new Button { Text = "Box Hill Hospital", HorizontalOptions = LayoutOptions.FillAndExpand,
                 BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
             //hospital.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { HospitalClicked(); }), NumberOfTapsRequired = 1 });
             hospital.Clicked += (sender, e) => HospitalClicked();
-            mapStackBurwood.Children.Add(hospital);
+            contactStack.Children.Add(hospital);
 
-            mapStackBurwood.Children.Add(burwoodMap);
-            
-            ScrollView mapScroll = new ScrollView();
-            mapScroll.Content = mapStackBurwood;
+            contactContent.Content = contactStack;
 
-            ContentPage mapContentBurwood = new ContentPage { Title = "Burwood" };
-            mapContentBurwood.Content = mapScroll;
-
-            mapTabbed.Children.Add(mapContentBurwood);
-
-            StackLayout mapStackGeelong = new StackLayout();
-            Image geelongMap = new Image { Source = "deakin_geelong.jpg" };
-            mapStackGeelong.Children.Add(geelongMap);
-
-            ContentPage mapContentGeelong = new ContentPage { Title = "Geelong" };
-            mapContentGeelong.Content = mapStackGeelong;
-
-            mapTabbed.Children.Add(mapContentGeelong);
-
-            Children.Add(mapTabbed);
+            Children.Add(contactContent);
         }
 
         //For QR camera scanning focus

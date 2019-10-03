@@ -21,7 +21,8 @@
             VerticalOptions="Center" 
             SearchButtonPressed="Search" 
             TextChanged="AutoSearch" 
-            Placeholder="Search Chemical"/>
+            Placeholder="Search ID..."
+            Keyboard="Numeric"/>
         </StackLayout>
     </NavigationPage.TitleView>
     
