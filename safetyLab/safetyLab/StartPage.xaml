@@ -20,7 +20,6 @@
             WidthRequest="290"
             VerticalOptions="Center" 
             SearchButtonPressed="Search" 
-            TextChanged="AutoSearch" 
             Placeholder="Search ID..."
             Keyboard="Numeric"/>
         </StackLayout>

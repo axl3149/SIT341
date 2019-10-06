@@ -34,7 +34,7 @@ namespace safetyLab
         };
         public string[] chemicalNames =
         {
-            "acid", "water", "dirt", "table", "sulfate", "cyanide", "sodium", "alocohol"
+            "0: acid", "1: water", "2: dirt", "3: table", "4: sulfate", "5: cyanide", "6: sodium", "7: alocohol"
         };
 
 
@@ -84,7 +84,6 @@ namespace safetyLab
             resultsContent.Title = "Search";
             
             resultsContent.IconImageSource = "search_icon.png";
-            //resultsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             Children.Add(resultsContent);
 
             //FAVOURITES
@@ -94,20 +93,18 @@ namespace safetyLab
 
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
-            //favouritesContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             favouritesContent.IconImageSource = "favourites_icon.png";
             Children.Add(favouritesContent);
 
             //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
-            //recentsContent.BackgroundImageSource = ImageSource.FromFile("icon.png");
             recentsContent.IconImageSource = "recents_icon.png";
             Children.Add(recentsContent);
 
             //CONTACTS
             contactContent.Title = "Contacts";
-            contactContent.IconImageSource = "phone_icon.png";
+            contactContent.IconImageSource = "search_icon.png";
 
             StackLayout contactStack = new StackLayout();
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.FillAndExpand,
@@ -130,7 +127,6 @@ namespace safetyLab
 
             Button hospital = new Button { Text = "Box Hill Hospital", HorizontalOptions = LayoutOptions.FillAndExpand,
                 BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
-            //hospital.GestureRecognizers.Add(new TapGestureRecognizer { Command = new Command(() => { HospitalClicked(); }), NumberOfTapsRequired = 1 });
             hospital.Clicked += (sender, e) => HospitalClicked();
             contactStack.Children.Add(hospital);
 
@@ -204,7 +200,8 @@ namespace safetyLab
             this.CurrentPage = resultsContent;
         }
 
-        public void AutoSearch(object sender, EventArgs e)
+        //Auto complete search taken out for now
+        /*public void AutoSearch(object sender, EventArgs e)
         {
             SearchBar searchBar = (SearchBar)sender;
 
@@ -230,11 +227,10 @@ namespace safetyLab
                 DisplayAlert("Search Results", "No chemical results found.", "Try again");
             }
 
-
             textFound = false;
 
             this.CurrentPage = resultsContent;
-        }
+        }*/
 
         public void AddToRecents()
         {
