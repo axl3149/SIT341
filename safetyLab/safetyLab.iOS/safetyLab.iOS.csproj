@@ -163,9 +163,6 @@
     <BundleResource Include="Resources\search_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\qr_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\search_background.png" />
   </ItemGroup>
   <ItemGroup>

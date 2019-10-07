@@ -42,7 +42,7 @@ tr:nth-child(even) {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 10px;
+  font-size: 15px;
   width: 25%;
 }
 
@@ -73,18 +73,15 @@ tr:nth-child(even) {
 </head>
 <body onload="document.getElementById('defaultOpen').click();">
 
-<div>
-  <!--<img src="images/headerWeb.jpg" alt="background" style="width:100%">-->
-</div>
+
 
 <div class="tab" id="Tab" style="overflow-x:auto;">
   <button id="defaultOpen" class="tablinks active" onclick="openTab(event, 'General')">General</button>
   <button class="tablinks" onclick="openTab(event, 'Hazard')">Hazard</button>
   <button class="tablinks" onclick="openTab(event, 'Emergency')">Emergency</button>
-  <button class="tablinks" onclick="openTab(event, 'Additional')">More Info</button>
-  
-  
-</div>
+  <button class="tablinks" onclick="openTab(event, 'Additional')">More</button>
+  </div>
+  <br><br>
 
 <div id="General" class="tabcontent">
   <h3>General Information </h3>
@@ -172,7 +169,7 @@ tr:nth-child(even) {
 </div>
 </div>
 
-<div id="Emergancy" class="tabcontent">
+<div id="Emergency" class="tabcontent">
 <h4><b>Emergency Response Procedures </b></h4>
 <div style="overflow-x:auto;">
     <table style="width:100%">
