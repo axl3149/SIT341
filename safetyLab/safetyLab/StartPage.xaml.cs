@@ -104,31 +104,26 @@ namespace safetyLab
 
             //CONTACTS
             contactContent.Title = "Contacts";
-            contactContent.IconImageSource = "search_icon.png";
+            contactContent.IconImageSource = "phone.png";
 
             StackLayout contactStack = new StackLayout();
-            Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.FillAndExpand,
-                VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178)
+            Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178)
             };
             security.Clicked += (sender, e) => SecurityClicked();
             contactStack.Children.Add(security);
 
-            Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.FillAndExpand,
-                VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24,
+            Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Center, FontSize = 24,
                 BackgroundColor = Color.FromRgb(66, 175, 178)
             };
             emergency.Clicked += (sender, e) => EmergencyClicked();
             contactStack.Children.Add(emergency);
 
-            Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.FillAndExpand,
-                BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
+            Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.Fill,
+                BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.Center, FontSize = 24 };
             medical.Clicked += (sender, e) => MedicalClicked();
             contactStack.Children.Add(medical);
-
-            Button hospital = new Button { Text = "Box Hill Hospital", HorizontalOptions = LayoutOptions.FillAndExpand,
-                BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.CenterAndExpand, FontSize = 24 };
-            hospital.Clicked += (sender, e) => HospitalClicked();
-            contactStack.Children.Add(hospital);
 
             contactContent.Content = contactStack;
 

@@ -11,7 +11,6 @@
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
             <Button Text="Scan" 
-                    FontSize="20"
                     HorizontalOptions="Start" 
                     VerticalOptions="Center" 
                     Clicked="Scan"> </Button>
@@ -19,7 +18,7 @@
             HorizontalOptions="End" 
             WidthRequest="290"
             VerticalOptions="Center" 
-            SearchButtonPressed="Search" 
+            SearchButtonPressed="Search"
             Placeholder="Search ID..."
             Keyboard="Numeric"/>
         </StackLayout>
