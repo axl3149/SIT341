@@ -23,18 +23,18 @@ namespace safetyLab
         public static ContentPage recentsContent = new ContentPage();
         public static ContentPage contactContent = new ContentPage();
 
-        string chemicalName = null;
+        public static string chemicalID = null;
 
         Label header = new Label();
 
         const int numChemicals = 8;
         public int[] chemicalIDs =
         {
-            0, 1, 2, 3, 4, 5, 6, 7
+            //0, 1, 2, 3, 4, 5, 6, 7
         };
         public string[] chemicalNames =
         {
-            "0: acid", "1: water", "2: dirt", "3: table", "4: sulfate", "5: cyanide", "6: sodium", "7: alocohol"
+            //"0: acid", "1: water", "2: dirt", "3: table", "4: sulfate", "5: cyanide", "6: sodium", "7: alocohol"
         };
 
 
@@ -165,17 +165,19 @@ namespace safetyLab
         {
             SearchBar searchBar = (SearchBar)sender;
 
-            chemicalName = searchBar.Text;
+            chemicalID = searchBar.Text;
+
+            ResultsPage.scannedChemicalID = chemicalID;
 
             textFound = false;
 
             List<string> foundNames = new List<string>();
 
-            if (chemicalName != null)
+            /*if (chemicalID != null)
             {
                 for (int i = 0; i < chemicalNames.Length; i++)
                 {
-                    if (chemicalNames[i].Contains(chemicalName.ToLower()))
+                    if (chemicalNames[i].Contains(chemicalID.ToLower()))
                     {
                         foundNames.Add(chemicalNames[i]);
                         textFound = true;
@@ -191,7 +193,10 @@ namespace safetyLab
             }
 
 
-            textFound = false;
+            textFound = false;*/
+            //foundNames.RemoveAt(0);
+            foundNames.Add(chemicalID);
+            mainList.ItemsSource = foundNames;
 
             this.CurrentPage = resultsContent;
         }
