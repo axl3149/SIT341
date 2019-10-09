@@ -24,7 +24,14 @@ namespace safetyLab
             WebView webSource = new WebView();
 
             //Temp HTML file hosting. Can't find an easier way to load it locally without hassle.
-            webSource.Source = "https://72441481-bdd1-4dcb-8863-fe551d5fa379.htmlpasta.com";
+            //webSource.Source = "https://72441481-bdd1-4dcb-8863-fe551d5fa379.htmlpasta.com";
+            if (StartPage.ScannerPage.Result != null)
+            {
+                webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=" + StartPage.ScannerPage.Result.Text;
+            } else
+            {
+                webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=#151606";
+            }
             Content = webSource;
         }
 

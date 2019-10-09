@@ -154,7 +154,7 @@ namespace safetyLab
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await Navigation.PopAsync();
+                    await Navigation.PushAsync(new ResultsPage());
                     await DisplayAlert("Chemical ID: ", result.Text, "OK");
                 });
             };
