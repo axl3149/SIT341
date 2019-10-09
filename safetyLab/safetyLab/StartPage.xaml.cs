@@ -82,7 +82,6 @@ namespace safetyLab
             //SEARCH RESULTS
             resultsContent.Content = mainList;
             resultsContent.Title = "Search";
-            
             resultsContent.IconImageSource = "search_icon.png";
             Children.Add(resultsContent);
 
@@ -93,7 +92,7 @@ namespace safetyLab
 
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
-            favouritesContent.IconImageSource = "favourites_icon.png";
+            favouritesContent.IconImageSource = "fave.png";
             Children.Add(favouritesContent);
 
             //RECENTS
@@ -104,7 +103,8 @@ namespace safetyLab
 
             //CONTACTS
             contactContent.Title = "Contacts";
-            contactContent.IconImageSource = "phone.png";
+            contactContent.IconImageSource = "phone_icon.png";
+          
 
             StackLayout contactStack = new StackLayout();
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,

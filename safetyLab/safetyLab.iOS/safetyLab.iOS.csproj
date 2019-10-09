@@ -155,6 +155,8 @@
     <BundleResource Include="Resources\search_icon.png" />
     <BundleResource Include="Resources\recents_icon.png" />
     <BundleResource Include="Resources\.png" />
+    <BundleResource Include="Resources\phone_icon %28copy%29.png" />
+    <BundleResource Include="Resources\fave.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\recents_icon.png" />
@@ -167,5 +169,8 @@
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\phone_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\favourites_icon.png" />
   </ItemGroup>
 </Project>

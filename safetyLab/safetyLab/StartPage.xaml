@@ -11,6 +11,8 @@
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
             <Button Text="Scan" 
+                    FontSize="15"
+                    TextColor="White"
                     HorizontalOptions="Start" 
                     VerticalOptions="Center" 
                     Clicked="Scan"> </Button>
