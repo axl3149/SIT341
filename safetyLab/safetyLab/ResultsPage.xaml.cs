@@ -14,6 +14,8 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResultsPage : ContentPage
     {
+        public static string scannedChemicalID;
+
         public ResultsPage ()
         {
             InitializeComponent();
@@ -25,13 +27,16 @@ namespace safetyLab
 
             //Temp HTML file hosting. Can't find an easier way to load it locally without hassle.
             //webSource.Source = "https://72441481-bdd1-4dcb-8863-fe551d5fa379.htmlpasta.com";
-            if (StartPage.ScannerPage.Result != null)
+
+            if (scannedChemicalID != null)
             {
-                webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=" + StartPage.ScannerPage.Result.Text;
-            } else
+                webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=" + scannedChemicalID;
+            }
+            else
             {
                 webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=";
             }
+
             Content = webSource;
         }
 
