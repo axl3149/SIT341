@@ -145,8 +145,8 @@ namespace safetyLab
             ScannerPage = new ZXingScannerPage();
             await Navigation.PushAsync(ScannerPage);
 
-            //Thread focusThread = new Thread(ScannerFocus);
-            //focusThread.Start();
+            Thread focusThread = new Thread(ScannerFocus);
+            focusThread.Start();
 
             ScannerPage.OnScanResult += (result) =>
             {

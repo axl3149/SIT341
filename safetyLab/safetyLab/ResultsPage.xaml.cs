@@ -30,7 +30,7 @@ namespace safetyLab
                 webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=" + StartPage.ScannerPage.Result.Text;
             } else
             {
-                webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=#151606";
+                webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=";
             }
             Content = webSource;
         }
