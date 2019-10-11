@@ -25,14 +25,15 @@ namespace safetyLab
 
             WebView webSource = new WebView();
 
-            if (scannedChemicalID != null)
+            /*if (scannedChemicalID != null)
             {
                 webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=" + scannedChemicalID;
             }
             else
             {
                 webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=";
-            }
+            }*/
+            webSource.Source = "http://www.pdf995.com/samples/pdf.pdf";
 
             Content = webSource;
         }

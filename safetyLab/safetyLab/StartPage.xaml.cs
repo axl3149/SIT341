@@ -92,7 +92,7 @@ namespace safetyLab
 
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
-            favouritesContent.IconImageSource = "fave.png";
+            favouritesContent.IconImageSource = "favourites_icon.png";
             Children.Add(favouritesContent);
 
             //RECENTS
@@ -103,7 +103,7 @@ namespace safetyLab
 
             //CONTACTS
             contactContent.Title = "Contacts";
-            contactContent.IconImageSource = "phone_icon.png";
+            contactContent.IconImageSource = "phone.png";
           
 
             StackLayout contactStack = new StackLayout();
