@@ -14,7 +14,7 @@ using ZXing.Net.Mobile.Forms;
 namespace safetyLab
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class StartPage : TabbedPage
+    public partial class StartPage : ContentPage
     {
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
 
@@ -24,8 +24,6 @@ namespace safetyLab
         public static ContentPage contactContent = new ContentPage();
 
         public static string chemicalID = null;
-
-        Label header = new Label();
 
         const int numChemicals = 8;
         public int[] chemicalIDs =
@@ -51,10 +49,13 @@ namespace safetyLab
 
         public StartPage()
         {
-            this.BarBackgroundColor = Color.FromRgb(66, 175, 178);
+            //this.BarBackgroundColor = Color.FromRgb(66, 175, 178);
 
             InitializeComponent();
-            Children.Clear();
+            //Children.Clear();
+
+            Grid grid = new Grid();
+            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(2, GridUnitType.Star) });
 
             mainList.ItemsSource = chemicalNames;
             mainList.SeparatorColor = Color.Black;
@@ -83,7 +84,7 @@ namespace safetyLab
             resultsContent.Content = mainList;
             resultsContent.Title = "Search";
             resultsContent.IconImageSource = "search_icon.png";
-            Children.Add(resultsContent);
+            //Children.Add(resultsContent);
 
             //FAVOURITES
             favouritesList.ItemsSource = favourites;
@@ -93,13 +94,13 @@ namespace safetyLab
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
             favouritesContent.IconImageSource = "favourites_icon.png";
-            Children.Add(favouritesContent);
+            //Children.Add(favouritesContent);
 
             //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
             recentsContent.IconImageSource = "recents_icon.png";
-            Children.Add(recentsContent);
+            //Children.Add(recentsContent);
 
             //CONTACTS
             contactContent.Title = "Contacts";
@@ -108,26 +109,29 @@ namespace safetyLab
 
             StackLayout contactStack = new StackLayout();
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178)
+                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178),
+                TextColor = Color.White
             };
             security.Clicked += (sender, e) => SecurityClicked();
             contactStack.Children.Add(security);
 
             Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Center, FontSize = 24,
-                BackgroundColor = Color.FromRgb(66, 175, 178)
+                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178),
+                TextColor = Color.White
             };
             emergency.Clicked += (sender, e) => EmergencyClicked();
             contactStack.Children.Add(emergency);
 
             Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.Fill,
-                BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.Center, FontSize = 24 };
+                BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.Center, FontSize = 24,
+                TextColor = Color.White
+            };
             medical.Clicked += (sender, e) => MedicalClicked();
             contactStack.Children.Add(medical);
 
             contactContent.Content = contactStack;
 
-            Children.Add(contactContent);
+            //Children.Add(contactContent);
         }
 
         //For QR camera scanning focus
@@ -139,6 +143,27 @@ namespace safetyLab
                 ScannerPage.AutoFocus();
             }
         }
+
+        public async void SearchButton(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ResultsPage());
+        }
+
+        public async void FavouritesButton(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(favouritesContent);
+        }
+
+        public async void RecentsButton(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(recentsContent);
+        }
+
+        public async void ContactsButton(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(contactContent);
+        }
+
 
         public async void Scan(object sender, EventArgs e)
         {
@@ -198,7 +223,7 @@ namespace safetyLab
             foundNames.Add(chemicalID);
             mainList.ItemsSource = foundNames;
 
-            this.CurrentPage = resultsContent;
+            //this.CurrentPage = resultsContent;
         }
 
         //Auto complete search taken out for now

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="safetyLab.StartPage"
             >
@@ -26,14 +26,23 @@
         </StackLayout>
     </NavigationPage.TitleView>
     
-    <!--<ContentPage.Content>
-        <StackLayout>
-            
-        </StackLayout>
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label Text="Search Part" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Label>
+            <ScrollView Grid.Row="0" Grid.Column="0"></ScrollView>
+            <Button Text="search_icon" Grid.Row="0" Grid.Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="SearchButton"/>
+            <Button Text="recents_icon" Grid.Row="0" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="RecentsButton"/>
+            <Button Text="favourites_icon" Grid.Row="1" Grid.Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="FavouritesButton"/>
+            <Button Text="phone_icon" Grid.Row="1" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="ContactsButton"/>
+        </Grid>
     </ContentPage.Content>
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="Favourites" Clicked="ShowFavourites">
-        </ToolbarItem>
-    </ContentPage.ToolbarItems>-->
-</TabbedPage>
+</ContentPage>
