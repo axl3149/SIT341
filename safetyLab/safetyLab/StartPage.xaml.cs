@@ -83,29 +83,18 @@ namespace safetyLab
             //SEARCH RESULTS
             resultsContent.Content = mainList;
             resultsContent.Title = "Search";
-            resultsContent.IconImageSource = "search_icon.png";
-            //Children.Add(resultsContent);
 
             //FAVOURITES
             favouritesList.ItemsSource = favourites;
-            favouritesList.SeparatorColor = Color.Black;
-            favouritesList.HorizontalOptions = LayoutOptions.Center;
-
             favouritesContent.Title = "Favourites";
             favouritesContent.Content = favouritesList;
-            favouritesContent.IconImageSource = "favourites_icon.png";
-            //Children.Add(favouritesContent);
 
             //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
-            recentsContent.IconImageSource = "recents_icon.png";
-            //Children.Add(recentsContent);
 
             //CONTACTS
             contactContent.Title = "Contacts";
-            contactContent.IconImageSource = "phone.png";
-          
 
             StackLayout contactStack = new StackLayout();
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,
@@ -146,6 +135,7 @@ namespace safetyLab
 
         public async void SearchButton(object sender, EventArgs e)
         {
+            AddToRecents();
             await Navigation.PushAsync(new ResultsPage());
         }
 
@@ -260,19 +250,19 @@ namespace safetyLab
 
         public void AddToRecents()
         {
-            string recent = chosenChemical;
+            string recent = chemicalID;
 
             bool foundChemical = false;
             int foundIndex = 0;
 
             for (int i = 0; i < recents.Count; i++)
             {
-                if (recents[i] != chosenChemical)
+                if (recents[i] != recent)
                 {
                     foundChemical = false;
                     foundIndex = i;
                 }
-                else if (recents[i] == chosenChemical)
+                else if (recents[i] == recent)
                 {
                     foundChemical = true;
                     foundIndex = i;

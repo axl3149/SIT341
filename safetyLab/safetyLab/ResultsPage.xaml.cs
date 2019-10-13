@@ -48,19 +48,19 @@ namespace safetyLab
 
         public void AddToFavourites(object sender, EventArgs e)
         {
-            string favourite = StartPage.chosenChemical;
+            string favourite = StartPage.chemicalID;
 
             bool foundChemical = false;
             int foundIndex = 0;
 
             for(int i = 0; i < StartPage.favourites.Count; i++)
             {
-                if(StartPage.favourites[i] != StartPage.chosenChemical)
+                if(StartPage.favourites[i] != favourite)
                 {
                     foundChemical = false;
                     foundIndex = i;
                 }   
-                else if(StartPage.favourites[i] == StartPage.chosenChemical)
+                else if(StartPage.favourites[i] == favourite)
                 {
                     foundChemical = true;
                     foundIndex = i;
