@@ -155,6 +155,7 @@
     <BundleResource Include="Resources\phone_icon %28copy%29.png" />
     <BundleResource Include="Resources\fave.png" />
     <BundleResource Include="Resources\star.png" />
+    <BundleResource Include="Resources\recents.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\recents_icon.png" />
