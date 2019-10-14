@@ -26,3239 +26,6 @@ namespace safetyLab.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::safetyLab.Droid.Resource.Drawable.Avatar1;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::safetyLab.Droid.Resource.Drawable.Avatar10;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::safetyLab.Droid.Resource.Drawable.Avatar11;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::safetyLab.Droid.Resource.Drawable.Avatar12;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::safetyLab.Droid.Resource.Drawable.Avatar13;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::safetyLab.Droid.Resource.Drawable.Avatar14;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::safetyLab.Droid.Resource.Drawable.Avatar15;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::safetyLab.Droid.Resource.Drawable.Avatar16;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::safetyLab.Droid.Resource.Drawable.Avatar17;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::safetyLab.Droid.Resource.Drawable.Avatar18;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::safetyLab.Droid.Resource.Drawable.Avatar19;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::safetyLab.Droid.Resource.Drawable.Avatar2;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::safetyLab.Droid.Resource.Drawable.Avatar20;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::safetyLab.Droid.Resource.Drawable.Avatar21;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::safetyLab.Droid.Resource.Drawable.Avatar22;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::safetyLab.Droid.Resource.Drawable.Avatar23;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::safetyLab.Droid.Resource.Drawable.Avatar24;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::safetyLab.Droid.Resource.Drawable.Avatar25;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::safetyLab.Droid.Resource.Drawable.Avatar26;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::safetyLab.Droid.Resource.Drawable.Avatar27;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::safetyLab.Droid.Resource.Drawable.Avatar28;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::safetyLab.Droid.Resource.Drawable.Avatar29;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::safetyLab.Droid.Resource.Drawable.Avatar3;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::safetyLab.Droid.Resource.Drawable.Avatar30;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::safetyLab.Droid.Resource.Drawable.Avatar4;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::safetyLab.Droid.Resource.Drawable.Avatar5;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::safetyLab.Droid.Resource.Drawable.Avatar6;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::safetyLab.Droid.Resource.Drawable.Avatar7;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::safetyLab.Droid.Resource.Drawable.Avatar8;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::safetyLab.Droid.Resource.Drawable.Avatar9;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::safetyLab.Droid.Resource.Drawable.input_layout_drop_down_icon;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::safetyLab.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::safetyLab.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorAnimationTypes = global::safetyLab.Droid.Resource.Attribute.busyIndicatorAnimationTypes;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorIsBusy = global::safetyLab.Droid.Resource.Attribute.busyIndicatorIsBusy;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorSecondaryColor = global::safetyLab.Droid.Resource.Attribute.busyIndicatorSecondaryColor;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTextColor = global::safetyLab.Droid.Resource.Attribute.busyIndicatorTextColor;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTextSize = global::safetyLab.Droid.Resource.Attribute.busyIndicatorTextSize;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTitle = global::safetyLab.Droid.Resource.Attribute.busyIndicatorTitle;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorTitlePlacement = global::safetyLab.Droid.Resource.Attribute.busyIndicatorTitlePlacement;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorViewBoxHeight = global::safetyLab.Droid.Resource.Attribute.busyIndicatorViewBoxHeight;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Attribute.busyIndicatorViewBoxWidth = global::safetyLab.Droid.Resource.Attribute.busyIndicatorViewBoxWidth;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.ball = global::safetyLab.Droid.Resource.Id.ball;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.battery = global::safetyLab.Droid.Resource.Id.battery;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.bottom = global::safetyLab.Droid.Resource.Id.bottom;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.box = global::safetyLab.Droid.Resource.Id.box;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.doubleCircle = global::safetyLab.Droid.Resource.Id.doubleCircle;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.ecg = global::safetyLab.Droid.Resource.Id.ecg;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.gearBox = global::safetyLab.Droid.Resource.Id.gearBox;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.globe = global::safetyLab.Droid.Resource.Id.globe;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.horizontalPulsingBox = global::safetyLab.Droid.Resource.Id.horizontalPulsingBox;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.movieTimer = global::safetyLab.Droid.Resource.Id.movieTimer;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.none = global::safetyLab.Droid.Resource.Id.none;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.print = global::safetyLab.Droid.Resource.Id.print;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.rectangle = global::safetyLab.Droid.Resource.Id.rectangle;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.rollingBall = global::safetyLab.Droid.Resource.Id.rollingBall;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.singleCircle = global::safetyLab.Droid.Resource.Id.singleCircle;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.slicedCircle = global::safetyLab.Droid.Resource.Id.slicedCircle;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.top = global::safetyLab.Droid.Resource.Id.top;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Id.zoomingTarget = global::safetyLab.Droid.Resource.Id.zoomingTarget;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.String.library_name = global::safetyLab.Droid.Resource.String.library_name;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight;
-			global::Com.Syncfusion.Sfbusyindicator.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_fade_in = global::safetyLab.Droid.Resource.Animation.abc_fade_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_fade_out = global::safetyLab.Droid.Resource.Animation.abc_fade_out;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_grow_fade_in_from_bottom = global::safetyLab.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_popup_enter = global::safetyLab.Droid.Resource.Animation.abc_popup_enter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_popup_exit = global::safetyLab.Droid.Resource.Animation.abc_popup_exit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom = global::safetyLab.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_in_bottom = global::safetyLab.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_in_top = global::safetyLab.Droid.Resource.Animation.abc_slide_in_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_out_bottom = global::safetyLab.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_slide_out_top = global::safetyLab.Droid.Resource.Animation.abc_slide_out_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_tooltip_enter = global::safetyLab.Droid.Resource.Animation.abc_tooltip_enter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.abc_tooltip_exit = global::safetyLab.Droid.Resource.Animation.abc_tooltip_exit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_in = global::safetyLab.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_bottom_sheet_slide_out = global::safetyLab.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_snackbar_in = global::safetyLab.Droid.Resource.Animation.design_snackbar_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.design_snackbar_out = global::safetyLab.Droid.Resource.Animation.design_snackbar_out;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.EnterFromLeft = global::safetyLab.Droid.Resource.Animation.EnterFromLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.EnterFromRight = global::safetyLab.Droid.Resource.Animation.EnterFromRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.ExitToLeft = global::safetyLab.Droid.Resource.Animation.ExitToLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animation.ExitToRight = global::safetyLab.Droid.Resource.Animation.ExitToRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.design_appbar_state_list_animator = global::safetyLab.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.design_fab_hide_motion_spec = global::safetyLab.Droid.Resource.Animator.design_fab_hide_motion_spec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.design_fab_show_motion_spec = global::safetyLab.Droid.Resource.Animator.design_fab_show_motion_spec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::safetyLab.Droid.Resource.Animator.mtrl_btn_state_list_anim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::safetyLab.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::safetyLab.Droid.Resource.Animator.mtrl_chip_state_list_anim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::safetyLab.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::safetyLab.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::safetyLab.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::safetyLab.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarDivider = global::safetyLab.Droid.Resource.Attribute.actionBarDivider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarItemBackground = global::safetyLab.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarPopupTheme = global::safetyLab.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarSize = global::safetyLab.Droid.Resource.Attribute.actionBarSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarSplitStyle = global::safetyLab.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarStyle = global::safetyLab.Droid.Resource.Attribute.actionBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabBarStyle = global::safetyLab.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabStyle = global::safetyLab.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTabTextStyle = global::safetyLab.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarTheme = global::safetyLab.Droid.Resource.Attribute.actionBarTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionBarWidgetTheme = global::safetyLab.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionButtonStyle = global::safetyLab.Droid.Resource.Attribute.actionButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionDropDownStyle = global::safetyLab.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionLayout = global::safetyLab.Droid.Resource.Attribute.actionLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionMenuTextAppearance = global::safetyLab.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionMenuTextColor = global::safetyLab.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeBackground = global::safetyLab.Droid.Resource.Attribute.actionModeBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCloseButtonStyle = global::safetyLab.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCloseDrawable = global::safetyLab.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCopyDrawable = global::safetyLab.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeCutDrawable = global::safetyLab.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeFindDrawable = global::safetyLab.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModePasteDrawable = global::safetyLab.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModePopupWindowStyle = global::safetyLab.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeSelectAllDrawable = global::safetyLab.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeShareDrawable = global::safetyLab.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeSplitBackground = global::safetyLab.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeStyle = global::safetyLab.Droid.Resource.Attribute.actionModeStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionModeWebSearchDrawable = global::safetyLab.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::safetyLab.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::safetyLab.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionProviderClass = global::safetyLab.Droid.Resource.Attribute.actionProviderClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.actionViewClass = global::safetyLab.Droid.Resource.Attribute.actionViewClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.activityChooserViewStyle = global::safetyLab.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::safetyLab.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogCenterButtons = global::safetyLab.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogStyle = global::safetyLab.Droid.Resource.Attribute.alertDialogStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alertDialogTheme = global::safetyLab.Droid.Resource.Attribute.alertDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.allowStacking = global::safetyLab.Droid.Resource.Attribute.allowStacking;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alpha = global::safetyLab.Droid.Resource.Attribute.alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.alphabeticModifiers = global::safetyLab.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.arrowHeadLength = global::safetyLab.Droid.Resource.Attribute.arrowHeadLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.arrowShaftLength = global::safetyLab.Droid.Resource.Attribute.arrowShaftLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::safetyLab.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizeMaxTextSize = global::safetyLab.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizeMinTextSize = global::safetyLab.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizePresetSizes = global::safetyLab.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizeStepGranularity = global::safetyLab.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.autoSizeTextType = global::safetyLab.Droid.Resource.Attribute.autoSizeTextType;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.background = global::safetyLab.Droid.Resource.Attribute.background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundSplit = global::safetyLab.Droid.Resource.Attribute.backgroundSplit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundStacked = global::safetyLab.Droid.Resource.Attribute.backgroundStacked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundTint = global::safetyLab.Droid.Resource.Attribute.backgroundTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.backgroundTintMode = global::safetyLab.Droid.Resource.Attribute.backgroundTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.barLength = global::safetyLab.Droid.Resource.Attribute.barLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_autoHide = global::safetyLab.Droid.Resource.Attribute.behavior_autoHide;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_fitToContents = global::safetyLab.Droid.Resource.Attribute.behavior_fitToContents;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_hideable = global::safetyLab.Droid.Resource.Attribute.behavior_hideable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_overlapTop = global::safetyLab.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_peekHeight = global::safetyLab.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.behavior_skipCollapsed = global::safetyLab.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.borderWidth = global::safetyLab.Droid.Resource.Attribute.borderWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.borderlessButtonStyle = global::safetyLab.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomAppBarStyle = global::safetyLab.Droid.Resource.Attribute.bottomAppBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomNavigationStyle = global::safetyLab.Droid.Resource.Attribute.bottomNavigationStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomSheetDialogTheme = global::safetyLab.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.bottomSheetStyle = global::safetyLab.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxBackgroundColor = global::safetyLab.Droid.Resource.Attribute.boxBackgroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxBackgroundMode = global::safetyLab.Droid.Resource.Attribute.boxBackgroundMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCollapsedPaddingTop = global::safetyLab.Droid.Resource.Attribute.boxCollapsedPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCornerRadiusBottomEnd = global::safetyLab.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCornerRadiusBottomStart = global::safetyLab.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::safetyLab.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::safetyLab.Droid.Resource.Attribute.boxCornerRadiusTopStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxStrokeColor = global::safetyLab.Droid.Resource.Attribute.boxStrokeColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.boxStrokeWidth = global::safetyLab.Droid.Resource.Attribute.boxStrokeWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorAnimationTypes = global::safetyLab.Droid.Resource.Attribute.busyIndicatorAnimationTypes;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorIsBusy = global::safetyLab.Droid.Resource.Attribute.busyIndicatorIsBusy;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorSecondaryColor = global::safetyLab.Droid.Resource.Attribute.busyIndicatorSecondaryColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTextColor = global::safetyLab.Droid.Resource.Attribute.busyIndicatorTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTextSize = global::safetyLab.Droid.Resource.Attribute.busyIndicatorTextSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTitle = global::safetyLab.Droid.Resource.Attribute.busyIndicatorTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorTitlePlacement = global::safetyLab.Droid.Resource.Attribute.busyIndicatorTitlePlacement;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorViewBoxHeight = global::safetyLab.Droid.Resource.Attribute.busyIndicatorViewBoxHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.busyIndicatorViewBoxWidth = global::safetyLab.Droid.Resource.Attribute.busyIndicatorViewBoxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarButtonStyle = global::safetyLab.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::safetyLab.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::safetyLab.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarPositiveButtonStyle = global::safetyLab.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonBarStyle = global::safetyLab.Droid.Resource.Attribute.buttonBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonGravity = global::safetyLab.Droid.Resource.Attribute.buttonGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonIconDimen = global::safetyLab.Droid.Resource.Attribute.buttonIconDimen;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonPanelSideLayout = global::safetyLab.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonStyle = global::safetyLab.Droid.Resource.Attribute.buttonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonStyleSmall = global::safetyLab.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonTint = global::safetyLab.Droid.Resource.Attribute.buttonTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.buttonTintMode = global::safetyLab.Droid.Resource.Attribute.buttonTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardBackgroundColor = global::safetyLab.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardCornerRadius = global::safetyLab.Droid.Resource.Attribute.cardCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardElevation = global::safetyLab.Droid.Resource.Attribute.cardElevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardMaxElevation = global::safetyLab.Droid.Resource.Attribute.cardMaxElevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::safetyLab.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardUseCompatPadding = global::safetyLab.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cardViewStyle = global::safetyLab.Droid.Resource.Attribute.cardViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkboxStyle = global::safetyLab.Droid.Resource.Attribute.checkboxStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedChip = global::safetyLab.Droid.Resource.Attribute.checkedChip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedIcon = global::safetyLab.Droid.Resource.Attribute.checkedIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedIconEnabled = global::safetyLab.Droid.Resource.Attribute.checkedIconEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedIconVisible = global::safetyLab.Droid.Resource.Attribute.checkedIconVisible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.checkedTextViewStyle = global::safetyLab.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipBackgroundColor = global::safetyLab.Droid.Resource.Attribute.chipBackgroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipCornerRadius = global::safetyLab.Droid.Resource.Attribute.chipCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipEndPadding = global::safetyLab.Droid.Resource.Attribute.chipEndPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipGroupStyle = global::safetyLab.Droid.Resource.Attribute.chipGroupStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIcon = global::safetyLab.Droid.Resource.Attribute.chipIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIconEnabled = global::safetyLab.Droid.Resource.Attribute.chipIconEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIconSize = global::safetyLab.Droid.Resource.Attribute.chipIconSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIconTint = global::safetyLab.Droid.Resource.Attribute.chipIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipIconVisible = global::safetyLab.Droid.Resource.Attribute.chipIconVisible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipMinHeight = global::safetyLab.Droid.Resource.Attribute.chipMinHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipSpacing = global::safetyLab.Droid.Resource.Attribute.chipSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipSpacingHorizontal = global::safetyLab.Droid.Resource.Attribute.chipSpacingHorizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipSpacingVertical = global::safetyLab.Droid.Resource.Attribute.chipSpacingVertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStandaloneStyle = global::safetyLab.Droid.Resource.Attribute.chipStandaloneStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStartPadding = global::safetyLab.Droid.Resource.Attribute.chipStartPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStrokeColor = global::safetyLab.Droid.Resource.Attribute.chipStrokeColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStrokeWidth = global::safetyLab.Droid.Resource.Attribute.chipStrokeWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.chipStyle = global::safetyLab.Droid.Resource.Attribute.chipStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIcon = global::safetyLab.Droid.Resource.Attribute.closeIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconEnabled = global::safetyLab.Droid.Resource.Attribute.closeIconEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconEndPadding = global::safetyLab.Droid.Resource.Attribute.closeIconEndPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconSize = global::safetyLab.Droid.Resource.Attribute.closeIconSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconStartPadding = global::safetyLab.Droid.Resource.Attribute.closeIconStartPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconTint = global::safetyLab.Droid.Resource.Attribute.closeIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeIconVisible = global::safetyLab.Droid.Resource.Attribute.closeIconVisible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.closeItemLayout = global::safetyLab.Droid.Resource.Attribute.closeItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapseContentDescription = global::safetyLab.Droid.Resource.Attribute.collapseContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapseIcon = global::safetyLab.Droid.Resource.Attribute.collapseIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapsedTitleGravity = global::safetyLab.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::safetyLab.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.color = global::safetyLab.Droid.Resource.Attribute.color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorAccent = global::safetyLab.Droid.Resource.Attribute.colorAccent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorBackgroundFloating = global::safetyLab.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorButtonNormal = global::safetyLab.Droid.Resource.Attribute.colorButtonNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlActivated = global::safetyLab.Droid.Resource.Attribute.colorControlActivated;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlHighlight = global::safetyLab.Droid.Resource.Attribute.colorControlHighlight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorControlNormal = global::safetyLab.Droid.Resource.Attribute.colorControlNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorError = global::safetyLab.Droid.Resource.Attribute.colorError;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorPrimary = global::safetyLab.Droid.Resource.Attribute.colorPrimary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorPrimaryDark = global::safetyLab.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorSecondary = global::safetyLab.Droid.Resource.Attribute.colorSecondary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::safetyLab.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.commitIcon = global::safetyLab.Droid.Resource.Attribute.commitIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentDescription = global::safetyLab.Droid.Resource.Attribute.contentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetEnd = global::safetyLab.Droid.Resource.Attribute.contentInsetEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetEndWithActions = global::safetyLab.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetLeft = global::safetyLab.Droid.Resource.Attribute.contentInsetLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetRight = global::safetyLab.Droid.Resource.Attribute.contentInsetRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetStart = global::safetyLab.Droid.Resource.Attribute.contentInsetStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentInsetStartWithNavigation = global::safetyLab.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPadding = global::safetyLab.Droid.Resource.Attribute.contentPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingBottom = global::safetyLab.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingLeft = global::safetyLab.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingRight = global::safetyLab.Droid.Resource.Attribute.contentPaddingRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentPaddingTop = global::safetyLab.Droid.Resource.Attribute.contentPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.contentScrim = global::safetyLab.Droid.Resource.Attribute.contentScrim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.controlBackground = global::safetyLab.Droid.Resource.Attribute.controlBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.coordinatorLayoutStyle = global::safetyLab.Droid.Resource.Attribute.coordinatorLayoutStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.cornerRadius = global::safetyLab.Droid.Resource.Attribute.cornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterEnabled = global::safetyLab.Droid.Resource.Attribute.counterEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterMaxLength = global::safetyLab.Droid.Resource.Attribute.counterMaxLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::safetyLab.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.counterTextAppearance = global::safetyLab.Droid.Resource.Attribute.counterTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.customNavigationLayout = global::safetyLab.Droid.Resource.Attribute.customNavigationLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.defaultQueryHint = global::safetyLab.Droid.Resource.Attribute.defaultQueryHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dialogCornerRadius = global::safetyLab.Droid.Resource.Attribute.dialogCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dialogPreferredPadding = global::safetyLab.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dialogTheme = global::safetyLab.Droid.Resource.Attribute.dialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.displayOptions = global::safetyLab.Droid.Resource.Attribute.displayOptions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.divider = global::safetyLab.Droid.Resource.Attribute.divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerHorizontal = global::safetyLab.Droid.Resource.Attribute.dividerHorizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerPadding = global::safetyLab.Droid.Resource.Attribute.dividerPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dividerVertical = global::safetyLab.Droid.Resource.Attribute.dividerVertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.drawableSize = global::safetyLab.Droid.Resource.Attribute.drawableSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.drawerArrowStyle = global::safetyLab.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dropDownListViewStyle = global::safetyLab.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::safetyLab.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextBackground = global::safetyLab.Droid.Resource.Attribute.editTextBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextColor = global::safetyLab.Droid.Resource.Attribute.editTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.editTextStyle = global::safetyLab.Droid.Resource.Attribute.editTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.elevation = global::safetyLab.Droid.Resource.Attribute.elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.enforceMaterialTheme = global::safetyLab.Droid.Resource.Attribute.enforceMaterialTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.enforceTextAppearance = global::safetyLab.Droid.Resource.Attribute.enforceTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.errorEnabled = global::safetyLab.Droid.Resource.Attribute.errorEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.errorTextAppearance = global::safetyLab.Droid.Resource.Attribute.errorTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::safetyLab.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expanded = global::safetyLab.Droid.Resource.Attribute.expanded;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleGravity = global::safetyLab.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMargin = global::safetyLab.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginBottom = global::safetyLab.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginEnd = global::safetyLab.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginStart = global::safetyLab.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleMarginTop = global::safetyLab.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::safetyLab.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.externalRouteEnabledDrawable = global::safetyLab.Droid.Resource.Attribute.externalRouteEnabledDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabAlignmentMode = global::safetyLab.Droid.Resource.Attribute.fabAlignmentMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabCradleMargin = global::safetyLab.Droid.Resource.Attribute.fabCradleMargin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::safetyLab.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabCradleVerticalOffset = global::safetyLab.Droid.Resource.Attribute.fabCradleVerticalOffset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabCustomSize = global::safetyLab.Droid.Resource.Attribute.fabCustomSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fabSize = global::safetyLab.Droid.Resource.Attribute.fabSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollEnabled = global::safetyLab.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::safetyLab.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::safetyLab.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable = global::safetyLab.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable = global::safetyLab.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.firstBaselineToTopHeight = global::safetyLab.Droid.Resource.Attribute.firstBaselineToTopHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.floatingActionButtonStyle = global::safetyLab.Droid.Resource.Attribute.floatingActionButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.font = global::safetyLab.Droid.Resource.Attribute.font;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontFamily = global::safetyLab.Droid.Resource.Attribute.fontFamily;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderAuthority = global::safetyLab.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderCerts = global::safetyLab.Droid.Resource.Attribute.fontProviderCerts;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderFetchStrategy = global::safetyLab.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderFetchTimeout = global::safetyLab.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderPackage = global::safetyLab.Droid.Resource.Attribute.fontProviderPackage;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontProviderQuery = global::safetyLab.Droid.Resource.Attribute.fontProviderQuery;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontStyle = global::safetyLab.Droid.Resource.Attribute.fontStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontVariationSettings = global::safetyLab.Droid.Resource.Attribute.fontVariationSettings;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.fontWeight = global::safetyLab.Droid.Resource.Attribute.fontWeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.foregroundInsidePadding = global::safetyLab.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.gapBetweenBars = global::safetyLab.Droid.Resource.Attribute.gapBetweenBars;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.goIcon = global::safetyLab.Droid.Resource.Attribute.goIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.headerLayout = global::safetyLab.Droid.Resource.Attribute.headerLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.height = global::safetyLab.Droid.Resource.Attribute.height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.helperText = global::safetyLab.Droid.Resource.Attribute.helperText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.helperTextEnabled = global::safetyLab.Droid.Resource.Attribute.helperTextEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.helperTextTextAppearance = global::safetyLab.Droid.Resource.Attribute.helperTextTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hideMotionSpec = global::safetyLab.Droid.Resource.Attribute.hideMotionSpec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hideOnContentScroll = global::safetyLab.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hideOnScroll = global::safetyLab.Droid.Resource.Attribute.hideOnScroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintAnimationEnabled = global::safetyLab.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintEnabled = global::safetyLab.Droid.Resource.Attribute.hintEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hintTextAppearance = global::safetyLab.Droid.Resource.Attribute.hintTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.homeAsUpIndicator = global::safetyLab.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.homeLayout = global::safetyLab.Droid.Resource.Attribute.homeLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::safetyLab.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.icon = global::safetyLab.Droid.Resource.Attribute.icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconEndPadding = global::safetyLab.Droid.Resource.Attribute.iconEndPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconGravity = global::safetyLab.Droid.Resource.Attribute.iconGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconPadding = global::safetyLab.Droid.Resource.Attribute.iconPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconSize = global::safetyLab.Droid.Resource.Attribute.iconSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconStartPadding = global::safetyLab.Droid.Resource.Attribute.iconStartPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconTint = global::safetyLab.Droid.Resource.Attribute.iconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconTintMode = global::safetyLab.Droid.Resource.Attribute.iconTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.iconifiedByDefault = global::safetyLab.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.imageButtonStyle = global::safetyLab.Droid.Resource.Attribute.imageButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.indeterminateProgressStyle = global::safetyLab.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.initialActivityCount = global::safetyLab.Droid.Resource.Attribute.initialActivityCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.insetForeground = global::safetyLab.Droid.Resource.Attribute.insetForeground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.isLightTheme = global::safetyLab.Droid.Resource.Attribute.isLightTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemBackground = global::safetyLab.Droid.Resource.Attribute.itemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemHorizontalPadding = global::safetyLab.Droid.Resource.Attribute.itemHorizontalPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::safetyLab.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemIconPadding = global::safetyLab.Droid.Resource.Attribute.itemIconPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemIconSize = global::safetyLab.Droid.Resource.Attribute.itemIconSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemIconTint = global::safetyLab.Droid.Resource.Attribute.itemIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemPadding = global::safetyLab.Droid.Resource.Attribute.itemPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemSpacing = global::safetyLab.Droid.Resource.Attribute.itemSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextAppearance = global::safetyLab.Droid.Resource.Attribute.itemTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextAppearanceActive = global::safetyLab.Droid.Resource.Attribute.itemTextAppearanceActive;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextAppearanceInactive = global::safetyLab.Droid.Resource.Attribute.itemTextAppearanceInactive;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.itemTextColor = global::safetyLab.Droid.Resource.Attribute.itemTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.keylines = global::safetyLab.Droid.Resource.Attribute.keylines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.labelVisibilityMode = global::safetyLab.Droid.Resource.Attribute.labelVisibilityMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::safetyLab.Droid.Resource.Attribute.lastBaselineToBottomHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout = global::safetyLab.Droid.Resource.Attribute.layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layoutManager = global::safetyLab.Droid.Resource.Attribute.layoutManager;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_anchor = global::safetyLab.Droid.Resource.Attribute.layout_anchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_anchorGravity = global::safetyLab.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_behavior = global::safetyLab.Droid.Resource.Attribute.layout_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_collapseMode = global::safetyLab.Droid.Resource.Attribute.layout_collapseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_collapseParallaxMultiplier = global::safetyLab.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_dodgeInsetEdges = global::safetyLab.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_insetEdge = global::safetyLab.Droid.Resource.Attribute.layout_insetEdge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_keyline = global::safetyLab.Droid.Resource.Attribute.layout_keyline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_scrollFlags = global::safetyLab.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.layout_scrollInterpolator = global::safetyLab.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.liftOnScroll = global::safetyLab.Droid.Resource.Attribute.liftOnScroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.lineHeight = global::safetyLab.Droid.Resource.Attribute.lineHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.lineSpacing = global::safetyLab.Droid.Resource.Attribute.lineSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::safetyLab.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listDividerAlertDialog = global::safetyLab.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listItemLayout = global::safetyLab.Droid.Resource.Attribute.listItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listLayout = global::safetyLab.Droid.Resource.Attribute.listLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listMenuViewStyle = global::safetyLab.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPopupWindowStyle = global::safetyLab.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeight = global::safetyLab.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeightLarge = global::safetyLab.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemHeightSmall = global::safetyLab.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemPaddingLeft = global::safetyLab.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.listPreferredItemPaddingRight = global::safetyLab.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.logo = global::safetyLab.Droid.Resource.Attribute.logo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.logoDescription = global::safetyLab.Droid.Resource.Attribute.logoDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.materialButtonStyle = global::safetyLab.Droid.Resource.Attribute.materialButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.materialCardViewStyle = global::safetyLab.Droid.Resource.Attribute.materialCardViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.maxActionInlineWidth = global::safetyLab.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.maxButtonHeight = global::safetyLab.Droid.Resource.Attribute.maxButtonHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.maxImageSize = global::safetyLab.Droid.Resource.Attribute.maxImageSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.measureWithLargestChild = global::safetyLab.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRouteAudioTrackDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteButtonStyle = global::safetyLab.Droid.Resource.Attribute.mediaRouteButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteButtonTint = global::safetyLab.Droid.Resource.Attribute.mediaRouteButtonTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteCloseDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRouteCloseDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay = global::safetyLab.Droid.Resource.Attribute.mediaRouteControlPanelThemeOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRouteDefaultIconDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRoutePauseDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRoutePauseDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRoutePlayDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRoutePlayDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRouteSpeakerGroupIconDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRouteSpeakerIconDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteStopDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRouteStopDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteTheme = global::safetyLab.Droid.Resource.Attribute.mediaRouteTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.mediaRouteTvIconDrawable = global::safetyLab.Droid.Resource.Attribute.mediaRouteTvIconDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.menu = global::safetyLab.Droid.Resource.Attribute.menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.multiChoiceItemLayout = global::safetyLab.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationContentDescription = global::safetyLab.Droid.Resource.Attribute.navigationContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationIcon = global::safetyLab.Droid.Resource.Attribute.navigationIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationMode = global::safetyLab.Droid.Resource.Attribute.navigationMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.navigationViewStyle = global::safetyLab.Droid.Resource.Attribute.navigationViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.numericModifiers = global::safetyLab.Droid.Resource.Attribute.numericModifiers;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.overlapAnchor = global::safetyLab.Droid.Resource.Attribute.overlapAnchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingBottomNoButtons = global::safetyLab.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingEnd = global::safetyLab.Droid.Resource.Attribute.paddingEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingStart = global::safetyLab.Droid.Resource.Attribute.paddingStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.paddingTopNoTitle = global::safetyLab.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelBackground = global::safetyLab.Droid.Resource.Attribute.panelBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelMenuListTheme = global::safetyLab.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.panelMenuListWidth = global::safetyLab.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleContentDescription = global::safetyLab.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleDrawable = global::safetyLab.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleEnabled = global::safetyLab.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleTint = global::safetyLab.Droid.Resource.Attribute.passwordToggleTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.passwordToggleTintMode = global::safetyLab.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupMenuStyle = global::safetyLab.Droid.Resource.Attribute.popupMenuStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupTheme = global::safetyLab.Droid.Resource.Attribute.popupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.popupWindowStyle = global::safetyLab.Droid.Resource.Attribute.popupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.preserveIconSpacing = global::safetyLab.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.pressedTranslationZ = global::safetyLab.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.progressBarPadding = global::safetyLab.Droid.Resource.Attribute.progressBarPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.progressBarStyle = global::safetyLab.Droid.Resource.Attribute.progressBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.queryBackground = global::safetyLab.Droid.Resource.Attribute.queryBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.queryHint = global::safetyLab.Droid.Resource.Attribute.queryHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.radioButtonStyle = global::safetyLab.Droid.Resource.Attribute.radioButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderDirectionReversed = global::safetyLab.Droid.Resource.Attribute.rangeSliderDirectionReversed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderEndValue = global::safetyLab.Droid.Resource.Attribute.rangeSliderEndValue;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderKnobColor = global::safetyLab.Droid.Resource.Attribute.rangeSliderKnobColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderMaximum = global::safetyLab.Droid.Resource.Attribute.rangeSliderMaximum;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderMinimum = global::safetyLab.Droid.Resource.Attribute.rangeSliderMinimum;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderOrientation = global::safetyLab.Droid.Resource.Attribute.rangeSliderOrientation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderShowRange = global::safetyLab.Droid.Resource.Attribute.rangeSliderShowRange;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderShowValueLabel = global::safetyLab.Droid.Resource.Attribute.rangeSliderShowValueLabel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderStartValue = global::safetyLab.Droid.Resource.Attribute.rangeSliderStartValue;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderThumbSize = global::safetyLab.Droid.Resource.Attribute.rangeSliderThumbSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTickPlacement = global::safetyLab.Droid.Resource.Attribute.rangeSliderTickPlacement;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTrackColor = global::safetyLab.Droid.Resource.Attribute.rangeSliderTrackColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderTrackSelectionColor = global::safetyLab.Droid.Resource.Attribute.rangeSliderTrackSelectionColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderValue = global::safetyLab.Droid.Resource.Attribute.rangeSliderValue;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rangeSliderValuePlacement = global::safetyLab.Droid.Resource.Attribute.rangeSliderValuePlacement;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyle = global::safetyLab.Droid.Resource.Attribute.ratingBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::safetyLab.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ratingBarStyleSmall = global::safetyLab.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.reverseLayout = global::safetyLab.Droid.Resource.Attribute.reverseLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.rippleColor = global::safetyLab.Droid.Resource.Attribute.rippleColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.scrimAnimationDuration = global::safetyLab.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.scrimBackground = global::safetyLab.Droid.Resource.Attribute.scrimBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::safetyLab.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchHintIcon = global::safetyLab.Droid.Resource.Attribute.searchHintIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchIcon = global::safetyLab.Droid.Resource.Attribute.searchIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.searchViewStyle = global::safetyLab.Droid.Resource.Attribute.searchViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.seekBarStyle = global::safetyLab.Droid.Resource.Attribute.seekBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.selectableItemBackground = global::safetyLab.Droid.Resource.Attribute.selectableItemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::safetyLab.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showAsAction = global::safetyLab.Droid.Resource.Attribute.showAsAction;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showDividers = global::safetyLab.Droid.Resource.Attribute.showDividers;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showMotionSpec = global::safetyLab.Droid.Resource.Attribute.showMotionSpec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showText = global::safetyLab.Droid.Resource.Attribute.showText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.showTitle = global::safetyLab.Droid.Resource.Attribute.showTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.singleChoiceItemLayout = global::safetyLab.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.singleLine = global::safetyLab.Droid.Resource.Attribute.singleLine;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.singleSelection = global::safetyLab.Droid.Resource.Attribute.singleSelection;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.snackbarButtonStyle = global::safetyLab.Droid.Resource.Attribute.snackbarButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.snackbarStyle = global::safetyLab.Droid.Resource.Attribute.snackbarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spanCount = global::safetyLab.Droid.Resource.Attribute.spanCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinBars = global::safetyLab.Droid.Resource.Attribute.spinBars;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::safetyLab.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.spinnerStyle = global::safetyLab.Droid.Resource.Attribute.spinnerStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.splitTrack = global::safetyLab.Droid.Resource.Attribute.splitTrack;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.srcCompat = global::safetyLab.Droid.Resource.Attribute.srcCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.stackFromEnd = global::safetyLab.Droid.Resource.Attribute.stackFromEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_above_anchor = global::safetyLab.Droid.Resource.Attribute.state_above_anchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_collapsed = global::safetyLab.Droid.Resource.Attribute.state_collapsed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_collapsible = global::safetyLab.Droid.Resource.Attribute.state_collapsible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_liftable = global::safetyLab.Droid.Resource.Attribute.state_liftable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.state_lifted = global::safetyLab.Droid.Resource.Attribute.state_lifted;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.statusBarBackground = global::safetyLab.Droid.Resource.Attribute.statusBarBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.statusBarScrim = global::safetyLab.Droid.Resource.Attribute.statusBarScrim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.strokeColor = global::safetyLab.Droid.Resource.Attribute.strokeColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.strokeWidth = global::safetyLab.Droid.Resource.Attribute.strokeWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subMenuArrow = global::safetyLab.Droid.Resource.Attribute.subMenuArrow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.submitBackground = global::safetyLab.Droid.Resource.Attribute.submitBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitle = global::safetyLab.Droid.Resource.Attribute.subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextAppearance = global::safetyLab.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextColor = global::safetyLab.Droid.Resource.Attribute.subtitleTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.subtitleTextStyle = global::safetyLab.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.suggestionRowLayout = global::safetyLab.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchMinWidth = global::safetyLab.Droid.Resource.Attribute.switchMinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchPadding = global::safetyLab.Droid.Resource.Attribute.switchPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchStyle = global::safetyLab.Droid.Resource.Attribute.switchStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.switchTextAppearance = global::safetyLab.Droid.Resource.Attribute.switchTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabBackground = global::safetyLab.Droid.Resource.Attribute.tabBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabContentStart = global::safetyLab.Droid.Resource.Attribute.tabContentStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabGravity = global::safetyLab.Droid.Resource.Attribute.tabGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIconTint = global::safetyLab.Droid.Resource.Attribute.tabIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIconTintMode = global::safetyLab.Droid.Resource.Attribute.tabIconTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicator = global::safetyLab.Droid.Resource.Attribute.tabIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorAnimationDuration = global::safetyLab.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorColor = global::safetyLab.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorFullWidth = global::safetyLab.Droid.Resource.Attribute.tabIndicatorFullWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorGravity = global::safetyLab.Droid.Resource.Attribute.tabIndicatorGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabIndicatorHeight = global::safetyLab.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabInlineLabel = global::safetyLab.Droid.Resource.Attribute.tabInlineLabel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMaxWidth = global::safetyLab.Droid.Resource.Attribute.tabMaxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMinWidth = global::safetyLab.Droid.Resource.Attribute.tabMinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabMode = global::safetyLab.Droid.Resource.Attribute.tabMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPadding = global::safetyLab.Droid.Resource.Attribute.tabPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingBottom = global::safetyLab.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingEnd = global::safetyLab.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingStart = global::safetyLab.Droid.Resource.Attribute.tabPaddingStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabPaddingTop = global::safetyLab.Droid.Resource.Attribute.tabPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabRippleColor = global::safetyLab.Droid.Resource.Attribute.tabRippleColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabSelectedTextColor = global::safetyLab.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabStyle = global::safetyLab.Droid.Resource.Attribute.tabStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabTextAppearance = global::safetyLab.Droid.Resource.Attribute.tabTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabTextColor = global::safetyLab.Droid.Resource.Attribute.tabTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tabUnboundedRipple = global::safetyLab.Droid.Resource.Attribute.tabUnboundedRipple;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAllCaps = global::safetyLab.Droid.Resource.Attribute.textAllCaps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceBody1 = global::safetyLab.Droid.Resource.Attribute.textAppearanceBody1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceBody2 = global::safetyLab.Droid.Resource.Attribute.textAppearanceBody2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceButton = global::safetyLab.Droid.Resource.Attribute.textAppearanceButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceCaption = global::safetyLab.Droid.Resource.Attribute.textAppearanceCaption;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline1 = global::safetyLab.Droid.Resource.Attribute.textAppearanceHeadline1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline2 = global::safetyLab.Droid.Resource.Attribute.textAppearanceHeadline2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline3 = global::safetyLab.Droid.Resource.Attribute.textAppearanceHeadline3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline4 = global::safetyLab.Droid.Resource.Attribute.textAppearanceHeadline4;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline5 = global::safetyLab.Droid.Resource.Attribute.textAppearanceHeadline5;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceHeadline6 = global::safetyLab.Droid.Resource.Attribute.textAppearanceHeadline6;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::safetyLab.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceListItem = global::safetyLab.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::safetyLab.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::safetyLab.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceOverline = global::safetyLab.Droid.Resource.Attribute.textAppearanceOverline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearancePopupMenuHeader = global::safetyLab.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle = global::safetyLab.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSearchResultTitle = global::safetyLab.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSmallPopupMenu = global::safetyLab.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSubtitle1 = global::safetyLab.Droid.Resource.Attribute.textAppearanceSubtitle1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textAppearanceSubtitle2 = global::safetyLab.Droid.Resource.Attribute.textAppearanceSubtitle2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::safetyLab.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textColorSearchUrl = global::safetyLab.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textEndPadding = global::safetyLab.Droid.Resource.Attribute.textEndPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textInputStyle = global::safetyLab.Droid.Resource.Attribute.textInputStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.textStartPadding = global::safetyLab.Droid.Resource.Attribute.textStartPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.theme = global::safetyLab.Droid.Resource.Attribute.theme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thickness = global::safetyLab.Droid.Resource.Attribute.thickness;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thumbTextPadding = global::safetyLab.Droid.Resource.Attribute.thumbTextPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thumbTint = global::safetyLab.Droid.Resource.Attribute.thumbTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.thumbTintMode = global::safetyLab.Droid.Resource.Attribute.thumbTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tickMark = global::safetyLab.Droid.Resource.Attribute.tickMark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tickMarkTint = global::safetyLab.Droid.Resource.Attribute.tickMarkTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tickMarkTintMode = global::safetyLab.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tint = global::safetyLab.Droid.Resource.Attribute.tint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tintMode = global::safetyLab.Droid.Resource.Attribute.tintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.title = global::safetyLab.Droid.Resource.Attribute.title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleEnabled = global::safetyLab.Droid.Resource.Attribute.titleEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMargin = global::safetyLab.Droid.Resource.Attribute.titleMargin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginBottom = global::safetyLab.Droid.Resource.Attribute.titleMarginBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginEnd = global::safetyLab.Droid.Resource.Attribute.titleMarginEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginStart = global::safetyLab.Droid.Resource.Attribute.titleMarginStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMarginTop = global::safetyLab.Droid.Resource.Attribute.titleMarginTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleMargins = global::safetyLab.Droid.Resource.Attribute.titleMargins;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextAppearance = global::safetyLab.Droid.Resource.Attribute.titleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextColor = global::safetyLab.Droid.Resource.Attribute.titleTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.titleTextStyle = global::safetyLab.Droid.Resource.Attribute.titleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarId = global::safetyLab.Droid.Resource.Attribute.toolbarId;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarNavigationButtonStyle = global::safetyLab.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.toolbarStyle = global::safetyLab.Droid.Resource.Attribute.toolbarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tooltipForegroundColor = global::safetyLab.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tooltipFrameBackground = global::safetyLab.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.tooltipText = global::safetyLab.Droid.Resource.Attribute.tooltipText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.track = global::safetyLab.Droid.Resource.Attribute.track;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.trackTint = global::safetyLab.Droid.Resource.Attribute.trackTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.trackTintMode = global::safetyLab.Droid.Resource.Attribute.trackTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.ttcIndex = global::safetyLab.Droid.Resource.Attribute.ttcIndex;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.useCompatPadding = global::safetyLab.Droid.Resource.Attribute.useCompatPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.viewInflaterClass = global::safetyLab.Droid.Resource.Attribute.viewInflaterClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.voiceIcon = global::safetyLab.Droid.Resource.Attribute.voiceIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionBar = global::safetyLab.Droid.Resource.Attribute.windowActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionBarOverlay = global::safetyLab.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowActionModeOverlay = global::safetyLab.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedHeightMajor = global::safetyLab.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedHeightMinor = global::safetyLab.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedWidthMajor = global::safetyLab.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowFixedWidthMinor = global::safetyLab.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowMinWidthMajor = global::safetyLab.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowMinWidthMinor = global::safetyLab.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Attribute.windowNoTitle = global::safetyLab.Droid.Resource.Attribute.windowNoTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::safetyLab.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_allow_stacked_button_bar = global::safetyLab.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::safetyLab.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::safetyLab.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark = global::safetyLab.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_background_cache_hint_selector_material_light = global::safetyLab.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::safetyLab.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_btn_colored_text_material = global::safetyLab.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_color_highlight_material = global::safetyLab.Droid.Resource.Color.abc_color_highlight_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::safetyLab.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_hint_foreground_material_light = global::safetyLab.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_input_method_navigation_guard = global::safetyLab.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::safetyLab.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_light = global::safetyLab.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_material_dark = global::safetyLab.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_primary_text_material_light = global::safetyLab.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text = global::safetyLab.Droid.Resource.Color.abc_search_url_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_normal = global::safetyLab.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_pressed = global::safetyLab.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_search_url_text_selected = global::safetyLab.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_secondary_text_material_dark = global::safetyLab.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_secondary_text_material_light = global::safetyLab.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_btn_checkable = global::safetyLab.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_default = global::safetyLab.Droid.Resource.Color.abc_tint_default;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_edittext = global::safetyLab.Droid.Resource.Color.abc_tint_edittext;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_seek_thumb = global::safetyLab.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_spinner = global::safetyLab.Droid.Resource.Color.abc_tint_spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.abc_tint_switch_track = global::safetyLab.Droid.Resource.Color.abc_tint_switch_track;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.accent_material_dark = global::safetyLab.Droid.Resource.Color.accent_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.accent_material_light = global::safetyLab.Droid.Resource.Color.accent_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_floating_material_dark = global::safetyLab.Droid.Resource.Color.background_floating_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_floating_material_light = global::safetyLab.Droid.Resource.Color.background_floating_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_material_dark = global::safetyLab.Droid.Resource.Color.background_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.background_material_light = global::safetyLab.Droid.Resource.Color.background_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_disabled_material_dark = global::safetyLab.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_disabled_material_light = global::safetyLab.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_inverse_material_dark = global::safetyLab.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_inverse_material_light = global::safetyLab.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_material_dark = global::safetyLab.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.bright_foreground_material_light = global::safetyLab.Droid.Resource.Color.bright_foreground_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.browser_actions_bg_grey = global::safetyLab.Droid.Resource.Color.browser_actions_bg_grey;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.browser_actions_divider_color = global::safetyLab.Droid.Resource.Color.browser_actions_divider_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.browser_actions_text_color = global::safetyLab.Droid.Resource.Color.browser_actions_text_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.browser_actions_title_color = global::safetyLab.Droid.Resource.Color.browser_actions_title_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.button_material_dark = global::safetyLab.Droid.Resource.Color.button_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.button_material_light = global::safetyLab.Droid.Resource.Color.button_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_dark_background = global::safetyLab.Droid.Resource.Color.cardview_dark_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_light_background = global::safetyLab.Droid.Resource.Color.cardview_light_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_shadow_end_color = global::safetyLab.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.cardview_shadow_start_color = global::safetyLab.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::safetyLab.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_default_color_primary = global::safetyLab.Droid.Resource.Color.design_default_color_primary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_default_color_primary_dark = global::safetyLab.Droid.Resource.Color.design_default_color_primary_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_error = global::safetyLab.Droid.Resource.Color.design_error;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_end_color = global::safetyLab.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_mid_color = global::safetyLab.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_shadow_start_color = global::safetyLab.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_end_inner_color = global::safetyLab.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::safetyLab.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::safetyLab.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::safetyLab.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_snackbar_background_color = global::safetyLab.Droid.Resource.Color.design_snackbar_background_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.design_tint_password_toggle = global::safetyLab.Droid.Resource.Color.design_tint_password_toggle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::safetyLab.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::safetyLab.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_material_dark = global::safetyLab.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.dim_foreground_material_light = global::safetyLab.Droid.Resource.Color.dim_foreground_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.error_color_material_dark = global::safetyLab.Droid.Resource.Color.error_color_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.error_color_material_light = global::safetyLab.Droid.Resource.Color.error_color_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.foreground_material_dark = global::safetyLab.Droid.Resource.Color.foreground_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.foreground_material_light = global::safetyLab.Droid.Resource.Color.foreground_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.highlighted_text_material_dark = global::safetyLab.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.highlighted_text_material_light = global::safetyLab.Droid.Resource.Color.highlighted_text_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_800 = global::safetyLab.Droid.Resource.Color.material_blue_grey_800;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_900 = global::safetyLab.Droid.Resource.Color.material_blue_grey_900;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_blue_grey_950 = global::safetyLab.Droid.Resource.Color.material_blue_grey_950;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_deep_teal_200 = global::safetyLab.Droid.Resource.Color.material_deep_teal_200;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_deep_teal_500 = global::safetyLab.Droid.Resource.Color.material_deep_teal_500;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_100 = global::safetyLab.Droid.Resource.Color.material_grey_100;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_300 = global::safetyLab.Droid.Resource.Color.material_grey_300;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_50 = global::safetyLab.Droid.Resource.Color.material_grey_50;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_600 = global::safetyLab.Droid.Resource.Color.material_grey_600;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_800 = global::safetyLab.Droid.Resource.Color.material_grey_800;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_850 = global::safetyLab.Droid.Resource.Color.material_grey_850;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.material_grey_900 = global::safetyLab.Droid.Resource.Color.material_grey_900;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint = global::safetyLab.Droid.Resource.Color.mtrl_bottom_nav_colored_item_tint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_bottom_nav_item_tint = global::safetyLab.Droid.Resource.Color.mtrl_bottom_nav_item_tint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_bg_color_disabled = global::safetyLab.Droid.Resource.Color.mtrl_btn_bg_color_disabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::safetyLab.Droid.Resource.Color.mtrl_btn_bg_color_selector;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_ripple_color = global::safetyLab.Droid.Resource.Color.mtrl_btn_ripple_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::safetyLab.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::safetyLab.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::safetyLab.Droid.Resource.Color.mtrl_btn_text_color_disabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_text_color_selector = global::safetyLab.Droid.Resource.Color.mtrl_btn_text_color_selector;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::safetyLab.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_chip_background_color = global::safetyLab.Droid.Resource.Color.mtrl_chip_background_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::safetyLab.Droid.Resource.Color.mtrl_chip_close_icon_tint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_chip_ripple_color = global::safetyLab.Droid.Resource.Color.mtrl_chip_ripple_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_chip_text_color = global::safetyLab.Droid.Resource.Color.mtrl_chip_text_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_fab_ripple_color = global::safetyLab.Droid.Resource.Color.mtrl_fab_ripple_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_scrim_color = global::safetyLab.Droid.Resource.Color.mtrl_scrim_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::safetyLab.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::safetyLab.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::safetyLab.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::safetyLab.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_tabs_ripple_color = global::safetyLab.Droid.Resource.Color.mtrl_tabs_ripple_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::safetyLab.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::safetyLab.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_textinput_disabled_color = global::safetyLab.Droid.Resource.Color.mtrl_textinput_disabled_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::safetyLab.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::safetyLab.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.notification_action_color_filter = global::safetyLab.Droid.Resource.Color.notification_action_color_filter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.notification_icon_bg_color = global::safetyLab.Droid.Resource.Color.notification_icon_bg_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.notification_material_background_media_default_color = global::safetyLab.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_dark_material_dark = global::safetyLab.Droid.Resource.Color.primary_dark_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_dark_material_light = global::safetyLab.Droid.Resource.Color.primary_dark_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_material_dark = global::safetyLab.Droid.Resource.Color.primary_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_material_light = global::safetyLab.Droid.Resource.Color.primary_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_default_material_dark = global::safetyLab.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_default_material_light = global::safetyLab.Droid.Resource.Color.primary_text_default_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_disabled_material_dark = global::safetyLab.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.primary_text_disabled_material_light = global::safetyLab.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.ripple_material_dark = global::safetyLab.Droid.Resource.Color.ripple_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.ripple_material_light = global::safetyLab.Droid.Resource.Color.ripple_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_default_material_dark = global::safetyLab.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_default_material_light = global::safetyLab.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_disabled_material_dark = global::safetyLab.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.secondary_text_disabled_material_light = global::safetyLab.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_disabled_material_dark = global::safetyLab.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_disabled_material_light = global::safetyLab.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_material_dark = global::safetyLab.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_material_light = global::safetyLab.Droid.Resource.Color.switch_thumb_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::safetyLab.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.switch_thumb_normal_material_light = global::safetyLab.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.tooltip_background_dark = global::safetyLab.Droid.Resource.Color.tooltip_background_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Color.tooltip_background_light = global::safetyLab.Droid.Resource.Color.tooltip_background_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_height_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_elevation_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_max_height = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::safetyLab.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_height_material = global::safetyLab.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_width_material = global::safetyLab.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material = global::safetyLab.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height = global::safetyLab.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_alert_dialog_button_dimen = global::safetyLab.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_inset_horizontal_material = global::safetyLab.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_inset_vertical_material = global::safetyLab.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_padding_horizontal_material = global::safetyLab.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_button_padding_vertical_material = global::safetyLab.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::safetyLab.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_config_prefDialogWidth = global::safetyLab.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_corner_material = global::safetyLab.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_inset_material = global::safetyLab.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_control_padding_material = global::safetyLab.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_corner_radius_material = global::safetyLab.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_major = global::safetyLab.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_height_minor = global::safetyLab.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_major = global::safetyLab.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_fixed_width_minor = global::safetyLab.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::safetyLab.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::safetyLab.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_min_width_major = global::safetyLab.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_min_width_minor = global::safetyLab.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_padding_material = global::safetyLab.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_padding_top_material = global::safetyLab.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dialog_title_divider_material = global::safetyLab.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_dark = global::safetyLab.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_disabled_alpha_material_light = global::safetyLab.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_icon_width = global::safetyLab.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left = global::safetyLab.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right = global::safetyLab.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material = global::safetyLab.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::safetyLab.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_edit_text_inset_top_material = global::safetyLab.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_floating_window_z = global::safetyLab.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material = global::safetyLab.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_panel_menu_list_width = global::safetyLab.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_progress_bar_height_material = global::safetyLab.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_search_view_preferred_height = global::safetyLab.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_search_view_preferred_width = global::safetyLab.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_seekbar_track_background_height_material = global::safetyLab.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material = global::safetyLab.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_select_dialog_padding_start_material = global::safetyLab.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_switch_padding = global::safetyLab.Droid.Resource.Dimension.abc_switch_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_body_1_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_body_2_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_button_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_caption_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_1_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_2_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_3_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_display_4_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_headline_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_large_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_medium_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_menu_header_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_menu_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_small_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_subhead_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::safetyLab.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_title_material = global::safetyLab.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::safetyLab.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::safetyLab.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::safetyLab.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::safetyLab.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_default_elevation = global::safetyLab.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.cardview_default_radius = global::safetyLab.Droid.Resource.Dimension.cardview_default_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_button_inset_horizontal_material = global::safetyLab.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_button_inset_vertical_material = global::safetyLab.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_button_padding_horizontal_material = global::safetyLab.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_button_padding_vertical_material = global::safetyLab.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_control_corner_material = global::safetyLab.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::safetyLab.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::safetyLab.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_appbar_elevation = global::safetyLab.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_text_size = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_elevation = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_height = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_icon_size = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_item_max_width = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_item_min_width = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::safetyLab.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::safetyLab.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::safetyLab.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_border_width = global::safetyLab.Droid.Resource.Dimension.design_fab_border_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_elevation = global::safetyLab.Droid.Resource.Dimension.design_fab_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_image_size = global::safetyLab.Droid.Resource.Dimension.design_fab_image_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_size_mini = global::safetyLab.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_size_normal = global::safetyLab.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused = global::safetyLab.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_fab_translation_z_pressed = global::safetyLab.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_elevation = global::safetyLab.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_icon_padding = global::safetyLab.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_icon_size = global::safetyLab.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_item_horizontal_padding = global::safetyLab.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_item_icon_padding = global::safetyLab.Droid.Resource.Dimension.design_navigation_item_icon_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_max_width = global::safetyLab.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::safetyLab.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::safetyLab.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::safetyLab.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::safetyLab.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_elevation = global::safetyLab.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::safetyLab.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_max_width = global::safetyLab.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_min_width = global::safetyLab.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_horizontal = global::safetyLab.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical = global::safetyLab.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::safetyLab.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_snackbar_text_size = global::safetyLab.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_max_width = global::safetyLab.Droid.Resource.Dimension.design_tab_max_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_scrollable_min_width = global::safetyLab.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_text_size = global::safetyLab.Droid.Resource.Dimension.design_tab_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_tab_text_size_2line = global::safetyLab.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.design_textinput_caption_translate_y = global::safetyLab.Droid.Resource.Dimension.design_textinput_caption_translate_y;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.disabled_alpha_material_dark = global::safetyLab.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.disabled_alpha_material_light = global::safetyLab.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.fastscroll_default_thickness = global::safetyLab.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.fastscroll_margin = global::safetyLab.Droid.Resource.Dimension.fastscroll_margin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.fastscroll_minimum_range = global::safetyLab.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_colored = global::safetyLab.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_dark = global::safetyLab.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.highlight_alpha_material_light = global::safetyLab.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.hint_alpha_material_dark = global::safetyLab.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.hint_alpha_material_light = global::safetyLab.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.hint_pressed_alpha_material_dark = global::safetyLab.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.hint_pressed_alpha_material_light = global::safetyLab.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::safetyLab.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::safetyLab.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::safetyLab.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.label_font_size = global::safetyLab.Droid.Resource.Dimension.label_font_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height = global::safetyLab.Droid.Resource.Dimension.mr_controller_volume_group_list_item_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size = global::safetyLab.Droid.Resource.Dimension.mr_controller_volume_group_list_item_icon_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height = global::safetyLab.Droid.Resource.Dimension.mr_controller_volume_group_list_max_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top = global::safetyLab.Droid.Resource.Dimension.mr_controller_volume_group_list_padding_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_dialog_fixed_width_major = global::safetyLab.Droid.Resource.Dimension.mr_dialog_fixed_width_major;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mr_dialog_fixed_width_minor = global::safetyLab.Droid.Resource.Dimension.mr_dialog_fixed_width_minor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::safetyLab.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::safetyLab.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::safetyLab.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::safetyLab.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_height = global::safetyLab.Droid.Resource.Dimension.mtrl_bottomappbar_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_corner_radius = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_corner_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_disabled_elevation = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_disabled_z = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_disabled_z;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_elevation = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_focused_z = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_focused_z;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_hovered_z = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_hovered_z;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_icon_padding = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_icon_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_inset = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_inset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_letter_spacing = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_padding_bottom = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_padding_left = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_padding_left;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_padding_right = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_padding_right;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_padding_top = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_padding_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_pressed_z = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_pressed_z;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_stroke_size = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_stroke_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_text_size = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_btn_z = global::safetyLab.Droid.Resource.Dimension.mtrl_btn_z;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_card_elevation = global::safetyLab.Droid.Resource.Dimension.mtrl_card_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_card_spacing = global::safetyLab.Droid.Resource.Dimension.mtrl_card_spacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::safetyLab.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_chip_text_size = global::safetyLab.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_fab_elevation = global::safetyLab.Droid.Resource.Dimension.mtrl_fab_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::safetyLab.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::safetyLab.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_navigation_elevation = global::safetyLab.Droid.Resource.Dimension.mtrl_navigation_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::safetyLab.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::safetyLab.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::safetyLab.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_snackbar_margin = global::safetyLab.Droid.Resource.Dimension.mtrl_snackbar_margin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset = global::safetyLab.Droid.Resource.Dimension.mtrl_textinput_box_bottom_offset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::safetyLab.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::safetyLab.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::safetyLab.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_padding_end = global::safetyLab.Droid.Resource.Dimension.mtrl_textinput_box_padding_end;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::safetyLab.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::safetyLab.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::safetyLab.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::safetyLab.Droid.Resource.Dimension.mtrl_toolbar_default_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_action_icon_size = global::safetyLab.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_action_text_size = global::safetyLab.Droid.Resource.Dimension.notification_action_text_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_big_circle_margin = global::safetyLab.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_content_margin_start = global::safetyLab.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_large_icon_height = global::safetyLab.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_large_icon_width = global::safetyLab.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_main_column_padding_top = global::safetyLab.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_media_narrow_margin = global::safetyLab.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_right_icon_size = global::safetyLab.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_right_side_padding_top = global::safetyLab.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_small_icon_background_padding = global::safetyLab.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_small_icon_size_as_large = global::safetyLab.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_subtext_size = global::safetyLab.Droid.Resource.Dimension.notification_subtext_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_top_pad = global::safetyLab.Droid.Resource.Dimension.notification_top_pad;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.notification_top_pad_large_text = global::safetyLab.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.subtitle_corner_radius = global::safetyLab.Droid.Resource.Dimension.subtitle_corner_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.subtitle_outline_width = global::safetyLab.Droid.Resource.Dimension.subtitle_outline_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.subtitle_shadow_offset = global::safetyLab.Droid.Resource.Dimension.subtitle_shadow_offset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.subtitle_shadow_radius = global::safetyLab.Droid.Resource.Dimension.subtitle_shadow_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.thumb_size = global::safetyLab.Droid.Resource.Dimension.thumb_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tick_size = global::safetyLab.Droid.Resource.Dimension.tick_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_bottom = global::safetyLab.Droid.Resource.Dimension.tool_bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_left = global::safetyLab.Droid.Resource.Dimension.tool_left;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_right = global::safetyLab.Droid.Resource.Dimension.tool_right;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tool_top = global::safetyLab.Droid.Resource.Dimension.tool_top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_corner_radius = global::safetyLab.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::safetyLab.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_margin = global::safetyLab.Droid.Resource.Dimension.tooltip_margin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::safetyLab.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_precise_anchor_threshold = global::safetyLab.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_textsize = global::safetyLab.Droid.Resource.Dimension.tooltip_textsize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_vertical_padding = global::safetyLab.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_y_offset_non_touch = global::safetyLab.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.tooltip_y_offset_touch = global::safetyLab.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Dimension.track_size = global::safetyLab.Droid.Resource.Dimension.track_size;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_action_bar_item_background_material = global::safetyLab.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_borderless_material = global::safetyLab.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_material = global::safetyLab.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::safetyLab.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::safetyLab.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_colored_material = global::safetyLab.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_default_mtrl_shape = global::safetyLab.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_material = global::safetyLab.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::safetyLab.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::safetyLab.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::safetyLab.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::safetyLab.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_internal_bg = global::safetyLab.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_top_material = global::safetyLab.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_control_background_material = global::safetyLab.Droid.Resource.Drawable.abc_control_background_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_dialog_material_background = global::safetyLab.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_edit_text_material = global::safetyLab.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_ab_back_material = global::safetyLab.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::safetyLab.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_clear_material = global::safetyLab.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_go_search_api_material = global::safetyLab.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::safetyLab.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_overflow_material = global::safetyLab.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::safetyLab.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_search_api_material = global::safetyLab.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_black_16dp = global::safetyLab.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_black_36dp = global::safetyLab.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_black_48dp = global::safetyLab.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_16dp = global::safetyLab.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_36dp = global::safetyLab.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_star_half_black_48dp = global::safetyLab.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ic_voice_search_api_material = global::safetyLab.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_item_background_holo_dark = global::safetyLab.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_item_background_holo_light = global::safetyLab.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_divider_material = global::safetyLab.Droid.Resource.Drawable.abc_list_divider_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_focused_holo = global::safetyLab.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_longpressed_holo = global::safetyLab.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_dark = global::safetyLab.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_pressed_holo_light = global::safetyLab.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::safetyLab.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::safetyLab.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::safetyLab.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light = global::safetyLab.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_holo_dark = global::safetyLab.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_list_selector_holo_light = global::safetyLab.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::safetyLab.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_popup_background_mtrl_mult = global::safetyLab.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_indicator_material = global::safetyLab.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_material = global::safetyLab.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_ratingbar_small_material = global::safetyLab.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::safetyLab.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::safetyLab.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_seekbar_thumb_material = global::safetyLab.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_seekbar_tick_mark_material = global::safetyLab.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_seekbar_track_material = global::safetyLab.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::safetyLab.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_spinner_textfield_background_material = global::safetyLab.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_switch_thumb_material = global::safetyLab.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_tab_indicator_material = global::safetyLab.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_cursor_material = global::safetyLab.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::safetyLab.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::safetyLab.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::safetyLab.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::safetyLab.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::safetyLab.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::safetyLab.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::safetyLab.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_textfield_search_material = global::safetyLab.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.abc_vector_test = global::safetyLab.Droid.Resource.Drawable.abc_vector_test;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.AlertViewDialogBottomLine = global::safetyLab.Droid.Resource.Drawable.AlertViewDialogBottomLine;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_hide_password = global::safetyLab.Droid.Resource.Drawable.avd_hide_password;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_hide_password_1 = global::safetyLab.Droid.Resource.Drawable.avd_hide_password_1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_hide_password_2 = global::safetyLab.Droid.Resource.Drawable.avd_hide_password_2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_hide_password_3 = global::safetyLab.Droid.Resource.Drawable.avd_hide_password_3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_show_password = global::safetyLab.Droid.Resource.Drawable.avd_show_password;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_show_password_1 = global::safetyLab.Droid.Resource.Drawable.avd_show_password_1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_show_password_2 = global::safetyLab.Droid.Resource.Drawable.avd_show_password_2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.avd_show_password_3 = global::safetyLab.Droid.Resource.Drawable.avd_show_password_3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.Bookmark = global::safetyLab.Droid.Resource.Drawable.Bookmark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.CheckableMaterialColor = global::safetyLab.Droid.Resource.Drawable.CheckableMaterialColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_bottom_navigation_item_background = global::safetyLab.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_fab_background = global::safetyLab.Droid.Resource.Drawable.design_fab_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_ic_visibility = global::safetyLab.Droid.Resource.Drawable.design_ic_visibility;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_ic_visibility_off = global::safetyLab.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_password_eye = global::safetyLab.Droid.Resource.Drawable.design_password_eye;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.design_snackbar_background = global::safetyLab.Droid.Resource.Drawable.design_snackbar_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.editTextPageCount = global::safetyLab.Droid.Resource.Drawable.editTextPageCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox = global::safetyLab.Droid.Resource.Drawable.FormFieldCheckbox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox_Checked = global::safetyLab.Droid.Resource.Drawable.FormFieldCheckbox_Checked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.FormFieldCheckbox_UnChecked = global::safetyLab.Droid.Resource.Drawable.FormFieldCheckbox_UnChecked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.formfieldradiobuttonstyle = global::safetyLab.Droid.Resource.Drawable.formfieldradiobuttonstyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.formfieldtextboxcursorcolor = global::safetyLab.Droid.Resource.Drawable.formfieldtextboxcursorcolor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_audiotrack_dark = global::safetyLab.Droid.Resource.Drawable.ic_audiotrack_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_audiotrack_light = global::safetyLab.Droid.Resource.Drawable.ic_audiotrack_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_dialog_close_dark = global::safetyLab.Droid.Resource.Drawable.ic_dialog_close_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_dialog_close_light = global::safetyLab.Droid.Resource.Drawable.ic_dialog_close_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_00 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_00;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_01 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_01;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_02 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_02;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_03 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_03;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_04 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_04;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_05 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_05;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_06 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_06;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_07 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_07;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_08 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_08;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_09 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_09;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_10 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_10;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_11 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_11;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_12 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_12;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_13 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_13;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_14 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_14;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_collapse_15 = global::safetyLab.Droid.Resource.Drawable.ic_group_collapse_15;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_00 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_00;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_01 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_01;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_02 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_02;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_03 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_03;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_04 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_04;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_05 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_05;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_06 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_06;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_07 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_07;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_08 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_08;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_09 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_09;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_10 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_10;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_11 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_11;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_12 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_12;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_13 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_13;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_14 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_14;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_group_expand_15 = global::safetyLab.Droid.Resource.Drawable.ic_group_expand_15;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_pause_dark = global::safetyLab.Droid.Resource.Drawable.ic_media_pause_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_pause_light = global::safetyLab.Droid.Resource.Drawable.ic_media_pause_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_play_dark = global::safetyLab.Droid.Resource.Drawable.ic_media_play_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_play_light = global::safetyLab.Droid.Resource.Drawable.ic_media_play_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_stop_dark = global::safetyLab.Droid.Resource.Drawable.ic_media_stop_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_media_stop_light = global::safetyLab.Droid.Resource.Drawable.ic_media_stop_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_00_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_00_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_00_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_00_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_01_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_01_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_01_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_01_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_02_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_02_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_02_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_02_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_03_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_03_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_03_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_03_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_04_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_04_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_04_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_04_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_05_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_05_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_05_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_05_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_06_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_06_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_06_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_06_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_07_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_07_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_07_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_07_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_08_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_08_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_08_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_08_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_09_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_09_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_09_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_09_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_10_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_10_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_10_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_10_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_11_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_11_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_11_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_11_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_12_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_12_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_12_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_12_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_13_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_13_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_13_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_13_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_14_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_14_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_14_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_14_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_15_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_15_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_15_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_15_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_16_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_16_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_16_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_16_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_17_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_17_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_17_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_17_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_18_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_18_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_18_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_18_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_19_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_19_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_19_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_19_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_20_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_20_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_20_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_20_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_21_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_21_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_21_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_21_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_22_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_22_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_22_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_22_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_23_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_23_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_23_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_23_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_24_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_24_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_24_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_24_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_25_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_25_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_25_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_25_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_26_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_26_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_26_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_26_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_27_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_27_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_27_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_27_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_28_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_28_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_28_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_28_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_29_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_29_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_29_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_29_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_30_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_30_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connected_30_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connected_30_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_00_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_00_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_00_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_01_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_01_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_01_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_02_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_02_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_02_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_03_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_03_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_03_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_04_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_04_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_04_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_05_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_05_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_05_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_06_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_06_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_06_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_07_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_07_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_07_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_08_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_08_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_08_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_09_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_09_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_09_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_10_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_10_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_10_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_11_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_11_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_11_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_12_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_12_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_12_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_13_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_13_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_13_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_14_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_14_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_14_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_15_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_15_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_15_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_16_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_16_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_16_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_17_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_17_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_17_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_18_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_18_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_18_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_19_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_19_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_19_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_20_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_20_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_20_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_21_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_21_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_21_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_22_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_22_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_22_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_23_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_23_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_23_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_24_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_24_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_24_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_25_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_25_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_25_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_26_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_26_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_26_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_27_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_27_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_27_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_28_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_28_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_28_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_29_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_29_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_29_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_30_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_connecting_30_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_connecting_30_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_disabled_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_disabled_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_disabled_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_disabled_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_disconnected_dark = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_disconnected_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_disconnected_light = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_disconnected_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mr_button_grey = global::safetyLab.Droid.Resource.Drawable.ic_mr_button_grey;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::safetyLab.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::safetyLab.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::safetyLab.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_speaker_dark = global::safetyLab.Droid.Resource.Drawable.ic_vol_type_speaker_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark = global::safetyLab.Droid.Resource.Drawable.ic_vol_type_speaker_group_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_speaker_group_light = global::safetyLab.Droid.Resource.Drawable.ic_vol_type_speaker_group_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_speaker_light = global::safetyLab.Droid.Resource.Drawable.ic_vol_type_speaker_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_tv_dark = global::safetyLab.Droid.Resource.Drawable.ic_vol_type_tv_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.ic_vol_type_tv_light = global::safetyLab.Droid.Resource.Drawable.ic_vol_type_tv_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.input_layout_drop_down_icon = global::safetyLab.Droid.Resource.Drawable.input_layout_drop_down_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::safetyLab.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::safetyLab.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.More = global::safetyLab.Droid.Resource.Drawable.More;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_connected_dark = global::safetyLab.Droid.Resource.Drawable.mr_button_connected_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_connected_light = global::safetyLab.Droid.Resource.Drawable.mr_button_connected_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_connecting_dark = global::safetyLab.Droid.Resource.Drawable.mr_button_connecting_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_connecting_light = global::safetyLab.Droid.Resource.Drawable.mr_button_connecting_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_dark = global::safetyLab.Droid.Resource.Drawable.mr_button_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_button_light = global::safetyLab.Droid.Resource.Drawable.mr_button_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_dialog_close_dark = global::safetyLab.Droid.Resource.Drawable.mr_dialog_close_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_dialog_close_light = global::safetyLab.Droid.Resource.Drawable.mr_dialog_close_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_dialog_material_background_dark = global::safetyLab.Droid.Resource.Drawable.mr_dialog_material_background_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_dialog_material_background_light = global::safetyLab.Droid.Resource.Drawable.mr_dialog_material_background_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_group_collapse = global::safetyLab.Droid.Resource.Drawable.mr_group_collapse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_group_expand = global::safetyLab.Droid.Resource.Drawable.mr_group_expand;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_pause_dark = global::safetyLab.Droid.Resource.Drawable.mr_media_pause_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_pause_light = global::safetyLab.Droid.Resource.Drawable.mr_media_pause_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_play_dark = global::safetyLab.Droid.Resource.Drawable.mr_media_play_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_play_light = global::safetyLab.Droid.Resource.Drawable.mr_media_play_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_stop_dark = global::safetyLab.Droid.Resource.Drawable.mr_media_stop_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_media_stop_light = global::safetyLab.Droid.Resource.Drawable.mr_media_stop_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark = global::safetyLab.Droid.Resource.Drawable.mr_vol_type_audiotrack_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mr_vol_type_audiotrack_light = global::safetyLab.Droid.Resource.Drawable.mr_vol_type_audiotrack_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mtrl_snackbar_background = global::safetyLab.Droid.Resource.Drawable.mtrl_snackbar_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::safetyLab.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.navigation_empty_icon = global::safetyLab.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_action_background = global::safetyLab.Droid.Resource.Drawable.notification_action_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg = global::safetyLab.Droid.Resource.Drawable.notification_bg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_low = global::safetyLab.Droid.Resource.Drawable.notification_bg_low;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_low_normal = global::safetyLab.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_low_pressed = global::safetyLab.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_normal = global::safetyLab.Droid.Resource.Drawable.notification_bg_normal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_bg_normal_pressed = global::safetyLab.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_icon_background = global::safetyLab.Droid.Resource.Drawable.notification_icon_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_template_icon_bg = global::safetyLab.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_template_icon_low_bg = global::safetyLab.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notification_tile_bg = global::safetyLab.Droid.Resource.Drawable.notification_tile_bg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::safetyLab.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.Search = global::safetyLab.Droid.Resource.Drawable.Search;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.sfprogressbar_determinate_linear = global::safetyLab.Droid.Resource.Drawable.sfprogressbar_determinate_linear;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.sfprogressbar_indeterminate_circular = global::safetyLab.Droid.Resource.Drawable.sfprogressbar_indeterminate_circular;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.sfprogressbar_indeterminate_linear = global::safetyLab.Droid.Resource.Drawable.sfprogressbar_indeterminate_linear;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.SignaturepadRoundedCorners = global::safetyLab.Droid.Resource.Drawable.SignaturepadRoundedCorners;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.tooltip_frame_dark = global::safetyLab.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.tooltip_frame_light = global::safetyLab.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.SignaturePadBottomCorner = global::safetyLab.Droid.Resource.Drawable.SignaturePadBottomCorner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Drawable.SignaturePadTopCorner = global::safetyLab.Droid.Resource.Drawable.SignaturePadTopCorner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ALT = global::safetyLab.Droid.Resource.Id.ALT;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.CTRL = global::safetyLab.Droid.Resource.Id.CTRL;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.FUNCTION = global::safetyLab.Droid.Resource.Id.FUNCTION;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.META = global::safetyLab.Droid.Resource.Id.META;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.SHIFT = global::safetyLab.Droid.Resource.Id.SHIFT;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.SYM = global::safetyLab.Droid.Resource.Id.SYM;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action0 = global::safetyLab.Droid.Resource.Id.action0;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar = global::safetyLab.Droid.Resource.Id.action_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_activity_content = global::safetyLab.Droid.Resource.Id.action_bar_activity_content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_container = global::safetyLab.Droid.Resource.Id.action_bar_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_root = global::safetyLab.Droid.Resource.Id.action_bar_root;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_spinner = global::safetyLab.Droid.Resource.Id.action_bar_spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_subtitle = global::safetyLab.Droid.Resource.Id.action_bar_subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_bar_title = global::safetyLab.Droid.Resource.Id.action_bar_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_container = global::safetyLab.Droid.Resource.Id.action_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_context_bar = global::safetyLab.Droid.Resource.Id.action_context_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_divider = global::safetyLab.Droid.Resource.Id.action_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_image = global::safetyLab.Droid.Resource.Id.action_image;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_menu_divider = global::safetyLab.Droid.Resource.Id.action_menu_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_menu_presenter = global::safetyLab.Droid.Resource.Id.action_menu_presenter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_bar = global::safetyLab.Droid.Resource.Id.action_mode_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_bar_stub = global::safetyLab.Droid.Resource.Id.action_mode_bar_stub;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_mode_close_button = global::safetyLab.Droid.Resource.Id.action_mode_close_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.action_text = global::safetyLab.Droid.Resource.Id.action_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.actions = global::safetyLab.Droid.Resource.Id.actions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.activity_chooser_view_content = global::safetyLab.Droid.Resource.Id.activity_chooser_view_content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.add = global::safetyLab.Droid.Resource.Id.add;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.alertTitle = global::safetyLab.Droid.Resource.Id.alertTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.all = global::safetyLab.Droid.Resource.Id.all;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.always = global::safetyLab.Droid.Resource.Id.always;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.async = global::safetyLab.Droid.Resource.Id.async;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.auto = global::safetyLab.Droid.Resource.Id.auto;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ball = global::safetyLab.Droid.Resource.Id.ball;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.battery = global::safetyLab.Droid.Resource.Id.battery;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.beginning = global::safetyLab.Droid.Resource.Id.beginning;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.blocking = global::safetyLab.Droid.Resource.Id.blocking;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottom = global::safetyLab.Droid.Resource.Id.bottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomBar = global::safetyLab.Droid.Resource.Id.bottomBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomRight = global::safetyLab.Droid.Resource.Id.bottomRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomtab_navarea = global::safetyLab.Droid.Resource.Id.bottomtab_navarea;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.bottomtab_tabbar = global::safetyLab.Droid.Resource.Id.bottomtab_tabbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.box = global::safetyLab.Droid.Resource.Id.box;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_header_text = global::safetyLab.Droid.Resource.Id.browser_actions_header_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_menu_item_icon = global::safetyLab.Droid.Resource.Id.browser_actions_menu_item_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_menu_item_text = global::safetyLab.Droid.Resource.Id.browser_actions_menu_item_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_menu_items = global::safetyLab.Droid.Resource.Id.browser_actions_menu_items;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.browser_actions_menu_view = global::safetyLab.Droid.Resource.Id.browser_actions_menu_view;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.buttonPanel = global::safetyLab.Droid.Resource.Id.buttonPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.cancelButton = global::safetyLab.Droid.Resource.Id.cancelButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.cancel_action = global::safetyLab.Droid.Resource.Id.cancel_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center = global::safetyLab.Droid.Resource.Id.center;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center_horizontal = global::safetyLab.Droid.Resource.Id.center_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.center_vertical = global::safetyLab.Droid.Resource.Id.center_vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.checkbox = global::safetyLab.Droid.Resource.Id.checkbox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@checked = global::safetyLab.Droid.Resource.Id.@checked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.chronometer = global::safetyLab.Droid.Resource.Id.chronometer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clearButton = global::safetyLab.Droid.Resource.Id.clearButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clip_horizontal = global::safetyLab.Droid.Resource.Id.clip_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.clip_vertical = global::safetyLab.Droid.Resource.Id.clip_vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.collapseActionView = global::safetyLab.Droid.Resource.Id.collapseActionView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.container = global::safetyLab.Droid.Resource.Id.container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.content = global::safetyLab.Droid.Resource.Id.content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.contentPanel = global::safetyLab.Droid.Resource.Id.contentPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.coordinator = global::safetyLab.Droid.Resource.Id.coordinator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.custom = global::safetyLab.Droid.Resource.Id.custom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.customPanel = global::safetyLab.Droid.Resource.Id.customPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.decor_content_parent = global::safetyLab.Droid.Resource.Id.decor_content_parent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.default_activity_button = global::safetyLab.Droid.Resource.Id.default_activity_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_bottom_sheet = global::safetyLab.Droid.Resource.Id.design_bottom_sheet;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_action_area = global::safetyLab.Droid.Resource.Id.design_menu_item_action_area;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_action_area_stub = global::safetyLab.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_menu_item_text = global::safetyLab.Droid.Resource.Id.design_menu_item_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.design_navigation_view = global::safetyLab.Droid.Resource.Id.design_navigation_view;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.disableHome = global::safetyLab.Droid.Resource.Id.disableHome;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.doneButton = global::safetyLab.Droid.Resource.Id.doneButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.doubleCircle = global::safetyLab.Droid.Resource.Id.doubleCircle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ecg = global::safetyLab.Droid.Resource.Id.ecg;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.edit_query = global::safetyLab.Droid.Resource.Id.edit_query;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.end = global::safetyLab.Droid.Resource.Id.end;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.end_padder = global::safetyLab.Droid.Resource.Id.end_padder;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.enterAlways = global::safetyLab.Droid.Resource.Id.enterAlways;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.enterAlwaysCollapsed = global::safetyLab.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.exitUntilCollapsed = global::safetyLab.Droid.Resource.Id.exitUntilCollapsed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.expand_activities_button = global::safetyLab.Droid.Resource.Id.expand_activities_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.expanded_menu = global::safetyLab.Droid.Resource.Id.expanded_menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill = global::safetyLab.Droid.Resource.Id.fill;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill_horizontal = global::safetyLab.Droid.Resource.Id.fill_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.fill_vertical = global::safetyLab.Droid.Resource.Id.fill_vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.filled = global::safetyLab.Droid.Resource.Id.filled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@fixed = global::safetyLab.Droid.Resource.Id.@fixed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.flyoutcontent_appbar = global::safetyLab.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.flyoutcontent_recycler = global::safetyLab.Droid.Resource.Id.flyoutcontent_recycler;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.forever = global::safetyLab.Droid.Resource.Id.forever;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formCheckBoxButton = global::safetyLab.Droid.Resource.Id.formCheckBoxButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formContentButton = global::safetyLab.Droid.Resource.Id.formContentButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formListLayout = global::safetyLab.Droid.Resource.Id.formListLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formRadioButton = global::safetyLab.Droid.Resource.Id.formRadioButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formTextButton = global::safetyLab.Droid.Resource.Id.formTextButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.formfieldButton = global::safetyLab.Droid.Resource.Id.formfieldButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.gearBox = global::safetyLab.Droid.Resource.Id.gearBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ghost_view = global::safetyLab.Droid.Resource.Id.ghost_view;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.globe = global::safetyLab.Droid.Resource.Id.globe;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.group_divider = global::safetyLab.Droid.Resource.Id.group_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.home = global::safetyLab.Droid.Resource.Id.home;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.homeAsUp = global::safetyLab.Droid.Resource.Id.homeAsUp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.horizontal = global::safetyLab.Droid.Resource.Id.horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.horizontalPulsingBox = global::safetyLab.Droid.Resource.Id.horizontalPulsingBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.icon = global::safetyLab.Droid.Resource.Id.icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.icon_group = global::safetyLab.Droid.Resource.Id.icon_group;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.ifRoom = global::safetyLab.Droid.Resource.Id.ifRoom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.image = global::safetyLab.Droid.Resource.Id.image;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.info = global::safetyLab.Droid.Resource.Id.info;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.inline = global::safetyLab.Droid.Resource.Id.inline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.italic = global::safetyLab.Droid.Resource.Id.italic;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.item_touch_helper_previous_elevation = global::safetyLab.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.labeled = global::safetyLab.Droid.Resource.Id.labeled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.largeLabel = global::safetyLab.Droid.Resource.Id.largeLabel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.left = global::safetyLab.Droid.Resource.Id.left;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.line1 = global::safetyLab.Droid.Resource.Id.line1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.line3 = global::safetyLab.Droid.Resource.Id.line3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.listMode = global::safetyLab.Droid.Resource.Id.listMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.list_item = global::safetyLab.Droid.Resource.Id.list_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.main_appbar = global::safetyLab.Droid.Resource.Id.main_appbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.main_tablayout = global::safetyLab.Droid.Resource.Id.main_tablayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.main_toolbar = global::safetyLab.Droid.Resource.Id.main_toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.masked = global::safetyLab.Droid.Resource.Id.masked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.media_actions = global::safetyLab.Droid.Resource.Id.media_actions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.message = global::safetyLab.Droid.Resource.Id.message;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.middle = global::safetyLab.Droid.Resource.Id.middle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mini = global::safetyLab.Droid.Resource.Id.mini;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.movieTimer = global::safetyLab.Droid.Resource.Id.movieTimer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_art = global::safetyLab.Droid.Resource.Id.mr_art;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_checkbox = global::safetyLab.Droid.Resource.Id.mr_cast_checkbox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_close_button = global::safetyLab.Droid.Resource.Id.mr_cast_close_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_group_icon = global::safetyLab.Droid.Resource.Id.mr_cast_group_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_group_name = global::safetyLab.Droid.Resource.Id.mr_cast_group_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_list = global::safetyLab.Droid.Resource.Id.mr_cast_list;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_meta = global::safetyLab.Droid.Resource.Id.mr_cast_meta;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_meta_art = global::safetyLab.Droid.Resource.Id.mr_cast_meta_art;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_meta_subtitle = global::safetyLab.Droid.Resource.Id.mr_cast_meta_subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_meta_title = global::safetyLab.Droid.Resource.Id.mr_cast_meta_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_route_icon = global::safetyLab.Droid.Resource.Id.mr_cast_route_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_route_name = global::safetyLab.Droid.Resource.Id.mr_cast_route_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_stop_button = global::safetyLab.Droid.Resource.Id.mr_cast_stop_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_volume_layout = global::safetyLab.Droid.Resource.Id.mr_cast_volume_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_cast_volume_slider = global::safetyLab.Droid.Resource.Id.mr_cast_volume_slider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_list = global::safetyLab.Droid.Resource.Id.mr_chooser_list;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_route_desc = global::safetyLab.Droid.Resource.Id.mr_chooser_route_desc;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_route_icon = global::safetyLab.Droid.Resource.Id.mr_chooser_route_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_route_name = global::safetyLab.Droid.Resource.Id.mr_chooser_route_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_chooser_title = global::safetyLab.Droid.Resource.Id.mr_chooser_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_close = global::safetyLab.Droid.Resource.Id.mr_close;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_divider = global::safetyLab.Droid.Resource.Id.mr_control_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_playback_ctrl = global::safetyLab.Droid.Resource.Id.mr_control_playback_ctrl;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_subtitle = global::safetyLab.Droid.Resource.Id.mr_control_subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_title = global::safetyLab.Droid.Resource.Id.mr_control_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_control_title_container = global::safetyLab.Droid.Resource.Id.mr_control_title_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_custom_control = global::safetyLab.Droid.Resource.Id.mr_custom_control;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_default_control = global::safetyLab.Droid.Resource.Id.mr_default_control;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_dialog_area = global::safetyLab.Droid.Resource.Id.mr_dialog_area;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_dialog_header_name = global::safetyLab.Droid.Resource.Id.mr_dialog_header_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_expandable_area = global::safetyLab.Droid.Resource.Id.mr_expandable_area;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_group_expand_collapse = global::safetyLab.Droid.Resource.Id.mr_group_expand_collapse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_group_volume_route_name = global::safetyLab.Droid.Resource.Id.mr_group_volume_route_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_group_volume_slider = global::safetyLab.Droid.Resource.Id.mr_group_volume_slider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_media_main_control = global::safetyLab.Droid.Resource.Id.mr_media_main_control;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_name = global::safetyLab.Droid.Resource.Id.mr_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_picker_close_button = global::safetyLab.Droid.Resource.Id.mr_picker_close_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_picker_list = global::safetyLab.Droid.Resource.Id.mr_picker_list;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_picker_route_icon = global::safetyLab.Droid.Resource.Id.mr_picker_route_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_picker_route_name = global::safetyLab.Droid.Resource.Id.mr_picker_route_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_playback_control = global::safetyLab.Droid.Resource.Id.mr_playback_control;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_title_bar = global::safetyLab.Droid.Resource.Id.mr_title_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_volume_control = global::safetyLab.Droid.Resource.Id.mr_volume_control;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_volume_group_list = global::safetyLab.Droid.Resource.Id.mr_volume_group_list;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_volume_item_icon = global::safetyLab.Droid.Resource.Id.mr_volume_item_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mr_volume_slider = global::safetyLab.Droid.Resource.Id.mr_volume_slider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mtrl_child_content_container = global::safetyLab.Droid.Resource.Id.mtrl_child_content_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::safetyLab.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.multiply = global::safetyLab.Droid.Resource.Id.multiply;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.navigation_header_container = global::safetyLab.Droid.Resource.Id.navigation_header_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.never = global::safetyLab.Droid.Resource.Id.never;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.none = global::safetyLab.Droid.Resource.Id.none;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.normal = global::safetyLab.Droid.Resource.Id.normal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.notification_background = global::safetyLab.Droid.Resource.Id.notification_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.notification_main_column = global::safetyLab.Droid.Resource.Id.notification_main_column;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.notification_main_column_container = global::safetyLab.Droid.Resource.Id.notification_main_column_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.outline = global::safetyLab.Droid.Resource.Id.outline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.outside = global::safetyLab.Droid.Resource.Id.outside;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.parallax = global::safetyLab.Droid.Resource.Id.parallax;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.parentPanel = global::safetyLab.Droid.Resource.Id.parentPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.parent_matrix = global::safetyLab.Droid.Resource.Id.parent_matrix;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.pin = global::safetyLab.Droid.Resource.Id.pin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.print = global::safetyLab.Droid.Resource.Id.print;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.progress_circular = global::safetyLab.Droid.Resource.Id.progress_circular;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.progress_horizontal = global::safetyLab.Droid.Resource.Id.progress_horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.radio = global::safetyLab.Droid.Resource.Id.radio;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.rectangle = global::safetyLab.Droid.Resource.Id.rectangle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.right = global::safetyLab.Droid.Resource.Id.right;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.right_icon = global::safetyLab.Droid.Resource.Id.right_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.right_side = global::safetyLab.Droid.Resource.Id.right_side;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.rollingBall = global::safetyLab.Droid.Resource.Id.rollingBall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.save_image_matrix = global::safetyLab.Droid.Resource.Id.save_image_matrix;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.save_non_transition_alpha = global::safetyLab.Droid.Resource.Id.save_non_transition_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.save_scale_type = global::safetyLab.Droid.Resource.Id.save_scale_type;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.screen = global::safetyLab.Droid.Resource.Id.screen;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scroll = global::safetyLab.Droid.Resource.Id.scroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollIndicatorDown = global::safetyLab.Droid.Resource.Id.scrollIndicatorDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollIndicatorUp = global::safetyLab.Droid.Resource.Id.scrollIndicatorUp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollView = global::safetyLab.Droid.Resource.Id.scrollView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.scrollable = global::safetyLab.Droid.Resource.Id.scrollable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_badge = global::safetyLab.Droid.Resource.Id.search_badge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_bar = global::safetyLab.Droid.Resource.Id.search_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_button = global::safetyLab.Droid.Resource.Id.search_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_close_btn = global::safetyLab.Droid.Resource.Id.search_close_btn;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_edit_frame = global::safetyLab.Droid.Resource.Id.search_edit_frame;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_go_btn = global::safetyLab.Droid.Resource.Id.search_go_btn;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_mag_icon = global::safetyLab.Droid.Resource.Id.search_mag_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_plate = global::safetyLab.Droid.Resource.Id.search_plate;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_src_text = global::safetyLab.Droid.Resource.Id.search_src_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.search_voice_btn = global::safetyLab.Droid.Resource.Id.search_voice_btn;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.select_dialog_listview = global::safetyLab.Droid.Resource.Id.select_dialog_listview;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.selected = global::safetyLab.Droid.Resource.Id.selected;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.sfprogressbar_progress = global::safetyLab.Droid.Resource.Id.sfprogressbar_progress;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.sfprogressbar_secondary_progress = global::safetyLab.Droid.Resource.Id.sfprogressbar_secondary_progress;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.sfprogressbar_track = global::safetyLab.Droid.Resource.Id.sfprogressbar_track;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.shellcontent_appbar = global::safetyLab.Droid.Resource.Id.shellcontent_appbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.shellcontent_toolbar = global::safetyLab.Droid.Resource.Id.shellcontent_toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.shortcut = global::safetyLab.Droid.Resource.Id.shortcut;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showCustom = global::safetyLab.Droid.Resource.Id.showCustom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showHome = global::safetyLab.Droid.Resource.Id.showHome;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.showTitle = global::safetyLab.Droid.Resource.Id.showTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signatureLabel = global::safetyLab.Droid.Resource.Id.signatureLabel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signaturePadContainer = global::safetyLab.Droid.Resource.Id.signaturePadContainer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.signatureviewlayout = global::safetyLab.Droid.Resource.Id.signatureviewlayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.singleCircle = global::safetyLab.Droid.Resource.Id.singleCircle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.slicedCircle = global::safetyLab.Droid.Resource.Id.slicedCircle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.smallLabel = global::safetyLab.Droid.Resource.Id.smallLabel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snackbar_action = global::safetyLab.Droid.Resource.Id.snackbar_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snackbar_text = global::safetyLab.Droid.Resource.Id.snackbar_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snap = global::safetyLab.Droid.Resource.Id.snap;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.snapMargins = global::safetyLab.Droid.Resource.Id.snapMargins;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.spacer = global::safetyLab.Droid.Resource.Id.spacer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.split_action_bar = global::safetyLab.Droid.Resource.Id.split_action_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_atop = global::safetyLab.Droid.Resource.Id.src_atop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_in = global::safetyLab.Droid.Resource.Id.src_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.src_over = global::safetyLab.Droid.Resource.Id.src_over;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.start = global::safetyLab.Droid.Resource.Id.start;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.status_bar_latest_event_content = global::safetyLab.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.stretch = global::safetyLab.Droid.Resource.Id.stretch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.submenuarrow = global::safetyLab.Droid.Resource.Id.submenuarrow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.submit_area = global::safetyLab.Droid.Resource.Id.submit_area;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tabMode = global::safetyLab.Droid.Resource.Id.tabMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tag_transition_group = global::safetyLab.Droid.Resource.Id.tag_transition_group;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tag_unhandled_key_event_manager = global::safetyLab.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.tag_unhandled_key_listeners = global::safetyLab.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.text = global::safetyLab.Droid.Resource.Id.text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.text2 = global::safetyLab.Droid.Resource.Id.text2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textSpacerNoButtons = global::safetyLab.Droid.Resource.Id.textSpacerNoButtons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textSpacerNoTitle = global::safetyLab.Droid.Resource.Id.textSpacerNoTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textStart = global::safetyLab.Droid.Resource.Id.textStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.text_input_password_toggle = global::safetyLab.Droid.Resource.Id.text_input_password_toggle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textinput_counter = global::safetyLab.Droid.Resource.Id.textinput_counter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textinput_error = global::safetyLab.Droid.Resource.Id.textinput_error;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.textinput_helper_text = global::safetyLab.Droid.Resource.Id.textinput_helper_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.time = global::safetyLab.Droid.Resource.Id.time;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.title = global::safetyLab.Droid.Resource.Id.title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.titleDividerNoCustom = global::safetyLab.Droid.Resource.Id.titleDividerNoCustom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.title_template = global::safetyLab.Droid.Resource.Id.title_template;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.top = global::safetyLab.Droid.Resource.Id.top;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topBar = global::safetyLab.Droid.Resource.Id.topBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topLeft = global::safetyLab.Droid.Resource.Id.topLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.topPanel = global::safetyLab.Droid.Resource.Id.topPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.touch_outside = global::safetyLab.Droid.Resource.Id.touch_outside;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_current_scene = global::safetyLab.Droid.Resource.Id.transition_current_scene;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_layout_save = global::safetyLab.Droid.Resource.Id.transition_layout_save;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_position = global::safetyLab.Droid.Resource.Id.transition_position;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_scene_layoutid_cache = global::safetyLab.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.transition_transform = global::safetyLab.Droid.Resource.Id.transition_transform;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.@unchecked = global::safetyLab.Droid.Resource.Id.@unchecked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.uniform = global::safetyLab.Droid.Resource.Id.uniform;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.unlabeled = global::safetyLab.Droid.Resource.Id.unlabeled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.up = global::safetyLab.Droid.Resource.Id.up;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.useLogo = global::safetyLab.Droid.Resource.Id.useLogo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.vertical = global::safetyLab.Droid.Resource.Id.vertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.view_offset_helper = global::safetyLab.Droid.Resource.Id.view_offset_helper;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.visible = global::safetyLab.Droid.Resource.Id.visible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.volume_item_container = global::safetyLab.Droid.Resource.Id.volume_item_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.withText = global::safetyLab.Droid.Resource.Id.withText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.wrap_content = global::safetyLab.Droid.Resource.Id.wrap_content;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Id.zoomingTarget = global::safetyLab.Droid.Resource.Id.zoomingTarget;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::safetyLab.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.abc_config_activityShortDur = global::safetyLab.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::safetyLab.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.bottom_sheet_slide_duration = global::safetyLab.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.cancel_button_image_alpha = global::safetyLab.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.config_tooltipAnimTime = global::safetyLab.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::safetyLab.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::safetyLab.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.hide_password_duration = global::safetyLab.Droid.Resource.Integer.hide_password_duration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms = global::safetyLab.Droid.Resource.Integer.mr_controller_volume_group_list_animation_duration_ms;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms = global::safetyLab.Droid.Resource.Integer.mr_controller_volume_group_list_fade_in_duration_ms;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms = global::safetyLab.Droid.Resource.Integer.mr_controller_volume_group_list_fade_out_duration_ms;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mr_update_routes_delay_ms = global::safetyLab.Droid.Resource.Integer.mr_update_routes_delay_ms;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::safetyLab.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::safetyLab.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mtrl_chip_anim_duration = global::safetyLab.Droid.Resource.Integer.mtrl_chip_anim_duration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::safetyLab.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.show_password_duration = global::safetyLab.Droid.Resource.Integer.show_password_duration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Integer.status_bar_notification_info_maxnum = global::safetyLab.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mr_fast_out_slow_in = global::safetyLab.Droid.Resource.Interpolator.mr_fast_out_slow_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mr_linear_out_slow_in = global::safetyLab.Droid.Resource.Interpolator.mr_linear_out_slow_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mtrl_fast_out_linear_in = global::safetyLab.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mtrl_fast_out_slow_in = global::safetyLab.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mtrl_linear = global::safetyLab.Droid.Resource.Interpolator.mtrl_linear;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Interpolator.mtrl_linear_out_slow_in = global::safetyLab.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_bar_title_item = global::safetyLab.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_bar_up_container = global::safetyLab.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_menu_item_layout = global::safetyLab.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_menu_layout = global::safetyLab.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_mode_bar = global::safetyLab.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_action_mode_close_item_material = global::safetyLab.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_activity_chooser_view = global::safetyLab.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_activity_chooser_view_list_item = global::safetyLab.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_alert_dialog_button_bar_material = global::safetyLab.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_alert_dialog_material = global::safetyLab.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_alert_dialog_title_material = global::safetyLab.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_cascading_menu_item_layout = global::safetyLab.Droid.Resource.Layout.abc_cascading_menu_item_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_dialog_title_material = global::safetyLab.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_expanded_menu_layout = global::safetyLab.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_checkbox = global::safetyLab.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_icon = global::safetyLab.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_layout = global::safetyLab.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_list_menu_item_radio = global::safetyLab.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_popup_menu_header_item_layout = global::safetyLab.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_popup_menu_item_layout = global::safetyLab.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_content_include = global::safetyLab.Droid.Resource.Layout.abc_screen_content_include;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_simple = global::safetyLab.Droid.Resource.Layout.abc_screen_simple;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode = global::safetyLab.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_screen_toolbar = global::safetyLab.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line = global::safetyLab.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_search_view = global::safetyLab.Droid.Resource.Layout.abc_search_view;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_select_dialog_material = global::safetyLab.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.abc_tooltip = global::safetyLab.Droid.Resource.Layout.abc_tooltip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.BottomTabLayout = global::safetyLab.Droid.Resource.Layout.BottomTabLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.browser_actions_context_menu_page = global::safetyLab.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.browser_actions_context_menu_row = global::safetyLab.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_bottom_navigation_item = global::safetyLab.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_bottom_sheet_dialog = global::safetyLab.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_snackbar = global::safetyLab.Droid.Resource.Layout.design_layout_snackbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_snackbar_include = global::safetyLab.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_tab_icon = global::safetyLab.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_layout_tab_text = global::safetyLab.Droid.Resource.Layout.design_layout_tab_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_menu_item_action_area = global::safetyLab.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item = global::safetyLab.Droid.Resource.Layout.design_navigation_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_header = global::safetyLab.Droid.Resource.Layout.design_navigation_item_header;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_separator = global::safetyLab.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_item_subheader = global::safetyLab.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_menu = global::safetyLab.Droid.Resource.Layout.design_navigation_menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_navigation_menu_item = global::safetyLab.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.design_text_input_password_icon = global::safetyLab.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.dialogListViewRow = global::safetyLab.Droid.Resource.Layout.dialogListViewRow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.FlyoutContent = global::safetyLab.Droid.Resource.Layout.FlyoutContent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.formfieldButtonLayout = global::safetyLab.Droid.Resource.Layout.formfieldButtonLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.listViewRow = global::safetyLab.Droid.Resource.Layout.listViewRow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_dialog = global::safetyLab.Droid.Resource.Layout.mr_cast_dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_group_item = global::safetyLab.Droid.Resource.Layout.mr_cast_group_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_group_volume_item = global::safetyLab.Droid.Resource.Layout.mr_cast_group_volume_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_media_metadata = global::safetyLab.Droid.Resource.Layout.mr_cast_media_metadata;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_cast_route_item = global::safetyLab.Droid.Resource.Layout.mr_cast_route_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_chooser_dialog = global::safetyLab.Droid.Resource.Layout.mr_chooser_dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_chooser_list_item = global::safetyLab.Droid.Resource.Layout.mr_chooser_list_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_controller_material_dialog_b = global::safetyLab.Droid.Resource.Layout.mr_controller_material_dialog_b;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_controller_volume_item = global::safetyLab.Droid.Resource.Layout.mr_controller_volume_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_dialog_header_item = global::safetyLab.Droid.Resource.Layout.mr_dialog_header_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_picker_dialog = global::safetyLab.Droid.Resource.Layout.mr_picker_dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_picker_route_item = global::safetyLab.Droid.Resource.Layout.mr_picker_route_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_playback_control = global::safetyLab.Droid.Resource.Layout.mr_playback_control;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mr_volume_control = global::safetyLab.Droid.Resource.Layout.mr_volume_control;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mtrl_layout_snackbar = global::safetyLab.Droid.Resource.Layout.mtrl_layout_snackbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::safetyLab.Droid.Resource.Layout.mtrl_layout_snackbar_include;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_action = global::safetyLab.Droid.Resource.Layout.notification_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_action_tombstone = global::safetyLab.Droid.Resource.Layout.notification_action_tombstone;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_media_action = global::safetyLab.Droid.Resource.Layout.notification_media_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_media_cancel_action = global::safetyLab.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media = global::safetyLab.Droid.Resource.Layout.notification_template_big_media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media_custom = global::safetyLab.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media_narrow = global::safetyLab.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_big_media_narrow_custom = global::safetyLab.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_custom_big = global::safetyLab.Droid.Resource.Layout.notification_template_custom_big;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_icon_group = global::safetyLab.Droid.Resource.Layout.notification_template_icon_group;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_lines_media = global::safetyLab.Droid.Resource.Layout.notification_template_lines_media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_media = global::safetyLab.Droid.Resource.Layout.notification_template_media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_media_custom = global::safetyLab.Droid.Resource.Layout.notification_template_media_custom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_part_chronometer = global::safetyLab.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.notification_template_part_time = global::safetyLab.Droid.Resource.Layout.notification_template_part_time;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.RootLayout = global::safetyLab.Droid.Resource.Layout.RootLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_item_material = global::safetyLab.Droid.Resource.Layout.select_dialog_item_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_multichoice_material = global::safetyLab.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.select_dialog_singlechoice_material = global::safetyLab.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.ShellContent = global::safetyLab.Droid.Resource.Layout.ShellContent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.signaturepadlayout = global::safetyLab.Droid.Resource.Layout.signaturepadlayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::safetyLab.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerCancel = global::safetyLab.Droid.Resource.String.SfPdfViewerCancel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerCopy = global::safetyLab.Droid.Resource.String.SfPdfViewerCopy;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHighlight = global::safetyLab.Droid.Resource.String.SfPdfViewerHighlight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkMessage = global::safetyLab.Droid.Resource.String.SfPdfViewerHyperlinkMessage;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkMessageTitle = global::safetyLab.Droid.Resource.String.SfPdfViewerHyperlinkMessageTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerHyperlinkOpen = global::safetyLab.Droid.Resource.String.SfPdfViewerHyperlinkOpen;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerStrikethrough = global::safetyLab.Droid.Resource.String.SfPdfViewerStrikethrough;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.SfPdfViewerUnderline = global::safetyLab.Droid.Resource.String.SfPdfViewerUnderline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_bar_home_description = global::safetyLab.Droid.Resource.String.abc_action_bar_home_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_bar_up_description = global::safetyLab.Droid.Resource.String.abc_action_bar_up_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_menu_overflow_description = global::safetyLab.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_action_mode_done = global::safetyLab.Droid.Resource.String.abc_action_mode_done;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_activity_chooser_view_see_all = global::safetyLab.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_activitychooserview_choose_application = global::safetyLab.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_capital_off = global::safetyLab.Droid.Resource.String.abc_capital_off;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_capital_on = global::safetyLab.Droid.Resource.String.abc_capital_on;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_body_1_material = global::safetyLab.Droid.Resource.String.abc_font_family_body_1_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_body_2_material = global::safetyLab.Droid.Resource.String.abc_font_family_body_2_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_button_material = global::safetyLab.Droid.Resource.String.abc_font_family_button_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_caption_material = global::safetyLab.Droid.Resource.String.abc_font_family_caption_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_display_1_material = global::safetyLab.Droid.Resource.String.abc_font_family_display_1_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_display_2_material = global::safetyLab.Droid.Resource.String.abc_font_family_display_2_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_display_3_material = global::safetyLab.Droid.Resource.String.abc_font_family_display_3_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_display_4_material = global::safetyLab.Droid.Resource.String.abc_font_family_display_4_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_headline_material = global::safetyLab.Droid.Resource.String.abc_font_family_headline_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_menu_material = global::safetyLab.Droid.Resource.String.abc_font_family_menu_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_subhead_material = global::safetyLab.Droid.Resource.String.abc_font_family_subhead_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_font_family_title_material = global::safetyLab.Droid.Resource.String.abc_font_family_title_material;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_alt_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_alt_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_ctrl_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_delete_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_delete_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_enter_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_enter_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_function_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_function_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_meta_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_meta_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_shift_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_shift_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_space_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_space_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_menu_sym_shortcut_label = global::safetyLab.Droid.Resource.String.abc_menu_sym_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_prepend_shortcut_label = global::safetyLab.Droid.Resource.String.abc_prepend_shortcut_label;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_search_hint = global::safetyLab.Droid.Resource.String.abc_search_hint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_clear = global::safetyLab.Droid.Resource.String.abc_searchview_description_clear;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_query = global::safetyLab.Droid.Resource.String.abc_searchview_description_query;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_search = global::safetyLab.Droid.Resource.String.abc_searchview_description_search;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_submit = global::safetyLab.Droid.Resource.String.abc_searchview_description_submit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_searchview_description_voice = global::safetyLab.Droid.Resource.String.abc_searchview_description_voice;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_shareactionprovider_share_with = global::safetyLab.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_shareactionprovider_share_with_application = global::safetyLab.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.abc_toolbar_collapse_description = global::safetyLab.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.appbar_scrolling_view_behavior = global::safetyLab.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.bottom_sheet_behavior = global::safetyLab.Droid.Resource.String.bottom_sheet_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.character_counter_content_description = global::safetyLab.Droid.Resource.String.character_counter_content_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.character_counter_pattern = global::safetyLab.Droid.Resource.String.character_counter_pattern;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.fab_transformation_scrim_behavior = global::safetyLab.Droid.Resource.String.fab_transformation_scrim_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.fab_transformation_sheet_behavior = global::safetyLab.Droid.Resource.String.fab_transformation_sheet_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::safetyLab.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.library_name = global::safetyLab.Droid.Resource.String.library_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_button_content_description = global::safetyLab.Droid.Resource.String.mr_button_content_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_cast_button_connected = global::safetyLab.Droid.Resource.String.mr_cast_button_connected;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_cast_button_connecting = global::safetyLab.Droid.Resource.String.mr_cast_button_connecting;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_cast_button_disconnected = global::safetyLab.Droid.Resource.String.mr_cast_button_disconnected;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_cast_dialog_title_view_placeholder = global::safetyLab.Droid.Resource.String.mr_cast_dialog_title_view_placeholder;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_chooser_searching = global::safetyLab.Droid.Resource.String.mr_chooser_searching;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_chooser_title = global::safetyLab.Droid.Resource.String.mr_chooser_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_album_art = global::safetyLab.Droid.Resource.String.mr_controller_album_art;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_casting_screen = global::safetyLab.Droid.Resource.String.mr_controller_casting_screen;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_close_description = global::safetyLab.Droid.Resource.String.mr_controller_close_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_collapse_group = global::safetyLab.Droid.Resource.String.mr_controller_collapse_group;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_disconnect = global::safetyLab.Droid.Resource.String.mr_controller_disconnect;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_expand_group = global::safetyLab.Droid.Resource.String.mr_controller_expand_group;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_no_info_available = global::safetyLab.Droid.Resource.String.mr_controller_no_info_available;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_no_media_selected = global::safetyLab.Droid.Resource.String.mr_controller_no_media_selected;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_pause = global::safetyLab.Droid.Resource.String.mr_controller_pause;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_play = global::safetyLab.Droid.Resource.String.mr_controller_play;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_stop = global::safetyLab.Droid.Resource.String.mr_controller_stop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_stop_casting = global::safetyLab.Droid.Resource.String.mr_controller_stop_casting;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_controller_volume_slider = global::safetyLab.Droid.Resource.String.mr_controller_volume_slider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_dialog_device_header = global::safetyLab.Droid.Resource.String.mr_dialog_device_header;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_dialog_route_header = global::safetyLab.Droid.Resource.String.mr_dialog_route_header;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_system_route_name = global::safetyLab.Droid.Resource.String.mr_system_route_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mr_user_route_category_name = global::safetyLab.Droid.Resource.String.mr_user_route_category_name;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::safetyLab.Droid.Resource.String.mtrl_chip_close_icon_content_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.password_toggle_content_description = global::safetyLab.Droid.Resource.String.password_toggle_content_description;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.path_password_eye = global::safetyLab.Droid.Resource.String.path_password_eye;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.path_password_eye_mask_strike_through = global::safetyLab.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.path_password_eye_mask_visible = global::safetyLab.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.path_password_strike_through = global::safetyLab.Droid.Resource.String.path_password_strike_through;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.search_menu_title = global::safetyLab.Droid.Resource.String.search_menu_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_annotationsbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_annotationsbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_annotationsbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_annotationsbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_arrowbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_arrowbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_arrowbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_arrowbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_backbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_backbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_blackcolorbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_blackcolorbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_bookmarksbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_bookmarksbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_bookmarksclosebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_bookmarksclosebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cancel = global::safetyLab.Droid.Resource.String.sfpdfviewer_cancel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cancelsearchbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_cancelsearchbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_clearsearchbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_clearsearchbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_colorbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_colorbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_continuouspagebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_continuouspagebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_cyancolorbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_cyancolorbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_deletebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_deletebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_done = global::safetyLab.Droid.Resource.String.sfpdfviewer_done;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_ellipsebackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_ellipsebackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_ellipsebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_ellipsebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_fontsizebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_fontsizebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_freetextbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_freetextbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_greencolorbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_greencolorbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_highlightbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_highlightbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_highlighttextbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_highlighttextbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_hinttext = global::safetyLab.Droid.Resource.String.sfpdfviewer_hinttext;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_inkbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_inkbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_inkbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_inkbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_linebackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_linebackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_linebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_linebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_magentacolorbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_magentacolorbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_moreoptionsbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_moreoptionsbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_nextlevelbookmarksbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_nextlevelbookmarksbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_opacitybutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_opacitybutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_pagedownbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_pagedownbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_pageupbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_pageupbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_polygonbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_polygonbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_previouslevelbookmarksbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_previouslevelbookmarksbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_rectanglebackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_rectanglebackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_rectanglebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_rectanglebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redcolorbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_redcolorbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redobutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_redobutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_redoinkbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_redoinkbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_savebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_savebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_searchbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbarplaceholdertext = global::safetyLab.Droid.Resource.String.sfpdfviewer_searchbarplaceholdertext;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_searchbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchnextbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_searchnextbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_searchpreviousbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_searchpreviousbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_shapesbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_shapesbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_shapesbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_shapesbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_signaturebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_cancel = global::safetyLab.Droid.Resource.String.sfpdfviewer_signaturepad_cancel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_clear = global::safetyLab.Droid.Resource.String.sfpdfviewer_signaturepad_clear;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_signaturepad_done = global::safetyLab.Droid.Resource.String.sfpdfviewer_signaturepad_done;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_singlepagebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_singlepagebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_strikethroughbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_strikethroughbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_strikethroughtextbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_strikethroughtextbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_textbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textmarkupsbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_textmarkupsbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_textmarkupsbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_textmarkupsbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_thicknessbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessfivebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_thicknessfivebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessninebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_thicknessninebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknessonebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_thicknessonebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknesssevenbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_thicknesssevenbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_thicknesthreebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_thicknesthreebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_underlinebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_underlinebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_underlinetextbackbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_underlinetextbackbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_undobutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_undobutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_undoinkbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_undoinkbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_viewmodebutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_viewmodebutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.sfpdfviewer_yellowcolorbutton = global::safetyLab.Droid.Resource.String.sfpdfviewer_yellowcolorbutton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.String.status_bar_notification_info_overflow = global::safetyLab.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.AlertDialog_AppCompat = global::safetyLab.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::safetyLab.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::safetyLab.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::safetyLab.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::safetyLab.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::safetyLab.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::safetyLab.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip = global::safetyLab.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_CardView = global::safetyLab.Droid.Resource.Style.Base_CardView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::safetyLab.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::safetyLab.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::safetyLab.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::safetyLab.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::safetyLab.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::safetyLab.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::safetyLab.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::safetyLab.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::safetyLab.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::safetyLab.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::safetyLab.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::safetyLab.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::safetyLab.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::safetyLab.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::safetyLab.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V26_Theme_AppCompat = global::safetyLab.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::safetyLab.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V28_Theme_AppCompat = global::safetyLab.Droid.Resource.Style.Base_V28_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat = global::safetyLab.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::safetyLab.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::safetyLab.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::safetyLab.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::safetyLab.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_EditText = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::safetyLab.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::safetyLab.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::safetyLab.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::safetyLab.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::safetyLab.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView = global::safetyLab.Droid.Resource.Style.CardView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView_Dark = global::safetyLab.Droid.Resource.Style.CardView_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.CardView_Light = global::safetyLab.Droid.Resource.Style.CardView_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_AppCompat = global::safetyLab.Droid.Resource.Style.Platform_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_MaterialComponents = global::safetyLab.Droid.Resource.Style.Platform_MaterialComponents;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_MaterialComponents_Dialog = global::safetyLab.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_MaterialComponents_Light = global::safetyLab.Droid.Resource.Style.Platform_MaterialComponents_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::safetyLab.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat = global::safetyLab.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::safetyLab.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V21_AppCompat = global::safetyLab.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V21_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V25_AppCompat = global::safetyLab.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_V25_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner = global::safetyLab.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::safetyLab.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::safetyLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::safetyLab.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::safetyLab.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Button = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Caption = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display1 = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display2 = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display3 = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Display4 = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Headline = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Menu = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::safetyLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Media = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::safetyLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::safetyLab.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Counter = global::safetyLab.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow = global::safetyLab.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Error = global::safetyLab.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_HelperText = global::safetyLab.Droid.Resource.Style.TextAppearance_Design_HelperText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Hint = global::safetyLab.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::safetyLab.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Design_Tab = global::safetyLab.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab = global::safetyLab.Droid.Resource.Style.TextAppearance_MaterialComponents_Tab;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText = global::safetyLab.Droid.Resource.Style.TextAppearance_MediaRouter_PrimaryText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText = global::safetyLab.Droid.Resource.Style.TextAppearance_MediaRouter_SecondaryText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_MediaRouter_Title = global::safetyLab.Droid.Resource.Style.TextAppearance_MediaRouter_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::safetyLab.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::safetyLab.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::safetyLab.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat = global::safetyLab.Droid.Resource.Style.Theme_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_AppCompat_NoActionBar = global::safetyLab.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design = global::safetyLab.Droid.Resource.Style.Theme_Design;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_BottomSheetDialog = global::safetyLab.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light = global::safetyLab.Droid.Resource.Style.Theme_Design_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::safetyLab.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_Light_NoActionBar = global::safetyLab.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_Design_NoActionBar = global::safetyLab.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::safetyLab.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MediaRouter = global::safetyLab.Droid.Resource.Style.Theme_MediaRouter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MediaRouter_Light = global::safetyLab.Droid.Resource.Style.Theme_MediaRouter_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel = global::safetyLab.Droid.Resource.Style.Theme_MediaRouter_Light_DarkControlPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel = global::safetyLab.Droid.Resource.Style.Theme_MediaRouter_LightControlPanel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::safetyLab.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::safetyLab.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::safetyLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::safetyLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::safetyLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::safetyLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::safetyLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MediaRouter_Dark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light = global::safetyLab.Droid.Resource.Style.ThemeOverlay_MediaRouter_Light;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActionMode = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Colored = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Button_Small = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_EditText = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ImageButton = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_SearchView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListMenuView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ListView_Menu = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_PopupWindow = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::safetyLab.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Compat_NotificationActionContainer = global::safetyLab.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Compat_NotificationActionText = global::safetyLab.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_AppBarLayout = global::safetyLab.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_BottomNavigationView = global::safetyLab.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_BottomSheet_Modal = global::safetyLab.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_CollapsingToolbar = global::safetyLab.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_FloatingActionButton = global::safetyLab.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_NavigationView = global::safetyLab.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::safetyLab.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_Snackbar = global::safetyLab.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_TabLayout = global::safetyLab.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::safetyLab.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_CardView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::safetyLab.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::safetyLab.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::safetyLab.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::safetyLab.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar = global::safetyLab.Droid.Resource.Styleable.ActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_background = global::safetyLab.Droid.Resource.Styleable.ActionBar_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_backgroundSplit = global::safetyLab.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_backgroundStacked = global::safetyLab.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEnd = global::safetyLab.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::safetyLab.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetLeft = global::safetyLab.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetRight = global::safetyLab.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStart = global::safetyLab.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::safetyLab.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_customNavigationLayout = global::safetyLab.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_displayOptions = global::safetyLab.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_divider = global::safetyLab.Droid.Resource.Styleable.ActionBar_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_elevation = global::safetyLab.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_height = global::safetyLab.Droid.Resource.Styleable.ActionBar_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_hideOnContentScroll = global::safetyLab.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator = global::safetyLab.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_homeLayout = global::safetyLab.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_icon = global::safetyLab.Droid.Resource.Styleable.ActionBar_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::safetyLab.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_itemPadding = global::safetyLab.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_logo = global::safetyLab.Droid.Resource.Styleable.ActionBar_logo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_navigationMode = global::safetyLab.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_popupTheme = global::safetyLab.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_progressBarPadding = global::safetyLab.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_progressBarStyle = global::safetyLab.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_subtitle = global::safetyLab.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_subtitleTextStyle = global::safetyLab.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_title = global::safetyLab.Droid.Resource.Styleable.ActionBar_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBar_titleTextStyle = global::safetyLab.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBarLayout = global::safetyLab.Droid.Resource.Styleable.ActionBarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::safetyLab.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuItemView = global::safetyLab.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth = global::safetyLab.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMenuView = global::safetyLab.Droid.Resource.Styleable.ActionMenuView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode = global::safetyLab.Droid.Resource.Styleable.ActionMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_background = global::safetyLab.Droid.Resource.Styleable.ActionMode_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_backgroundSplit = global::safetyLab.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_closeItemLayout = global::safetyLab.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_height = global::safetyLab.Droid.Resource.Styleable.ActionMode_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_subtitleTextStyle = global::safetyLab.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActionMode_titleTextStyle = global::safetyLab.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView = global::safetyLab.Droid.Resource.Styleable.ActivityChooserView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::safetyLab.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount = global::safetyLab.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog = global::safetyLab.Droid.Resource.Styleable.AlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_android_layout = global::safetyLab.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_buttonIconDimen = global::safetyLab.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::safetyLab.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_listItemLayout = global::safetyLab.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_listLayout = global::safetyLab.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::safetyLab.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_showTitle = global::safetyLab.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::safetyLab.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::safetyLab.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout = global::safetyLab.Droid.Resource.Styleable.AppBarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_android_background = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_elevation = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_expanded = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates = global::safetyLab.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::safetyLab.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::safetyLab.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable = global::safetyLab.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted = global::safetyLab.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_Layout = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::safetyLab.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView = global::safetyLab.Droid.Resource.Styleable.AppCompatImageView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::safetyLab.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::safetyLab.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_tint = global::safetyLab.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatImageView_tintMode = global::safetyLab.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar = global::safetyLab.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb = global::safetyLab.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMark = global::safetyLab.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::safetyLab.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::safetyLab.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper = global::safetyLab.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::safetyLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::safetyLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::safetyLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::safetyLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::safetyLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::safetyLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::safetyLab.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_fontFamily = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_lineHeight = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTextView_textAllCaps = global::safetyLab.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSize = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorAccent = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorError = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimary = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_controlBackground = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dialogTheme = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dividerVertical = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextBackground = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextColor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_editTextStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelBackground = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_switchStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBar = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::safetyLab.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar = global::safetyLab.Droid.Resource.Styleable.BottomAppBar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::safetyLab.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::safetyLab.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::safetyLab.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::safetyLab.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::safetyLab.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::safetyLab.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_elevation = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemBackground = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemIconSize = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_itemIconSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemIconTint = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceActive;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_itemTextAppearanceInactive;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_itemTextColor = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_labelVisibilityMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomNavigationView_menu = global::safetyLab.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::safetyLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::safetyLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::safetyLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::safetyLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::safetyLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ButtonBarLayout = global::safetyLab.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::safetyLab.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView = global::safetyLab.Droid.Resource.Styleable.CardView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_android_minHeight = global::safetyLab.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_android_minWidth = global::safetyLab.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardBackgroundColor = global::safetyLab.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardCornerRadius = global::safetyLab.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardElevation = global::safetyLab.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardMaxElevation = global::safetyLab.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap = global::safetyLab.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_cardUseCompatPadding = global::safetyLab.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPadding = global::safetyLab.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingBottom = global::safetyLab.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingLeft = global::safetyLab.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingRight = global::safetyLab.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CardView_contentPaddingTop = global::safetyLab.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip = global::safetyLab.Droid.Resource.Styleable.Chip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_checkable = global::safetyLab.Droid.Resource.Styleable.Chip_android_checkable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_ellipsize = global::safetyLab.Droid.Resource.Styleable.Chip_android_ellipsize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_maxWidth = global::safetyLab.Droid.Resource.Styleable.Chip_android_maxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_text = global::safetyLab.Droid.Resource.Styleable.Chip_android_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_android_textAppearance = global::safetyLab.Droid.Resource.Styleable.Chip_android_textAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_checkedIcon = global::safetyLab.Droid.Resource.Styleable.Chip_checkedIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::safetyLab.Droid.Resource.Styleable.Chip_checkedIconEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_checkedIconVisible = global::safetyLab.Droid.Resource.Styleable.Chip_checkedIconVisible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::safetyLab.Droid.Resource.Styleable.Chip_chipBackgroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipCornerRadius = global::safetyLab.Droid.Resource.Styleable.Chip_chipCornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipEndPadding = global::safetyLab.Droid.Resource.Styleable.Chip_chipEndPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIcon = global::safetyLab.Droid.Resource.Styleable.Chip_chipIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIconEnabled = global::safetyLab.Droid.Resource.Styleable.Chip_chipIconEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIconSize = global::safetyLab.Droid.Resource.Styleable.Chip_chipIconSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIconTint = global::safetyLab.Droid.Resource.Styleable.Chip_chipIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipIconVisible = global::safetyLab.Droid.Resource.Styleable.Chip_chipIconVisible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipMinHeight = global::safetyLab.Droid.Resource.Styleable.Chip_chipMinHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipStartPadding = global::safetyLab.Droid.Resource.Styleable.Chip_chipStartPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipStrokeColor = global::safetyLab.Droid.Resource.Styleable.Chip_chipStrokeColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::safetyLab.Droid.Resource.Styleable.Chip_chipStrokeWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIcon = global::safetyLab.Droid.Resource.Styleable.Chip_closeIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconEnabled = global::safetyLab.Droid.Resource.Styleable.Chip_closeIconEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::safetyLab.Droid.Resource.Styleable.Chip_closeIconEndPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconSize = global::safetyLab.Droid.Resource.Styleable.Chip_closeIconSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::safetyLab.Droid.Resource.Styleable.Chip_closeIconStartPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconTint = global::safetyLab.Droid.Resource.Styleable.Chip_closeIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_closeIconVisible = global::safetyLab.Droid.Resource.Styleable.Chip_closeIconVisible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_hideMotionSpec = global::safetyLab.Droid.Resource.Styleable.Chip_hideMotionSpec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_iconEndPadding = global::safetyLab.Droid.Resource.Styleable.Chip_iconEndPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_iconStartPadding = global::safetyLab.Droid.Resource.Styleable.Chip_iconStartPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_rippleColor = global::safetyLab.Droid.Resource.Styleable.Chip_rippleColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_showMotionSpec = global::safetyLab.Droid.Resource.Styleable.Chip_showMotionSpec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_textEndPadding = global::safetyLab.Droid.Resource.Styleable.Chip_textEndPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Chip_textStartPadding = global::safetyLab.Droid.Resource.Styleable.Chip_textStartPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup = global::safetyLab.Droid.Resource.Styleable.ChipGroup;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_checkedChip = global::safetyLab.Droid.Resource.Styleable.ChipGroup_checkedChip;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::safetyLab.Droid.Resource.Styleable.ChipGroup_chipSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::safetyLab.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::safetyLab.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_singleLine = global::safetyLab.Droid.Resource.Styleable.ChipGroup_singleLine;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ChipGroup_singleSelection = global::safetyLab.Droid.Resource.Styleable.ChipGroup_singleSelection;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_title = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::safetyLab.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ColorStateListItem = global::safetyLab.Droid.Resource.Styleable.ColorStateListItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ColorStateListItem_alpha = global::safetyLab.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ColorStateListItem_android_alpha = global::safetyLab.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ColorStateListItem_android_color = global::safetyLab.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton = global::safetyLab.Droid.Resource.Styleable.CompoundButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_android_button = global::safetyLab.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_buttonTint = global::safetyLab.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CompoundButton_buttonTintMode = global::safetyLab.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_keylines = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::safetyLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme = global::safetyLab.Droid.Resource.Styleable.DesignTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::safetyLab.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle = global::safetyLab.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_barLength = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_color = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::safetyLab.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::safetyLab.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FlowLayout = global::safetyLab.Droid.Resource.Styleable.FlowLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FlowLayout_itemSpacing = global::safetyLab.Droid.Resource.Styleable.FlowLayout_itemSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FlowLayout_lineSpacing = global::safetyLab.Droid.Resource.Styleable.FlowLayout_lineSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily = global::safetyLab.Droid.Resource.Styleable.FontFamily;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderAuthority = global::safetyLab.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderCerts = global::safetyLab.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::safetyLab.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::safetyLab.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderPackage = global::safetyLab.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamily_fontProviderQuery = global::safetyLab.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_font = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_font = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_fontStyle = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_fontWeight = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.FontFamilyFont_ttcIndex = global::safetyLab.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout = global::safetyLab.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::safetyLab.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::safetyLab.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::safetyLab.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor = global::safetyLab.Droid.Resource.Styleable.GradientColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_centerColor = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_centerX = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_centerY = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_endColor = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_endX = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_endY = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_gradientRadius = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_startColor = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_startX = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_startY = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_tileMode = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColor_android_type = global::safetyLab.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColorItem = global::safetyLab.Droid.Resource.Styleable.GradientColorItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColorItem_android_color = global::safetyLab.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.GradientColorItem_android_offset = global::safetyLab.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_divider = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_showDividers = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::safetyLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow = global::safetyLab.Droid.Resource.Styleable.ListPopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::safetyLab.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::safetyLab.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton = global::safetyLab.Droid.Resource.Styleable.MaterialButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::safetyLab.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::safetyLab.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::safetyLab.Droid.Resource.Styleable.MaterialButton_android_insetRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_android_insetTop = global::safetyLab.Droid.Resource.Styleable.MaterialButton_android_insetTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::safetyLab.Droid.Resource.Styleable.MaterialButton_backgroundTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::safetyLab.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::safetyLab.Droid.Resource.Styleable.MaterialButton_cornerRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_icon = global::safetyLab.Droid.Resource.Styleable.MaterialButton_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconGravity = global::safetyLab.Droid.Resource.Styleable.MaterialButton_iconGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconPadding = global::safetyLab.Droid.Resource.Styleable.MaterialButton_iconPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconSize = global::safetyLab.Droid.Resource.Styleable.MaterialButton_iconSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconTint = global::safetyLab.Droid.Resource.Styleable.MaterialButton_iconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::safetyLab.Droid.Resource.Styleable.MaterialButton_iconTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_rippleColor = global::safetyLab.Droid.Resource.Styleable.MaterialButton_rippleColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_strokeColor = global::safetyLab.Droid.Resource.Styleable.MaterialButton_strokeColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::safetyLab.Droid.Resource.Styleable.MaterialButton_strokeWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialCardView = global::safetyLab.Droid.Resource.Styleable.MaterialCardView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::safetyLab.Droid.Resource.Styleable.MaterialCardView_strokeColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::safetyLab.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetDialogTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_bottomSheetStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_chipGroupStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_chipStandaloneStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_chipStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_colorAccent;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_colorBackgroundFloating;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_colorPrimaryDark;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_colorSecondary;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_editTextStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_floatingActionButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_materialButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_materialCardViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_navigationViewStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_scrimBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_snackbarButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_tabStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceBody2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceCaption;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline3;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline4;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline5;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceHeadline6;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceOverline;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle1;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2 = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textAppearanceSubtitle2;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle = global::safetyLab.Droid.Resource.Styleable.MaterialComponentsTheme_textInputStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton = global::safetyLab.Droid.Resource.Styleable.MediaRouteButton;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton_android_minHeight = global::safetyLab.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton_android_minWidth = global::safetyLab.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::safetyLab.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint = global::safetyLab.Droid.Resource.Styleable.MediaRouteButton_mediaRouteButtonTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup = global::safetyLab.Droid.Resource.Styleable.MenuGroup;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::safetyLab.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::safetyLab.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_id = global::safetyLab.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_menuCategory = global::safetyLab.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_orderInCategory = global::safetyLab.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuGroup_android_visible = global::safetyLab.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem = global::safetyLab.Droid.Resource.Styleable.MenuItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionLayout = global::safetyLab.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionProviderClass = global::safetyLab.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_actionViewClass = global::safetyLab.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_alphabeticModifiers = global::safetyLab.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_checkable = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_checked = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_enabled = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_icon = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_id = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_menuCategory = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_numericShortcut = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_onClick = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_orderInCategory = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_title = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_titleCondensed = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_android_visible = global::safetyLab.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_contentDescription = global::safetyLab.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_iconTint = global::safetyLab.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_iconTintMode = global::safetyLab.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_numericModifiers = global::safetyLab.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_showAsAction = global::safetyLab.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuItem_tooltipText = global::safetyLab.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView = global::safetyLab.Droid.Resource.Styleable.MenuView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_headerBackground = global::safetyLab.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_horizontalDivider = global::safetyLab.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemBackground = global::safetyLab.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::safetyLab.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_itemTextAppearance = global::safetyLab.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_verticalDivider = global::safetyLab.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle = global::safetyLab.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_preserveIconSpacing = global::safetyLab.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.MenuView_subMenuArrow = global::safetyLab.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView = global::safetyLab.Droid.Resource.Styleable.NavigationView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_background = global::safetyLab.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::safetyLab.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_android_maxWidth = global::safetyLab.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_elevation = global::safetyLab.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_headerLayout = global::safetyLab.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemBackground = global::safetyLab.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::safetyLab.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::safetyLab.Droid.Resource.Styleable.NavigationView_itemIconPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::safetyLab.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::safetyLab.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::safetyLab.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.NavigationView_menu = global::safetyLab.Droid.Resource.Styleable.NavigationView_menu;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow = global::safetyLab.Droid.Resource.Styleable.PopupWindow;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::safetyLab.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::safetyLab.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::safetyLab.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState = global::safetyLab.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::safetyLab.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecycleListView = global::safetyLab.Droid.Resource.Styleable.RecycleListView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::safetyLab.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::safetyLab.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView = global::safetyLab.Droid.Resource.Styleable.RecyclerView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability = global::safetyLab.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_android_orientation = global::safetyLab.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled = global::safetyLab.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::safetyLab.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::safetyLab.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::safetyLab.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::safetyLab.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_layoutManager = global::safetyLab.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_reverseLayout = global::safetyLab.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_spanCount = global::safetyLab.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.RecyclerView_stackFromEnd = global::safetyLab.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout = global::safetyLab.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::safetyLab.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::safetyLab.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::safetyLab.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView = global::safetyLab.Droid.Resource.Styleable.SearchView;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_focusable = global::safetyLab.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::safetyLab.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_inputType = global::safetyLab.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_android_maxWidth = global::safetyLab.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_closeIcon = global::safetyLab.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_commitIcon = global::safetyLab.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_defaultQueryHint = global::safetyLab.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_goIcon = global::safetyLab.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_iconifiedByDefault = global::safetyLab.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_layout = global::safetyLab.Droid.Resource.Styleable.SearchView_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_queryBackground = global::safetyLab.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_queryHint = global::safetyLab.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_searchHintIcon = global::safetyLab.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_searchIcon = global::safetyLab.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_submitBackground = global::safetyLab.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::safetyLab.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SearchView_voiceIcon = global::safetyLab.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorAnimationTypes;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorIsBusy;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorSecondaryColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTextSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorTitlePlacement;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth = global::safetyLab.Droid.Resource.Styleable.SfBusyIndicator_busyIndicatorViewBoxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderEndValue = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderEndValue;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMaximum = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMaximum;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMinimum = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMinimum;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderOrientation = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderOrientation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowRange = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowRange;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderStartValue = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderStartValue;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValue = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValue;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Snackbar = global::safetyLab.Droid.Resource.Styleable.Snackbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::safetyLab.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::safetyLab.Droid.Resource.Styleable.Snackbar_snackbarStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout = global::safetyLab.Droid.Resource.Styleable.SnackbarLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::safetyLab.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::safetyLab.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::safetyLab.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner = global::safetyLab.Droid.Resource.Styleable.Spinner;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::safetyLab.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_entries = global::safetyLab.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_popupBackground = global::safetyLab.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_android_prompt = global::safetyLab.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Spinner_popupTheme = global::safetyLab.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable = global::safetyLab.Droid.Resource.Styleable.StateListDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_constantSize = global::safetyLab.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_dither = global::safetyLab.Droid.Resource.Styleable.StateListDrawable_android_dither;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::safetyLab.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::safetyLab.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::safetyLab.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawable_android_visible = global::safetyLab.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawableItem = global::safetyLab.Droid.Resource.Styleable.StateListDrawableItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.StateListDrawableItem_android_drawable = global::safetyLab.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat = global::safetyLab.Droid.Resource.Styleable.SwitchCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_android_thumb = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_showText = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_splitTrack = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchMinWidth = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchPadding = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTint = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_thumbTintMode = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_track = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::safetyLab.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem = global::safetyLab.Droid.Resource.Styleable.TabItem;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_icon = global::safetyLab.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_layout = global::safetyLab.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabItem_android_text = global::safetyLab.Droid.Resource.Styleable.TabItem_android_text;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout = global::safetyLab.Droid.Resource.Styleable.TabLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabBackground = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabContentStart = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabGravity = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIconTint = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabIconTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIconTintMode = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicator = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabIndicator;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorColor = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabInlineLabel = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMaxWidth = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMinWidth = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabMode = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPadding = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingBottom = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingEnd = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingStart = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabPaddingTop = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabRippleColor = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabRippleColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabTextAppearance = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabTextColor = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple = global::safetyLab.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance = global::safetyLab.Droid.Resource.Styleable.TextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_fontFamily = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowColor = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDx = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowDy = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_shadowRadius = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textColor = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textColorHint = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textColorLink = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textSize = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_textStyle = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_android_typeface = global::safetyLab.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_fontFamily = global::safetyLab.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::safetyLab.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout = global::safetyLab.Droid.Resource.Styleable.TextInputLayout;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_helperText = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_helperText;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::safetyLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ThemeEnforcement = global::safetyLab.Droid.Resource.Styleable.ThemeEnforcement;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::safetyLab.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::safetyLab.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::safetyLab.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar = global::safetyLab.Droid.Resource.Styleable.Toolbar;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_android_gravity = global::safetyLab.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_android_minHeight = global::safetyLab.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_buttonGravity = global::safetyLab.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_collapseContentDescription = global::safetyLab.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_collapseIcon = global::safetyLab.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEnd = global::safetyLab.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::safetyLab.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetLeft = global::safetyLab.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetRight = global::safetyLab.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStart = global::safetyLab.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::safetyLab.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_logo = global::safetyLab.Droid.Resource.Styleable.Toolbar_logo;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_logoDescription = global::safetyLab.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_maxButtonHeight = global::safetyLab.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_navigationContentDescription = global::safetyLab.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_navigationIcon = global::safetyLab.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_popupTheme = global::safetyLab.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitle = global::safetyLab.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance = global::safetyLab.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_subtitleTextColor = global::safetyLab.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_title = global::safetyLab.Droid.Resource.Styleable.Toolbar_title;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMargin = global::safetyLab.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginBottom = global::safetyLab.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginEnd = global::safetyLab.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginStart = global::safetyLab.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::safetyLab.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleMargins = global::safetyLab.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::safetyLab.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::safetyLab.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View = global::safetyLab.Droid.Resource.Styleable.View;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_android_focusable = global::safetyLab.Droid.Resource.Styleable.View_android_focusable;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_android_theme = global::safetyLab.Droid.Resource.Styleable.View_android_theme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_paddingEnd = global::safetyLab.Droid.Resource.Styleable.View_paddingEnd;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_paddingStart = global::safetyLab.Droid.Resource.Styleable.View_paddingStart;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.View_theme = global::safetyLab.Droid.Resource.Styleable.View_theme;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper = global::safetyLab.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::safetyLab.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::safetyLab.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::safetyLab.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat = global::safetyLab.Droid.Resource.Styleable.ViewStubCompat;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::safetyLab.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::safetyLab.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Syncfusion.SfPdfViewer.XForms.Droid.Resource.Styleable.ViewStubCompat_android_layout = global::safetyLab.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_determinate_linear = global::safetyLab.Droid.Resource.Drawable.sfprogressbar_determinate_linear;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_circular = global::safetyLab.Droid.Resource.Drawable.sfprogressbar_indeterminate_circular;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Drawable.sfprogressbar_indeterminate_linear = global::safetyLab.Droid.Resource.Drawable.sfprogressbar_indeterminate_linear;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_progress = global::safetyLab.Droid.Resource.Id.sfprogressbar_progress;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_secondary_progress = global::safetyLab.Droid.Resource.Id.sfprogressbar_secondary_progress;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.Id.sfprogressbar_track = global::safetyLab.Droid.Resource.Id.sfprogressbar_track;
-			global::Syncfusion.XForms.Android.ProgressBar.Resource.String.library_name = global::safetyLab.Droid.Resource.String.library_name;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderDirectionReversed = global::safetyLab.Droid.Resource.Attribute.rangeSliderDirectionReversed;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderEndValue = global::safetyLab.Droid.Resource.Attribute.rangeSliderEndValue;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderKnobColor = global::safetyLab.Droid.Resource.Attribute.rangeSliderKnobColor;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderMaximum = global::safetyLab.Droid.Resource.Attribute.rangeSliderMaximum;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderMinimum = global::safetyLab.Droid.Resource.Attribute.rangeSliderMinimum;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderOrientation = global::safetyLab.Droid.Resource.Attribute.rangeSliderOrientation;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderShowRange = global::safetyLab.Droid.Resource.Attribute.rangeSliderShowRange;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderShowValueLabel = global::safetyLab.Droid.Resource.Attribute.rangeSliderShowValueLabel;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderStartValue = global::safetyLab.Droid.Resource.Attribute.rangeSliderStartValue;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderThumbSize = global::safetyLab.Droid.Resource.Attribute.rangeSliderThumbSize;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTickPlacement = global::safetyLab.Droid.Resource.Attribute.rangeSliderTickPlacement;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTrackColor = global::safetyLab.Droid.Resource.Attribute.rangeSliderTrackColor;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderTrackSelectionColor = global::safetyLab.Droid.Resource.Attribute.rangeSliderTrackSelectionColor;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderValue = global::safetyLab.Droid.Resource.Attribute.rangeSliderValue;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Attribute.rangeSliderValuePlacement = global::safetyLab.Droid.Resource.Attribute.rangeSliderValuePlacement;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.label_font_size = global::safetyLab.Droid.Resource.Dimension.label_font_size;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.thumb_size = global::safetyLab.Droid.Resource.Dimension.thumb_size;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tick_size = global::safetyLab.Droid.Resource.Dimension.tick_size;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_bottom = global::safetyLab.Droid.Resource.Dimension.tool_bottom;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_left = global::safetyLab.Droid.Resource.Dimension.tool_left;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_right = global::safetyLab.Droid.Resource.Dimension.tool_right;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tool_top = global::safetyLab.Droid.Resource.Dimension.tool_top;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.tooltip_textsize = global::safetyLab.Droid.Resource.Dimension.tooltip_textsize;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Dimension.track_size = global::safetyLab.Droid.Resource.Dimension.track_size;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Id.bottomRight = global::safetyLab.Droid.Resource.Id.bottomRight;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Id.horizontal = global::safetyLab.Droid.Resource.Id.horizontal;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Id.inline = global::safetyLab.Droid.Resource.Id.inline;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Id.none = global::safetyLab.Droid.Resource.Id.none;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Id.outside = global::safetyLab.Droid.Resource.Id.outside;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Id.topLeft = global::safetyLab.Droid.Resource.Id.topLeft;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Id.vertical = global::safetyLab.Droid.Resource.Id.vertical;
-			global::Com.Syncfusion.Sfrangeslider.Resource.String.library_name = global::safetyLab.Droid.Resource.String.library_name;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderDirectionReversed;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderEndValue = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderEndValue;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderKnobColor;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderMaximum = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMaximum;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderMinimum = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderMinimum;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderOrientation = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderOrientation;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderShowRange = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowRange;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderShowValueLabel;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderStartValue = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderStartValue;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderThumbSize;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTickPlacement;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackColor;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderTrackSelectionColor;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderValue = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValue;
-			global::Com.Syncfusion.Sfrangeslider.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement = global::safetyLab.Droid.Resource.Styleable.SfRangeSlider_rangeSliderValuePlacement;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::safetyLab.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::safetyLab.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::safetyLab.Droid.Resource.Attribute.font;
@@ -6364,33 +3131,6 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0101d3
 			public const int boxStrokeWidth = 2130772435;
 			
-			// aapt resource value: 0x7f0101fa
-			public const int busyIndicatorAnimationTypes = 2130772474;
-			
-			// aapt resource value: 0x7f010202
-			public const int busyIndicatorIsBusy = 2130772482;
-			
-			// aapt resource value: 0x7f010200
-			public const int busyIndicatorSecondaryColor = 2130772480;
-			
-			// aapt resource value: 0x7f0101fb
-			public const int busyIndicatorTextColor = 2130772475;
-			
-			// aapt resource value: 0x7f0101ff
-			public const int busyIndicatorTextSize = 2130772479;
-			
-			// aapt resource value: 0x7f0101fe
-			public const int busyIndicatorTitle = 2130772478;
-			
-			// aapt resource value: 0x7f010201
-			public const int busyIndicatorTitlePlacement = 2130772481;
-			
-			// aapt resource value: 0x7f0101fc
-			public const int busyIndicatorViewBoxHeight = 2130772476;
-			
-			// aapt resource value: 0x7f0101fd
-			public const int busyIndicatorViewBoxWidth = 2130772477;
-			
 			// aapt resource value: 0x7f01008e
 			public const int buttonBarButtonStyle = 2130772110;
 			
@@ -7191,51 +3931,6 @@ namespace safetyLab.Droid
 			
 			// aapt resource value: 0x7f0100c6
 			public const int radioButtonStyle = 2130772166;
-			
-			// aapt resource value: 0x7f0101f2
-			public const int rangeSliderDirectionReversed = 2130772466;
-			
-			// aapt resource value: 0x7f0101f8
-			public const int rangeSliderEndValue = 2130772472;
-			
-			// aapt resource value: 0x7f0101eb
-			public const int rangeSliderKnobColor = 2130772459;
-			
-			// aapt resource value: 0x7f0101f6
-			public const int rangeSliderMaximum = 2130772470;
-			
-			// aapt resource value: 0x7f0101f5
-			public const int rangeSliderMinimum = 2130772469;
-			
-			// aapt resource value: 0x7f0101f1
-			public const int rangeSliderOrientation = 2130772465;
-			
-			// aapt resource value: 0x7f0101ef
-			public const int rangeSliderShowRange = 2130772463;
-			
-			// aapt resource value: 0x7f0101ee
-			public const int rangeSliderShowValueLabel = 2130772462;
-			
-			// aapt resource value: 0x7f0101f7
-			public const int rangeSliderStartValue = 2130772471;
-			
-			// aapt resource value: 0x7f0101f9
-			public const int rangeSliderThumbSize = 2130772473;
-			
-			// aapt resource value: 0x7f0101f3
-			public const int rangeSliderTickPlacement = 2130772467;
-			
-			// aapt resource value: 0x7f0101ec
-			public const int rangeSliderTrackColor = 2130772460;
-			
-			// aapt resource value: 0x7f0101ed
-			public const int rangeSliderTrackSelectionColor = 2130772461;
-			
-			// aapt resource value: 0x7f0101f0
-			public const int rangeSliderValue = 2130772464;
-			
-			// aapt resource value: 0x7f0101f4
-			public const int rangeSliderValuePlacement = 2130772468;
 			
 			// aapt resource value: 0x7f0100c7
 			public const int ratingBarStyle = 2130772167;
@@ -8578,9 +5273,6 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0b0005
 			public const int item_touch_helper_swipe_escape_velocity = 2131427333;
 			
-			// aapt resource value: 0x7f0b00e3
-			public const int label_font_size = 2131427555;
-			
 			// aapt resource value: 0x7f0b0006
 			public const int mr_controller_volume_group_list_item_height = 2131427334;
 			
@@ -8800,24 +5492,6 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0b006e
 			public const int subtitle_shadow_radius = 2131427438;
 			
-			// aapt resource value: 0x7f0b00e4
-			public const int thumb_size = 2131427556;
-			
-			// aapt resource value: 0x7f0b00e6
-			public const int tick_size = 2131427558;
-			
-			// aapt resource value: 0x7f0b00e8
-			public const int tool_bottom = 2131427560;
-			
-			// aapt resource value: 0x7f0b00e9
-			public const int tool_left = 2131427561;
-			
-			// aapt resource value: 0x7f0b00ea
-			public const int tool_right = 2131427562;
-			
-			// aapt resource value: 0x7f0b00e7
-			public const int tool_top = 2131427559;
-			
 			// aapt resource value: 0x7f0b0063
 			public const int tooltip_corner_radius = 2131427427;
 			
@@ -8833,9 +5507,6 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0b0067
 			public const int tooltip_precise_anchor_threshold = 2131427431;
 			
-			// aapt resource value: 0x7f0b00eb
-			public const int tooltip_textsize = 2131427563;
-			
 			// aapt resource value: 0x7f0b0068
 			public const int tooltip_vertical_padding = 2131427432;
 			
@@ -8844,9 +5515,6 @@ namespace safetyLab.Droid
 			
 			// aapt resource value: 0x7f0b006a
 			public const int tooltip_y_offset_touch = 2131427434;
-			
-			// aapt resource value: 0x7f0b00e5
-			public const int track_size = 2131427557;
 			
 			static Dimension()
 			{
@@ -9114,886 +5782,730 @@ namespace safetyLab.Droid
 			public const int abc_vector_test = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int AlertViewDialogBottomLine = 2130837588;
-			
-			// aapt resource value: 0x7f020055
-			public const int Annotation = 2130837589;
-			
-			// aapt resource value: 0x7f020056
-			public const int Avatar1 = 2130837590;
-			
-			// aapt resource value: 0x7f020057
-			public const int Avatar10 = 2130837591;
-			
-			// aapt resource value: 0x7f020058
-			public const int Avatar11 = 2130837592;
-			
-			// aapt resource value: 0x7f020059
-			public const int Avatar12 = 2130837593;
-			
-			// aapt resource value: 0x7f02005a
-			public const int Avatar13 = 2130837594;
-			
-			// aapt resource value: 0x7f02005b
-			public const int Avatar14 = 2130837595;
-			
-			// aapt resource value: 0x7f02005c
-			public const int Avatar15 = 2130837596;
-			
-			// aapt resource value: 0x7f02005d
-			public const int Avatar16 = 2130837597;
-			
-			// aapt resource value: 0x7f02005e
-			public const int Avatar17 = 2130837598;
-			
-			// aapt resource value: 0x7f02005f
-			public const int Avatar18 = 2130837599;
-			
-			// aapt resource value: 0x7f020060
-			public const int Avatar19 = 2130837600;
-			
-			// aapt resource value: 0x7f020061
-			public const int Avatar2 = 2130837601;
-			
-			// aapt resource value: 0x7f020062
-			public const int Avatar20 = 2130837602;
-			
-			// aapt resource value: 0x7f020063
-			public const int Avatar21 = 2130837603;
-			
-			// aapt resource value: 0x7f020064
-			public const int Avatar22 = 2130837604;
-			
-			// aapt resource value: 0x7f020065
-			public const int Avatar23 = 2130837605;
-			
-			// aapt resource value: 0x7f020066
-			public const int Avatar24 = 2130837606;
-			
-			// aapt resource value: 0x7f020067
-			public const int Avatar25 = 2130837607;
-			
-			// aapt resource value: 0x7f020068
-			public const int Avatar26 = 2130837608;
-			
-			// aapt resource value: 0x7f020069
-			public const int Avatar27 = 2130837609;
-			
-			// aapt resource value: 0x7f02006a
-			public const int Avatar28 = 2130837610;
-			
-			// aapt resource value: 0x7f02006b
-			public const int Avatar29 = 2130837611;
-			
-			// aapt resource value: 0x7f02006c
-			public const int Avatar3 = 2130837612;
-			
-			// aapt resource value: 0x7f02006d
-			public const int Avatar30 = 2130837613;
-			
-			// aapt resource value: 0x7f02006e
-			public const int Avatar4 = 2130837614;
-			
-			// aapt resource value: 0x7f02006f
-			public const int Avatar5 = 2130837615;
-			
-			// aapt resource value: 0x7f020070
-			public const int Avatar6 = 2130837616;
-			
-			// aapt resource value: 0x7f020071
-			public const int Avatar7 = 2130837617;
-			
-			// aapt resource value: 0x7f020072
-			public const int Avatar8 = 2130837618;
-			
-			// aapt resource value: 0x7f020073
-			public const int Avatar9 = 2130837619;
-			
-			// aapt resource value: 0x7f020074
-			public const int avd_hide_password = 2130837620;
-			
-			// aapt resource value: 0x7f020174
-			public const int avd_hide_password_1 = 2130837876;
-			
-			// aapt resource value: 0x7f020175
-			public const int avd_hide_password_2 = 2130837877;
-			
-			// aapt resource value: 0x7f020176
-			public const int avd_hide_password_3 = 2130837878;
-			
-			// aapt resource value: 0x7f020075
-			public const int avd_show_password = 2130837621;
-			
-			// aapt resource value: 0x7f020177
-			public const int avd_show_password_1 = 2130837879;
-			
-			// aapt resource value: 0x7f020178
-			public const int avd_show_password_2 = 2130837880;
-			
-			// aapt resource value: 0x7f020179
-			public const int avd_show_password_3 = 2130837881;
-			
-			// aapt resource value: 0x7f020076
-			public const int Bookmark = 2130837622;
-			
-			// aapt resource value: 0x7f020077
-			public const int CheckableMaterialColor = 2130837623;
-			
-			// aapt resource value: 0x7f020078
-			public const int deakin_burwood = 2130837624;
-			
-			// aapt resource value: 0x7f020079
-			public const int deakin_geelong = 2130837625;
-			
-			// aapt resource value: 0x7f02007a
-			public const int design_bottom_navigation_item_background = 2130837626;
-			
-			// aapt resource value: 0x7f02007b
-			public const int design_fab_background = 2130837627;
-			
-			// aapt resource value: 0x7f02007c
-			public const int design_ic_visibility = 2130837628;
-			
-			// aapt resource value: 0x7f02007d
-			public const int design_ic_visibility_off = 2130837629;
-			
-			// aapt resource value: 0x7f02007e
-			public const int design_password_eye = 2130837630;
-			
-			// aapt resource value: 0x7f02007f
-			public const int design_snackbar_background = 2130837631;
-			
-			// aapt resource value: 0x7f020080
-			public const int editTextPageCount = 2130837632;
-			
-			// aapt resource value: 0x7f020081
-			public const int favourites_icon = 2130837633;
-			
-			// aapt resource value: 0x7f020082
-			public const int FormFieldCheckbox = 2130837634;
-			
-			// aapt resource value: 0x7f020083
-			public const int FormFieldCheckbox_Checked = 2130837635;
-			
-			// aapt resource value: 0x7f020084
-			public const int FormFieldCheckbox_UnChecked = 2130837636;
-			
-			// aapt resource value: 0x7f020085
-			public const int formfieldradiobuttonstyle = 2130837637;
-			
-			// aapt resource value: 0x7f020086
-			public const int formfieldtextboxcursorcolor = 2130837638;
-			
-			// aapt resource value: 0x7f020087
-			public const int ic_audiotrack_dark = 2130837639;
-			
-			// aapt resource value: 0x7f020088
-			public const int ic_audiotrack_light = 2130837640;
-			
-			// aapt resource value: 0x7f020089
-			public const int ic_dialog_close_dark = 2130837641;
-			
-			// aapt resource value: 0x7f02008a
-			public const int ic_dialog_close_light = 2130837642;
-			
-			// aapt resource value: 0x7f02008b
-			public const int ic_group_collapse_00 = 2130837643;
-			
-			// aapt resource value: 0x7f02008c
-			public const int ic_group_collapse_01 = 2130837644;
-			
-			// aapt resource value: 0x7f02008d
-			public const int ic_group_collapse_02 = 2130837645;
-			
-			// aapt resource value: 0x7f02008e
-			public const int ic_group_collapse_03 = 2130837646;
-			
-			// aapt resource value: 0x7f02008f
-			public const int ic_group_collapse_04 = 2130837647;
-			
-			// aapt resource value: 0x7f020090
-			public const int ic_group_collapse_05 = 2130837648;
-			
-			// aapt resource value: 0x7f020091
-			public const int ic_group_collapse_06 = 2130837649;
-			
-			// aapt resource value: 0x7f020092
-			public const int ic_group_collapse_07 = 2130837650;
-			
-			// aapt resource value: 0x7f020093
-			public const int ic_group_collapse_08 = 2130837651;
-			
-			// aapt resource value: 0x7f020094
-			public const int ic_group_collapse_09 = 2130837652;
-			
-			// aapt resource value: 0x7f020095
-			public const int ic_group_collapse_10 = 2130837653;
-			
-			// aapt resource value: 0x7f020096
-			public const int ic_group_collapse_11 = 2130837654;
-			
-			// aapt resource value: 0x7f020097
-			public const int ic_group_collapse_12 = 2130837655;
-			
-			// aapt resource value: 0x7f020098
-			public const int ic_group_collapse_13 = 2130837656;
-			
-			// aapt resource value: 0x7f020099
-			public const int ic_group_collapse_14 = 2130837657;
-			
-			// aapt resource value: 0x7f02009a
-			public const int ic_group_collapse_15 = 2130837658;
-			
-			// aapt resource value: 0x7f02009b
-			public const int ic_group_expand_00 = 2130837659;
-			
-			// aapt resource value: 0x7f02009c
-			public const int ic_group_expand_01 = 2130837660;
-			
-			// aapt resource value: 0x7f02009d
-			public const int ic_group_expand_02 = 2130837661;
-			
-			// aapt resource value: 0x7f02009e
-			public const int ic_group_expand_03 = 2130837662;
-			
-			// aapt resource value: 0x7f02009f
-			public const int ic_group_expand_04 = 2130837663;
-			
-			// aapt resource value: 0x7f0200a0
-			public const int ic_group_expand_05 = 2130837664;
-			
-			// aapt resource value: 0x7f0200a1
-			public const int ic_group_expand_06 = 2130837665;
-			
-			// aapt resource value: 0x7f0200a2
-			public const int ic_group_expand_07 = 2130837666;
-			
-			// aapt resource value: 0x7f0200a3
-			public const int ic_group_expand_08 = 2130837667;
-			
-			// aapt resource value: 0x7f0200a4
-			public const int ic_group_expand_09 = 2130837668;
-			
-			// aapt resource value: 0x7f0200a5
-			public const int ic_group_expand_10 = 2130837669;
-			
-			// aapt resource value: 0x7f0200a6
-			public const int ic_group_expand_11 = 2130837670;
-			
-			// aapt resource value: 0x7f0200a7
-			public const int ic_group_expand_12 = 2130837671;
-			
-			// aapt resource value: 0x7f0200a8
-			public const int ic_group_expand_13 = 2130837672;
-			
-			// aapt resource value: 0x7f0200a9
-			public const int ic_group_expand_14 = 2130837673;
-			
-			// aapt resource value: 0x7f0200aa
-			public const int ic_group_expand_15 = 2130837674;
-			
-			// aapt resource value: 0x7f0200ab
-			public const int ic_media_pause_dark = 2130837675;
-			
-			// aapt resource value: 0x7f0200ac
-			public const int ic_media_pause_light = 2130837676;
-			
-			// aapt resource value: 0x7f0200ad
-			public const int ic_media_play_dark = 2130837677;
-			
-			// aapt resource value: 0x7f0200ae
-			public const int ic_media_play_light = 2130837678;
-			
-			// aapt resource value: 0x7f0200af
-			public const int ic_media_stop_dark = 2130837679;
-			
-			// aapt resource value: 0x7f0200b0
-			public const int ic_media_stop_light = 2130837680;
-			
-			// aapt resource value: 0x7f0200b1
-			public const int ic_mr_button_connected_00_dark = 2130837681;
-			
-			// aapt resource value: 0x7f0200b2
-			public const int ic_mr_button_connected_00_light = 2130837682;
-			
-			// aapt resource value: 0x7f0200b3
-			public const int ic_mr_button_connected_01_dark = 2130837683;
-			
-			// aapt resource value: 0x7f0200b4
-			public const int ic_mr_button_connected_01_light = 2130837684;
-			
-			// aapt resource value: 0x7f0200b5
-			public const int ic_mr_button_connected_02_dark = 2130837685;
-			
-			// aapt resource value: 0x7f0200b6
-			public const int ic_mr_button_connected_02_light = 2130837686;
-			
-			// aapt resource value: 0x7f0200b7
-			public const int ic_mr_button_connected_03_dark = 2130837687;
-			
-			// aapt resource value: 0x7f0200b8
-			public const int ic_mr_button_connected_03_light = 2130837688;
-			
-			// aapt resource value: 0x7f0200b9
-			public const int ic_mr_button_connected_04_dark = 2130837689;
-			
-			// aapt resource value: 0x7f0200ba
-			public const int ic_mr_button_connected_04_light = 2130837690;
-			
-			// aapt resource value: 0x7f0200bb
-			public const int ic_mr_button_connected_05_dark = 2130837691;
-			
-			// aapt resource value: 0x7f0200bc
-			public const int ic_mr_button_connected_05_light = 2130837692;
-			
-			// aapt resource value: 0x7f0200bd
-			public const int ic_mr_button_connected_06_dark = 2130837693;
-			
-			// aapt resource value: 0x7f0200be
-			public const int ic_mr_button_connected_06_light = 2130837694;
-			
-			// aapt resource value: 0x7f0200bf
-			public const int ic_mr_button_connected_07_dark = 2130837695;
-			
-			// aapt resource value: 0x7f0200c0
-			public const int ic_mr_button_connected_07_light = 2130837696;
-			
-			// aapt resource value: 0x7f0200c1
-			public const int ic_mr_button_connected_08_dark = 2130837697;
-			
-			// aapt resource value: 0x7f0200c2
-			public const int ic_mr_button_connected_08_light = 2130837698;
-			
-			// aapt resource value: 0x7f0200c3
-			public const int ic_mr_button_connected_09_dark = 2130837699;
-			
-			// aapt resource value: 0x7f0200c4
-			public const int ic_mr_button_connected_09_light = 2130837700;
-			
-			// aapt resource value: 0x7f0200c5
-			public const int ic_mr_button_connected_10_dark = 2130837701;
-			
-			// aapt resource value: 0x7f0200c6
-			public const int ic_mr_button_connected_10_light = 2130837702;
-			
-			// aapt resource value: 0x7f0200c7
-			public const int ic_mr_button_connected_11_dark = 2130837703;
-			
-			// aapt resource value: 0x7f0200c8
-			public const int ic_mr_button_connected_11_light = 2130837704;
-			
-			// aapt resource value: 0x7f0200c9
-			public const int ic_mr_button_connected_12_dark = 2130837705;
-			
-			// aapt resource value: 0x7f0200ca
-			public const int ic_mr_button_connected_12_light = 2130837706;
-			
-			// aapt resource value: 0x7f0200cb
-			public const int ic_mr_button_connected_13_dark = 2130837707;
-			
-			// aapt resource value: 0x7f0200cc
-			public const int ic_mr_button_connected_13_light = 2130837708;
-			
-			// aapt resource value: 0x7f0200cd
-			public const int ic_mr_button_connected_14_dark = 2130837709;
-			
-			// aapt resource value: 0x7f0200ce
-			public const int ic_mr_button_connected_14_light = 2130837710;
-			
-			// aapt resource value: 0x7f0200cf
-			public const int ic_mr_button_connected_15_dark = 2130837711;
-			
-			// aapt resource value: 0x7f0200d0
-			public const int ic_mr_button_connected_15_light = 2130837712;
-			
-			// aapt resource value: 0x7f0200d1
-			public const int ic_mr_button_connected_16_dark = 2130837713;
-			
-			// aapt resource value: 0x7f0200d2
-			public const int ic_mr_button_connected_16_light = 2130837714;
-			
-			// aapt resource value: 0x7f0200d3
-			public const int ic_mr_button_connected_17_dark = 2130837715;
-			
-			// aapt resource value: 0x7f0200d4
-			public const int ic_mr_button_connected_17_light = 2130837716;
-			
-			// aapt resource value: 0x7f0200d5
-			public const int ic_mr_button_connected_18_dark = 2130837717;
-			
-			// aapt resource value: 0x7f0200d6
-			public const int ic_mr_button_connected_18_light = 2130837718;
-			
-			// aapt resource value: 0x7f0200d7
-			public const int ic_mr_button_connected_19_dark = 2130837719;
-			
-			// aapt resource value: 0x7f0200d8
-			public const int ic_mr_button_connected_19_light = 2130837720;
-			
-			// aapt resource value: 0x7f0200d9
-			public const int ic_mr_button_connected_20_dark = 2130837721;
-			
-			// aapt resource value: 0x7f0200da
-			public const int ic_mr_button_connected_20_light = 2130837722;
-			
-			// aapt resource value: 0x7f0200db
-			public const int ic_mr_button_connected_21_dark = 2130837723;
-			
-			// aapt resource value: 0x7f0200dc
-			public const int ic_mr_button_connected_21_light = 2130837724;
-			
-			// aapt resource value: 0x7f0200dd
-			public const int ic_mr_button_connected_22_dark = 2130837725;
-			
-			// aapt resource value: 0x7f0200de
-			public const int ic_mr_button_connected_22_light = 2130837726;
-			
-			// aapt resource value: 0x7f0200df
-			public const int ic_mr_button_connected_23_dark = 2130837727;
-			
-			// aapt resource value: 0x7f0200e0
-			public const int ic_mr_button_connected_23_light = 2130837728;
-			
-			// aapt resource value: 0x7f0200e1
-			public const int ic_mr_button_connected_24_dark = 2130837729;
-			
-			// aapt resource value: 0x7f0200e2
-			public const int ic_mr_button_connected_24_light = 2130837730;
-			
-			// aapt resource value: 0x7f0200e3
-			public const int ic_mr_button_connected_25_dark = 2130837731;
-			
-			// aapt resource value: 0x7f0200e4
-			public const int ic_mr_button_connected_25_light = 2130837732;
-			
-			// aapt resource value: 0x7f0200e5
-			public const int ic_mr_button_connected_26_dark = 2130837733;
-			
-			// aapt resource value: 0x7f0200e6
-			public const int ic_mr_button_connected_26_light = 2130837734;
-			
-			// aapt resource value: 0x7f0200e7
-			public const int ic_mr_button_connected_27_dark = 2130837735;
-			
-			// aapt resource value: 0x7f0200e8
-			public const int ic_mr_button_connected_27_light = 2130837736;
-			
-			// aapt resource value: 0x7f0200e9
-			public const int ic_mr_button_connected_28_dark = 2130837737;
-			
-			// aapt resource value: 0x7f0200ea
-			public const int ic_mr_button_connected_28_light = 2130837738;
-			
-			// aapt resource value: 0x7f0200eb
-			public const int ic_mr_button_connected_29_dark = 2130837739;
-			
-			// aapt resource value: 0x7f0200ec
-			public const int ic_mr_button_connected_29_light = 2130837740;
-			
-			// aapt resource value: 0x7f0200ed
-			public const int ic_mr_button_connected_30_dark = 2130837741;
-			
-			// aapt resource value: 0x7f0200ee
-			public const int ic_mr_button_connected_30_light = 2130837742;
-			
-			// aapt resource value: 0x7f0200ef
-			public const int ic_mr_button_connecting_00_dark = 2130837743;
-			
-			// aapt resource value: 0x7f0200f0
-			public const int ic_mr_button_connecting_00_light = 2130837744;
-			
-			// aapt resource value: 0x7f0200f1
-			public const int ic_mr_button_connecting_01_dark = 2130837745;
-			
-			// aapt resource value: 0x7f0200f2
-			public const int ic_mr_button_connecting_01_light = 2130837746;
-			
-			// aapt resource value: 0x7f0200f3
-			public const int ic_mr_button_connecting_02_dark = 2130837747;
-			
-			// aapt resource value: 0x7f0200f4
-			public const int ic_mr_button_connecting_02_light = 2130837748;
-			
-			// aapt resource value: 0x7f0200f5
-			public const int ic_mr_button_connecting_03_dark = 2130837749;
-			
-			// aapt resource value: 0x7f0200f6
-			public const int ic_mr_button_connecting_03_light = 2130837750;
-			
-			// aapt resource value: 0x7f0200f7
-			public const int ic_mr_button_connecting_04_dark = 2130837751;
-			
-			// aapt resource value: 0x7f0200f8
-			public const int ic_mr_button_connecting_04_light = 2130837752;
-			
-			// aapt resource value: 0x7f0200f9
-			public const int ic_mr_button_connecting_05_dark = 2130837753;
-			
-			// aapt resource value: 0x7f0200fa
-			public const int ic_mr_button_connecting_05_light = 2130837754;
-			
-			// aapt resource value: 0x7f0200fb
-			public const int ic_mr_button_connecting_06_dark = 2130837755;
-			
-			// aapt resource value: 0x7f0200fc
-			public const int ic_mr_button_connecting_06_light = 2130837756;
-			
-			// aapt resource value: 0x7f0200fd
-			public const int ic_mr_button_connecting_07_dark = 2130837757;
-			
-			// aapt resource value: 0x7f0200fe
-			public const int ic_mr_button_connecting_07_light = 2130837758;
-			
-			// aapt resource value: 0x7f0200ff
-			public const int ic_mr_button_connecting_08_dark = 2130837759;
-			
-			// aapt resource value: 0x7f020100
-			public const int ic_mr_button_connecting_08_light = 2130837760;
-			
-			// aapt resource value: 0x7f020101
-			public const int ic_mr_button_connecting_09_dark = 2130837761;
-			
-			// aapt resource value: 0x7f020102
-			public const int ic_mr_button_connecting_09_light = 2130837762;
-			
-			// aapt resource value: 0x7f020103
-			public const int ic_mr_button_connecting_10_dark = 2130837763;
-			
-			// aapt resource value: 0x7f020104
-			public const int ic_mr_button_connecting_10_light = 2130837764;
-			
-			// aapt resource value: 0x7f020105
-			public const int ic_mr_button_connecting_11_dark = 2130837765;
-			
-			// aapt resource value: 0x7f020106
-			public const int ic_mr_button_connecting_11_light = 2130837766;
-			
-			// aapt resource value: 0x7f020107
-			public const int ic_mr_button_connecting_12_dark = 2130837767;
-			
-			// aapt resource value: 0x7f020108
-			public const int ic_mr_button_connecting_12_light = 2130837768;
-			
-			// aapt resource value: 0x7f020109
-			public const int ic_mr_button_connecting_13_dark = 2130837769;
-			
-			// aapt resource value: 0x7f02010a
-			public const int ic_mr_button_connecting_13_light = 2130837770;
-			
-			// aapt resource value: 0x7f02010b
-			public const int ic_mr_button_connecting_14_dark = 2130837771;
-			
-			// aapt resource value: 0x7f02010c
-			public const int ic_mr_button_connecting_14_light = 2130837772;
-			
-			// aapt resource value: 0x7f02010d
-			public const int ic_mr_button_connecting_15_dark = 2130837773;
-			
-			// aapt resource value: 0x7f02010e
-			public const int ic_mr_button_connecting_15_light = 2130837774;
-			
-			// aapt resource value: 0x7f02010f
-			public const int ic_mr_button_connecting_16_dark = 2130837775;
-			
-			// aapt resource value: 0x7f020110
-			public const int ic_mr_button_connecting_16_light = 2130837776;
-			
-			// aapt resource value: 0x7f020111
-			public const int ic_mr_button_connecting_17_dark = 2130837777;
-			
-			// aapt resource value: 0x7f020112
-			public const int ic_mr_button_connecting_17_light = 2130837778;
-			
-			// aapt resource value: 0x7f020113
-			public const int ic_mr_button_connecting_18_dark = 2130837779;
-			
-			// aapt resource value: 0x7f020114
-			public const int ic_mr_button_connecting_18_light = 2130837780;
-			
-			// aapt resource value: 0x7f020115
-			public const int ic_mr_button_connecting_19_dark = 2130837781;
-			
-			// aapt resource value: 0x7f020116
-			public const int ic_mr_button_connecting_19_light = 2130837782;
-			
-			// aapt resource value: 0x7f020117
-			public const int ic_mr_button_connecting_20_dark = 2130837783;
-			
-			// aapt resource value: 0x7f020118
-			public const int ic_mr_button_connecting_20_light = 2130837784;
-			
-			// aapt resource value: 0x7f020119
-			public const int ic_mr_button_connecting_21_dark = 2130837785;
-			
-			// aapt resource value: 0x7f02011a
-			public const int ic_mr_button_connecting_21_light = 2130837786;
-			
-			// aapt resource value: 0x7f02011b
-			public const int ic_mr_button_connecting_22_dark = 2130837787;
-			
-			// aapt resource value: 0x7f02011c
-			public const int ic_mr_button_connecting_22_light = 2130837788;
-			
-			// aapt resource value: 0x7f02011d
-			public const int ic_mr_button_connecting_23_dark = 2130837789;
-			
-			// aapt resource value: 0x7f02011e
-			public const int ic_mr_button_connecting_23_light = 2130837790;
-			
-			// aapt resource value: 0x7f02011f
-			public const int ic_mr_button_connecting_24_dark = 2130837791;
-			
-			// aapt resource value: 0x7f020120
-			public const int ic_mr_button_connecting_24_light = 2130837792;
-			
-			// aapt resource value: 0x7f020121
-			public const int ic_mr_button_connecting_25_dark = 2130837793;
-			
-			// aapt resource value: 0x7f020122
-			public const int ic_mr_button_connecting_25_light = 2130837794;
-			
-			// aapt resource value: 0x7f020123
-			public const int ic_mr_button_connecting_26_dark = 2130837795;
-			
-			// aapt resource value: 0x7f020124
-			public const int ic_mr_button_connecting_26_light = 2130837796;
-			
-			// aapt resource value: 0x7f020125
-			public const int ic_mr_button_connecting_27_dark = 2130837797;
-			
-			// aapt resource value: 0x7f020126
-			public const int ic_mr_button_connecting_27_light = 2130837798;
-			
-			// aapt resource value: 0x7f020127
-			public const int ic_mr_button_connecting_28_dark = 2130837799;
-			
-			// aapt resource value: 0x7f020128
-			public const int ic_mr_button_connecting_28_light = 2130837800;
-			
-			// aapt resource value: 0x7f020129
-			public const int ic_mr_button_connecting_29_dark = 2130837801;
-			
-			// aapt resource value: 0x7f02012a
-			public const int ic_mr_button_connecting_29_light = 2130837802;
-			
-			// aapt resource value: 0x7f02012b
-			public const int ic_mr_button_connecting_30_dark = 2130837803;
-			
-			// aapt resource value: 0x7f02012c
-			public const int ic_mr_button_connecting_30_light = 2130837804;
-			
-			// aapt resource value: 0x7f02012d
-			public const int ic_mr_button_disabled_dark = 2130837805;
-			
-			// aapt resource value: 0x7f02012e
-			public const int ic_mr_button_disabled_light = 2130837806;
-			
-			// aapt resource value: 0x7f02012f
-			public const int ic_mr_button_disconnected_dark = 2130837807;
-			
-			// aapt resource value: 0x7f020130
-			public const int ic_mr_button_disconnected_light = 2130837808;
-			
-			// aapt resource value: 0x7f020131
-			public const int ic_mr_button_grey = 2130837809;
-			
-			// aapt resource value: 0x7f020132
-			public const int ic_mtrl_chip_checked_black = 2130837810;
-			
-			// aapt resource value: 0x7f020133
-			public const int ic_mtrl_chip_checked_circle = 2130837811;
-			
-			// aapt resource value: 0x7f020134
-			public const int ic_mtrl_chip_close_circle = 2130837812;
-			
-			// aapt resource value: 0x7f020135
-			public const int ic_vol_type_speaker_dark = 2130837813;
-			
-			// aapt resource value: 0x7f020136
-			public const int ic_vol_type_speaker_group_dark = 2130837814;
-			
-			// aapt resource value: 0x7f020137
-			public const int ic_vol_type_speaker_group_light = 2130837815;
-			
-			// aapt resource value: 0x7f020138
-			public const int ic_vol_type_speaker_light = 2130837816;
-			
-			// aapt resource value: 0x7f020139
-			public const int ic_vol_type_tv_dark = 2130837817;
-			
-			// aapt resource value: 0x7f02013a
-			public const int ic_vol_type_tv_light = 2130837818;
-			
-			// aapt resource value: 0x7f02013b
-			public const int icon = 2130837819;
-			
-			// aapt resource value: 0x7f02013c
-			public const int input_layout_drop_down_icon = 2130837820;
-			
-			// aapt resource value: 0x7f02013d
-			public const int inputlayout_togglecollapseicon = 2130837821;
-			
-			// aapt resource value: 0x7f02013e
-			public const int inputlayout_togglevisibleicon = 2130837822;
-			
-			// aapt resource value: 0x7f02013f
-			public const int logo = 2130837823;
+			public const int avd_hide_password = 2130837588;
 			
 			// aapt resource value: 0x7f020140
-			public const int map_icon = 2130837824;
+			public const int avd_hide_password_1 = 2130837824;
 			
 			// aapt resource value: 0x7f020141
-			public const int More = 2130837825;
+			public const int avd_hide_password_2 = 2130837825;
 			
 			// aapt resource value: 0x7f020142
-			public const int mr_button_connected_dark = 2130837826;
+			public const int avd_hide_password_3 = 2130837826;
+			
+			// aapt resource value: 0x7f020055
+			public const int avd_show_password = 2130837589;
 			
 			// aapt resource value: 0x7f020143
-			public const int mr_button_connected_light = 2130837827;
+			public const int avd_show_password_1 = 2130837827;
 			
 			// aapt resource value: 0x7f020144
-			public const int mr_button_connecting_dark = 2130837828;
+			public const int avd_show_password_2 = 2130837828;
 			
 			// aapt resource value: 0x7f020145
-			public const int mr_button_connecting_light = 2130837829;
+			public const int avd_show_password_3 = 2130837829;
 			
-			// aapt resource value: 0x7f020146
-			public const int mr_button_dark = 2130837830;
+			// aapt resource value: 0x7f020056
+			public const int deakin_burwood = 2130837590;
 			
-			// aapt resource value: 0x7f020147
-			public const int mr_button_light = 2130837831;
+			// aapt resource value: 0x7f020057
+			public const int deakin_geelong = 2130837591;
 			
-			// aapt resource value: 0x7f020148
-			public const int mr_dialog_close_dark = 2130837832;
+			// aapt resource value: 0x7f020058
+			public const int design_bottom_navigation_item_background = 2130837592;
 			
-			// aapt resource value: 0x7f020149
-			public const int mr_dialog_close_light = 2130837833;
+			// aapt resource value: 0x7f020059
+			public const int design_fab_background = 2130837593;
 			
-			// aapt resource value: 0x7f02014a
-			public const int mr_dialog_material_background_dark = 2130837834;
+			// aapt resource value: 0x7f02005a
+			public const int design_ic_visibility = 2130837594;
 			
-			// aapt resource value: 0x7f02014b
-			public const int mr_dialog_material_background_light = 2130837835;
+			// aapt resource value: 0x7f02005b
+			public const int design_ic_visibility_off = 2130837595;
 			
-			// aapt resource value: 0x7f02014c
-			public const int mr_group_collapse = 2130837836;
+			// aapt resource value: 0x7f02005c
+			public const int design_password_eye = 2130837596;
 			
-			// aapt resource value: 0x7f02014d
-			public const int mr_group_expand = 2130837837;
+			// aapt resource value: 0x7f02005d
+			public const int design_snackbar_background = 2130837597;
 			
-			// aapt resource value: 0x7f02014e
-			public const int mr_media_pause_dark = 2130837838;
+			// aapt resource value: 0x7f02005e
+			public const int favourites_icon = 2130837598;
 			
-			// aapt resource value: 0x7f02014f
-			public const int mr_media_pause_light = 2130837839;
+			// aapt resource value: 0x7f02005f
+			public const int ic_audiotrack_dark = 2130837599;
 			
-			// aapt resource value: 0x7f020150
-			public const int mr_media_play_dark = 2130837840;
+			// aapt resource value: 0x7f020060
+			public const int ic_audiotrack_light = 2130837600;
 			
-			// aapt resource value: 0x7f020151
-			public const int mr_media_play_light = 2130837841;
+			// aapt resource value: 0x7f020061
+			public const int ic_dialog_close_dark = 2130837601;
 			
-			// aapt resource value: 0x7f020152
-			public const int mr_media_stop_dark = 2130837842;
+			// aapt resource value: 0x7f020062
+			public const int ic_dialog_close_light = 2130837602;
 			
-			// aapt resource value: 0x7f020153
-			public const int mr_media_stop_light = 2130837843;
+			// aapt resource value: 0x7f020063
+			public const int ic_group_collapse_00 = 2130837603;
 			
-			// aapt resource value: 0x7f020154
-			public const int mr_vol_type_audiotrack_dark = 2130837844;
+			// aapt resource value: 0x7f020064
+			public const int ic_group_collapse_01 = 2130837604;
 			
-			// aapt resource value: 0x7f020155
-			public const int mr_vol_type_audiotrack_light = 2130837845;
+			// aapt resource value: 0x7f020065
+			public const int ic_group_collapse_02 = 2130837605;
 			
-			// aapt resource value: 0x7f020156
-			public const int mtrl_snackbar_background = 2130837846;
+			// aapt resource value: 0x7f020066
+			public const int ic_group_collapse_03 = 2130837606;
 			
-			// aapt resource value: 0x7f020157
-			public const int mtrl_tabs_default_indicator = 2130837847;
+			// aapt resource value: 0x7f020067
+			public const int ic_group_collapse_04 = 2130837607;
 			
-			// aapt resource value: 0x7f020158
-			public const int navigation_empty_icon = 2130837848;
+			// aapt resource value: 0x7f020068
+			public const int ic_group_collapse_05 = 2130837608;
 			
-			// aapt resource value: 0x7f020159
-			public const int notification_action_background = 2130837849;
+			// aapt resource value: 0x7f020069
+			public const int ic_group_collapse_06 = 2130837609;
 			
-			// aapt resource value: 0x7f02015a
-			public const int notification_bg = 2130837850;
+			// aapt resource value: 0x7f02006a
+			public const int ic_group_collapse_07 = 2130837610;
 			
-			// aapt resource value: 0x7f02015b
-			public const int notification_bg_low = 2130837851;
+			// aapt resource value: 0x7f02006b
+			public const int ic_group_collapse_08 = 2130837611;
 			
-			// aapt resource value: 0x7f02015c
-			public const int notification_bg_low_normal = 2130837852;
+			// aapt resource value: 0x7f02006c
+			public const int ic_group_collapse_09 = 2130837612;
 			
-			// aapt resource value: 0x7f02015d
-			public const int notification_bg_low_pressed = 2130837853;
+			// aapt resource value: 0x7f02006d
+			public const int ic_group_collapse_10 = 2130837613;
 			
-			// aapt resource value: 0x7f02015e
-			public const int notification_bg_normal = 2130837854;
+			// aapt resource value: 0x7f02006e
+			public const int ic_group_collapse_11 = 2130837614;
 			
-			// aapt resource value: 0x7f02015f
-			public const int notification_bg_normal_pressed = 2130837855;
+			// aapt resource value: 0x7f02006f
+			public const int ic_group_collapse_12 = 2130837615;
 			
-			// aapt resource value: 0x7f020160
-			public const int notification_icon_background = 2130837856;
+			// aapt resource value: 0x7f020070
+			public const int ic_group_collapse_13 = 2130837616;
 			
-			// aapt resource value: 0x7f020172
-			public const int notification_template_icon_bg = 2130837874;
+			// aapt resource value: 0x7f020071
+			public const int ic_group_collapse_14 = 2130837617;
 			
-			// aapt resource value: 0x7f020173
-			public const int notification_template_icon_low_bg = 2130837875;
+			// aapt resource value: 0x7f020072
+			public const int ic_group_collapse_15 = 2130837618;
 			
-			// aapt resource value: 0x7f020161
-			public const int notification_tile_bg = 2130837857;
+			// aapt resource value: 0x7f020073
+			public const int ic_group_expand_00 = 2130837619;
 			
-			// aapt resource value: 0x7f020162
-			public const int notify_panel_notification_icon_bg = 2130837858;
+			// aapt resource value: 0x7f020074
+			public const int ic_group_expand_01 = 2130837620;
 			
-			// aapt resource value: 0x7f020163
-			public const int phone = 2130837859;
+			// aapt resource value: 0x7f020075
+			public const int ic_group_expand_02 = 2130837621;
 			
-			// aapt resource value: 0x7f020164
-			public const int qr_icon = 2130837860;
+			// aapt resource value: 0x7f020076
+			public const int ic_group_expand_03 = 2130837622;
 			
-			// aapt resource value: 0x7f020165
-			public const int recents_icon = 2130837861;
+			// aapt resource value: 0x7f020077
+			public const int ic_group_expand_04 = 2130837623;
 			
-			// aapt resource value: 0x7f020166
-			public const int Search = 2130837862;
+			// aapt resource value: 0x7f020078
+			public const int ic_group_expand_05 = 2130837624;
 			
-			// aapt resource value: 0x7f020167
-			public const int search_icon = 2130837863;
+			// aapt resource value: 0x7f020079
+			public const int ic_group_expand_06 = 2130837625;
 			
-			// aapt resource value: 0x7f020168
-			public const int sfprogressbar_determinate_linear = 2130837864;
+			// aapt resource value: 0x7f02007a
+			public const int ic_group_expand_07 = 2130837626;
 			
-			// aapt resource value: 0x7f020169
-			public const int sfprogressbar_indeterminate_circular = 2130837865;
+			// aapt resource value: 0x7f02007b
+			public const int ic_group_expand_08 = 2130837627;
 			
-			// aapt resource value: 0x7f02016a
-			public const int sfprogressbar_indeterminate_linear = 2130837866;
+			// aapt resource value: 0x7f02007c
+			public const int ic_group_expand_09 = 2130837628;
 			
-			// aapt resource value: 0x7f02016b
-			public const int SignaturePadBottomCorner = 2130837867;
+			// aapt resource value: 0x7f02007d
+			public const int ic_group_expand_10 = 2130837629;
 			
-			// aapt resource value: 0x7f02016c
-			public const int SignaturepadRoundedCorners = 2130837868;
+			// aapt resource value: 0x7f02007e
+			public const int ic_group_expand_11 = 2130837630;
 			
-			// aapt resource value: 0x7f02016d
-			public const int SignaturePadTopCorner = 2130837869;
+			// aapt resource value: 0x7f02007f
+			public const int ic_group_expand_12 = 2130837631;
 			
-			// aapt resource value: 0x7f02016e
-			public const int Splash = 2130837870;
+			// aapt resource value: 0x7f020080
+			public const int ic_group_expand_13 = 2130837632;
 			
-			// aapt resource value: 0x7f02016f
-			public const int tooltip_frame_dark = 2130837871;
+			// aapt resource value: 0x7f020081
+			public const int ic_group_expand_14 = 2130837633;
 			
-			// aapt resource value: 0x7f020170
-			public const int tooltip_frame_light = 2130837872;
+			// aapt resource value: 0x7f020082
+			public const int ic_group_expand_15 = 2130837634;
 			
-			// aapt resource value: 0x7f020171
-			public const int Viewmode = 2130837873;
+			// aapt resource value: 0x7f020083
+			public const int ic_media_pause_dark = 2130837635;
+			
+			// aapt resource value: 0x7f020084
+			public const int ic_media_pause_light = 2130837636;
+			
+			// aapt resource value: 0x7f020085
+			public const int ic_media_play_dark = 2130837637;
+			
+			// aapt resource value: 0x7f020086
+			public const int ic_media_play_light = 2130837638;
+			
+			// aapt resource value: 0x7f020087
+			public const int ic_media_stop_dark = 2130837639;
+			
+			// aapt resource value: 0x7f020088
+			public const int ic_media_stop_light = 2130837640;
+			
+			// aapt resource value: 0x7f020089
+			public const int ic_mr_button_connected_00_dark = 2130837641;
+			
+			// aapt resource value: 0x7f02008a
+			public const int ic_mr_button_connected_00_light = 2130837642;
+			
+			// aapt resource value: 0x7f02008b
+			public const int ic_mr_button_connected_01_dark = 2130837643;
+			
+			// aapt resource value: 0x7f02008c
+			public const int ic_mr_button_connected_01_light = 2130837644;
+			
+			// aapt resource value: 0x7f02008d
+			public const int ic_mr_button_connected_02_dark = 2130837645;
+			
+			// aapt resource value: 0x7f02008e
+			public const int ic_mr_button_connected_02_light = 2130837646;
+			
+			// aapt resource value: 0x7f02008f
+			public const int ic_mr_button_connected_03_dark = 2130837647;
+			
+			// aapt resource value: 0x7f020090
+			public const int ic_mr_button_connected_03_light = 2130837648;
+			
+			// aapt resource value: 0x7f020091
+			public const int ic_mr_button_connected_04_dark = 2130837649;
+			
+			// aapt resource value: 0x7f020092
+			public const int ic_mr_button_connected_04_light = 2130837650;
+			
+			// aapt resource value: 0x7f020093
+			public const int ic_mr_button_connected_05_dark = 2130837651;
+			
+			// aapt resource value: 0x7f020094
+			public const int ic_mr_button_connected_05_light = 2130837652;
+			
+			// aapt resource value: 0x7f020095
+			public const int ic_mr_button_connected_06_dark = 2130837653;
+			
+			// aapt resource value: 0x7f020096
+			public const int ic_mr_button_connected_06_light = 2130837654;
+			
+			// aapt resource value: 0x7f020097
+			public const int ic_mr_button_connected_07_dark = 2130837655;
+			
+			// aapt resource value: 0x7f020098
+			public const int ic_mr_button_connected_07_light = 2130837656;
+			
+			// aapt resource value: 0x7f020099
+			public const int ic_mr_button_connected_08_dark = 2130837657;
+			
+			// aapt resource value: 0x7f02009a
+			public const int ic_mr_button_connected_08_light = 2130837658;
+			
+			// aapt resource value: 0x7f02009b
+			public const int ic_mr_button_connected_09_dark = 2130837659;
+			
+			// aapt resource value: 0x7f02009c
+			public const int ic_mr_button_connected_09_light = 2130837660;
+			
+			// aapt resource value: 0x7f02009d
+			public const int ic_mr_button_connected_10_dark = 2130837661;
+			
+			// aapt resource value: 0x7f02009e
+			public const int ic_mr_button_connected_10_light = 2130837662;
+			
+			// aapt resource value: 0x7f02009f
+			public const int ic_mr_button_connected_11_dark = 2130837663;
+			
+			// aapt resource value: 0x7f0200a0
+			public const int ic_mr_button_connected_11_light = 2130837664;
+			
+			// aapt resource value: 0x7f0200a1
+			public const int ic_mr_button_connected_12_dark = 2130837665;
+			
+			// aapt resource value: 0x7f0200a2
+			public const int ic_mr_button_connected_12_light = 2130837666;
+			
+			// aapt resource value: 0x7f0200a3
+			public const int ic_mr_button_connected_13_dark = 2130837667;
+			
+			// aapt resource value: 0x7f0200a4
+			public const int ic_mr_button_connected_13_light = 2130837668;
+			
+			// aapt resource value: 0x7f0200a5
+			public const int ic_mr_button_connected_14_dark = 2130837669;
+			
+			// aapt resource value: 0x7f0200a6
+			public const int ic_mr_button_connected_14_light = 2130837670;
+			
+			// aapt resource value: 0x7f0200a7
+			public const int ic_mr_button_connected_15_dark = 2130837671;
+			
+			// aapt resource value: 0x7f0200a8
+			public const int ic_mr_button_connected_15_light = 2130837672;
+			
+			// aapt resource value: 0x7f0200a9
+			public const int ic_mr_button_connected_16_dark = 2130837673;
+			
+			// aapt resource value: 0x7f0200aa
+			public const int ic_mr_button_connected_16_light = 2130837674;
+			
+			// aapt resource value: 0x7f0200ab
+			public const int ic_mr_button_connected_17_dark = 2130837675;
+			
+			// aapt resource value: 0x7f0200ac
+			public const int ic_mr_button_connected_17_light = 2130837676;
+			
+			// aapt resource value: 0x7f0200ad
+			public const int ic_mr_button_connected_18_dark = 2130837677;
+			
+			// aapt resource value: 0x7f0200ae
+			public const int ic_mr_button_connected_18_light = 2130837678;
+			
+			// aapt resource value: 0x7f0200af
+			public const int ic_mr_button_connected_19_dark = 2130837679;
+			
+			// aapt resource value: 0x7f0200b0
+			public const int ic_mr_button_connected_19_light = 2130837680;
+			
+			// aapt resource value: 0x7f0200b1
+			public const int ic_mr_button_connected_20_dark = 2130837681;
+			
+			// aapt resource value: 0x7f0200b2
+			public const int ic_mr_button_connected_20_light = 2130837682;
+			
+			// aapt resource value: 0x7f0200b3
+			public const int ic_mr_button_connected_21_dark = 2130837683;
+			
+			// aapt resource value: 0x7f0200b4
+			public const int ic_mr_button_connected_21_light = 2130837684;
+			
+			// aapt resource value: 0x7f0200b5
+			public const int ic_mr_button_connected_22_dark = 2130837685;
+			
+			// aapt resource value: 0x7f0200b6
+			public const int ic_mr_button_connected_22_light = 2130837686;
+			
+			// aapt resource value: 0x7f0200b7
+			public const int ic_mr_button_connected_23_dark = 2130837687;
+			
+			// aapt resource value: 0x7f0200b8
+			public const int ic_mr_button_connected_23_light = 2130837688;
+			
+			// aapt resource value: 0x7f0200b9
+			public const int ic_mr_button_connected_24_dark = 2130837689;
+			
+			// aapt resource value: 0x7f0200ba
+			public const int ic_mr_button_connected_24_light = 2130837690;
+			
+			// aapt resource value: 0x7f0200bb
+			public const int ic_mr_button_connected_25_dark = 2130837691;
+			
+			// aapt resource value: 0x7f0200bc
+			public const int ic_mr_button_connected_25_light = 2130837692;
+			
+			// aapt resource value: 0x7f0200bd
+			public const int ic_mr_button_connected_26_dark = 2130837693;
+			
+			// aapt resource value: 0x7f0200be
+			public const int ic_mr_button_connected_26_light = 2130837694;
+			
+			// aapt resource value: 0x7f0200bf
+			public const int ic_mr_button_connected_27_dark = 2130837695;
+			
+			// aapt resource value: 0x7f0200c0
+			public const int ic_mr_button_connected_27_light = 2130837696;
+			
+			// aapt resource value: 0x7f0200c1
+			public const int ic_mr_button_connected_28_dark = 2130837697;
+			
+			// aapt resource value: 0x7f0200c2
+			public const int ic_mr_button_connected_28_light = 2130837698;
+			
+			// aapt resource value: 0x7f0200c3
+			public const int ic_mr_button_connected_29_dark = 2130837699;
+			
+			// aapt resource value: 0x7f0200c4
+			public const int ic_mr_button_connected_29_light = 2130837700;
+			
+			// aapt resource value: 0x7f0200c5
+			public const int ic_mr_button_connected_30_dark = 2130837701;
+			
+			// aapt resource value: 0x7f0200c6
+			public const int ic_mr_button_connected_30_light = 2130837702;
+			
+			// aapt resource value: 0x7f0200c7
+			public const int ic_mr_button_connecting_00_dark = 2130837703;
+			
+			// aapt resource value: 0x7f0200c8
+			public const int ic_mr_button_connecting_00_light = 2130837704;
+			
+			// aapt resource value: 0x7f0200c9
+			public const int ic_mr_button_connecting_01_dark = 2130837705;
+			
+			// aapt resource value: 0x7f0200ca
+			public const int ic_mr_button_connecting_01_light = 2130837706;
+			
+			// aapt resource value: 0x7f0200cb
+			public const int ic_mr_button_connecting_02_dark = 2130837707;
+			
+			// aapt resource value: 0x7f0200cc
+			public const int ic_mr_button_connecting_02_light = 2130837708;
+			
+			// aapt resource value: 0x7f0200cd
+			public const int ic_mr_button_connecting_03_dark = 2130837709;
+			
+			// aapt resource value: 0x7f0200ce
+			public const int ic_mr_button_connecting_03_light = 2130837710;
+			
+			// aapt resource value: 0x7f0200cf
+			public const int ic_mr_button_connecting_04_dark = 2130837711;
+			
+			// aapt resource value: 0x7f0200d0
+			public const int ic_mr_button_connecting_04_light = 2130837712;
+			
+			// aapt resource value: 0x7f0200d1
+			public const int ic_mr_button_connecting_05_dark = 2130837713;
+			
+			// aapt resource value: 0x7f0200d2
+			public const int ic_mr_button_connecting_05_light = 2130837714;
+			
+			// aapt resource value: 0x7f0200d3
+			public const int ic_mr_button_connecting_06_dark = 2130837715;
+			
+			// aapt resource value: 0x7f0200d4
+			public const int ic_mr_button_connecting_06_light = 2130837716;
+			
+			// aapt resource value: 0x7f0200d5
+			public const int ic_mr_button_connecting_07_dark = 2130837717;
+			
+			// aapt resource value: 0x7f0200d6
+			public const int ic_mr_button_connecting_07_light = 2130837718;
+			
+			// aapt resource value: 0x7f0200d7
+			public const int ic_mr_button_connecting_08_dark = 2130837719;
+			
+			// aapt resource value: 0x7f0200d8
+			public const int ic_mr_button_connecting_08_light = 2130837720;
+			
+			// aapt resource value: 0x7f0200d9
+			public const int ic_mr_button_connecting_09_dark = 2130837721;
+			
+			// aapt resource value: 0x7f0200da
+			public const int ic_mr_button_connecting_09_light = 2130837722;
+			
+			// aapt resource value: 0x7f0200db
+			public const int ic_mr_button_connecting_10_dark = 2130837723;
+			
+			// aapt resource value: 0x7f0200dc
+			public const int ic_mr_button_connecting_10_light = 2130837724;
+			
+			// aapt resource value: 0x7f0200dd
+			public const int ic_mr_button_connecting_11_dark = 2130837725;
+			
+			// aapt resource value: 0x7f0200de
+			public const int ic_mr_button_connecting_11_light = 2130837726;
+			
+			// aapt resource value: 0x7f0200df
+			public const int ic_mr_button_connecting_12_dark = 2130837727;
+			
+			// aapt resource value: 0x7f0200e0
+			public const int ic_mr_button_connecting_12_light = 2130837728;
+			
+			// aapt resource value: 0x7f0200e1
+			public const int ic_mr_button_connecting_13_dark = 2130837729;
+			
+			// aapt resource value: 0x7f0200e2
+			public const int ic_mr_button_connecting_13_light = 2130837730;
+			
+			// aapt resource value: 0x7f0200e3
+			public const int ic_mr_button_connecting_14_dark = 2130837731;
+			
+			// aapt resource value: 0x7f0200e4
+			public const int ic_mr_button_connecting_14_light = 2130837732;
+			
+			// aapt resource value: 0x7f0200e5
+			public const int ic_mr_button_connecting_15_dark = 2130837733;
+			
+			// aapt resource value: 0x7f0200e6
+			public const int ic_mr_button_connecting_15_light = 2130837734;
+			
+			// aapt resource value: 0x7f0200e7
+			public const int ic_mr_button_connecting_16_dark = 2130837735;
+			
+			// aapt resource value: 0x7f0200e8
+			public const int ic_mr_button_connecting_16_light = 2130837736;
+			
+			// aapt resource value: 0x7f0200e9
+			public const int ic_mr_button_connecting_17_dark = 2130837737;
+			
+			// aapt resource value: 0x7f0200ea
+			public const int ic_mr_button_connecting_17_light = 2130837738;
+			
+			// aapt resource value: 0x7f0200eb
+			public const int ic_mr_button_connecting_18_dark = 2130837739;
+			
+			// aapt resource value: 0x7f0200ec
+			public const int ic_mr_button_connecting_18_light = 2130837740;
+			
+			// aapt resource value: 0x7f0200ed
+			public const int ic_mr_button_connecting_19_dark = 2130837741;
+			
+			// aapt resource value: 0x7f0200ee
+			public const int ic_mr_button_connecting_19_light = 2130837742;
+			
+			// aapt resource value: 0x7f0200ef
+			public const int ic_mr_button_connecting_20_dark = 2130837743;
+			
+			// aapt resource value: 0x7f0200f0
+			public const int ic_mr_button_connecting_20_light = 2130837744;
+			
+			// aapt resource value: 0x7f0200f1
+			public const int ic_mr_button_connecting_21_dark = 2130837745;
+			
+			// aapt resource value: 0x7f0200f2
+			public const int ic_mr_button_connecting_21_light = 2130837746;
+			
+			// aapt resource value: 0x7f0200f3
+			public const int ic_mr_button_connecting_22_dark = 2130837747;
+			
+			// aapt resource value: 0x7f0200f4
+			public const int ic_mr_button_connecting_22_light = 2130837748;
+			
+			// aapt resource value: 0x7f0200f5
+			public const int ic_mr_button_connecting_23_dark = 2130837749;
+			
+			// aapt resource value: 0x7f0200f6
+			public const int ic_mr_button_connecting_23_light = 2130837750;
+			
+			// aapt resource value: 0x7f0200f7
+			public const int ic_mr_button_connecting_24_dark = 2130837751;
+			
+			// aapt resource value: 0x7f0200f8
+			public const int ic_mr_button_connecting_24_light = 2130837752;
+			
+			// aapt resource value: 0x7f0200f9
+			public const int ic_mr_button_connecting_25_dark = 2130837753;
+			
+			// aapt resource value: 0x7f0200fa
+			public const int ic_mr_button_connecting_25_light = 2130837754;
+			
+			// aapt resource value: 0x7f0200fb
+			public const int ic_mr_button_connecting_26_dark = 2130837755;
+			
+			// aapt resource value: 0x7f0200fc
+			public const int ic_mr_button_connecting_26_light = 2130837756;
+			
+			// aapt resource value: 0x7f0200fd
+			public const int ic_mr_button_connecting_27_dark = 2130837757;
+			
+			// aapt resource value: 0x7f0200fe
+			public const int ic_mr_button_connecting_27_light = 2130837758;
+			
+			// aapt resource value: 0x7f0200ff
+			public const int ic_mr_button_connecting_28_dark = 2130837759;
+			
+			// aapt resource value: 0x7f020100
+			public const int ic_mr_button_connecting_28_light = 2130837760;
+			
+			// aapt resource value: 0x7f020101
+			public const int ic_mr_button_connecting_29_dark = 2130837761;
+			
+			// aapt resource value: 0x7f020102
+			public const int ic_mr_button_connecting_29_light = 2130837762;
+			
+			// aapt resource value: 0x7f020103
+			public const int ic_mr_button_connecting_30_dark = 2130837763;
+			
+			// aapt resource value: 0x7f020104
+			public const int ic_mr_button_connecting_30_light = 2130837764;
+			
+			// aapt resource value: 0x7f020105
+			public const int ic_mr_button_disabled_dark = 2130837765;
+			
+			// aapt resource value: 0x7f020106
+			public const int ic_mr_button_disabled_light = 2130837766;
+			
+			// aapt resource value: 0x7f020107
+			public const int ic_mr_button_disconnected_dark = 2130837767;
+			
+			// aapt resource value: 0x7f020108
+			public const int ic_mr_button_disconnected_light = 2130837768;
+			
+			// aapt resource value: 0x7f020109
+			public const int ic_mr_button_grey = 2130837769;
+			
+			// aapt resource value: 0x7f02010a
+			public const int ic_mtrl_chip_checked_black = 2130837770;
+			
+			// aapt resource value: 0x7f02010b
+			public const int ic_mtrl_chip_checked_circle = 2130837771;
+			
+			// aapt resource value: 0x7f02010c
+			public const int ic_mtrl_chip_close_circle = 2130837772;
+			
+			// aapt resource value: 0x7f02010d
+			public const int ic_vol_type_speaker_dark = 2130837773;
+			
+			// aapt resource value: 0x7f02010e
+			public const int ic_vol_type_speaker_group_dark = 2130837774;
+			
+			// aapt resource value: 0x7f02010f
+			public const int ic_vol_type_speaker_group_light = 2130837775;
+			
+			// aapt resource value: 0x7f020110
+			public const int ic_vol_type_speaker_light = 2130837776;
+			
+			// aapt resource value: 0x7f020111
+			public const int ic_vol_type_tv_dark = 2130837777;
+			
+			// aapt resource value: 0x7f020112
+			public const int ic_vol_type_tv_light = 2130837778;
+			
+			// aapt resource value: 0x7f020113
+			public const int icon = 2130837779;
+			
+			// aapt resource value: 0x7f020114
+			public const int logo = 2130837780;
+			
+			// aapt resource value: 0x7f020115
+			public const int map_icon = 2130837781;
+			
+			// aapt resource value: 0x7f020116
+			public const int mr_button_connected_dark = 2130837782;
+			
+			// aapt resource value: 0x7f020117
+			public const int mr_button_connected_light = 2130837783;
+			
+			// aapt resource value: 0x7f020118
+			public const int mr_button_connecting_dark = 2130837784;
+			
+			// aapt resource value: 0x7f020119
+			public const int mr_button_connecting_light = 2130837785;
+			
+			// aapt resource value: 0x7f02011a
+			public const int mr_button_dark = 2130837786;
+			
+			// aapt resource value: 0x7f02011b
+			public const int mr_button_light = 2130837787;
+			
+			// aapt resource value: 0x7f02011c
+			public const int mr_dialog_close_dark = 2130837788;
+			
+			// aapt resource value: 0x7f02011d
+			public const int mr_dialog_close_light = 2130837789;
+			
+			// aapt resource value: 0x7f02011e
+			public const int mr_dialog_material_background_dark = 2130837790;
+			
+			// aapt resource value: 0x7f02011f
+			public const int mr_dialog_material_background_light = 2130837791;
+			
+			// aapt resource value: 0x7f020120
+			public const int mr_group_collapse = 2130837792;
+			
+			// aapt resource value: 0x7f020121
+			public const int mr_group_expand = 2130837793;
+			
+			// aapt resource value: 0x7f020122
+			public const int mr_media_pause_dark = 2130837794;
+			
+			// aapt resource value: 0x7f020123
+			public const int mr_media_pause_light = 2130837795;
+			
+			// aapt resource value: 0x7f020124
+			public const int mr_media_play_dark = 2130837796;
+			
+			// aapt resource value: 0x7f020125
+			public const int mr_media_play_light = 2130837797;
+			
+			// aapt resource value: 0x7f020126
+			public const int mr_media_stop_dark = 2130837798;
+			
+			// aapt resource value: 0x7f020127
+			public const int mr_media_stop_light = 2130837799;
+			
+			// aapt resource value: 0x7f020128
+			public const int mr_vol_type_audiotrack_dark = 2130837800;
+			
+			// aapt resource value: 0x7f020129
+			public const int mr_vol_type_audiotrack_light = 2130837801;
+			
+			// aapt resource value: 0x7f02012a
+			public const int mtrl_snackbar_background = 2130837802;
+			
+			// aapt resource value: 0x7f02012b
+			public const int mtrl_tabs_default_indicator = 2130837803;
+			
+			// aapt resource value: 0x7f02012c
+			public const int navigation_empty_icon = 2130837804;
+			
+			// aapt resource value: 0x7f02012d
+			public const int notification_action_background = 2130837805;
+			
+			// aapt resource value: 0x7f02012e
+			public const int notification_bg = 2130837806;
+			
+			// aapt resource value: 0x7f02012f
+			public const int notification_bg_low = 2130837807;
+			
+			// aapt resource value: 0x7f020130
+			public const int notification_bg_low_normal = 2130837808;
+			
+			// aapt resource value: 0x7f020131
+			public const int notification_bg_low_pressed = 2130837809;
+			
+			// aapt resource value: 0x7f020132
+			public const int notification_bg_normal = 2130837810;
+			
+			// aapt resource value: 0x7f020133
+			public const int notification_bg_normal_pressed = 2130837811;
+			
+			// aapt resource value: 0x7f020134
+			public const int notification_icon_background = 2130837812;
+			
+			// aapt resource value: 0x7f02013e
+			public const int notification_template_icon_bg = 2130837822;
+			
+			// aapt resource value: 0x7f02013f
+			public const int notification_template_icon_low_bg = 2130837823;
+			
+			// aapt resource value: 0x7f020135
+			public const int notification_tile_bg = 2130837813;
+			
+			// aapt resource value: 0x7f020136
+			public const int notify_panel_notification_icon_bg = 2130837814;
+			
+			// aapt resource value: 0x7f020137
+			public const int phone = 2130837815;
+			
+			// aapt resource value: 0x7f020138
+			public const int qr_icon = 2130837816;
+			
+			// aapt resource value: 0x7f020139
+			public const int recents_icon = 2130837817;
+			
+			// aapt resource value: 0x7f02013a
+			public const int search_icon = 2130837818;
+			
+			// aapt resource value: 0x7f02013b
+			public const int Splash = 2130837819;
+			
+			// aapt resource value: 0x7f02013c
+			public const int tooltip_frame_dark = 2130837820;
+			
+			// aapt resource value: 0x7f02013d
+			public const int tooltip_frame_light = 2130837821;
 			
 			static Drawable()
 			{
@@ -10026,41 +6538,41 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c003e
 			public const int SYM = 2131492926;
 			
-			// aapt resource value: 0x7f0c00ff
-			public const int action0 = 2131493119;
+			// aapt resource value: 0x7f0c00e4
+			public const int action0 = 2131493092;
 			
-			// aapt resource value: 0x7f0c00a2
-			public const int action_bar = 2131493026;
+			// aapt resource value: 0x7f0c008d
+			public const int action_bar = 2131493005;
 			
 			// aapt resource value: 0x7f0c0001
 			public const int action_bar_activity_content = 2131492865;
 			
-			// aapt resource value: 0x7f0c00a1
-			public const int action_bar_container = 2131493025;
+			// aapt resource value: 0x7f0c008c
+			public const int action_bar_container = 2131493004;
 			
-			// aapt resource value: 0x7f0c009d
-			public const int action_bar_root = 2131493021;
+			// aapt resource value: 0x7f0c0088
+			public const int action_bar_root = 2131493000;
 			
 			// aapt resource value: 0x7f0c0002
 			public const int action_bar_spinner = 2131492866;
 			
-			// aapt resource value: 0x7f0c007f
-			public const int action_bar_subtitle = 2131492991;
+			// aapt resource value: 0x7f0c006a
+			public const int action_bar_subtitle = 2131492970;
 			
-			// aapt resource value: 0x7f0c007e
-			public const int action_bar_title = 2131492990;
+			// aapt resource value: 0x7f0c0069
+			public const int action_bar_title = 2131492969;
 			
-			// aapt resource value: 0x7f0c00fc
-			public const int action_container = 2131493116;
+			// aapt resource value: 0x7f0c00e1
+			public const int action_container = 2131493089;
 			
-			// aapt resource value: 0x7f0c00a3
-			public const int action_context_bar = 2131493027;
+			// aapt resource value: 0x7f0c008e
+			public const int action_context_bar = 2131493006;
 			
-			// aapt resource value: 0x7f0c0103
-			public const int action_divider = 2131493123;
+			// aapt resource value: 0x7f0c00e8
+			public const int action_divider = 2131493096;
 			
-			// aapt resource value: 0x7f0c00fd
-			public const int action_image = 2131493117;
+			// aapt resource value: 0x7f0c00e2
+			public const int action_image = 2131493090;
 			
 			// aapt resource value: 0x7f0c0003
 			public const int action_menu_divider = 2131492867;
@@ -10068,29 +6580,29 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0004
 			public const int action_menu_presenter = 2131492868;
 			
-			// aapt resource value: 0x7f0c009f
-			public const int action_mode_bar = 2131493023;
+			// aapt resource value: 0x7f0c008a
+			public const int action_mode_bar = 2131493002;
 			
-			// aapt resource value: 0x7f0c009e
-			public const int action_mode_bar_stub = 2131493022;
+			// aapt resource value: 0x7f0c0089
+			public const int action_mode_bar_stub = 2131493001;
 			
-			// aapt resource value: 0x7f0c0080
-			public const int action_mode_close_button = 2131492992;
+			// aapt resource value: 0x7f0c006b
+			public const int action_mode_close_button = 2131492971;
 			
-			// aapt resource value: 0x7f0c00fe
-			public const int action_text = 2131493118;
+			// aapt resource value: 0x7f0c00e3
+			public const int action_text = 2131493091;
 			
-			// aapt resource value: 0x7f0c010c
-			public const int actions = 2131493132;
+			// aapt resource value: 0x7f0c00f1
+			public const int actions = 2131493105;
 			
-			// aapt resource value: 0x7f0c0081
-			public const int activity_chooser_view_content = 2131492993;
+			// aapt resource value: 0x7f0c006c
+			public const int activity_chooser_view_content = 2131492972;
 			
 			// aapt resource value: 0x7f0c002e
 			public const int add = 2131492910;
 			
-			// aapt resource value: 0x7f0c0094
-			public const int alertTitle = 2131493012;
+			// aapt resource value: 0x7f0c007f
+			public const int alertTitle = 2131492991;
 			
 			// aapt resource value: 0x7f0c0064
 			public const int all = 2131492964;
@@ -10104,12 +6616,6 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c004d
 			public const int auto = 2131492941;
 			
-			// aapt resource value: 0x7f0c006f
-			public const int ball = 2131492975;
-			
-			// aapt resource value: 0x7f0c0070
-			public const int battery = 2131492976;
-			
 			// aapt resource value: 0x7f0c0036
 			public const int beginning = 2131492918;
 			
@@ -10119,44 +6625,32 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0044
 			public const int bottom = 2131492932;
 			
-			// aapt resource value: 0x7f0c011b
-			public const int bottomBar = 2131493147;
+			// aapt resource value: 0x7f0c009d
+			public const int bottomtab_navarea = 2131493021;
 			
-			// aapt resource value: 0x7f0c006b
-			public const int bottomRight = 2131492971;
+			// aapt resource value: 0x7f0c009e
+			public const int bottomtab_tabbar = 2131493022;
 			
-			// aapt resource value: 0x7f0c00b2
-			public const int bottomtab_navarea = 2131493042;
+			// aapt resource value: 0x7f0c00a0
+			public const int browser_actions_header_text = 2131493024;
 			
-			// aapt resource value: 0x7f0c00b3
-			public const int bottomtab_tabbar = 2131493043;
+			// aapt resource value: 0x7f0c00a2
+			public const int browser_actions_menu_item_icon = 2131493026;
 			
-			// aapt resource value: 0x7f0c0071
-			public const int box = 2131492977;
+			// aapt resource value: 0x7f0c00a3
+			public const int browser_actions_menu_item_text = 2131493027;
 			
-			// aapt resource value: 0x7f0c00b5
-			public const int browser_actions_header_text = 2131493045;
+			// aapt resource value: 0x7f0c00a1
+			public const int browser_actions_menu_items = 2131493025;
 			
-			// aapt resource value: 0x7f0c00b7
-			public const int browser_actions_menu_item_icon = 2131493047;
+			// aapt resource value: 0x7f0c009f
+			public const int browser_actions_menu_view = 2131493023;
 			
-			// aapt resource value: 0x7f0c00b8
-			public const int browser_actions_menu_item_text = 2131493048;
+			// aapt resource value: 0x7f0c0072
+			public const int buttonPanel = 2131492978;
 			
-			// aapt resource value: 0x7f0c00b6
-			public const int browser_actions_menu_items = 2131493046;
-			
-			// aapt resource value: 0x7f0c00b4
-			public const int browser_actions_menu_view = 2131493044;
-			
-			// aapt resource value: 0x7f0c0087
-			public const int buttonPanel = 2131492999;
-			
-			// aapt resource value: 0x7f0c0117
-			public const int cancelButton = 2131493143;
-			
-			// aapt resource value: 0x7f0c0100
-			public const int cancel_action = 2131493120;
+			// aapt resource value: 0x7f0c00e5
+			public const int cancel_action = 2131493093;
 			
 			// aapt resource value: 0x7f0c004c
 			public const int center = 2131492940;
@@ -10167,17 +6661,11 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0052
 			public const int center_vertical = 2131492946;
 			
-			// aapt resource value: 0x7f0c009b
-			public const int checkbox = 2131493019;
+			// aapt resource value: 0x7f0c0086
+			public const int checkbox = 2131492998;
 			
-			// aapt resource value: 0x7f0c0122
-			public const int @checked = 2131493154;
-			
-			// aapt resource value: 0x7f0c0108
-			public const int chronometer = 2131493128;
-			
-			// aapt resource value: 0x7f0c011c
-			public const int clearButton = 2131493148;
+			// aapt resource value: 0x7f0c00ed
+			public const int chronometer = 2131493101;
 			
 			// aapt resource value: 0x7f0c0061
 			public const int clip_horizontal = 2131492961;
@@ -10188,68 +6676,59 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0040
 			public const int collapseActionView = 2131492928;
 			
-			// aapt resource value: 0x7f0c00bb
-			public const int container = 2131493051;
+			// aapt resource value: 0x7f0c00a6
+			public const int container = 2131493030;
 			
-			// aapt resource value: 0x7f0c0097
-			public const int content = 2131493015;
+			// aapt resource value: 0x7f0c0082
+			public const int content = 2131492994;
 			
-			// aapt resource value: 0x7f0c011f
-			public const int contentFrame = 2131493151;
+			// aapt resource value: 0x7f0c00fc
+			public const int contentFrame = 2131493116;
 			
-			// aapt resource value: 0x7f0c008a
-			public const int contentPanel = 2131493002;
+			// aapt resource value: 0x7f0c0075
+			public const int contentPanel = 2131492981;
 			
-			// aapt resource value: 0x7f0c00bc
-			public const int coordinator = 2131493052;
+			// aapt resource value: 0x7f0c00a7
+			public const int coordinator = 2131493031;
 			
-			// aapt resource value: 0x7f0c0091
-			public const int custom = 2131493009;
+			// aapt resource value: 0x7f0c007c
+			public const int custom = 2131492988;
 			
-			// aapt resource value: 0x7f0c0090
-			public const int customPanel = 2131493008;
+			// aapt resource value: 0x7f0c007b
+			public const int customPanel = 2131492987;
 			
-			// aapt resource value: 0x7f0c00a0
-			public const int decor_content_parent = 2131493024;
+			// aapt resource value: 0x7f0c008b
+			public const int decor_content_parent = 2131493003;
 			
-			// aapt resource value: 0x7f0c0084
-			public const int default_activity_button = 2131492996;
+			// aapt resource value: 0x7f0c006f
+			public const int default_activity_button = 2131492975;
 			
-			// aapt resource value: 0x7f0c00be
-			public const int design_bottom_sheet = 2131493054;
+			// aapt resource value: 0x7f0c00a9
+			public const int design_bottom_sheet = 2131493033;
 			
-			// aapt resource value: 0x7f0c00c3
-			public const int design_menu_item_action_area = 2131493059;
+			// aapt resource value: 0x7f0c00ae
+			public const int design_menu_item_action_area = 2131493038;
 			
-			// aapt resource value: 0x7f0c00c2
-			public const int design_menu_item_action_area_stub = 2131493058;
+			// aapt resource value: 0x7f0c00ad
+			public const int design_menu_item_action_area_stub = 2131493037;
 			
-			// aapt resource value: 0x7f0c00c1
-			public const int design_menu_item_text = 2131493057;
+			// aapt resource value: 0x7f0c00ac
+			public const int design_menu_item_text = 2131493036;
 			
-			// aapt resource value: 0x7f0c00c0
-			public const int design_navigation_view = 2131493056;
+			// aapt resource value: 0x7f0c00ab
+			public const int design_navigation_view = 2131493035;
 			
 			// aapt resource value: 0x7f0c0027
 			public const int disableHome = 2131492903;
 			
-			// aapt resource value: 0x7f0c0119
-			public const int doneButton = 2131493145;
-			
-			// aapt resource value: 0x7f0c0072
-			public const int doubleCircle = 2131492978;
-			
-			// aapt resource value: 0x7f0c0073
-			public const int ecg = 2131492979;
-			
-			// aapt resource value: 0x7f0c00a4
-			public const int edit_query = 2131493028;
+			// aapt resource value: 0x7f0c008f
+			public const int edit_query = 2131493007;
 			
 			// aapt resource value: 0x7f0c0037
 			public const int end = 2131492919;
 			
-			// aapt resource value: 0x7f0c010e
-			public const int end_padder = 2131493134;
+			// aapt resource value: 0x7f0c00f3
+			public const int end_padder = 2131493107;
 			
 			// aapt resource value: 0x7f0c0046
 			public const int enterAlways = 2131492934;
@@ -10260,11 +6739,11 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0048
 			public const int exitUntilCollapsed = 2131492936;
 			
-			// aapt resource value: 0x7f0c0082
-			public const int expand_activities_button = 2131492994;
+			// aapt resource value: 0x7f0c006d
+			public const int expand_activities_button = 2131492973;
 			
-			// aapt resource value: 0x7f0c009a
-			public const int expanded_menu = 2131493018;
+			// aapt resource value: 0x7f0c0085
+			public const int expanded_menu = 2131492997;
 			
 			// aapt resource value: 0x7f0c005e
 			public const int fill = 2131492958;
@@ -10281,44 +6760,20 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c005c
 			public const int @fixed = 2131492956;
 			
-			// aapt resource value: 0x7f0c00c8
-			public const int flyoutcontent_appbar = 2131493064;
+			// aapt resource value: 0x7f0c00b0
+			public const int flyoutcontent_appbar = 2131493040;
 			
-			// aapt resource value: 0x7f0c00c9
-			public const int flyoutcontent_recycler = 2131493065;
+			// aapt resource value: 0x7f0c00b1
+			public const int flyoutcontent_recycler = 2131493041;
 			
 			// aapt resource value: 0x7f0c0067
 			public const int forever = 2131492967;
 			
-			// aapt resource value: 0x7f0c00c5
-			public const int formCheckBoxButton = 2131493061;
-			
-			// aapt resource value: 0x7f0c00cc
-			public const int formContentButton = 2131493068;
-			
-			// aapt resource value: 0x7f0c00cb
-			public const int formListLayout = 2131493067;
-			
-			// aapt resource value: 0x7f0c00c7
-			public const int formRadioButton = 2131493063;
-			
-			// aapt resource value: 0x7f0c00c6
-			public const int formTextButton = 2131493062;
-			
-			// aapt resource value: 0x7f0c00ca
-			public const int formfieldButton = 2131493066;
-			
-			// aapt resource value: 0x7f0c0074
-			public const int gearBox = 2131492980;
-			
 			// aapt resource value: 0x7f0c000a
 			public const int ghost_view = 2131492874;
 			
-			// aapt resource value: 0x7f0c0075
-			public const int globe = 2131492981;
-			
-			// aapt resource value: 0x7f0c0096
-			public const int group_divider = 2131493014;
+			// aapt resource value: 0x7f0c0081
+			public const int group_divider = 2131492993;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int home = 2131492869;
@@ -10326,29 +6781,20 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0028
 			public const int homeAsUp = 2131492904;
 			
-			// aapt resource value: 0x7f0c0069
-			public const int horizontal = 2131492969;
+			// aapt resource value: 0x7f0c0071
+			public const int icon = 2131492977;
 			
-			// aapt resource value: 0x7f0c0076
-			public const int horizontalPulsingBox = 2131492982;
-			
-			// aapt resource value: 0x7f0c0086
-			public const int icon = 2131492998;
-			
-			// aapt resource value: 0x7f0c010d
-			public const int icon_group = 2131493133;
+			// aapt resource value: 0x7f0c00f2
+			public const int icon_group = 2131493106;
 			
 			// aapt resource value: 0x7f0c0041
 			public const int ifRoom = 2131492929;
 			
-			// aapt resource value: 0x7f0c0083
-			public const int image = 2131492995;
+			// aapt resource value: 0x7f0c006e
+			public const int image = 2131492974;
 			
-			// aapt resource value: 0x7f0c0109
-			public const int info = 2131493129;
-			
-			// aapt resource value: 0x7f0c006c
-			public const int inline = 2131492972;
+			// aapt resource value: 0x7f0c00ee
+			public const int info = 2131493102;
 			
 			// aapt resource value: 0x7f0c0068
 			public const int italic = 2131492968;
@@ -10359,8 +6805,8 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c004e
 			public const int labeled = 2131492942;
 			
-			// aapt resource value: 0x7f0c00ba
-			public const int largeLabel = 2131493050;
+			// aapt resource value: 0x7f0c00a5
+			public const int largeLabel = 2131493029;
 			
 			// aapt resource value: 0x7f0c0054
 			public const int left = 2131492948;
@@ -10374,29 +6820,29 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0024
 			public const int listMode = 2131492900;
 			
-			// aapt resource value: 0x7f0c0085
-			public const int list_item = 2131492997;
+			// aapt resource value: 0x7f0c0070
+			public const int list_item = 2131492976;
 			
-			// aapt resource value: 0x7f0c010f
-			public const int main_appbar = 2131493135;
+			// aapt resource value: 0x7f0c00f4
+			public const int main_appbar = 2131493108;
 			
-			// aapt resource value: 0x7f0c0111
-			public const int main_tablayout = 2131493137;
+			// aapt resource value: 0x7f0c00f6
+			public const int main_tablayout = 2131493110;
 			
-			// aapt resource value: 0x7f0c0110
-			public const int main_toolbar = 2131493136;
+			// aapt resource value: 0x7f0c00f5
+			public const int main_toolbar = 2131493109;
 			
-			// aapt resource value: 0x7f0c0112
-			public const int main_viewpager = 2131493138;
+			// aapt resource value: 0x7f0c00f7
+			public const int main_viewpager = 2131493111;
 			
-			// aapt resource value: 0x7f0c0121
-			public const int masked = 2131493153;
+			// aapt resource value: 0x7f0c00fe
+			public const int masked = 2131493118;
 			
-			// aapt resource value: 0x7f0c0102
-			public const int media_actions = 2131493122;
+			// aapt resource value: 0x7f0c00e7
+			public const int media_actions = 2131493095;
 			
-			// aapt resource value: 0x7f0c00b1
-			public const int message = 2131493041;
+			// aapt resource value: 0x7f0c009c
+			public const int message = 2131493020;
 			
 			// aapt resource value: 0x7f0c0038
 			public const int middle = 2131492920;
@@ -10404,146 +6850,143 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0059
 			public const int mini = 2131492953;
 			
-			// aapt resource value: 0x7f0c0077
-			public const int movieTimer = 2131492983;
-			
-			// aapt resource value: 0x7f0c00e9
-			public const int mr_art = 2131493097;
-			
-			// aapt resource value: 0x7f0c00da
-			public const int mr_cast_checkbox = 2131493082;
-			
-			// aapt resource value: 0x7f0c00d3
-			public const int mr_cast_close_button = 2131493075;
-			
 			// aapt resource value: 0x7f0c00ce
-			public const int mr_cast_group_icon = 2131493070;
+			public const int mr_art = 2131493070;
 			
-			// aapt resource value: 0x7f0c00cf
-			public const int mr_cast_group_name = 2131493071;
+			// aapt resource value: 0x7f0c00bf
+			public const int mr_cast_checkbox = 2131493055;
 			
-			// aapt resource value: 0x7f0c00cd
-			public const int mr_cast_list = 2131493069;
+			// aapt resource value: 0x7f0c00b8
+			public const int mr_cast_close_button = 2131493048;
 			
-			// aapt resource value: 0x7f0c00d2
-			public const int mr_cast_meta = 2131493074;
+			// aapt resource value: 0x7f0c00b3
+			public const int mr_cast_group_icon = 2131493043;
 			
-			// aapt resource value: 0x7f0c00d4
-			public const int mr_cast_meta_art = 2131493076;
+			// aapt resource value: 0x7f0c00b4
+			public const int mr_cast_group_name = 2131493044;
 			
-			// aapt resource value: 0x7f0c00d6
-			public const int mr_cast_meta_subtitle = 2131493078;
+			// aapt resource value: 0x7f0c00b2
+			public const int mr_cast_list = 2131493042;
 			
-			// aapt resource value: 0x7f0c00d5
-			public const int mr_cast_meta_title = 2131493077;
+			// aapt resource value: 0x7f0c00b7
+			public const int mr_cast_meta = 2131493047;
 			
-			// aapt resource value: 0x7f0c00d8
-			public const int mr_cast_route_icon = 2131493080;
+			// aapt resource value: 0x7f0c00b9
+			public const int mr_cast_meta_art = 2131493049;
 			
-			// aapt resource value: 0x7f0c00d9
-			public const int mr_cast_route_name = 2131493081;
+			// aapt resource value: 0x7f0c00bb
+			public const int mr_cast_meta_subtitle = 2131493051;
 			
-			// aapt resource value: 0x7f0c00d7
-			public const int mr_cast_stop_button = 2131493079;
+			// aapt resource value: 0x7f0c00ba
+			public const int mr_cast_meta_title = 2131493050;
 			
-			// aapt resource value: 0x7f0c00db
-			public const int mr_cast_volume_layout = 2131493083;
+			// aapt resource value: 0x7f0c00bd
+			public const int mr_cast_route_icon = 2131493053;
 			
-			// aapt resource value: 0x7f0c00dc
-			public const int mr_cast_volume_slider = 2131493084;
+			// aapt resource value: 0x7f0c00be
+			public const int mr_cast_route_name = 2131493054;
 			
-			// aapt resource value: 0x7f0c00de
-			public const int mr_chooser_list = 2131493086;
+			// aapt resource value: 0x7f0c00bc
+			public const int mr_cast_stop_button = 2131493052;
 			
-			// aapt resource value: 0x7f0c00e1
-			public const int mr_chooser_route_desc = 2131493089;
+			// aapt resource value: 0x7f0c00c0
+			public const int mr_cast_volume_layout = 2131493056;
 			
-			// aapt resource value: 0x7f0c00df
-			public const int mr_chooser_route_icon = 2131493087;
+			// aapt resource value: 0x7f0c00c1
+			public const int mr_cast_volume_slider = 2131493057;
 			
-			// aapt resource value: 0x7f0c00e0
-			public const int mr_chooser_route_name = 2131493088;
+			// aapt resource value: 0x7f0c00c3
+			public const int mr_chooser_list = 2131493059;
 			
-			// aapt resource value: 0x7f0c00dd
-			public const int mr_chooser_title = 2131493085;
+			// aapt resource value: 0x7f0c00c6
+			public const int mr_chooser_route_desc = 2131493062;
 			
-			// aapt resource value: 0x7f0c00e6
-			public const int mr_close = 2131493094;
+			// aapt resource value: 0x7f0c00c4
+			public const int mr_chooser_route_icon = 2131493060;
 			
-			// aapt resource value: 0x7f0c00ec
-			public const int mr_control_divider = 2131493100;
+			// aapt resource value: 0x7f0c00c5
+			public const int mr_chooser_route_name = 2131493061;
 			
-			// aapt resource value: 0x7f0c00f7
-			public const int mr_control_playback_ctrl = 2131493111;
+			// aapt resource value: 0x7f0c00c2
+			public const int mr_chooser_title = 2131493058;
 			
-			// aapt resource value: 0x7f0c00fa
-			public const int mr_control_subtitle = 2131493114;
-			
-			// aapt resource value: 0x7f0c00f9
-			public const int mr_control_title = 2131493113;
-			
-			// aapt resource value: 0x7f0c00f8
-			public const int mr_control_title_container = 2131493112;
-			
-			// aapt resource value: 0x7f0c00e7
-			public const int mr_custom_control = 2131493095;
-			
-			// aapt resource value: 0x7f0c00e8
-			public const int mr_default_control = 2131493096;
-			
-			// aapt resource value: 0x7f0c00e3
-			public const int mr_dialog_area = 2131493091;
-			
-			// aapt resource value: 0x7f0c00f2
-			public const int mr_dialog_header_name = 2131493106;
-			
-			// aapt resource value: 0x7f0c00e2
-			public const int mr_expandable_area = 2131493090;
-			
-			// aapt resource value: 0x7f0c00fb
-			public const int mr_group_expand_collapse = 2131493115;
-			
-			// aapt resource value: 0x7f0c00d0
-			public const int mr_group_volume_route_name = 2131493072;
+			// aapt resource value: 0x7f0c00cb
+			public const int mr_close = 2131493067;
 			
 			// aapt resource value: 0x7f0c00d1
-			public const int mr_group_volume_slider = 2131493073;
+			public const int mr_control_divider = 2131493073;
 			
-			// aapt resource value: 0x7f0c00ea
-			public const int mr_media_main_control = 2131493098;
+			// aapt resource value: 0x7f0c00dc
+			public const int mr_control_playback_ctrl = 2131493084;
 			
-			// aapt resource value: 0x7f0c00e5
-			public const int mr_name = 2131493093;
+			// aapt resource value: 0x7f0c00df
+			public const int mr_control_subtitle = 2131493087;
 			
-			// aapt resource value: 0x7f0c00f3
-			public const int mr_picker_close_button = 2131493107;
+			// aapt resource value: 0x7f0c00de
+			public const int mr_control_title = 2131493086;
 			
-			// aapt resource value: 0x7f0c00f4
-			public const int mr_picker_list = 2131493108;
+			// aapt resource value: 0x7f0c00dd
+			public const int mr_control_title_container = 2131493085;
 			
-			// aapt resource value: 0x7f0c00f5
-			public const int mr_picker_route_icon = 2131493109;
+			// aapt resource value: 0x7f0c00cc
+			public const int mr_custom_control = 2131493068;
 			
-			// aapt resource value: 0x7f0c00f6
-			public const int mr_picker_route_name = 2131493110;
+			// aapt resource value: 0x7f0c00cd
+			public const int mr_default_control = 2131493069;
 			
-			// aapt resource value: 0x7f0c00eb
-			public const int mr_playback_control = 2131493099;
+			// aapt resource value: 0x7f0c00c8
+			public const int mr_dialog_area = 2131493064;
 			
-			// aapt resource value: 0x7f0c00e4
-			public const int mr_title_bar = 2131493092;
+			// aapt resource value: 0x7f0c00d7
+			public const int mr_dialog_header_name = 2131493079;
 			
-			// aapt resource value: 0x7f0c00ed
-			public const int mr_volume_control = 2131493101;
+			// aapt resource value: 0x7f0c00c7
+			public const int mr_expandable_area = 2131493063;
 			
-			// aapt resource value: 0x7f0c00ee
-			public const int mr_volume_group_list = 2131493102;
+			// aapt resource value: 0x7f0c00e0
+			public const int mr_group_expand_collapse = 2131493088;
 			
-			// aapt resource value: 0x7f0c00f0
-			public const int mr_volume_item_icon = 2131493104;
+			// aapt resource value: 0x7f0c00b5
+			public const int mr_group_volume_route_name = 2131493045;
 			
-			// aapt resource value: 0x7f0c00f1
-			public const int mr_volume_slider = 2131493105;
+			// aapt resource value: 0x7f0c00b6
+			public const int mr_group_volume_slider = 2131493046;
+			
+			// aapt resource value: 0x7f0c00cf
+			public const int mr_media_main_control = 2131493071;
+			
+			// aapt resource value: 0x7f0c00ca
+			public const int mr_name = 2131493066;
+			
+			// aapt resource value: 0x7f0c00d8
+			public const int mr_picker_close_button = 2131493080;
+			
+			// aapt resource value: 0x7f0c00d9
+			public const int mr_picker_list = 2131493081;
+			
+			// aapt resource value: 0x7f0c00da
+			public const int mr_picker_route_icon = 2131493082;
+			
+			// aapt resource value: 0x7f0c00db
+			public const int mr_picker_route_name = 2131493083;
+			
+			// aapt resource value: 0x7f0c00d0
+			public const int mr_playback_control = 2131493072;
+			
+			// aapt resource value: 0x7f0c00c9
+			public const int mr_title_bar = 2131493065;
+			
+			// aapt resource value: 0x7f0c00d2
+			public const int mr_volume_control = 2131493074;
+			
+			// aapt resource value: 0x7f0c00d3
+			public const int mr_volume_group_list = 2131493075;
+			
+			// aapt resource value: 0x7f0c00d5
+			public const int mr_volume_item_icon = 2131493077;
+			
+			// aapt resource value: 0x7f0c00d6
+			public const int mr_volume_slider = 2131493078;
 			
 			// aapt resource value: 0x7f0c0014
 			public const int mtrl_child_content_container = 2131492884;
@@ -10554,8 +6997,8 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c002f
 			public const int multiply = 2131492911;
 			
-			// aapt resource value: 0x7f0c00bf
-			public const int navigation_header_container = 2131493055;
+			// aapt resource value: 0x7f0c00aa
+			public const int navigation_header_container = 2131493034;
 			
 			// aapt resource value: 0x7f0c0042
 			public const int never = 2131492930;
@@ -10566,26 +7009,23 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0025
 			public const int normal = 2131492901;
 			
-			// aapt resource value: 0x7f0c010b
-			public const int notification_background = 2131493131;
+			// aapt resource value: 0x7f0c00f0
+			public const int notification_background = 2131493104;
 			
-			// aapt resource value: 0x7f0c0105
-			public const int notification_main_column = 2131493125;
+			// aapt resource value: 0x7f0c00ea
+			public const int notification_main_column = 2131493098;
 			
-			// aapt resource value: 0x7f0c0104
-			public const int notification_main_column_container = 2131493124;
+			// aapt resource value: 0x7f0c00e9
+			public const int notification_main_column_container = 2131493097;
 			
 			// aapt resource value: 0x7f0c0060
 			public const int outline = 2131492960;
 			
-			// aapt resource value: 0x7f0c006d
-			public const int outside = 2131492973;
-			
 			// aapt resource value: 0x7f0c0057
 			public const int parallax = 2131492951;
 			
-			// aapt resource value: 0x7f0c0089
-			public const int parentPanel = 2131493001;
+			// aapt resource value: 0x7f0c0074
+			public const int parentPanel = 2131492980;
 			
 			// aapt resource value: 0x7f0c000b
 			public const int parent_matrix = 2131492875;
@@ -10593,32 +7033,23 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0058
 			public const int pin = 2131492952;
 			
-			// aapt resource value: 0x7f0c0078
-			public const int print = 2131492984;
-			
 			// aapt resource value: 0x7f0c0006
 			public const int progress_circular = 2131492870;
 			
 			// aapt resource value: 0x7f0c0007
 			public const int progress_horizontal = 2131492871;
 			
-			// aapt resource value: 0x7f0c009c
-			public const int radio = 2131493020;
-			
-			// aapt resource value: 0x7f0c0079
-			public const int rectangle = 2131492985;
+			// aapt resource value: 0x7f0c0087
+			public const int radio = 2131492999;
 			
 			// aapt resource value: 0x7f0c0055
 			public const int right = 2131492949;
 			
-			// aapt resource value: 0x7f0c010a
-			public const int right_icon = 2131493130;
+			// aapt resource value: 0x7f0c00ef
+			public const int right_icon = 2131493103;
 			
-			// aapt resource value: 0x7f0c0106
-			public const int right_side = 2131493126;
-			
-			// aapt resource value: 0x7f0c007a
-			public const int rollingBall = 2131492986;
+			// aapt resource value: 0x7f0c00eb
+			public const int right_side = 2131493099;
 			
 			// aapt resource value: 0x7f0c000c
 			public const int save_image_matrix = 2131492876;
@@ -10635,71 +7066,62 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0049
 			public const int scroll = 2131492937;
 			
-			// aapt resource value: 0x7f0c008f
-			public const int scrollIndicatorDown = 2131493007;
+			// aapt resource value: 0x7f0c007a
+			public const int scrollIndicatorDown = 2131492986;
 			
-			// aapt resource value: 0x7f0c008b
-			public const int scrollIndicatorUp = 2131493003;
+			// aapt resource value: 0x7f0c0076
+			public const int scrollIndicatorUp = 2131492982;
 			
-			// aapt resource value: 0x7f0c008c
-			public const int scrollView = 2131493004;
+			// aapt resource value: 0x7f0c0077
+			public const int scrollView = 2131492983;
 			
 			// aapt resource value: 0x7f0c005d
 			public const int scrollable = 2131492957;
 			
-			// aapt resource value: 0x7f0c00a6
-			public const int search_badge = 2131493030;
+			// aapt resource value: 0x7f0c0091
+			public const int search_badge = 2131493009;
 			
-			// aapt resource value: 0x7f0c00a5
-			public const int search_bar = 2131493029;
+			// aapt resource value: 0x7f0c0090
+			public const int search_bar = 2131493008;
 			
-			// aapt resource value: 0x7f0c00a7
-			public const int search_button = 2131493031;
+			// aapt resource value: 0x7f0c0092
+			public const int search_button = 2131493010;
 			
-			// aapt resource value: 0x7f0c00ac
-			public const int search_close_btn = 2131493036;
+			// aapt resource value: 0x7f0c0097
+			public const int search_close_btn = 2131493015;
 			
-			// aapt resource value: 0x7f0c00a8
-			public const int search_edit_frame = 2131493032;
+			// aapt resource value: 0x7f0c0093
+			public const int search_edit_frame = 2131493011;
 			
-			// aapt resource value: 0x7f0c00ae
-			public const int search_go_btn = 2131493038;
+			// aapt resource value: 0x7f0c0099
+			public const int search_go_btn = 2131493017;
 			
-			// aapt resource value: 0x7f0c00a9
-			public const int search_mag_icon = 2131493033;
+			// aapt resource value: 0x7f0c0094
+			public const int search_mag_icon = 2131493012;
 			
-			// aapt resource value: 0x7f0c00aa
-			public const int search_plate = 2131493034;
+			// aapt resource value: 0x7f0c0095
+			public const int search_plate = 2131493013;
 			
-			// aapt resource value: 0x7f0c00ab
-			public const int search_src_text = 2131493035;
+			// aapt resource value: 0x7f0c0096
+			public const int search_src_text = 2131493014;
 			
-			// aapt resource value: 0x7f0c00af
-			public const int search_voice_btn = 2131493039;
+			// aapt resource value: 0x7f0c009a
+			public const int search_voice_btn = 2131493018;
 			
-			// aapt resource value: 0x7f0c00b0
-			public const int select_dialog_listview = 2131493040;
+			// aapt resource value: 0x7f0c009b
+			public const int select_dialog_listview = 2131493019;
 			
 			// aapt resource value: 0x7f0c004f
 			public const int selected = 2131492943;
 			
-			// aapt resource value: 0x7f0c0126
-			public const int sfprogressbar_progress = 2131493158;
+			// aapt resource value: 0x7f0c00f8
+			public const int shellcontent_appbar = 2131493112;
 			
-			// aapt resource value: 0x7f0c0125
-			public const int sfprogressbar_secondary_progress = 2131493157;
+			// aapt resource value: 0x7f0c00f9
+			public const int shellcontent_toolbar = 2131493113;
 			
-			// aapt resource value: 0x7f0c0124
-			public const int sfprogressbar_track = 2131493156;
-			
-			// aapt resource value: 0x7f0c0113
-			public const int shellcontent_appbar = 2131493139;
-			
-			// aapt resource value: 0x7f0c0114
-			public const int shellcontent_toolbar = 2131493140;
-			
-			// aapt resource value: 0x7f0c0098
-			public const int shortcut = 2131493016;
+			// aapt resource value: 0x7f0c0083
+			public const int shortcut = 2131492995;
 			
 			// aapt resource value: 0x7f0c002a
 			public const int showCustom = 2131492906;
@@ -10710,26 +7132,11 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c002c
 			public const int showTitle = 2131492908;
 			
-			// aapt resource value: 0x7f0c0118
-			public const int signatureLabel = 2131493144;
+			// aapt resource value: 0x7f0c00fa
+			public const int sliding_tabs = 2131493114;
 			
-			// aapt resource value: 0x7f0c011a
-			public const int signaturePadContainer = 2131493146;
-			
-			// aapt resource value: 0x7f0c0115
-			public const int signatureviewlayout = 2131493141;
-			
-			// aapt resource value: 0x7f0c007b
-			public const int singleCircle = 2131492987;
-			
-			// aapt resource value: 0x7f0c007c
-			public const int slicedCircle = 2131492988;
-			
-			// aapt resource value: 0x7f0c011d
-			public const int sliding_tabs = 2131493149;
-			
-			// aapt resource value: 0x7f0c00b9
-			public const int smallLabel = 2131493049;
+			// aapt resource value: 0x7f0c00a4
+			public const int smallLabel = 2131493028;
 			
 			// aapt resource value: 0x7f0c0016
 			public const int snackbar_action = 2131492886;
@@ -10743,8 +7150,8 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c004b
 			public const int snapMargins = 2131492939;
 			
-			// aapt resource value: 0x7f0c0088
-			public const int spacer = 2131493000;
+			// aapt resource value: 0x7f0c0073
+			public const int spacer = 2131492979;
 			
 			// aapt resource value: 0x7f0c0008
 			public const int split_action_bar = 2131492872;
@@ -10761,17 +7168,17 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0056
 			public const int start = 2131492950;
 			
-			// aapt resource value: 0x7f0c0101
-			public const int status_bar_latest_event_content = 2131493121;
+			// aapt resource value: 0x7f0c00e6
+			public const int status_bar_latest_event_content = 2131493094;
 			
 			// aapt resource value: 0x7f0c005b
 			public const int stretch = 2131492955;
 			
-			// aapt resource value: 0x7f0c0099
-			public const int submenuarrow = 2131493017;
+			// aapt resource value: 0x7f0c0084
+			public const int submenuarrow = 2131492996;
 			
-			// aapt resource value: 0x7f0c00ad
-			public const int submit_area = 2131493037;
+			// aapt resource value: 0x7f0c0098
+			public const int submit_area = 2131493016;
 			
 			// aapt resource value: 0x7f0c0026
 			public const int tabMode = 2131492902;
@@ -10791,17 +7198,17 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0022
 			public const int text2 = 2131492898;
 			
-			// aapt resource value: 0x7f0c008e
-			public const int textSpacerNoButtons = 2131493006;
+			// aapt resource value: 0x7f0c0079
+			public const int textSpacerNoButtons = 2131492985;
 			
-			// aapt resource value: 0x7f0c008d
-			public const int textSpacerNoTitle = 2131493005;
+			// aapt resource value: 0x7f0c0078
+			public const int textSpacerNoTitle = 2131492984;
 			
 			// aapt resource value: 0x7f0c005a
 			public const int textStart = 2131492954;
 			
-			// aapt resource value: 0x7f0c00c4
-			public const int text_input_password_toggle = 2131493060;
+			// aapt resource value: 0x7f0c00af
+			public const int text_input_password_toggle = 2131493039;
 			
 			// aapt resource value: 0x7f0c0018
 			public const int textinput_counter = 2131492888;
@@ -10812,35 +7219,29 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c001a
 			public const int textinput_helper_text = 2131492890;
 			
-			// aapt resource value: 0x7f0c0107
-			public const int time = 2131493127;
+			// aapt resource value: 0x7f0c00ec
+			public const int time = 2131493100;
 			
 			// aapt resource value: 0x7f0c0023
 			public const int title = 2131492899;
 			
-			// aapt resource value: 0x7f0c0095
-			public const int titleDividerNoCustom = 2131493013;
+			// aapt resource value: 0x7f0c0080
+			public const int titleDividerNoCustom = 2131492992;
 			
-			// aapt resource value: 0x7f0c0093
-			public const int title_template = 2131493011;
+			// aapt resource value: 0x7f0c007e
+			public const int title_template = 2131492990;
 			
-			// aapt resource value: 0x7f0c011e
-			public const int toolbar = 2131493150;
+			// aapt resource value: 0x7f0c00fb
+			public const int toolbar = 2131493115;
 			
 			// aapt resource value: 0x7f0c0045
 			public const int top = 2131492933;
 			
-			// aapt resource value: 0x7f0c0116
-			public const int topBar = 2131493142;
+			// aapt resource value: 0x7f0c007d
+			public const int topPanel = 2131492989;
 			
-			// aapt resource value: 0x7f0c006e
-			public const int topLeft = 2131492974;
-			
-			// aapt resource value: 0x7f0c0092
-			public const int topPanel = 2131493010;
-			
-			// aapt resource value: 0x7f0c00bd
-			public const int touch_outside = 2131493053;
+			// aapt resource value: 0x7f0c00a8
+			public const int touch_outside = 2131493032;
 			
 			// aapt resource value: 0x7f0c000f
 			public const int transition_current_scene = 2131492879;
@@ -10857,9 +7258,6 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c0013
 			public const int transition_transform = 2131492883;
 			
-			// aapt resource value: 0x7f0c0123
-			public const int @unchecked = 2131493155;
-			
 			// aapt resource value: 0x7f0c0034
 			public const int uniform = 2131492916;
 			
@@ -10872,26 +7270,20 @@ namespace safetyLab.Droid
 			// aapt resource value: 0x7f0c002d
 			public const int useLogo = 2131492909;
 			
-			// aapt resource value: 0x7f0c006a
-			public const int vertical = 2131492970;
-			
 			// aapt resource value: 0x7f0c001b
 			public const int view_offset_helper = 2131492891;
 			
-			// aapt resource value: 0x7f0c0120
-			public const int visible = 2131493152;
+			// aapt resource value: 0x7f0c00fd
+			public const int visible = 2131493117;
 			
-			// aapt resource value: 0x7f0c00ef
-			public const int volume_item_container = 2131493103;
+			// aapt resource value: 0x7f0c00d4
+			public const int volume_item_container = 2131493076;
 			
 			// aapt resource value: 0x7f0c0043
 			public const int withText = 2131492931;
 			
 			// aapt resource value: 0x7f0c0035
 			public const int wrap_content = 2131492917;
-			
-			// aapt resource value: 0x7f0c007d
-			public const int zoomingTarget = 2131492989;
 			
 			static Id()
 			{
@@ -11143,142 +7535,130 @@ namespace safetyLab.Droid
 			public const int design_text_input_password_icon = 2130968620;
 			
 			// aapt resource value: 0x7f04002d
-			public const int dialogListViewRow = 2130968621;
+			public const int FlyoutContent = 2130968621;
 			
 			// aapt resource value: 0x7f04002e
-			public const int FlyoutContent = 2130968622;
+			public const int mr_cast_dialog = 2130968622;
 			
 			// aapt resource value: 0x7f04002f
-			public const int formfieldButtonLayout = 2130968623;
+			public const int mr_cast_group_item = 2130968623;
 			
 			// aapt resource value: 0x7f040030
-			public const int listViewRow = 2130968624;
+			public const int mr_cast_group_volume_item = 2130968624;
 			
 			// aapt resource value: 0x7f040031
-			public const int mr_cast_dialog = 2130968625;
+			public const int mr_cast_media_metadata = 2130968625;
 			
 			// aapt resource value: 0x7f040032
-			public const int mr_cast_group_item = 2130968626;
+			public const int mr_cast_route_item = 2130968626;
 			
 			// aapt resource value: 0x7f040033
-			public const int mr_cast_group_volume_item = 2130968627;
+			public const int mr_chooser_dialog = 2130968627;
 			
 			// aapt resource value: 0x7f040034
-			public const int mr_cast_media_metadata = 2130968628;
+			public const int mr_chooser_list_item = 2130968628;
 			
 			// aapt resource value: 0x7f040035
-			public const int mr_cast_route_item = 2130968629;
+			public const int mr_controller_material_dialog_b = 2130968629;
 			
 			// aapt resource value: 0x7f040036
-			public const int mr_chooser_dialog = 2130968630;
+			public const int mr_controller_volume_item = 2130968630;
 			
 			// aapt resource value: 0x7f040037
-			public const int mr_chooser_list_item = 2130968631;
+			public const int mr_dialog_header_item = 2130968631;
 			
 			// aapt resource value: 0x7f040038
-			public const int mr_controller_material_dialog_b = 2130968632;
+			public const int mr_picker_dialog = 2130968632;
 			
 			// aapt resource value: 0x7f040039
-			public const int mr_controller_volume_item = 2130968633;
+			public const int mr_picker_route_item = 2130968633;
 			
 			// aapt resource value: 0x7f04003a
-			public const int mr_dialog_header_item = 2130968634;
+			public const int mr_playback_control = 2130968634;
 			
 			// aapt resource value: 0x7f04003b
-			public const int mr_picker_dialog = 2130968635;
+			public const int mr_volume_control = 2130968635;
 			
 			// aapt resource value: 0x7f04003c
-			public const int mr_picker_route_item = 2130968636;
+			public const int mtrl_layout_snackbar = 2130968636;
 			
 			// aapt resource value: 0x7f04003d
-			public const int mr_playback_control = 2130968637;
+			public const int mtrl_layout_snackbar_include = 2130968637;
 			
 			// aapt resource value: 0x7f04003e
-			public const int mr_volume_control = 2130968638;
+			public const int notification_action = 2130968638;
 			
 			// aapt resource value: 0x7f04003f
-			public const int mtrl_layout_snackbar = 2130968639;
+			public const int notification_action_tombstone = 2130968639;
 			
 			// aapt resource value: 0x7f040040
-			public const int mtrl_layout_snackbar_include = 2130968640;
+			public const int notification_media_action = 2130968640;
 			
 			// aapt resource value: 0x7f040041
-			public const int notification_action = 2130968641;
+			public const int notification_media_cancel_action = 2130968641;
 			
 			// aapt resource value: 0x7f040042
-			public const int notification_action_tombstone = 2130968642;
+			public const int notification_template_big_media = 2130968642;
 			
 			// aapt resource value: 0x7f040043
-			public const int notification_media_action = 2130968643;
+			public const int notification_template_big_media_custom = 2130968643;
 			
 			// aapt resource value: 0x7f040044
-			public const int notification_media_cancel_action = 2130968644;
+			public const int notification_template_big_media_narrow = 2130968644;
 			
 			// aapt resource value: 0x7f040045
-			public const int notification_template_big_media = 2130968645;
+			public const int notification_template_big_media_narrow_custom = 2130968645;
 			
 			// aapt resource value: 0x7f040046
-			public const int notification_template_big_media_custom = 2130968646;
+			public const int notification_template_custom_big = 2130968646;
 			
 			// aapt resource value: 0x7f040047
-			public const int notification_template_big_media_narrow = 2130968647;
+			public const int notification_template_icon_group = 2130968647;
 			
 			// aapt resource value: 0x7f040048
-			public const int notification_template_big_media_narrow_custom = 2130968648;
+			public const int notification_template_lines_media = 2130968648;
 			
 			// aapt resource value: 0x7f040049
-			public const int notification_template_custom_big = 2130968649;
+			public const int notification_template_media = 2130968649;
 			
 			// aapt resource value: 0x7f04004a
-			public const int notification_template_icon_group = 2130968650;
+			public const int notification_template_media_custom = 2130968650;
 			
 			// aapt resource value: 0x7f04004b
-			public const int notification_template_lines_media = 2130968651;
+			public const int notification_template_part_chronometer = 2130968651;
 			
 			// aapt resource value: 0x7f04004c
-			public const int notification_template_media = 2130968652;
+			public const int notification_template_part_time = 2130968652;
 			
 			// aapt resource value: 0x7f04004d
-			public const int notification_template_media_custom = 2130968653;
+			public const int RootLayout = 2130968653;
 			
 			// aapt resource value: 0x7f04004e
-			public const int notification_template_part_chronometer = 2130968654;
+			public const int select_dialog_item_material = 2130968654;
 			
 			// aapt resource value: 0x7f04004f
-			public const int notification_template_part_time = 2130968655;
+			public const int select_dialog_multichoice_material = 2130968655;
 			
 			// aapt resource value: 0x7f040050
-			public const int RootLayout = 2130968656;
+			public const int select_dialog_singlechoice_material = 2130968656;
 			
 			// aapt resource value: 0x7f040051
-			public const int select_dialog_item_material = 2130968657;
+			public const int ShellContent = 2130968657;
 			
 			// aapt resource value: 0x7f040052
-			public const int select_dialog_multichoice_material = 2130968658;
+			public const int support_simple_spinner_dropdown_item = 2130968658;
 			
 			// aapt resource value: 0x7f040053
-			public const int select_dialog_singlechoice_material = 2130968659;
+			public const int Tabbar = 2130968659;
 			
 			// aapt resource value: 0x7f040054
-			public const int ShellContent = 2130968660;
+			public const int Toolbar = 2130968660;
 			
 			// aapt resource value: 0x7f040055
-			public const int signaturepadlayout = 2130968661;
+			public const int zxingscanneractivitylayout = 2130968661;
 			
 			// aapt resource value: 0x7f040056
-			public const int support_simple_spinner_dropdown_item = 2130968662;
-			
-			// aapt resource value: 0x7f040057
-			public const int Tabbar = 2130968663;
-			
-			// aapt resource value: 0x7f040058
-			public const int Toolbar = 2130968664;
-			
-			// aapt resource value: 0x7f040059
-			public const int zxingscanneractivitylayout = 2130968665;
-			
-			// aapt resource value: 0x7f04005a
-			public const int zxingscannerfragmentlayout = 2130968666;
+			public const int zxingscannerfragmentlayout = 2130968662;
 			
 			static Layout()
 			{
@@ -11314,30 +7694,6 @@ namespace safetyLab.Droid
 		
 		public partial class String
 		{
-			
-			// aapt resource value: 0x7f090056
-			public const int SfPdfViewerCancel = 2131296342;
-			
-			// aapt resource value: 0x7f09004f
-			public const int SfPdfViewerCopy = 2131296335;
-			
-			// aapt resource value: 0x7f090050
-			public const int SfPdfViewerHighlight = 2131296336;
-			
-			// aapt resource value: 0x7f090054
-			public const int SfPdfViewerHyperlinkMessage = 2131296340;
-			
-			// aapt resource value: 0x7f090053
-			public const int SfPdfViewerHyperlinkMessageTitle = 2131296339;
-			
-			// aapt resource value: 0x7f090055
-			public const int SfPdfViewerHyperlinkOpen = 2131296341;
-			
-			// aapt resource value: 0x7f090052
-			public const int SfPdfViewerStrikethrough = 2131296338;
-			
-			// aapt resource value: 0x7f090051
-			public const int SfPdfViewerUnderline = 2131296337;
 			
 			// aapt resource value: 0x7f090019
 			public const int abc_action_bar_home_description = 2131296281;
@@ -11572,222 +7928,6 @@ namespace safetyLab.Droid
 			
 			// aapt resource value: 0x7f090034
 			public const int search_menu_title = 2131296308;
-			
-			// aapt resource value: 0x7f09005d
-			public const int sfpdfviewer_annotationsbackbutton = 2131296349;
-			
-			// aapt resource value: 0x7f090066
-			public const int sfpdfviewer_annotationsbutton = 2131296358;
-			
-			// aapt resource value: 0x7f09007f
-			public const int sfpdfviewer_arrowbackbutton = 2131296383;
-			
-			// aapt resource value: 0x7f09007c
-			public const int sfpdfviewer_arrowbutton = 2131296380;
-			
-			// aapt resource value: 0x7f09009b
-			public const int sfpdfviewer_backbutton = 2131296411;
-			
-			// aapt resource value: 0x7f09006d
-			public const int sfpdfviewer_blackcolorbutton = 2131296365;
-			
-			// aapt resource value: 0x7f090065
-			public const int sfpdfviewer_bookmarksbackbutton = 2131296357;
-			
-			// aapt resource value: 0x7f09008b
-			public const int sfpdfviewer_bookmarksbutton = 2131296395;
-			
-			// aapt resource value: 0x7f09009c
-			public const int sfpdfviewer_bookmarksclosebutton = 2131296412;
-			
-			// aapt resource value: 0x7f090097
-			public const int sfpdfviewer_cancel = 2131296407;
-			
-			// aapt resource value: 0x7f090074
-			public const int sfpdfviewer_cancelsearchbutton = 2131296372;
-			
-			// aapt resource value: 0x7f090077
-			public const int sfpdfviewer_clearsearchbutton = 2131296375;
-			
-			// aapt resource value: 0x7f090062
-			public const int sfpdfviewer_colorbutton = 2131296354;
-			
-			// aapt resource value: 0x7f09008d
-			public const int sfpdfviewer_continuouspagebutton = 2131296397;
-			
-			// aapt resource value: 0x7f090068
-			public const int sfpdfviewer_cyancolorbutton = 2131296360;
-			
-			// aapt resource value: 0x7f09006e
-			public const int sfpdfviewer_deletebutton = 2131296366;
-			
-			// aapt resource value: 0x7f090091
-			public const int sfpdfviewer_done = 2131296401;
-			
-			// aapt resource value: 0x7f090081
-			public const int sfpdfviewer_ellipsebackbutton = 2131296385;
-			
-			// aapt resource value: 0x7f090079
-			public const int sfpdfviewer_ellipsebutton = 2131296377;
-			
-			// aapt resource value: 0x7f09005e
-			public const int sfpdfviewer_fontsizebutton = 2131296350;
-			
-			// aapt resource value: 0x7f09005b
-			public const int sfpdfviewer_freetextbutton = 2131296347;
-			
-			// aapt resource value: 0x7f09006a
-			public const int sfpdfviewer_greencolorbutton = 2131296362;
-			
-			// aapt resource value: 0x7f090082
-			public const int sfpdfviewer_highlightbutton = 2131296386;
-			
-			// aapt resource value: 0x7f090086
-			public const int sfpdfviewer_highlighttextbackbutton = 2131296390;
-			
-			// aapt resource value: 0x7f090057
-			public const int sfpdfviewer_hinttext = 2131296343;
-			
-			// aapt resource value: 0x7f090060
-			public const int sfpdfviewer_inkbackbutton = 2131296352;
-			
-			// aapt resource value: 0x7f09005a
-			public const int sfpdfviewer_inkbutton = 2131296346;
-			
-			// aapt resource value: 0x7f090080
-			public const int sfpdfviewer_linebackbutton = 2131296384;
-			
-			// aapt resource value: 0x7f09007b
-			public const int sfpdfviewer_linebutton = 2131296379;
-			
-			// aapt resource value: 0x7f09006c
-			public const int sfpdfviewer_magentacolorbutton = 2131296364;
-			
-			// aapt resource value: 0x7f09008a
-			public const int sfpdfviewer_moreoptionsbutton = 2131296394;
-			
-			// aapt resource value: 0x7f090063
-			public const int sfpdfviewer_nextlevelbookmarksbutton = 2131296355;
-			
-			// aapt resource value: 0x7f090067
-			public const int sfpdfviewer_opacitybutton = 2131296359;
-			
-			// aapt resource value: 0x7f09009e
-			public const int sfpdfviewer_pagedownbutton = 2131296414;
-			
-			// aapt resource value: 0x7f09009d
-			public const int sfpdfviewer_pageupbutton = 2131296413;
-			
-			// aapt resource value: 0x7f09007a
-			public const int sfpdfviewer_polygonbutton = 2131296378;
-			
-			// aapt resource value: 0x7f090064
-			public const int sfpdfviewer_previouslevelbookmarksbutton = 2131296356;
-			
-			// aapt resource value: 0x7f09007e
-			public const int sfpdfviewer_rectanglebackbutton = 2131296382;
-			
-			// aapt resource value: 0x7f090078
-			public const int sfpdfviewer_rectanglebutton = 2131296376;
-			
-			// aapt resource value: 0x7f090069
-			public const int sfpdfviewer_redcolorbutton = 2131296361;
-			
-			// aapt resource value: 0x7f090070
-			public const int sfpdfviewer_redobutton = 2131296368;
-			
-			// aapt resource value: 0x7f09008f
-			public const int sfpdfviewer_redoinkbutton = 2131296399;
-			
-			// aapt resource value: 0x7f090071
-			public const int sfpdfviewer_savebutton = 2131296369;
-			
-			// aapt resource value: 0x7f090075
-			public const int sfpdfviewer_searchbackbutton = 2131296373;
-			
-			// aapt resource value: 0x7f090076
-			public const int sfpdfviewer_searchbarplaceholdertext = 2131296374;
-			
-			// aapt resource value: 0x7f090089
-			public const int sfpdfviewer_searchbutton = 2131296393;
-			
-			// aapt resource value: 0x7f090072
-			public const int sfpdfviewer_searchnextbutton = 2131296370;
-			
-			// aapt resource value: 0x7f090073
-			public const int sfpdfviewer_searchpreviousbutton = 2131296371;
-			
-			// aapt resource value: 0x7f09007d
-			public const int sfpdfviewer_shapesbackbutton = 2131296381;
-			
-			// aapt resource value: 0x7f09005c
-			public const int sfpdfviewer_shapesbutton = 2131296348;
-			
-			// aapt resource value: 0x7f090058
-			public const int sfpdfviewer_signaturebutton = 2131296344;
-			
-			// aapt resource value: 0x7f090099
-			public const int sfpdfviewer_signaturepad_cancel = 2131296409;
-			
-			// aapt resource value: 0x7f09009a
-			public const int sfpdfviewer_signaturepad_clear = 2131296410;
-			
-			// aapt resource value: 0x7f090098
-			public const int sfpdfviewer_signaturepad_done = 2131296408;
-			
-			// aapt resource value: 0x7f09008e
-			public const int sfpdfviewer_singlepagebutton = 2131296398;
-			
-			// aapt resource value: 0x7f090085
-			public const int sfpdfviewer_strikethroughbutton = 2131296389;
-			
-			// aapt resource value: 0x7f090088
-			public const int sfpdfviewer_strikethroughtextbackbutton = 2131296392;
-			
-			// aapt resource value: 0x7f09005f
-			public const int sfpdfviewer_textbackbutton = 2131296351;
-			
-			// aapt resource value: 0x7f090084
-			public const int sfpdfviewer_textmarkupsbackbutton = 2131296388;
-			
-			// aapt resource value: 0x7f090059
-			public const int sfpdfviewer_textmarkupsbutton = 2131296345;
-			
-			// aapt resource value: 0x7f090061
-			public const int sfpdfviewer_thicknessbutton = 2131296353;
-			
-			// aapt resource value: 0x7f090094
-			public const int sfpdfviewer_thicknessfivebutton = 2131296404;
-			
-			// aapt resource value: 0x7f090096
-			public const int sfpdfviewer_thicknessninebutton = 2131296406;
-			
-			// aapt resource value: 0x7f090092
-			public const int sfpdfviewer_thicknessonebutton = 2131296402;
-			
-			// aapt resource value: 0x7f090095
-			public const int sfpdfviewer_thicknesssevenbutton = 2131296405;
-			
-			// aapt resource value: 0x7f090093
-			public const int sfpdfviewer_thicknesthreebutton = 2131296403;
-			
-			// aapt resource value: 0x7f090083
-			public const int sfpdfviewer_underlinebutton = 2131296387;
-			
-			// aapt resource value: 0x7f090087
-			public const int sfpdfviewer_underlinetextbackbutton = 2131296391;
-			
-			// aapt resource value: 0x7f09006f
-			public const int sfpdfviewer_undobutton = 2131296367;
-			
-			// aapt resource value: 0x7f090090
-			public const int sfpdfviewer_undoinkbutton = 2131296400;
-			
-			// aapt resource value: 0x7f09008c
-			public const int sfpdfviewer_viewmodebutton = 2131296396;
-			
-			// aapt resource value: 0x7f09006b
-			public const int sfpdfviewer_yellowcolorbutton = 2131296363;
 			
 			// aapt resource value: 0x7f09004e
 			public const int status_bar_notification_info_overflow = 2131296334;
@@ -15655,106 +11795,6 @@ namespace safetyLab.Droid
 			
 			// aapt resource value: 12
 			public const int SearchView_voiceIcon = 12;
-			
-			public static int[] SfBusyIndicator = new int[] {
-					2130772474,
-					2130772475,
-					2130772476,
-					2130772477,
-					2130772478,
-					2130772479,
-					2130772480,
-					2130772481,
-					2130772482};
-			
-			// aapt resource value: 0
-			public const int SfBusyIndicator_busyIndicatorAnimationTypes = 0;
-			
-			// aapt resource value: 8
-			public const int SfBusyIndicator_busyIndicatorIsBusy = 8;
-			
-			// aapt resource value: 6
-			public const int SfBusyIndicator_busyIndicatorSecondaryColor = 6;
-			
-			// aapt resource value: 1
-			public const int SfBusyIndicator_busyIndicatorTextColor = 1;
-			
-			// aapt resource value: 5
-			public const int SfBusyIndicator_busyIndicatorTextSize = 5;
-			
-			// aapt resource value: 4
-			public const int SfBusyIndicator_busyIndicatorTitle = 4;
-			
-			// aapt resource value: 7
-			public const int SfBusyIndicator_busyIndicatorTitlePlacement = 7;
-			
-			// aapt resource value: 2
-			public const int SfBusyIndicator_busyIndicatorViewBoxHeight = 2;
-			
-			// aapt resource value: 3
-			public const int SfBusyIndicator_busyIndicatorViewBoxWidth = 3;
-			
-			public static int[] SfRangeSlider = new int[] {
-					2130772459,
-					2130772460,
-					2130772461,
-					2130772462,
-					2130772463,
-					2130772464,
-					2130772465,
-					2130772466,
-					2130772467,
-					2130772468,
-					2130772469,
-					2130772470,
-					2130772471,
-					2130772472,
-					2130772473};
-			
-			// aapt resource value: 7
-			public const int SfRangeSlider_rangeSliderDirectionReversed = 7;
-			
-			// aapt resource value: 13
-			public const int SfRangeSlider_rangeSliderEndValue = 13;
-			
-			// aapt resource value: 0
-			public const int SfRangeSlider_rangeSliderKnobColor = 0;
-			
-			// aapt resource value: 11
-			public const int SfRangeSlider_rangeSliderMaximum = 11;
-			
-			// aapt resource value: 10
-			public const int SfRangeSlider_rangeSliderMinimum = 10;
-			
-			// aapt resource value: 6
-			public const int SfRangeSlider_rangeSliderOrientation = 6;
-			
-			// aapt resource value: 4
-			public const int SfRangeSlider_rangeSliderShowRange = 4;
-			
-			// aapt resource value: 3
-			public const int SfRangeSlider_rangeSliderShowValueLabel = 3;
-			
-			// aapt resource value: 12
-			public const int SfRangeSlider_rangeSliderStartValue = 12;
-			
-			// aapt resource value: 14
-			public const int SfRangeSlider_rangeSliderThumbSize = 14;
-			
-			// aapt resource value: 8
-			public const int SfRangeSlider_rangeSliderTickPlacement = 8;
-			
-			// aapt resource value: 1
-			public const int SfRangeSlider_rangeSliderTrackColor = 1;
-			
-			// aapt resource value: 2
-			public const int SfRangeSlider_rangeSliderTrackSelectionColor = 2;
-			
-			// aapt resource value: 5
-			public const int SfRangeSlider_rangeSliderValue = 5;
-			
-			// aapt resource value: 9
-			public const int SfRangeSlider_rangeSliderValuePlacement = 9;
 			
 			public static int[] Snackbar = new int[] {
 					2130772382,

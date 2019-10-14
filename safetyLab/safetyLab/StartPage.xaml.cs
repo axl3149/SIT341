@@ -24,19 +24,7 @@ namespace safetyLab
         public static ContentPage contactContent = new ContentPage();
 
         public static string chemicalID = null;
-
-        const int numChemicals = 8;
-        public int[] chemicalIDs =
-        {
-            //0, 1, 2, 3, 4, 5, 6, 7
-        };
-        public string[] chemicalNames =
-        {
-            //"0: acid", "1: water", "2: dirt", "3: table", "4: sulfate", "5: cyanide", "6: sodium", "7: alocohol"
-        };
-
-
-        bool textFound = false;
+        public static string searchBarValue;
 
         public static ListView mainList = new ListView();
         public static ListView favouritesList = new ListView();
@@ -49,24 +37,7 @@ namespace safetyLab
 
         public StartPage()
         {
-            //this.BarBackgroundColor = Color.FromRgb(66, 175, 178);
-
             InitializeComponent();
-            //Children.Clear();
-
-            Grid grid = new Grid();
-            grid.RowDefinitions.Add(new RowDefinition { Height = new GridLength(2, GridUnitType.Star) });
-
-            mainList.ItemsSource = chemicalNames;
-            mainList.SeparatorColor = Color.Black;
-            mainList.HorizontalOptions = LayoutOptions.Center;
-
-            mainList.ItemTapped += async (sender, e) =>
-            {
-                chosenChemical = e.Item.ToString();
-                AddToRecents();
-                await Navigation.PushAsync(new ResultsPage());
-            };
 
             favouritesList.ItemTapped += async (sender, e) =>
             {
@@ -79,10 +50,6 @@ namespace safetyLab
                 chosenChemical = e.Item.ToString();
                 await Navigation.PushAsync(new ResultsPage());
             };
-
-            //SEARCH RESULTS
-            resultsContent.Content = mainList;
-            resultsContent.Title = "Search";
 
             //FAVOURITES
             favouritesList.ItemsSource = favourites;
@@ -119,8 +86,6 @@ namespace safetyLab
             contactStack.Children.Add(medical);
 
             contactContent.Content = contactStack;
-
-            //Children.Add(contactContent);
         }
 
         //For QR camera scanning focus
@@ -128,26 +93,43 @@ namespace safetyLab
         {
             while (ScannerPage.Result == null)
             {
-                System.Threading.Thread.Sleep(2000);
+                Thread.Sleep(2000);
                 ScannerPage.AutoFocus();
             }
         }
 
+
+        public void SearchBarValue(object sender, EventArgs e)
+        {
+            SearchBar search = sender as SearchBar;
+            searchBarValue = search.Text;
+        }
+
+
         public async void SearchButton(object sender, EventArgs e)
         {
+            if(searchBarValue == null || searchBarValue == "" || searchBarValue == " ")
+            {
+                await DisplayAlert("Search", "Enter a chemical ID to search", "OK");
+                return;
+            }
+
             AddToRecents();
             await Navigation.PushAsync(new ResultsPage());
         }
+
 
         public async void FavouritesButton(object sender, EventArgs e)
         {
             await Navigation.PushAsync(favouritesContent);
         }
 
+
         public async void RecentsButton(object sender, EventArgs e)
         {
             await Navigation.PushAsync(recentsContent);
         }
+
 
         public async void ContactsButton(object sender, EventArgs e)
         {
@@ -176,77 +158,14 @@ namespace safetyLab
             };
         }
 
+
         public void Search(object sender, EventArgs e)
         {
             SearchBar searchBar = (SearchBar)sender;
-
             chemicalID = searchBar.Text;
-
             ResultsPage.scannedChemicalID = chemicalID;
-
-            textFound = false;
-
-            List<string> foundNames = new List<string>();
-
-            /*if (chemicalID != null)
-            {
-                for (int i = 0; i < chemicalNames.Length; i++)
-                {
-                    if (chemicalNames[i].Contains(chemicalID.ToLower()))
-                    {
-                        foundNames.Add(chemicalNames[i]);
-                        textFound = true;
-                    }
-                }
-
-                mainList.ItemsSource = foundNames;
-            }
-
-            if (textFound == false)
-            {
-                DisplayAlert("Search Results", "No chemical results found.", "Try again");
-            }
-
-
-            textFound = false;*/
-            //foundNames.RemoveAt(0);
-            foundNames.Add(chemicalID);
-            mainList.ItemsSource = foundNames;
-
-            //this.CurrentPage = resultsContent;
         }
 
-        //Auto complete search taken out for now
-        /*public void AutoSearch(object sender, EventArgs e)
-        {
-            SearchBar searchBar = (SearchBar)sender;
-
-            int id = System.Convert.ToInt32(searchBar.Text);
-
-            textFound = false;
-
-            List<string> foundNames = new List<string>();
-
-            for (int i = 0; i < chemicalNames.Length; i++)
-            {
-                if (i == id)
-                {
-                    foundNames.Add(chemicalNames[i]);
-                    textFound = true;
-                }
-            }
-
-            mainList.ItemsSource = foundNames;
-
-            if (textFound == false)
-            {
-                DisplayAlert("Search Results", "No chemical results found.", "Try again");
-            }
-
-            textFound = false;
-
-            this.CurrentPage = resultsContent;
-        }*/
 
         public void AddToRecents()
         {
@@ -285,6 +204,7 @@ namespace safetyLab
             recentsList.ItemsSource = recents;
         }
 
+
         async void SecurityClicked()
         {
             bool res = await DisplayAlert("Call", "Call Burwood Deakin security?", "Yes", "No");
@@ -293,6 +213,7 @@ namespace safetyLab
                 Device.OpenUri(new Uri("tel:1800 062 579"));
             }
         }
+
 
         async void EmergencyClicked()
         {
@@ -303,6 +224,7 @@ namespace safetyLab
             }
         }
 
+
         async void MedicalClicked()
         {
             bool res = await DisplayAlert("Call", "Call Burwood medical services?", "Yes", "No");
@@ -311,6 +233,7 @@ namespace safetyLab
                 Device.OpenUri(new Uri("tel:9244 6300"));
             }
         }
+
 
         async void HospitalClicked()
         {

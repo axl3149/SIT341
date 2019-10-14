@@ -20,9 +20,6 @@ namespace safetyLab
         {
             InitializeComponent();
 
-            //Database.ConnectAndSetup();
-            //Database.QueryResults();
-
             WebView webSource = new WebView();
 
             if (scannedChemicalID != null)
@@ -40,11 +37,6 @@ namespace safetyLab
             Content = webSource;
         }
 
-        /*protected override bool OnBackButtonPressed()
-        {
-            StartPage.ScannerPage = new ZXingScannerPage();
-            return base.OnBackButtonPressed();
-        }*/
 
         public void AddToFavourites(object sender, EventArgs e)
         {
