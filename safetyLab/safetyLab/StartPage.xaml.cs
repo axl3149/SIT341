@@ -174,34 +174,37 @@ namespace safetyLab
             bool foundChemical = false;
             int foundIndex = 0;
 
-            for (int i = 0; i < recents.Count; i++)
+            if (recent != null)
             {
-                if (recents[i] != recent)
+                for (int i = 0; i < recents.Count; i++)
                 {
-                    foundChemical = false;
-                    foundIndex = i;
+                    if (recents[i] != recent)
+                    {
+                        foundChemical = false;
+                        foundIndex = i;
+                    }
+                    else if (recents[i] == recent)
+                    {
+                        foundChemical = true;
+                        foundIndex = i;
+                        break;
+                    }
                 }
-                else if (recents[i] == recent)
+
+                if (foundChemical == false)
                 {
-                    foundChemical = true;
-                    foundIndex = i;
-                    break;
+                    recents.Add(recent);
                 }
-            }
 
-            if (foundChemical == false)
-            {
-                recents.Add(recent);
-            }
+                int maxRecents = 10;
+                if (recents.Count > maxRecents)
+                {
+                    recents.RemoveAt(0);
+                }
 
-            int maxRecents = 10;
-            if(recents.Count > maxRecents)
-            {
-                recents.RemoveAt(0);
+                recentsList.ItemsSource = null;
+                recentsList.ItemsSource = recents;
             }
-
-            recentsList.ItemsSource = null;
-            recentsList.ItemsSource = recents;
         }
 
 

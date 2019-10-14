@@ -1,4 +1,5 @@
 ﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -45,35 +46,38 @@ namespace safetyLab
             bool foundChemical = false;
             int foundIndex = 0;
 
-            for(int i = 0; i < StartPage.favourites.Count; i++)
+            if (favourite != null)
             {
-                if(StartPage.favourites[i] != favourite)
+                for (int i = 0; i < StartPage.favourites.Count; i++)
                 {
-                    foundChemical = false;
-                    foundIndex = i;
-                }   
-                else if(StartPage.favourites[i] == favourite)
-                {
-                    foundChemical = true;
-                    foundIndex = i;
-                    break;
+                    if (StartPage.favourites[i] != favourite)
+                    {
+                        foundChemical = false;
+                        foundIndex = i;
+                    }
+                    else if (StartPage.favourites[i] == favourite)
+                    {
+                        foundChemical = true;
+                        foundIndex = i;
+                        break;
+                    }
                 }
-            }
 
-            if(foundChemical == false)
-            {
-                StartPage.favourites.Add(favourite);
-                DisplayAlert("Added", "Added " + StartPage.chosenChemical + " to Favourites", "OK");
-            }
-            else if(foundChemical == true)
-            {
-                StartPage.favourites.RemoveAt(foundIndex);
-                DisplayAlert("Remove", StartPage.chosenChemical + " Removed from favourites", "OK");
-            }
+                if (foundChemical == false)
+                {
+                    StartPage.favourites.Add(favourite);
+                    DisplayAlert("Added", "Added " + StartPage.chosenChemical + " to Favourites", "OK");
+                }
+                else if (foundChemical == true)
+                {
+                    StartPage.favourites.RemoveAt(foundIndex);
+                    DisplayAlert("Remove", StartPage.chosenChemical + " Removed from favourites", "OK");
+                }
 
-            //Something wrong with making ItemSource == favourites? Something about == null refreshing the list
-            StartPage.favouritesList.ItemsSource = null;
-            StartPage.favouritesList.ItemsSource = StartPage.favourites;
+                //Something wrong with making ItemSource == favourites? Something about == null refreshing the list
+                StartPage.favouritesList.ItemsSource = null;
+                StartPage.favouritesList.ItemsSource = StartPage.favourites;
+            }
         }
     }
 }
