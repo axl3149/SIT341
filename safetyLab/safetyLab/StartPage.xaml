@@ -3,10 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="safetyLab.StartPage"
             >
-    <!--<ContentPage.ToolbarItems>
-        <ToolbarItem Name="Scan" Text="Scan" Clicked="Scan" Priority="0"></ToolbarItem>
-        <ToolbarItem Name="Search" Text="Search" Clicked="Search" Priority="1"></ToolbarItem>
-    </ContentPage.ToolbarItems>-->
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
@@ -37,7 +33,6 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <Label Text="Search Part" Grid.Row="0" Grid.Column="0" HorizontalOptions="Start" VerticalOptions="Start"></Label>
             <ScrollView Grid.Row="0" Grid.Column="0"></ScrollView>
             <Button Text="search_icon" Grid.Row="0" Grid.Column="0" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="SearchButton"/>
             <Button Text="recents_icon" Grid.Row="0" Grid.Column="1" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Clicked="RecentsButton"/>
