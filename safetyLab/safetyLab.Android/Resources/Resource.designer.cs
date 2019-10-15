@@ -6487,7 +6487,7 @@ namespace safetyLab.Droid
 			public const int notify_panel_notification_icon_bg = 2130837814;
 			
 			// aapt resource value: 0x7f020137
-			public const int phone = 2130837815;
+			public const int phone_icon = 2130837815;
 			
 			// aapt resource value: 0x7f020138
 			public const int qr_icon = 2130837816;

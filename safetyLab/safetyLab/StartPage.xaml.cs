@@ -20,6 +20,7 @@ namespace safetyLab
 
         public static ContentPage resultsContent = new ContentPage();
         public static ContentPage favouritesContent = new ContentPage();
+        public static TabbedPage favouritesAndRecentsTabbed = new TabbedPage();
         public static ContentPage recentsContent = new ContentPage();
         public static ContentPage contactContent = new ContentPage();
 
@@ -59,6 +60,10 @@ namespace safetyLab
             //RECENTS
             recentsContent.Title = "Recents";
             recentsContent.Content = recentsList;
+
+            favouritesAndRecentsTabbed.Title = "Favourites & Recents";
+            favouritesAndRecentsTabbed.Children.Add(favouritesContent);
+            favouritesAndRecentsTabbed.Children.Add(recentsContent);
 
             //CONTACTS
             contactContent.Title = "Contacts";
@@ -121,7 +126,7 @@ namespace safetyLab
 
         public async void FavouritesButton(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(favouritesContent);
+            await Navigation.PushAsync(favouritesAndRecentsTabbed);
         }
 
 

@@ -6,13 +6,13 @@
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
-            <Button Text="Scan" 
+            <!--<Button Text="Scan" 
                     FontSize="20"
                      Margin="10"
                     TextColor="White"
                     HorizontalOptions="Start" 
                     VerticalOptions="Center" 
-                    Clicked="Scan"> </Button>
+                    Clicked="Scan"> </>-->
             <SearchBar 
             HorizontalOptions="End" 
             WidthRequest="290"
@@ -50,7 +50,7 @@
                     BackgroundColor="#788695"
                     Clicked="SearchButton"/>
             
-            <Button Text="Recents"
+            <Button Text="Scan"
                      FontSize="Medium"
                     ImageSource="recents"
                     Grid.Row="0" 
@@ -62,9 +62,9 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center" 
                     BackgroundColor="#A0C6A7"
-                    Clicked="RecentsButton"/>
+                    Clicked="Scan"/>
 
-            <Button Text="Favourites" 
+            <Button Text="Favourites and Recents" 
                     FontSize="Large"
                     Image="star"
                     Margin="10,0,0,10"
@@ -78,11 +78,11 @@
                     BackgroundColor="#A0C2C6"
                     Clicked="FavouritesButton"/>
             
-            <Button Text="Contact" 
+            <Button Text="Emergency Contacts" 
                     Grid.Row="1"
-                     FontSize="Large"
-                   ImageSource="phone_icon"
-                 Margin="0,0,10,10"
+                    FontSize="Large"
+                    ImageSource="phone"
+                    Margin="0,0,10,10"
                     Grid.Column="1" 
                     WidthRequest="200"
                     TextColor="White"
