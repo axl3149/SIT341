@@ -16,6 +16,8 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage : ContentPage
     {
+        public static Color navBarColor = Color.FromRgb(66, 175, 178);
+
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
 
         public static ContentPage resultsContent = new ContentPage();
@@ -62,6 +64,7 @@ namespace safetyLab
             recentsContent.Content = recentsList;
 
             favouritesAndRecentsTabbed.Title = "Favourites & Recents";
+            favouritesAndRecentsTabbed.BarBackgroundColor = navBarColor;
             favouritesAndRecentsTabbed.Children.Add(favouritesContent);
             favouritesAndRecentsTabbed.Children.Add(recentsContent);
 
@@ -70,21 +73,21 @@ namespace safetyLab
 
             StackLayout contactStack = new StackLayout();
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178),
+                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = navBarColor,
                 TextColor = Color.White
             };
             security.Clicked += (sender, e) => SecurityClicked();
             contactStack.Children.Add(security);
 
             Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = Color.FromRgb(66, 175, 178),
+                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = navBarColor,
                 TextColor = Color.White
             };
             emergency.Clicked += (sender, e) => EmergencyClicked();
             contactStack.Children.Add(emergency);
 
             Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.Fill,
-                BackgroundColor = Color.FromRgb(66, 175, 178), VerticalOptions = LayoutOptions.Center, FontSize = 24,
+                BackgroundColor = navBarColor, VerticalOptions = LayoutOptions.Center, FontSize = 24,
                 TextColor = Color.White
             };
             medical.Clicked += (sender, e) => MedicalClicked();

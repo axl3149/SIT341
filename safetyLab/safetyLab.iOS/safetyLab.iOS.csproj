@@ -152,7 +152,6 @@
     <BundleResource Include="Resources\search_icon.png" />
     <BundleResource Include="Resources\recents_icon.png" />
     <BundleResource Include="Resources\.png" />
-    <BundleResource Include="Resources\phone_icon %28copy%29.png" />
     <BundleResource Include="Resources\fave.png" />
     <BundleResource Include="Resources\star.png" />
     <BundleResource Include="Resources\recents.png" />
@@ -171,5 +170,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\favourites_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\qr_icon.png">
+      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
 </Project>
