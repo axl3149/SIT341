@@ -71,29 +71,47 @@ namespace safetyLab
             //CONTACTS
             contactContent.Title = "Contacts";
 
+            Grid contactGrid = new Grid
+            {
+                ColumnDefinitions =
+                {
+                    new ColumnDefinition { Width = GridLength.Star }
+                },
+                RowDefinitions =
+                {
+                    new RowDefinition { Height = GridLength.Star },
+                    new RowDefinition { Height = GridLength.Star },
+                    new RowDefinition { Height = GridLength.Star }
+                }
+            };
+
             StackLayout contactStack = new StackLayout();
+
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = navBarColor,
+                VerticalOptions = LayoutOptions.Fill, FontSize = 24, BackgroundColor = navBarColor,
                 TextColor = Color.White
             };
             security.Clicked += (sender, e) => SecurityClicked();
             contactStack.Children.Add(security);
+            contactGrid.Children.Add(security, 0, 0);
 
             Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Center, FontSize = 24, BackgroundColor = navBarColor,
+                VerticalOptions = LayoutOptions.Fill, FontSize = 24, BackgroundColor = navBarColor,
                 TextColor = Color.White
             };
             emergency.Clicked += (sender, e) => EmergencyClicked();
             contactStack.Children.Add(emergency);
+            contactGrid.Children.Add(emergency, 0, 1);
 
             Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.Fill,
-                BackgroundColor = navBarColor, VerticalOptions = LayoutOptions.Center, FontSize = 24,
+                BackgroundColor = navBarColor, VerticalOptions = LayoutOptions.Fill, FontSize = 24,
                 TextColor = Color.White
             };
             medical.Clicked += (sender, e) => MedicalClicked();
             contactStack.Children.Add(medical);
+            contactGrid.Children.Add(medical, 0, 2);
 
-            contactContent.Content = contactStack;
+            contactContent.Content = contactGrid;
         }
 
         //For QR camera scanning focus
