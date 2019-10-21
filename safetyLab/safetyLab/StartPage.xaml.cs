@@ -24,7 +24,6 @@ namespace safetyLab
         public static ContentPage contactContent = new ContentPage();
 
         public static string chemicalID = null;
-        public static string searchBarValue;
 
         public static ListView mainList = new ListView();
         public static ListView favouritesList = new ListView();
@@ -124,22 +123,15 @@ namespace safetyLab
         }
 
 
-        public void SearchBarValue(object sender, EventArgs e)
-        {
-            SearchBar search = sender as SearchBar;
-            searchBarValue = search.Text;
-        }
-
-
         public async void SearchButton(object sender, EventArgs e)
         {
-            if(searchBarValue == null || searchBarValue == "" || searchBarValue == " ")
+            /*if(searchBarValue == null || searchBarValue == "" || searchBarValue == " ")
             {
                 await DisplayAlert("Search", "Enter a chemical ID to search.", "OK");
                 return;
             }
 
-            AddToRecents();
+            AddToRecents();*/
             await Navigation.PushAsync(new ResultsPage());
         }
 
@@ -193,7 +185,7 @@ namespace safetyLab
         }
 
 
-        public void AddToRecents()
+        public static void AddToRecents()
         {
             string recent = chemicalID;
 

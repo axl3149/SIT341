@@ -14,15 +14,17 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ResultsPage : ContentPage
     {
+        public static string searchBarValue;
+
         public static string scannedChemicalID;
+        public WebView webSource = new WebView();
+
 
         public ResultsPage ()
         {
             InitializeComponent();
 
-            this.Title = "Chemical Scanning";
-
-            WebView webSource = new WebView();
+            this.Title = "Chemical Found";
 
             if (scannedChemicalID != null)
             {
@@ -37,6 +39,27 @@ namespace safetyLab
             //Device.OpenUri(new Uri("http://www.pdf995.com/samples/pdf.pdf"));
 
             Content = webSource;
+        }
+
+
+        public async void Search(object sender, EventArgs e)
+        {
+            SearchBar search = sender as SearchBar;
+            searchBarValue = search.Text;
+            scannedChemicalID = searchBarValue;
+
+            if (searchBarValue == null || searchBarValue == "" || searchBarValue == " ")
+            {
+                await DisplayAlert("Search", "Enter a chemical ID to search.", "OK");
+                return;
+            }
+
+            if (scannedChemicalID != null)
+            {
+                webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=" + scannedChemicalID;
+            }
+
+            StartPage.AddToRecents();
         }
 
 
