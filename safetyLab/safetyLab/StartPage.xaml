@@ -37,7 +37,7 @@
             <ScrollView Grid.Row="0" Grid.Column="0"></ScrollView>
             <Button Text="Search" 
                     Grid.Row="0" 
-                    
+                   
                     Margin="10,10,0,0"
                     Grid.Column="0" 
                    ImageSource="search_icon"
@@ -47,7 +47,7 @@
                     TextColor="White"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center" 
-                    BackgroundColor="#788695"
+                    BackgroundColor="#7FB3D5"
                     Clicked="SearchButton"/>
             
             <Button Text="Scan"
@@ -61,7 +61,7 @@
                     HeightRequest="300"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center" 
-                    BackgroundColor="#A0C6A7"
+                    BackgroundColor="#5DADE2"
                     Clicked="Scan"/>
 
             <Button Text="Recents" 
@@ -75,7 +75,7 @@
                     HeightRequest="300"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center"
-                    BackgroundColor="#A0C2C6"
+                    BackgroundColor="#5499C7"
                     Clicked="RecentsButton"/>
             
             <Button Text="Emergency Contacts" 
@@ -87,7 +87,7 @@
                     WidthRequest="200"
                     TextColor="White"
                     HeightRequest="300"
-                    BackgroundColor="#A0A9C6"
+                    BackgroundColor="#85C1E9"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center" 
                     Clicked="ContactsButton"/>

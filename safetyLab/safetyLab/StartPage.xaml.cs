@@ -13,7 +13,7 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage : ContentPage
     {
-        public static Color navBarColor = Color.FromRgb(66, 175, 178);
+        public static Color navBarColor = Color.FromRgb(133, 193, 233);
 
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
 
