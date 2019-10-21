@@ -1,10 +1,7 @@
-﻿//Copyright by Piumi 2019
+﻿
 
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Threading;
     
 using Xamarin.Forms;
@@ -54,13 +51,15 @@ namespace safetyLab
                 await Navigation.PushAsync(new ResultsPage());
             };
 
+            
+
             //FAVOURITES
-            favouritesList.ItemsSource = favourites;
-            favouritesContent.Title = "Favourites";
-            favouritesContent.Content = favouritesList;
+            //favouritesList.ItemsSource = favourites;
+            //favouritesContent.Title = "Favourites";
+            //favouritesContent.Content = favouritesList;
 
             //RECENTS
-            recentsContent.Title = "Recents";
+            recentsContent.Title = "Recently Searched Chemicals";
             recentsContent.Content = recentsList;
 
             /*favouritesAndRecentsTabbed.Title = "Favourites & Recents";
@@ -69,7 +68,7 @@ namespace safetyLab
             favouritesAndRecentsTabbed.Children.Add(recentsContent);*/
 
             //CONTACTS
-            contactContent.Title = "Contacts";
+            contactContent.Title = "Emergency Contacts";
 
             Grid contactGrid = new Grid
             {
@@ -136,7 +135,7 @@ namespace safetyLab
         {
             if(searchBarValue == null || searchBarValue == "" || searchBarValue == " ")
             {
-                await DisplayAlert("Search", "Enter a chemical ID to search", "OK");
+                await DisplayAlert("Search", "Enter a chemical ID to search.", "OK");
                 return;
             }
 
@@ -166,6 +165,7 @@ namespace safetyLab
         public async void Scan(object sender, EventArgs e)
         {
             ScannerPage = new ZXingScannerPage();
+            ScannerPage.Title = "Scanning...";
             await Navigation.PushAsync(ScannerPage);
 
             Thread focusThread = new Thread(ScannerFocus);

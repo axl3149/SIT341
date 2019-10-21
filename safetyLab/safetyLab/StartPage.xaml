@@ -37,7 +37,7 @@
             <ScrollView Grid.Row="0" Grid.Column="0"></ScrollView>
             <Button Text="Search" 
                     Grid.Row="0" 
-                   
+                    
                     Margin="10,10,0,0"
                     Grid.Column="0" 
                    ImageSource="search_icon"

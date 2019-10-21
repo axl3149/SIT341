@@ -20,6 +20,8 @@ namespace safetyLab
         {
             InitializeComponent();
 
+            this.Title = "Chemical Scanning";
+
             WebView webSource = new WebView();
 
             if (scannedChemicalID != null)
