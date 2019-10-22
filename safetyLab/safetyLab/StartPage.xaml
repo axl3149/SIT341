@@ -62,7 +62,7 @@
                     BackgroundColor="#79c3f7"
                     Clicked="RecentsButton"/>
             
-            <Button Text="Emergency Contacts" 
+            <Button Text="Contacts" 
                     Grid.Row="1"
                     FontSize="Large"
                     ImageSource="phone_icon"
