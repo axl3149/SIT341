@@ -24,10 +24,9 @@
             <ScrollView Grid.Row="0" Grid.Column="0"></ScrollView>
             <Button Text="Search" 
                     Grid.Row="0" 
-                   
                     Margin="10,10,0,0"
                     Grid.Column="0" 
-                   ImageSource="search_icon"
+                    ImageSource="search_icon"
                     FontSize="Large"
                     WidthRequest="200"
                     HeightRequest="300"
@@ -38,10 +37,10 @@
                     Clicked="SearchButton"/>
             
             <Button Text="Scan"
-                     FontSize="Large"
+                    FontSize="Large"
                     ImageSource="qr_icon"
                     Grid.Row="0" 
-                     Margin="0,10,10,0"
+                    Margin="0,10,10,0"
                     TextColor="White"
                     Grid.Column="1" 
                     WidthRequest="200"
