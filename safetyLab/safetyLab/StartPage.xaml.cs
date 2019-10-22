@@ -139,6 +139,7 @@ namespace safetyLab
             {
                 ScannerPage.IsScanning = false;
                 ResultsPage.scannedChemicalID = result.Text;
+                AddToRecents();
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
