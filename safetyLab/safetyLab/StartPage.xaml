@@ -6,7 +6,7 @@
 
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-            <Label Text="SafetyLab" TextColor="White" HorizontalOptions="Center" FontSize="Title"></Label>
+            <Label Text="SafetyLab" TextColor="White" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold"></Label>
             <Image Source="logo" HorizontalOptions="Center" Aspect="AspectFit" HeightRequest="{OnPlatform iOS=60, Android=35, Default=40}"></Image>
         </StackLayout>
     </NavigationPage.TitleView>
@@ -34,7 +34,8 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center" 
                     BackgroundColor="#7FB3D5"
-                    Clicked="SearchButton"/>
+                    Clicked="SearchButton"
+                    CornerRadius="30"/>
             
             <Button Text="Scan"
                     FontSize="Large"
@@ -48,7 +49,8 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center" 
                     BackgroundColor="#5DADE2"
-                    Clicked="Scan"/>
+                    Clicked="Scan"
+                    CornerRadius="30"/>
 
             <Button Text="Recents" 
                     FontSize="Large"
@@ -62,7 +64,8 @@
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center"
                     BackgroundColor="#79c3f7"
-                    Clicked="RecentsButton"/>
+                    Clicked="RecentsButton"
+                    CornerRadius="30"/>
             
             <Button Text="Contacts" 
                     Grid.Row="1"
@@ -76,7 +79,8 @@
                     BackgroundColor="#85C1E9"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center" 
-                    Clicked="ContactsButton"/>
+                    Clicked="ContactsButton"
+                    CornerRadius="30"/>
         </Grid>
     </ContentPage.Content>
 
