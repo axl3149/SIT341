@@ -2,18 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="safetyLab.StartPage"
-            Title="SafetyLab">
+             Title="SafetyLab">
 
     <NavigationPage.TitleView>
-        <StackLayout Orientation="Horizontal">
-            <!--<Button Text="Scan" 
-                    FontSize="20"
-                     Margin="10"
-                    TextColor="White"
-                    HorizontalOptions="Start" 
-                    VerticalOptions="Center" 
-                    Clicked="Scan"> </>-->
-        </StackLayout>
+        <Label Text="SafetyLab" TextColor="White" HorizontalOptions="CenterAndExpand" FontSize="Title"></Label>
     </NavigationPage.TitleView>
     
     <ContentPage.Content>
@@ -67,7 +59,7 @@
                     HeightRequest="300"
                     VerticalOptions="CenterAndExpand" 
                     HorizontalOptions="Center"
-                    BackgroundColor="#5499C7"
+                    BackgroundColor="#79c3f7"
                     Clicked="RecentsButton"/>
             
             <Button Text="Emergency Contacts" 

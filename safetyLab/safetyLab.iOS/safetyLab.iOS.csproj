@@ -172,9 +172,6 @@
     <AndroidResource Include="Resources\favourites_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\qr_icon.png">
-      <Generator>MSBuild:UpdateGeneratedFiles</Generator>
-      <SubType>Designer</SubType>
-    </AndroidResource>
+    <BundleResource Include="Resources\qr_icon.png" />
   </ItemGroup>
 </Project>

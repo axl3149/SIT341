@@ -5,8 +5,6 @@
 
     <NavigationPage.TitleView>
         <StackLayout>
-            <!--<Button Text="Add/Remove Favourite" 
-                    Clicked="AddToFavourites"></Button>-->
             <SearchBar 
             HorizontalOptions="StartAndExpand" 
             WidthRequest="290"

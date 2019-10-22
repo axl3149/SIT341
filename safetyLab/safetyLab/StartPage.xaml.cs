@@ -19,11 +19,8 @@ namespace safetyLab
 
         public static ContentPage resultsContent = new ContentPage();
         public static ContentPage favouritesContent = new ContentPage();
-        //public static TabbedPage favouritesAndRecentsTabbed = new TabbedPage();
         public static ContentPage recentsContent = new ContentPage();
         public static ContentPage contactContent = new ContentPage();
-
-        public static string chemicalID = null;
 
         public static ListView mainList = new ListView();
         public static ListView favouritesList = new ListView();
@@ -32,6 +29,7 @@ namespace safetyLab
         public static List<string> favourites = new List<string>();
         public static List<string> recents = new List<string>();
 
+        public static string chemicalID = null;
         public static string chosenChemical;
 
         public StartPage()
@@ -50,21 +48,9 @@ namespace safetyLab
                 await Navigation.PushAsync(new ResultsPage());
             };
 
-            
-
-            //FAVOURITES
-            //favouritesList.ItemsSource = favourites;
-            //favouritesContent.Title = "Favourites";
-            //favouritesContent.Content = favouritesList;
-
             //RECENTS
             recentsContent.Title = "Recently Searched Chemicals";
             recentsContent.Content = recentsList;
-
-            /*favouritesAndRecentsTabbed.Title = "Favourites & Recents";
-            favouritesAndRecentsTabbed.BarBackgroundColor = navBarColor;
-            favouritesAndRecentsTabbed.Children.Add(favouritesContent);
-            favouritesAndRecentsTabbed.Children.Add(recentsContent);*/
 
             //CONTACTS
             contactContent.Title = "Emergency Contacts";
@@ -101,7 +87,7 @@ namespace safetyLab
             contactStack.Children.Add(emergency);
             contactGrid.Children.Add(emergency, 0, 1);
 
-            Button medical = new Button { Text = "Deakin Medical (Building B)", HorizontalOptions = LayoutOptions.Fill,
+            Button medical = new Button { Text = "Poisons Hotline", HorizontalOptions = LayoutOptions.Fill,
                 BackgroundColor = navBarColor, VerticalOptions = LayoutOptions.Fill, FontSize = 24,
                 TextColor = Color.White
             };
@@ -111,6 +97,7 @@ namespace safetyLab
 
             contactContent.Content = contactGrid;
         }
+
 
         //For QR camera scanning focus
         public void ScannerFocus()
@@ -125,20 +112,7 @@ namespace safetyLab
 
         public async void SearchButton(object sender, EventArgs e)
         {
-            /*if(searchBarValue == null || searchBarValue == "" || searchBarValue == " ")
-            {
-                await DisplayAlert("Search", "Enter a chemical ID to search.", "OK");
-                return;
-            }
-
-            AddToRecents();*/
             await Navigation.PushAsync(new ResultsPage());
-        }
-
-
-        public async void FavouritesButton(object sender, EventArgs e)
-        {
-            //await Navigation.PushAsync(favouritesAndRecentsTabbed);
         }
 
 
@@ -187,7 +161,7 @@ namespace safetyLab
 
         public static void AddToRecents()
         {
-            string recent = chemicalID;
+            string recent = ResultsPage.scannedChemicalID;
 
             bool foundChemical = false;
             int foundIndex = 0;
@@ -228,7 +202,7 @@ namespace safetyLab
 
         async void SecurityClicked()
         {
-            bool res = await DisplayAlert("Call", "Call Burwood Deakin security?", "Yes", "No");
+            bool res = await DisplayAlert("Call", "Call Burwood Deakin Security?", "Yes", "No");
             if (res)
             {
                 Device.OpenUri(new Uri("tel:1800 062 579"));
@@ -238,7 +212,7 @@ namespace safetyLab
 
         async void EmergencyClicked()
         {
-            bool res = await DisplayAlert("Call", "Call emergency services?", "Yes", "No");
+            bool res = await DisplayAlert("Call", "Call Emergency Services?", "Yes", "No");
             if (res)
             {
                 Device.OpenUri(new Uri("tel:000"));
@@ -248,10 +222,10 @@ namespace safetyLab
 
         async void MedicalClicked()
         {
-            bool res = await DisplayAlert("Call", "Call Burwood medical services?", "Yes", "No");
+            bool res = await DisplayAlert("Call", "Call Poisons Hotline?", "Yes", "No");
             if (res)
             {
-                Device.OpenUri(new Uri("tel:9244 6300"));
+                Device.OpenUri(new Uri("tel:131126"));
             }
         }
 
