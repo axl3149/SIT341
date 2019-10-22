@@ -8,6 +8,7 @@
             <SearchBar 
             HorizontalOptions="StartAndExpand" 
             WidthRequest="290"
+                Margin="20,0,0,20"
             VerticalOptions="StartAndExpand" 
             SearchButtonPressed="Search"
             Placeholder="Enter Chemical ID..."
