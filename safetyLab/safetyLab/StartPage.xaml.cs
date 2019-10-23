@@ -34,6 +34,10 @@ namespace safetyLab
         {
             InitializeComponent();
 
+            BackgroundImageSource = "icon.png";
+
+            NavigationPage.SetHasNavigationBar(this, false);
+
             favouritesList.ItemTapped += async (sender, e) =>
             {
                 chosenChemical = e.Item.ToString();
@@ -72,7 +76,6 @@ namespace safetyLab
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill, FontSize = 24, BackgroundColor = navBarColor,
                 CornerRadius = 30,
-                BorderWidth = 20,
                 TextColor = Color.White
             };
             security.Clicked += (sender, e) => SecurityClicked();
@@ -82,7 +85,6 @@ namespace safetyLab
             Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill, FontSize = 24, BackgroundColor = navBarColor,
                 CornerRadius = 30,
-                BorderWidth = 20,
                 TextColor = Color.White
             };
             emergency.Clicked += (sender, e) => EmergencyClicked();
@@ -91,7 +93,7 @@ namespace safetyLab
 
             Button medical = new Button { Text = "Poisons Hotline", HorizontalOptions = LayoutOptions.Fill,
                 BackgroundColor = navBarColor, VerticalOptions = LayoutOptions.Fill, FontSize = 24,
-                CornerRadius = 30, BorderWidth = 20,
+                CornerRadius = 30,
                 TextColor = Color.White
             };
             medical.Clicked += (sender, e) => MedicalClicked();

@@ -174,7 +174,4 @@
   <ItemGroup>
     <BundleResource Include="Resources\qr_icon.png" />
   </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\logo.png" />
-  </ItemGroup>
 </Project>
