@@ -34,9 +34,7 @@ namespace safetyLab
         {
             InitializeComponent();
 
-            BackgroundImageSource = "icon.png";
-
-            NavigationPage.SetHasNavigationBar(this, false);
+            BackgroundColor = navBarColor;
 
             favouritesList.ItemTapped += async (sender, e) =>
             {
