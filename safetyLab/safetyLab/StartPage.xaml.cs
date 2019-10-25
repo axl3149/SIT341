@@ -18,15 +18,8 @@ namespace safetyLab
 
         public static ContentPage resultsContent = new ContentPage();
         public static ContentPage favouritesContent = new ContentPage();
-        public static ContentPage recentsContent = new ContentPage();
+        public static ContentPage auditsContent = new ContentPage();
         public static ContentPage contactContent = new ContentPage();
-
-        public static ListView mainList = new ListView();
-        public static ListView favouritesList = new ListView();
-        public static ListView recentsList = new ListView();
-
-        public static List<string> favourites = new List<string>();
-        public static List<string> recents = new List<string>();
 
         public static string chemicalID = null;
         public static string chosenChemical;
@@ -37,22 +30,8 @@ namespace safetyLab
 
             BackgroundColor = navBarColor;
 
-            //Input for listviews
-            favouritesList.ItemTapped += async (sender, e) =>
-            {
-                chosenChemical = e.Item.ToString();
-                await Navigation.PushAsync(new ResultsPage());
-            };
-
-            recentsList.ItemTapped += async (sender, e) =>
-            {
-                chosenChemical = e.Item.ToString();
-                await Navigation.PushAsync(new ResultsPage());
-            };
-
-            //RECENTS
-            recentsContent.Title = "Recently Searched Chemicals";
-            recentsContent.Content = recentsList;
+            //AUDITS
+            auditsContent.Title = "Audits";
 
             //CONTACTS
             contactContent.Title = "Emergency Contacts";
@@ -122,15 +101,14 @@ namespace safetyLab
 
 
         //PAGE CHANGE BUTTONS
+        public async void AuditButton(object sender, EventArgs e)
+        {
+
+        }
+
         public async void SearchButton(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ResultsPage());
-        }
-
-
-        public async void RecentsButton(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(recentsContent);
         }
 
 
@@ -155,7 +133,6 @@ namespace safetyLab
             {
                 ScannerPage.IsScanning = false;
                 ResultsPage.scannedChemicalID = result.Text;
-                AddToRecents();
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
@@ -172,47 +149,6 @@ namespace safetyLab
             SearchBar searchBar = (SearchBar)sender;
             chemicalID = searchBar.Text;
             ResultsPage.scannedChemicalID = chemicalID;
-        }
-
-
-        public static void AddToRecents()
-        {
-            string recent = ResultsPage.scannedChemicalID;
-
-            bool foundChemical = false;
-            int foundIndex = 0;
-
-            if (recent != null)
-            {
-                for (int i = 0; i < recents.Count; i++)
-                {
-                    if (recents[i] != recent)
-                    {
-                        foundChemical = false;
-                        foundIndex = i;
-                    }
-                    else if (recents[i] == recent)
-                    {
-                        foundChemical = true;
-                        foundIndex = i;
-                        break;
-                    }
-                }
-
-                if (foundChemical == false)
-                {
-                    recents.Add(recent);
-                }
-
-                int maxRecents = 10; //Max number of entries the list view will hold
-                if (recents.Count > maxRecents)
-                {
-                    recents.RemoveAt(0);
-                }
-
-                recentsList.ItemsSource = null;
-                recentsList.ItemsSource = recents;
-            }
         }
 
 

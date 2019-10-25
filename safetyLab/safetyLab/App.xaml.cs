@@ -17,15 +17,7 @@ namespace safetyLab
 
         protected override void OnStart()
         {
-            for (int i = 0; i < Current.Properties.Values.Count; i++)
-            {
-                StartPage.recents = (System.Collections.Generic.List<string>)Current.Properties.Values;
 
-                if(i > 10)
-                {
-                    return;
-                }
-            }
         }
 
         protected override void OnSleep()

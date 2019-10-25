@@ -52,7 +52,7 @@
                     BorderWidth="5"
                     BorderColor="White"/>
 
-            <Button Text="Recents" 
+            <Button Text="Audit" 
                     FontSize="Large"
                     Image="recents"
                     Margin="10,0,0,10"
@@ -62,7 +62,7 @@
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
                     BackgroundColor="#79c3f7"
-                    Clicked="RecentsButton"
+                    Clicked="AuditButton"
                     CornerRadius="30"         
                     BorderWidth="5"
                     BorderColor="White"/>

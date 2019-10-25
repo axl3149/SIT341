@@ -59,8 +59,6 @@ namespace safetyLab
                 webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=" + scannedChemicalID;
                 Content = webSource;
             }
-
-            StartPage.AddToRecents();
         }
     }
 }
