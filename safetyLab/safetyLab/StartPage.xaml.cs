@@ -11,6 +11,7 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage : ContentPage
     {
+        //TODO: Look into putting into colours
         public static Color navBarColor = Color.FromRgb(133, 193, 233);
 
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
@@ -36,6 +37,7 @@ namespace safetyLab
 
             BackgroundColor = navBarColor;
 
+            //Input for listviews
             favouritesList.ItemTapped += async (sender, e) =>
             {
                 chosenChemical = e.Item.ToString();
@@ -54,7 +56,9 @@ namespace safetyLab
 
             //CONTACTS
             contactContent.Title = "Emergency Contacts";
+            contactContent.BackgroundColor = navBarColor;
 
+            //TODO: Could move below code in XAML later
             Grid contactGrid = new Grid
             {
                 ColumnDefinitions =
@@ -73,7 +77,7 @@ namespace safetyLab
 
             Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill, FontSize = 24, BackgroundColor = navBarColor,
-                CornerRadius = 30,
+                CornerRadius = 30, BorderWidth = 5, BorderColor = Color.White,
                 TextColor = Color.White
             };
             security.Clicked += (sender, e) => SecurityClicked();
@@ -83,6 +87,8 @@ namespace safetyLab
             Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill, FontSize = 24, BackgroundColor = navBarColor,
                 CornerRadius = 30,
+                BorderWidth = 5,
+                BorderColor = Color.White,
                 TextColor = Color.White
             };
             emergency.Clicked += (sender, e) => EmergencyClicked();
@@ -92,6 +98,8 @@ namespace safetyLab
             Button medical = new Button { Text = "Poisons Hotline", HorizontalOptions = LayoutOptions.Fill,
                 BackgroundColor = navBarColor, VerticalOptions = LayoutOptions.Fill, FontSize = 24,
                 CornerRadius = 30,
+                BorderWidth = 5,
+                BorderColor = Color.White,
                 TextColor = Color.White
             };
             medical.Clicked += (sender, e) => MedicalClicked();
@@ -102,7 +110,7 @@ namespace safetyLab
         }
 
 
-        //For QR camera scanning focus
+        //For QR camera scanning focus (most cameras don't need this as their own autofocus suffices)
         public void ScannerFocus()
         {
             while (ScannerPage.Result == null)
@@ -113,6 +121,7 @@ namespace safetyLab
         }
 
 
+        //PAGE CHANGE BUTTONS
         public async void SearchButton(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ResultsPage());
@@ -131,14 +140,16 @@ namespace safetyLab
         }
 
 
+        //QR SEARCH
         public async void Scan(object sender, EventArgs e)
         {
             ScannerPage = new ZXingScannerPage();
             ScannerPage.Title = "Scanning...";
             await Navigation.PushAsync(ScannerPage);
 
-            Thread focusThread = new Thread(ScannerFocus);
-            focusThread.Start();
+            //TODO: Autofocus delaying scan input?
+            //Thread focusThread = new Thread(ScannerFocus);
+            //focusThread.Start();
 
             ScannerPage.OnScanResult += (result) =>
             {
@@ -155,6 +166,7 @@ namespace safetyLab
         }
 
 
+        //ID SEARCH
         public void Search(object sender, EventArgs e)
         {
             SearchBar searchBar = (SearchBar)sender;
@@ -192,13 +204,11 @@ namespace safetyLab
                     recents.Add(recent);
                 }
 
-                int maxRecents = 10;
+                int maxRecents = 10; //Max number of entries the list view will hold
                 if (recents.Count > maxRecents)
                 {
                     recents.RemoveAt(0);
                 }
-
-                Application.Current.Properties.Values.Add(recent);
 
                 recentsList.ItemsSource = null;
                 recentsList.ItemsSource = recents;
@@ -206,6 +216,7 @@ namespace safetyLab
         }
 
 
+        //CONTACT BUTTON FUNCTIONS
         async void SecurityClicked()
         {
             bool res = await DisplayAlert("Call", "Call Burwood Deakin Security?", "Yes", "No");
@@ -232,16 +243,6 @@ namespace safetyLab
             if (res)
             {
                 Device.OpenUri(new Uri("tel:131126"));
-            }
-        }
-
-
-        async void HospitalClicked()
-        {
-            bool res = await DisplayAlert("Call", "Call Box Hill hospital?", "Yes", "No");
-            if (res)
-            {
-                Device.OpenUri(new Uri("tel:9895 3333"));
             }
         }
     }
