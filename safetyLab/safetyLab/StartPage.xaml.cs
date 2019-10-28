@@ -18,7 +18,6 @@ namespace safetyLab
 
         public static ContentPage resultsContent = new ContentPage();
         public static ContentPage favouritesContent = new ContentPage();
-        public static ContentPage auditsContent = new ContentPage();
         public static ContentPage contactContent = new ContentPage();
 
         public static string chemicalID = null;
@@ -29,9 +28,6 @@ namespace safetyLab
             InitializeComponent();
 
             BackgroundColor = navBarColor;
-
-            //AUDITS
-            auditsContent.Title = "Audits";
 
             //CONTACTS
             contactContent.Title = "Emergency Contacts";
@@ -103,7 +99,7 @@ namespace safetyLab
         //PAGE CHANGE BUTTONS
         public async void AuditButton(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new AuditPage());
         }
 
         public async void SearchButton(object sender, EventArgs e)
