@@ -12,75 +12,60 @@
     </NavigationPage.TitleView>
     
     <ContentPage.Content>
-        <Grid>
+        <Grid RowSpacing="0">
             <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
-                <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <ScrollView Grid.Row="0" Grid.Column="0"></ScrollView>
             <Button Text="Search" 
                     Grid.Row="0" 
-                    Margin="10,10,0,0"
                     Grid.Column="0" 
                     ImageSource="search_icon"
                     FontSize="Large"
                     TextColor="White"
-                    VerticalOptions="FillAndExpand" 
+                    VerticalOptions="FillAndExpand"
                     HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#7FB3D5"
-                    Clicked="SearchButton"
-                    CornerRadius="30"
-                    BorderWidth="5"
-                    BorderColor="White"/>
-            
+                    BackgroundColor="#4c98ff"
+                    
+                    Clicked="SearchButton"/>
+
             <Button Text="Scan"
                     FontSize="Large"
                     ImageSource="qr_icon"
-                    Grid.Row="0" 
-                    Margin="0,10,10,0"
+                    Grid.Row="1" 
                     TextColor="White"
-                    Grid.Column="1" 
+                    Grid.Column="0" 
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#5DADE2"
-                    Clicked="Scan"
-                    CornerRadius="30"
-                    BorderWidth="5"
-                    BorderColor="White"/>
+                    BackgroundColor="#4e73a6"
+                    Clicked="Scan"/>
 
             <Button Text="Audit" 
                     FontSize="Large"
                     Image="recents"
-                    Margin="10,0,0,10"
-                    Grid.Row="1"
+                    Grid.Row="2"
                     Grid.Column="0" 
                     TextColor="White"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#79c3f7"
-                    Clicked="AuditButton"
-                    CornerRadius="30"         
-                    BorderWidth="5"
-                    BorderColor="White"/>
-            
-            <Button Text="Contacts" 
-                    Grid.Row="1"
+                    BackgroundColor="#595386"
+                    Clicked="AuditButton"/>
+
+                <Button Text="Contacts" 
+                    Grid.Row="3"
                     FontSize="Large"
                     ImageSource="phone_icon"
-                    Margin="0,0,10,10"
-                    Grid.Column="1" 
+                    Grid.Column="0" 
                     TextColor="White"
-                    BackgroundColor="#85C1E9"
+                    BackgroundColor="#544266"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
-                    Clicked="ContactsButton"
-                    CornerRadius="30"
-                    BorderWidth="5"
-                    BorderColor="White"/>
+                    Clicked="ContactsButton"/>
         </Grid>
     </ContentPage.Content>
 
