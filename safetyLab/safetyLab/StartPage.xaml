@@ -31,7 +31,7 @@
                     VerticalOptions="FillAndExpand"
                     HorizontalOptions="FillAndExpand" 
                     BackgroundColor="#4c98ff"
-                    
+                    ContentLayout="Bottom"
                     Clicked="SearchButton"/>
 
             <Button Text="Scan"
@@ -40,6 +40,7 @@
                     Grid.Row="1" 
                     TextColor="White"
                     Grid.Column="0" 
+                    ContentLayout="Bottom"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
                     BackgroundColor="#4e73a6"
@@ -47,7 +48,8 @@
 
             <Button Text="Audit" 
                     FontSize="Large"
-                    Image="recents"
+                    ContentLayout="Bottom"
+                    Image="recents_icon"
                     Grid.Row="2"
                     Grid.Column="0" 
                     TextColor="White"
@@ -59,6 +61,7 @@
                 <Button Text="Contacts" 
                     Grid.Row="3"
                     FontSize="Large"
+                    ContentLayout="Bottom"
                     ImageSource="phone_icon"
                     Grid.Column="0" 
                     TextColor="White"
