@@ -99,18 +99,18 @@ namespace safetyLab
         //PAGE CHANGE BUTTONS
         public async void AuditButton(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new AuditPage());
+            await Navigation.PushAsync(new AuditPage(), true);
         }
 
         public async void SearchButton(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ResultsPage());
+            await Navigation.PushAsync(new ResultsPage(), true);
         }
 
 
         public async void ContactsButton(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(contactContent);
+            await Navigation.PushAsync(contactContent, true);
         }
 
 
@@ -119,7 +119,7 @@ namespace safetyLab
         {
             ScannerPage = new ZXingScannerPage();
             ScannerPage.Title = "Scanning...";
-            await Navigation.PushAsync(ScannerPage);
+            await Navigation.PushAsync(ScannerPage, true);
 
             //TODO: Autofocus delaying scan input?
             //Thread focusThread = new Thread(ScannerFocus);
@@ -132,7 +132,7 @@ namespace safetyLab
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await Navigation.PushAsync(new ResultsPage());
+                    await Navigation.PushAsync(new ResultsPage(), true);
                     await DisplayAlert("Chemical ID: ", result.Text, "OK");
                 });
             };

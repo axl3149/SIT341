@@ -43,7 +43,7 @@
                     ContentLayout="Bottom"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#4e73a6"
+                    BackgroundColor="#6cB8ff"
                     Clicked="Scan"/>
 
             <Button Text="Audit" 
@@ -55,7 +55,7 @@
                     TextColor="White"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#595386"
+                    BackgroundColor="#8cC8ff"
                     Clicked="AuditButton"/>
 
                 <Button Text="Contacts" 
@@ -65,7 +65,7 @@
                     ImageSource="phone_icon"
                     Grid.Column="0" 
                     TextColor="White"
-                    BackgroundColor="#544266"
+                    BackgroundColor="#8cD8ff"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
                     Clicked="ContactsButton"/>

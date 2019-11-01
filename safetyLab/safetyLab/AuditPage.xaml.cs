@@ -42,7 +42,7 @@ namespace safetyLab
         {
             ScannerPageAudit = new ZXingScannerPage();
             ScannerPageAudit.Title = "Scanning for Audit...";
-            await Navigation.PushAsync(ScannerPageAudit);
+            await Navigation.PushAsync(ScannerPageAudit, true);
 
             ScannerPageAudit.OnScanResult += (result) =>
             {
