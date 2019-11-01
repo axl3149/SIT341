@@ -28,11 +28,13 @@ namespace safetyLab
             Content = webView;
         }
 
+        
+
         public void Search(object sender, EventArgs e)
         {
-            SearchBar searchBar = (SearchBar)sender;
+            SearchBar searchBar = sender as SearchBar;
             scannedChemicalID = searchBar.Text;
-            //TODO: webView.Source = "audit.html";
+            webView.Source = "https://4705c20c-72e2-4e54-ba1a-b9449fb9fc5d.htmlpasta.com/";
         }
 
 
@@ -46,10 +48,11 @@ namespace safetyLab
             {
                 ScannerPageAudit.IsScanning = false;
                 ResultsPage.scannedChemicalID = result.Text;
+                webView.Source = "https://4705c20c-72e2-4e54-ba1a-b9449fb9fc5d.htmlpasta.com/";
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
-                    await Navigation.PushAsync(new AuditPage());
+                    await Navigation.PopAsync();
                     await DisplayAlert("Chemical ID: ", result.Text, "OK");
                 });
             };
