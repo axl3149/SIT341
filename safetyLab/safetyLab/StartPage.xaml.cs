@@ -12,7 +12,7 @@ namespace safetyLab
     public partial class StartPage : ContentPage
     {
         //TODO: Look into putting into colours
-        public static Color navBarColor = Color.FromRgb(65, 202, 198);
+        public static Color navBarColor = Color.FromRgb(47, 74, 91);
 
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
 
