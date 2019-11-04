@@ -17,7 +17,6 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
@@ -46,20 +45,8 @@
                     BackgroundColor="#6cB8ff"
                     Clicked="Scan"/>
 
-            <Button Text="Audit" 
-                    FontSize="Large"
-                    ContentLayout="Bottom"
-                    Image="recents_icon"
+            <Button Text="Contacts" 
                     Grid.Row="2"
-                    Grid.Column="0" 
-                    TextColor="White"
-                    VerticalOptions="FillAndExpand" 
-                    HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#8cC8ff"
-                    Clicked="AuditButton"/>
-
-                <Button Text="Contacts" 
-                    Grid.Row="3"
                     FontSize="Large"
                     ContentLayout="Bottom"
                     ImageSource="phone_icon"
