@@ -19,11 +19,10 @@ namespace safetyLab
         public static string scannedChemicalID;
         public WebView webSource = new WebView();
 
-
         public ResultsPage ()
         {
             InitializeComponent();
-
+            
             Title = "Chemical Found";
 
             if (scannedChemicalID != null)
@@ -35,10 +34,7 @@ namespace safetyLab
                 webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=#";
             }
 
-            Content = webSource;
-
-            //TODO: need openuri to work with sds links in html file. Do .pdf files work in WebView?
-            //Device.OpenUri(new Uri("http://www.pdf995.com/samples/pdf.pdf"));
+            Content = webSource;   
         }
 
 
@@ -57,7 +53,6 @@ namespace safetyLab
             if (scannedChemicalID != null)
             {
                 webSource.Source = "https://tracie.deakin.edu.au/scripts/chemrisk.php?ID=" + scannedChemicalID;
-                Content = webSource;
             }
         }
     }

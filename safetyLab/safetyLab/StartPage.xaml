@@ -11,15 +11,10 @@
         </StackLayout>
     </NavigationPage.TitleView>
     
-    <ContentPage.Content>
-        <Grid RowSpacing="0">
+        <Grid RowSpacing="50">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
-<<<<<<< HEAD
-               
-=======
->>>>>>> 940883be6676b88d0c54a7dfb7c582fdeeeea45c
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -36,6 +31,7 @@
                     HorizontalOptions="FillAndExpand" 
                     BackgroundColor="#4c98ff"
                     ContentLayout="Bottom"
+                    CornerRadius="50"
                     Clicked="SearchButton"/>
 
             <Button Text="Scan"
@@ -48,15 +44,11 @@
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
                     BackgroundColor="#6cB8ff"
+                    CornerRadius="50"
                     Clicked="Scan"/>
 
-<<<<<<< HEAD
-        
 
-                <Button Text="Contacts" 
-=======
             <Button Text="Contacts" 
->>>>>>> 940883be6676b88d0c54a7dfb7c582fdeeeea45c
                     Grid.Row="2"
                     FontSize="Large"
                     ContentLayout="Bottom"
@@ -66,8 +58,8 @@
                     BackgroundColor="#8cD8ff"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
+                    CornerRadius="50"
                     Clicked="ContactsButton"/>
         </Grid>
-    </ContentPage.Content>
 
 </ContentPage>
