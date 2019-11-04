@@ -13,6 +13,8 @@ namespace safetyLab
     {
         //TODO: Look into putting into colours
         public static Color navBarColor = Color.FromRgb(47, 74, 91);
+            
+
 
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
 
@@ -28,8 +30,9 @@ namespace safetyLab
             InitializeComponent();
 
             BackgroundColor = navBarColor;
+        
           //  BackgroundImageSource = "backgroundImage";
-
+         
           
 
             //CONTACTS
@@ -117,6 +120,8 @@ namespace safetyLab
         {
             ScannerPage = new ZXingScannerPage();
             ScannerPage.Title = "Scanning...";
+            
+          
             await Navigation.PushAsync(ScannerPage, true);
 
             //TODO: Autofocus delaying scan input?
