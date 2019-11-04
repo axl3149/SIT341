@@ -16,7 +16,10 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
+<<<<<<< HEAD
                
+=======
+>>>>>>> 940883be6676b88d0c54a7dfb7c582fdeeeea45c
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -47,9 +50,13 @@
                     BackgroundColor="#6cB8ff"
                     Clicked="Scan"/>
 
+<<<<<<< HEAD
         
 
                 <Button Text="Contacts" 
+=======
+            <Button Text="Contacts" 
+>>>>>>> 940883be6676b88d0c54a7dfb7c582fdeeeea45c
                     Grid.Row="2"
                     FontSize="Large"
                     ContentLayout="Bottom"

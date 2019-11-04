@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading;
-    
+using Xamarin.Essentials;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ZXing.Net.Mobile.Forms;
@@ -97,11 +97,6 @@ namespace safetyLab
 
 
         //PAGE CHANGE BUTTONS
-        public async void AuditButton(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new AuditPage(), true);
-        }
-
         public async void SearchButton(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ResultsPage(), true);
