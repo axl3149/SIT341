@@ -28,6 +28,9 @@ namespace safetyLab
             InitializeComponent();
 
             BackgroundColor = navBarColor;
+          //  BackgroundImageSource = "backgroundImage";
+
+          
 
             //CONTACTS
             contactContent.Title = "Emergency Contacts";

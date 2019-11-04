@@ -157,6 +157,7 @@
     <BundleResource Include="Resources\recents.png" />
     <BundleResource Include="Resources\loading.json" />
     <BundleResource Include="Resources\icon1.png" />
+    <BundleResource Include="Resources\backgroundImage.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\recents_icon.png" />

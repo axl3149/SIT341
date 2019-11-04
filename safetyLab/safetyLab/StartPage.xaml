@@ -31,42 +31,51 @@
                 
             </Image>
             
-            <Button Text="Search" 
-                    Grid.Row="1" 
-                    FontFamily="Baskerville"
-                    Grid.Column="0" 
+            <Button 
                     ImageSource="search_icon"
+                    Text="Search" 
+               
+                    Grid.Row="1" 
+                    
+                    Grid.Column="0" 
+                   
                     FontSize="Large"
                     BorderRadius="60"
                     TextColor="White"
                     VerticalOptions="FillAndExpand"
                     HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#73C6B6"
-                    ContentLayout="Bottom"
+                    
+                    BackgroundColor="#61A699"
+                    ContentLayout="Top"
                     Clicked="SearchButton"/>
 
-            <Button Text="Scan"
+            <Button 
+                ImageSource="qr_icon"
+                Text="Scan"
                     FontSize="Large"
-                    ImageSource="qr_icon"
+                    
                     Grid.Row="2" 
                     BorderRadius="60"
                     TextColor="White"
                     Grid.Column="0" 
-                    ContentLayout="Bottom"
+                    ContentLayout="Top"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#73C6B6"
+                    BackgroundColor="#61A699"
                     Clicked="Scan"/>
-
-            <Button Text="Contacts" 
+                    
+            
+            <Button 
+                 ImageSource="phone_icon"
+                Text="Contacts" 
                     Grid.Row="3"
                     FontSize="Large"
-                    ContentLayout="Bottom"
-                    ImageSource="phone_icon"
+                    ContentLayout="Top"
+                   
                     Grid.Column="0" 
                     BorderRadius="60"
                     TextColor="White"
-                    BackgroundColor="#73C6B6"
+                    BackgroundColor="#61A699"
                     VerticalOptions="FillAndExpand" 
                     HorizontalOptions="FillAndExpand" 
                     Clicked="ContactsButton"/>

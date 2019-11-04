@@ -6,12 +6,11 @@
     <NavigationPage.TitleView>
         <StackLayout>
             <SearchBar 
-            HorizontalOptions="StartAndExpand" 
+            HorizontalOptions="CenterAndExpand" 
             SearchButtonPressed="Search"
             Placeholder="Enter Chemical ID..."
-            TextColor="Black"
+            TextColor="White"
             PlaceholderColor="Black"
-            BackgroundColor="White"
             Keyboard="Numeric"/>
         </StackLayout>
     </NavigationPage.TitleView>
