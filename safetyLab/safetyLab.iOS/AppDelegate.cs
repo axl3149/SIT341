@@ -28,6 +28,8 @@ namespace safetyLab.iOS
             //Zxing Init
             ZXing.Net.Mobile.Forms.iOS.Platform.Init();
 
+            UINavigationBar.Appearance.SetTitleTextAttributes(new UITextAttributes { TextColor = UIColor.White });
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
