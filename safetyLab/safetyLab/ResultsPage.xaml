@@ -9,7 +9,7 @@
             HorizontalOptions="CenterAndExpand" 
             SearchButtonPressed="Search"
             Placeholder="Enter Chemical ID..."
-            TextColor="Black"
+            TextColor="White"
             PlaceholderColor="Black"
             Keyboard="Numeric"/>
         </StackLayout>
