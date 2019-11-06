@@ -70,8 +70,9 @@ namespace safetyLab
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 FontSize = 24,
-                BackgroundColor = navBarColor,
+                BackgroundColor = Color.FromRgba(1.0, 1.0, 0.0, 1.1),
                 CornerRadius = 30,
+
                 BorderWidth = 5,
                 BorderColor = Color.White,
                 TextColor = Color.White,
