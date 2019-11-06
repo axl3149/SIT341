@@ -11,7 +11,7 @@
         </StackLayout>
     </NavigationPage.TitleView>
     
-      <ContentPage.Content>
+    <ContentPage.Content>
         
         <Grid RowSpacing="20" Margin="10,20,10,20">
             <Grid.RowDefinitions>
@@ -20,65 +20,59 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
             </Grid.RowDefinitions>
+            
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
-               
             </Grid.ColumnDefinitions>
-             <Image Source="icon1" 
-                     Grid.Row="0" 
-                     VerticalOptions="FillAndExpand"
-                    HorizontalOptions="Center">
-                
+            
+            <Image 
+                Source="icon1" 
+                Grid.Row="0" 
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="Center">
             </Image>
             
             <Button 
-                    ImageSource="search_icon"
-                    Text="Search" 
-               
-                    Grid.Row="1" 
-                    
-                    Grid.Column="0" 
-                   
-                    FontSize="Large"
-                    BorderRadius="60"
-                    TextColor="White"
-                    VerticalOptions="FillAndExpand"
-                    HorizontalOptions="FillAndExpand" 
-                    
-                    BackgroundColor="#61A699"
-                    ContentLayout="Top"
-                    Clicked="SearchButton"/>
+                ImageSource="search_icon"
+                Text="Search" 
+                Grid.Row="1" 
+                Grid.Column="0" 
+                FontSize="Large"
+                BorderRadius="60"
+                TextColor="White"
+                VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand" 
+                BackgroundColor="#61A699"
+                ContentLayout="Top"
+                Clicked="SearchButton"/>
 
             <Button 
                 ImageSource="qr_icon"
                 Text="Scan"
-                    FontSize="Large"
-                    
-                    Grid.Row="2" 
-                    BorderRadius="60"
-                    TextColor="White"
-                    Grid.Column="0" 
-                    ContentLayout="Top"
-                    VerticalOptions="FillAndExpand" 
-                    HorizontalOptions="FillAndExpand" 
-                    BackgroundColor="#61A699"
-                    Clicked="Scan"/>
-                    
-            
+                FontSize="Large"
+                Grid.Row="2" 
+                BorderRadius="60"
+                TextColor="White"
+                Grid.Column="0" 
+                ContentLayout="Top"
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand" 
+                BackgroundColor="#61A699"
+                Clicked="Scan"/>
+
             <Button 
-                 ImageSource="phone_icon"
+                ImageSource="phone_icon"
                 Text="Contacts" 
-                    Grid.Row="3"
-                    FontSize="Large"
-                    ContentLayout="Top"
-                   
-                    Grid.Column="0" 
-                    BorderRadius="60"
-                    TextColor="White"
-                    BackgroundColor="#61A699"
-                    VerticalOptions="FillAndExpand" 
-                    HorizontalOptions="FillAndExpand" 
-                    Clicked="ContactsButton"/>
+                Grid.Row="3"
+                FontSize="Large"
+                ContentLayout="Top"
+                Grid.Column="0" 
+                BorderRadius="60"
+                TextColor="White"
+                BackgroundColor="#61A699"
+                VerticalOptions="FillAndExpand" 
+                HorizontalOptions="FillAndExpand" 
+                Clicked="ContactsButton"/>
         </Grid>
     </ContentPage.Content>
 

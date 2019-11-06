@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Threading;
 using Xamarin.Essentials;
 using Xamarin.Forms;
@@ -11,19 +10,9 @@ namespace safetyLab
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage : ContentPage
     {
-        //TODO: Look into putting into colours
         public static Color navBarColor = Color.FromRgb(47, 74, 91);
-            
-
-
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
-
-        public static ContentPage resultsContent = new ContentPage();
-        public static ContentPage favouritesContent = new ContentPage();
         public static ContentPage contactContent = new ContentPage();
-
-        public static string chemicalID = null;
-        public static string chosenChemical;
 
         public StartPage()
         {
@@ -31,15 +20,10 @@ namespace safetyLab
 
             BackgroundColor = navBarColor;
         
-          //  BackgroundImageSource = "backgroundImage";
-         
-          
-
             //CONTACTS
             contactContent.Title = "Emergency Contacts";
             contactContent.BackgroundColor = navBarColor;
 
-            //TODO: Could move below code in XAML later
             Grid contactGrid = new Grid
             {
                 ColumnDefinitions =
@@ -54,42 +38,65 @@ namespace safetyLab
                 }
             };
 
-            StackLayout contactStack = new StackLayout();
-
-            Button security = new Button { Text = "Deakin Security", HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Fill, FontSize = 24, BackgroundColor = navBarColor,
-                CornerRadius = 30, BorderWidth = 5, BorderColor = Color.White,
-                TextColor = Color.White
-            };
-            security.Clicked += (sender, e) => SecurityClicked();
-            contactStack.Children.Add(security);
-            contactGrid.Children.Add(security, 0, 0);
-
-            Button emergency = new Button { Text = "Emergency Service (000) ", HorizontalOptions = LayoutOptions.Fill,
-                VerticalOptions = LayoutOptions.Fill, FontSize = 24, BackgroundColor = navBarColor,
+            Button contactButton = new Button
+            {
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
+                FontSize = 24,
+                BackgroundColor = navBarColor,
                 CornerRadius = 30,
                 BorderWidth = 5,
                 BorderColor = Color.White,
                 TextColor = Color.White
             };
-            emergency.Clicked += (sender, e) => EmergencyClicked();
-            contactStack.Children.Add(emergency);
-            contactGrid.Children.Add(emergency, 0, 1);
 
-            Button medical = new Button { Text = "Poisons Hotline", HorizontalOptions = LayoutOptions.Fill,
-                BackgroundColor = navBarColor, VerticalOptions = LayoutOptions.Fill, FontSize = 24,
+            Button securityButton = new Button
+            {
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
+                FontSize = 24,
+                BackgroundColor = navBarColor,
                 CornerRadius = 30,
                 BorderWidth = 5,
                 BorderColor = Color.White,
-                TextColor = Color.White
+                TextColor = Color.White,
+                Text = "Deakin Security"
             };
-            medical.Clicked += (sender, e) => MedicalClicked();
-            contactStack.Children.Add(medical);
-            contactGrid.Children.Add(medical, 0, 2);
+            securityButton.Clicked += (sender, e) => SecurityClicked();
+            contactGrid.Children.Add(securityButton, 0, 0);
+
+            Button emergencyButton = new Button
+            {
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
+                FontSize = 24,
+                BackgroundColor = navBarColor,
+                CornerRadius = 30,
+                BorderWidth = 5,
+                BorderColor = Color.White,
+                TextColor = Color.White,
+                Text = "Emergency Service (000)"
+            };
+            emergencyButton.Clicked += (sender, e) => EmergencyClicked();
+            contactGrid.Children.Add(emergencyButton, 0, 1);
+
+            Button poisonsButton = new Button
+            {
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
+                FontSize = 24,
+                BackgroundColor = navBarColor,
+                CornerRadius = 30,
+                BorderWidth = 5,
+                BorderColor = Color.White,
+                TextColor = Color.White,
+                Text = "Poisons Hotline"
+            };
+            poisonsButton.Clicked += (sender, e) => MedicalClicked();
+            contactGrid.Children.Add(poisonsButton, 0, 2);
 
             contactContent.Content = contactGrid;
         }
-
 
         //For QR camera scanning focus (most cameras don't need this as their own autofocus suffices)
         public void ScannerFocus()
@@ -101,37 +108,29 @@ namespace safetyLab
             }
         }
 
-
         //PAGE CHANGE BUTTONS
         public async void SearchButton(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new ResultsPage(), true);
         }
 
-
         public async void ContactsButton(object sender, EventArgs e)
         {
             await Navigation.PushAsync(contactContent, true);
         }
 
-
-        //QR SEARCH
+        //QR CODE SEARCH
         public async void Scan(object sender, EventArgs e)
         {
             ScannerPage = new ZXingScannerPage();
             ScannerPage.Title = "Scanning...";
-            
           
             await Navigation.PushAsync(ScannerPage, true);
-
-            //TODO: Autofocus delaying scan input?
-            //Thread focusThread = new Thread(ScannerFocus);
-            //focusThread.Start();
 
             ScannerPage.OnScanResult += (result) =>
             {
                 ScannerPage.IsScanning = false;
-                ResultsPage.scannedChemicalID = result.Text;
+                ResultsPage.chemicalID = result.Text;
 
                 Device.BeginInvokeOnMainThread(async () =>
                 {
@@ -141,15 +140,12 @@ namespace safetyLab
             };
         }
 
-
         //ID SEARCH
         public void Search(object sender, EventArgs e)
         {
-            SearchBar searchBar = (SearchBar)sender;
-            chemicalID = searchBar.Text;
-            ResultsPage.scannedChemicalID = chemicalID;
+            SearchBar searchBar = sender as SearchBar;
+            ResultsPage.chemicalID = searchBar.Text;
         }
-
 
         //CONTACT BUTTON FUNCTIONS
         async void SecurityClicked()
@@ -157,27 +153,25 @@ namespace safetyLab
             bool res = await DisplayAlert("Call", "Call Burwood Deakin Security?", "Yes", "No");
             if (res)
             {
-                Device.OpenUri(new Uri("tel:1800 062 579"));
+                await Launcher.TryOpenAsync("tel:1800 062 579");
             }
         }
-
 
         async void EmergencyClicked()
         {
             bool res = await DisplayAlert("Call", "Call Emergency Services?", "Yes", "No");
             if (res)
             {
-                Device.OpenUri(new Uri("tel:000"));
+                await Launcher.TryOpenAsync("tel:000");
             }
         }
-
 
         async void MedicalClicked()
         {
             bool res = await DisplayAlert("Call", "Call Poisons Hotline?", "Yes", "No");
             if (res)
             {
-                Device.OpenUri(new Uri("tel:131126"));
+                await Launcher.TryOpenAsync("tel:13 11 26");
             }
         }
     }
