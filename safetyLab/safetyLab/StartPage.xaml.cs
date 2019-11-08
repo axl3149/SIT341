@@ -13,6 +13,7 @@ namespace safetyLab
         public static Color navBarColor = Color.FromRgb(47, 74, 91);
         public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
         public static ContentPage contactContent = new ContentPage();
+        public static ContentPage creditsContent = new ContentPage();
 
         public StartPage()
         {
@@ -32,9 +33,9 @@ namespace safetyLab
                 },
                 RowDefinitions =
                 {
-                    new RowDefinition { Height = GridLength.Star },
-                    new RowDefinition { Height = GridLength.Star },
-                    new RowDefinition { Height = GridLength.Star }
+                    new RowDefinition { Height = GridLength.Auto },
+                    new RowDefinition { Height = GridLength.Auto },
+                    new RowDefinition { Height = GridLength.Auto }
                 }
             };
 
@@ -55,6 +56,7 @@ namespace safetyLab
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 FontSize = 24,
+                FontAttributes = FontAttributes.Bold,
                 BackgroundColor = navBarColor,
                 CornerRadius = 30,
                 BorderWidth = 5,
@@ -70,9 +72,9 @@ namespace safetyLab
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 FontSize = 24,
-                BackgroundColor = Color.FromRgba(1.0, 1.0, 0.0, 1.1),
+                FontAttributes = FontAttributes.Bold,
+                BackgroundColor = navBarColor,
                 CornerRadius = 30,
-
                 BorderWidth = 5,
                 BorderColor = Color.White,
                 TextColor = Color.White,
@@ -86,6 +88,7 @@ namespace safetyLab
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 FontSize = 24,
+                FontAttributes = FontAttributes.Bold,
                 BackgroundColor = navBarColor,
                 CornerRadius = 30,
                 BorderWidth = 5,
@@ -93,13 +96,14 @@ namespace safetyLab
                 TextColor = Color.White,
                 Text = "Poisons Hotline"
             };
-            poisonsButton.Clicked += (sender, e) => MedicalClicked();
+            poisonsButton.Clicked += (sender, e) => PosisonsClicked();
             contactGrid.Children.Add(poisonsButton, 0, 2);
 
             contactContent.Content = contactGrid;
         }
 
         //For QR camera scanning focus (most cameras don't need this as their own autofocus suffices)
+        //Function currently not used in program
         public void ScannerFocus()
         {
             while (ScannerPage.Result == null)
@@ -120,17 +124,22 @@ namespace safetyLab
             await Navigation.PushAsync(contactContent, true);
         }
 
+        public async void ShowCredits(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CreditsPage(), true);
+        }
+
         //QR CODE SEARCH
         public async void Scan(object sender, EventArgs e)
         {
             ScannerPage = new ZXingScannerPage();
-            ScannerPage.Title = "Scanning...";
+            ScannerPage.Title = "Scan Chemical QR Code";
           
             await Navigation.PushAsync(ScannerPage, true);
 
             ScannerPage.OnScanResult += (result) =>
             {
-                ScannerPage.IsScanning = false;
+                ScannerPage.IsScanning = false; //Needed to stop scanner from constantly looping. I think
                 ResultsPage.chemicalID = result.Text;
 
                 Device.BeginInvokeOnMainThread(async () =>
@@ -167,7 +176,7 @@ namespace safetyLab
             }
         }
 
-        async void MedicalClicked()
+        async void PosisonsClicked()
         {
             bool res = await DisplayAlert("Call", "Call Poisons Hotline?", "Yes", "No");
             if (res)

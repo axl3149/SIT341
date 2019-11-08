@@ -9,6 +9,7 @@
             HorizontalOptions="CenterAndExpand" 
             SearchButtonPressed="Search"
             Placeholder="Enter Chemical ID..."
+            FontAttributes="Bold"
             TextColor="White"
             PlaceholderColor="White"
             Keyboard="Numeric"/>
