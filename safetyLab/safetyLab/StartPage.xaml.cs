@@ -5,39 +5,35 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using ZXing.Net.Mobile.Forms;
 
+/*
+ * Main Page of application. 
+ * Emergency contact buttons are handled here.
+ * Scan function handled here.
+ */
+
 namespace safetyLab
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class StartPage : ContentPage
     {
+        //TODO: Does Xamarin have a global 'colours.xml' file for both platforms?
         public static Color navBarColor = Color.FromRgb(47, 74, 91);
-        public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
-        public static ContentPage contactContent = new ContentPage();
-        public static ContentPage creditsContent = new ContentPage();
 
+        //QR scanning uses ZXing package. Pushed onto Navigation stack from this page.
+        public static ZXingScannerPage ScannerPage = new ZXingScannerPage();
+
+        public static ContentPage contactContent = new ContentPage();
+        public StackLayout contactStack = new StackLayout();
+        
         public StartPage()
         {
             InitializeComponent();
 
             BackgroundColor = navBarColor;
         
-            //CONTACTS
+            //EMERGENCY CONTACTS CONTENT
             contactContent.Title = "Emergency Contacts";
             contactContent.BackgroundColor = navBarColor;
-
-            Grid contactGrid = new Grid
-            {
-                ColumnDefinitions =
-                {
-                    new ColumnDefinition { Width = GridLength.Star }
-                },
-                RowDefinitions =
-                {
-                    new RowDefinition { Height = GridLength.Auto },
-                    new RowDefinition { Height = GridLength.Auto },
-                    new RowDefinition { Height = GridLength.Auto }
-                }
-            };
 
             Button contactButton = new Button
             {
@@ -65,7 +61,6 @@ namespace safetyLab
                 Text = "Deakin Security"
             };
             securityButton.Clicked += (sender, e) => SecurityClicked();
-            contactGrid.Children.Add(securityButton, 0, 0);
 
             Button emergencyButton = new Button
             {
@@ -81,7 +76,6 @@ namespace safetyLab
                 Text = "Emergency Service (000)"
             };
             emergencyButton.Clicked += (sender, e) => EmergencyClicked();
-            contactGrid.Children.Add(emergencyButton, 0, 1);
 
             Button poisonsButton = new Button
             {
@@ -97,13 +91,15 @@ namespace safetyLab
                 Text = "Poisons Hotline"
             };
             poisonsButton.Clicked += (sender, e) => PosisonsClicked();
-            contactGrid.Children.Add(poisonsButton, 0, 2);
 
-            contactContent.Content = contactGrid;
+            contactStack.Children.Add(securityButton);
+            contactStack.Children.Add(emergencyButton);
+            contactStack.Children.Add(poisonsButton);
+
+            contactContent.Content = contactStack;
         }
 
         //For QR camera scanning focus (most cameras don't need this as their own autofocus suffices)
-        //Function currently not used in program
         public void ScannerFocus()
         {
             while (ScannerPage.Result == null)
@@ -132,14 +128,16 @@ namespace safetyLab
         //QR CODE SEARCH
         public async void Scan(object sender, EventArgs e)
         {
-            ScannerPage = new ZXingScannerPage();
-            ScannerPage.Title = "Scan Chemical QR Code";
-          
+            ScannerPage = new ZXingScannerPage
+            {
+                Title = "Scan Chemical QR Code"
+            };
+
             await Navigation.PushAsync(ScannerPage, true);
 
             ScannerPage.OnScanResult += (result) =>
             {
-                ScannerPage.IsScanning = false; //Needed to stop scanner from constantly looping. I think
+                ScannerPage.IsScanning = false; //Needed to stop scanner from constantly looping once scanned.
                 ResultsPage.chemicalID = result.Text;
 
                 Device.BeginInvokeOnMainThread(async () =>
