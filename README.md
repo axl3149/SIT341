@@ -9,3 +9,8 @@ ERROR IN PACKAGING WHEN MIGRATING FROM VISUAL STUDIO VERSIONS
 - PDF viewing in Android not working. Need to use google docs viewer. Can throw url through this instead. Maybe. https://docs.google.com/viewer?url=http://sds-file.pdf
 
 
+- Reducing Build Sizes
+- https://devblogs.microsoft.com/xamarin/optimize-xamarin-android-builds/
+>r8 and d8 compiler and code shrinker
+>aapt2
+>Linking (SDK and user asms)
