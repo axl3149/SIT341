@@ -10,7 +10,7 @@
             SearchButtonPressed="Search"
             Placeholder="Enter Chemical ID..."
             FontAttributes="Bold"
-            TextColor="White"
+            TextColor="Blue"
             PlaceholderColor="White"
             Keyboard="Numeric"/>
         </StackLayout>
