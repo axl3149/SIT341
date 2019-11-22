@@ -33,16 +33,10 @@ namespace safetyLab
         }
 
 
-        public async void Search(object sender, EventArgs e)
+        public void Search(object sender, EventArgs e)
         {
             SearchBar search = sender as SearchBar;
             chemicalID = search.Text;
-
-            if (chemicalID == null || chemicalID == "" || chemicalID == " ")
-            {
-                await DisplayAlert("Search", "Enter a chemical ID to search.", "OK");
-                return;
-            }
 
             if (chemicalID != null)
             {
