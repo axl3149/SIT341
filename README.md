@@ -14,3 +14,6 @@ ERROR IN PACKAGING WHEN MIGRATING FROM VISUAL STUDIO VERSIONS
 >r8 and d8 compiler and code shrinker
 >aapt2
 >Linking (SDK and user asms)
+
+- Keypass: safetylab
+- alias: piumi
